@@ -11,10 +11,10 @@ const config = {
   title: 'Holos',
   tagline: 'Grupo 1 ISPP 24-25',
   favicon: 'img/favicon.ico',
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://holos-doc.vercel.app',
   baseUrl: '/',
-  organizationName: 'facebook',
-  projectName: 'docusaurus',
+  organizationName: 'Holos-INC', 
+  projectName: 'holos-doc', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -28,7 +28,7 @@ const config = {
         docs: {
           sidebarPath: './sidebars.js',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Holos-INC/docusaurus/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -55,6 +55,10 @@ const config = {
   ],  
   themeConfig: ({
     image: 'img/docusaurus-social-card.jpg',
+    metadata: [
+      { name: 'description', content: 'Documentación oficial del Grupo 1 ISPP 24-25 en Holos.' },
+      { name: 'keywords', content: 'holos, documentación, grupo 1, ISPP' }
+    ],
     navbar: {
       title: 'Holos',
       logo: {
@@ -102,7 +106,7 @@ const config = {
           title: 'Docs',
           items: [
             {
-              label: '¿Quienes somos?',
+              label: '¿Quiénes somos?',
               to: '/docs/intro',
             },
           ],
