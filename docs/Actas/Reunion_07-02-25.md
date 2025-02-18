@@ -25,11 +25,23 @@ Análisis de la viabilidad de la idea de «Convivio».
 - Recordatorio importante: LAS NUEVAS IDEAS DEBEN SOLUCIONAR UN PROBLEMA.
 
 ### Conclusiones
-Conclusiones
+
+En la reunión se analizaron los problemas señalados en clase y, tras una votación, se decidió buscar una nueva idea en lugar de continuar con Convivio. Se estableció un plazo de 24 horas para proponer y profundizar en nuevas ideas, con una reunión programada para el domingo de 11 a 12 AM para votar la mejor opción. Además, se acordó crear una encuesta para evaluar el valor de la app en el mercado. Cada miembro deberá presentar al menos una idea desarrollada antes del sábado 8 a las 20:00, recordando que debe solucionar un problema real.
 
 ### Miembros presentes
 - Jose María Portela
-- 
+- Celia Aguilera
+- Daniel Guedes
+- Javier Muñoz
+- Joaquin Gonzalez
+- Juan Antonio Moreno
 - Juan del Junco
+- Julia Ángeles Brugos
+- María del Mar Ávila
+- Juan Nuñez
+- María del Carmen Barrera
+- Nerea Jiménez
+- Nicolás Pérez
+- Francisco Pérez
 - Gabriel Vacaro
 - Ignacio Warleta

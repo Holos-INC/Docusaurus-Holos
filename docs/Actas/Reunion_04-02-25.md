@@ -5,7 +5,8 @@
 **Final: 17:00**
 
 ### Objetivo de la reunion
-Objetivo
+
+Revisar avances en el análisis de competidores, definir funciones clave de la plataforma y establecer plazos para la finalización de tareas.
 
 ### Puntos clave
 
@@ -36,7 +37,8 @@ Objetivo
 Intentar tener todo antes de las 19:00 del 04/02/2025
 
 ### Conclusiones
-Conclusiones
+
+En la reunión se revisaron los avances en el Análisis de Competidores, con varios miembros investigando aplicaciones similares y evaluando diferencias clave. Se destacó la importancia de identificar los competidores más relevantes y probar sus funcionalidades. En el debate sobre funciones core, se acordó que la plataforma abarcará tanto alquiler de habitaciones como de pisos completos, priorizando la convivencia. Se definieron como funciones esenciales: alquiler de piso, gestión de incidencias, reservas y calendario, gestión de perfiles y chat integrado. Finalmente, se estableció como objetivo tener todo listo antes del 04/02/2025 a las 19:00.
 
 ### Miembros presentes
 - Jose María Portela

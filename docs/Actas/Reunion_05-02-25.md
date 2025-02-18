@@ -5,7 +5,8 @@
 **Final: 20:00**
 
 ### Objetivo de la reunión
-Objetivo
+
+Definir avances en documentación, discutir el grado de innovación, establecer el modelo de negocio y organización del equipo, y planificar la primera presentación.
 
 ### Puntos clave
 
@@ -59,18 +60,19 @@ Próximamente se discutirá si se hacen cambios de presentador, en caso de que a
 - Se aclara que los testers son los propios desarrolladores, para no complicar el análisis de costes.
 
 ### Conclusiones
-Conclusiones
+
+En la reunión se revisaron avances en la documentación, destacando la presentación, análisis de competidores, DAFO, usuarios, tecnologías y mockups. Se discutió el grado de innovación tecnológica, determinando que la app se asemeja a LinkedIn y Airbnb en monetización y matchmaking. Se votó incluir en el Commitment Agreement una cláusula para expulsar a miembros que dificulten la convivencia. En el plan de negocio, se estableció que será gratuito con anuncios y pago para propietarios que deseen promocionar sus viviendas. Se avanzó en la generación de mockups y se decidió que la primera presentación la harán Juan Antonio y Jose María. Finalmente, se propuso mejorar la organización, crear una comunidad en WhatsApp y definir el logotipo y nombre de la empresa. Se aclararon dudas sobre la presentación, monetización y testers.
 
 ### Miembros presentes
 - Jose María Portela
 - Daniel Guedes
 - Gabriel Vacaro
-- Juan Antonio
-- Julia
-- Nerea
-- María del MAr
-- Mari Carmen
+- Juan Antonio Moreno
+- Julia Ángeles Burgos
+- Nerea Jiménez
+- María del Mar Ávila
+- María del Carmen Barrera
 - Ignacio Warleta
-- Celia
+- Celia Aguilera
 
 
