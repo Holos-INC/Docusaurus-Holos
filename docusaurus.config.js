@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -30,18 +30,6 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -57,8 +45,6 @@ const config = {
         src: 'img/logo.png',
       },
       items: [
-       
-        { to: '/blog', label: 'Blog', position: 'left' },
         {
           label: 'Feedback',
           position: 'left',
@@ -76,7 +62,7 @@ const config = {
           label: 'Documentación',
           position: 'left',
           to: 'docs/Documentacion/intro',
-        },        
+        },
         {
           label: 'Entregas Anteriores',
           position: 'left',
@@ -120,10 +106,6 @@ const config = {
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/Holos-INC',
