@@ -54,7 +54,7 @@ const config = {
     ],
   ],  
   themeConfig: ({
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/social-preview.png',
     metadata: [
       { name: 'description', content: 'Documentación oficial del Grupo 1 ISPP 24-25 en Holos.' },
       { name: 'keywords', content: 'holos, documentación, grupo 1, ISPP' }
