@@ -167,19 +167,40 @@ Refinar el Charter Goal, la composición,etc.. con un nivel de detalle asumible-
 
 ## Tareas
 
-Idea de negocio (max 50 palabras la idea)
-Tipo de negocio [entre los 4 cuadrantes]
-Análisis de competidores preliminar [búsqueda exhaustiva]
-Análisis de coste preliminar
-Usuarios pilotos potenciales
-DAFO preliminar (debilidades, amenazas, fortalezas y oportunidades)
-MVP 
-Grado de innovación tecnológica y justificación tecnológica
-Cliente y usuario (roles)
-Análisis de equipo y modelo organizacional, composición de equipo (skills) y estructura
-Report uso de IA (uso correcto grupal, prompts, IA utilizada, etc.)
-Casos de uso core del MVP
-Documentación como código, gestión del conocimiento
+Commitment agremment firmado <br />
+Sistema gestión del tiempo (clockify)
+Presupuesto temporal<br />
+Velocidad presentación bien 2do turno, eficiencia de las presentaciones<br />
+Identificación de los roles, ajustado a los tiempos que tenemos<br />
+Indicar el TCO<br />
+Centrarnos en lo que nos piden, con todo el detalle que comentemos<br />
+Analizar el DAFO vs Describir el DAFO
+Mejor analizar en como neutralizar debilidades y amenazas <br />
+Claro modelo de negocio, planes de precio<br />
+Casos de uso core
+	Qué funcionalidad está dispuesto el usuario piloto a pagar, que no ofrezcan otros
+Refinar la idea clave de negocio. Business Statement (frase, intro interesante, etc.)<br />
+Análisis de competidores
+	Profundizar, analizar, y si es necesario, pivotar.
+Tiene que quedar claro <br />
+Lista exhaustiva, y no evidente <br />
+En la presentación lo que se pueda asimilar, no todo. Ya luego se puede preguntar
+Usuarios pilotos  <br />
+- Más de 12 usuarios pilotos, mínimo. Normal de 20 a 30, de cada tipo
+- Si hay problemas encontrándolos, no está claro el objetivo o no hay mercado
+- Segmentar para ver quién llamar si falla
+- Ver cómo interactuar con ellos
+- Yo creo que reuniones de 1 hora, en general mejor. Por subgrupos. Cada reunión de unos 10 a 15 min, a poder ser<br />
+
+MVP, casos uso core<br />
+Mockup entendido como algo centrado en la funcionalidad<br />
+Grado Innovación, lo que hay por detrás<br />
+Composición, soft skills<br />
+Comentar el commitment agreement<br />
+El estado, si firmado, lo que queramos resaltar IA <br />
+Empezar a pensar en un análisis de riesgos inicial<br />
+¿Qué puede hacer que sea un fracaso el proyecto? Planes de contingencia y demás<br />
+
 
 ## Otras anotaciones
 

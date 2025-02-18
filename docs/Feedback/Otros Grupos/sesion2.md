@@ -197,29 +197,111 @@ le gustan que tengan ya datos como cuantos usuarios serian necesario para rentab
 
 ## Tareas
 
-Elevator pitch 50 palabras describiendo la temática
-Inicio efectivo que capte la atención del público 
-Tipo de negocio
-Análisis de competidores
-Costes tco
-Coste personal coste de amortización del proyecto coste de apoyo de infraestructuras github y licencias appengine Costes indirectos y mantenimiento
-Gestion de usuarios piloto
-MVP 
-Mockups más específicos con los objetivos del sprint 1 (Todos los core)
-Innovación
-Plan de gestión de riesgos
-Equipo: Buena imagen - Imagen corporativa - Uniforme y fondo neutro - asignación de roles con skils - Todo el mundo responsabilidad técnica 
-Plan de gestión de la calidad de desarrollo - como medir y solucionar un fallo
-Modelo de análisis rendimiento del equipo cuantitativo - como se analiza
-Herramientas obligatorias Githhub , Actions, Github Projects Clockify
-Gestión de código Definir como etiquetamos las ramas las versiones…
-Varios despliegues diferentes para cada sprint (5 despliegues)
-Page 
-Planificación de desarrollo: Dividir casos de uso en sprints
-Estimación mas concreta para el 1
-Asignaciones para el sprint
-A mitad de sprint cuanto vamos a tener implementado
-Uso de IA
+
+**Nuestro:**
+- Marca de agua del logotipo
+- Orden de presentación (Competidores antes de MVP o análisis, junto a la idea)
+- Pensar el commitment agreement (problema de las 5 personas)
+- Hacer las cosas GRANDES, probarlas
+- Centrar las ideas y el tiempo en lo principal, no tocarlo todo (no da tiempo)
+- Mocks ups, son bonitos pero hay que hacer los casos core bien grande
+- Hacer como FisioFind, que hace solo calendario, y desde los 2 puntos de vista
+- Mejorar los costes, mucho. Están muy mal ahora mismo
+- Ritmo, focalizar, demás william treasure (o así, preguntar)
+- Añadir lo que ellos usan, y luego qué les parece interesantes
+- Si todos sabemos qué son las citas, no importa y no hay que hablar tanto de ello
+- Aquí está nuestro modelo de negocio, aquí nos diferenciamos
+- Estimación usuarios en función del mercado (dar más importancia)
+- Cuándo sale rentable
+- Da tiempo de leerlo todo
+- Costes, calcular si es rentable o no
+- Escribir los riesgos, y luego la mitigación asociada
+- En los mockups hay que hacerlos más simples, para que nos quedemos con lo esencial
+- Redondear costes
+
+**Nos piden:**
+- Anexos: Commitment Agremment, con responsabilidades y demás, reflejado aquí
+    - Si no se cumple con algo, hay un responsable
+    - Todo plasmado
+- Presentación: También si no se ha cumplido algún punto, por qué (anónimo o con responsable)
+    - Versionados para el CA también
+- En lugar de echar del grupo, penalizaciones. Hemos sido muy estrictos quizás
+    - Lo comentan sobre todo por nosotros
+    - Reencaminar la situación
+- Puntuaciones entre nosotros:
+    - Hay que hacerlo en cada entregable
+    - Va a tener impacto en la nota al final
+- Nos subirán Failure conditions, para saber qué no falla seguro, porque si no suspenso:
+    - Un riesgo es un evento que puede causar pérdidas económicas en 
+        - Los más importantes en la presentación
+        - Priorizarlos
+        - Acciones para mitigarlos
+    - TCO general, por meses, facturación mensual no por año
+        - Sin iva, porque es el total y el iva va por otro lado
+        - Los costes de la empresa es distinto del salario bruto del neto
+        - Tener en cuenta el problema del coste para la empresa
+        - Añadir coste de GitHub para desarrollo
+    - Termino para los servicios
+        - COSTES DE PSG2, por los servicios
+        - Añadir en las transparencias los valores entre general y específico, con la prueba del algodón (que se vea)
+        - 16 min de presentación
+            - 40 o 50 diapositivas no es viable
+            - Son estrictos hasta la médula. Ni un segundo de más, pero acabar en el último minuto
+            - Asistencia obligatoria
+            - Se pedirá feedbacks voluntarios, o lo piden
+            - Atender sí o sí, propuestas o cosas positivas
+            - Test corto de teoría, traer portátil
+    - Qué esperan ver:
+        - Elevator speech, describiendo muy bien la temática, que capte la atención del público
+        - Tipo de negocio
+        - Análisis de competidores
+        - Analisis preliminar de TCO
+            - Personal
+            - Proyecto
+            - Apoyo, (Github, office, etc)
+            - Licencias
+            - Costes indirectos
+            - Mantenimiento
+        - Gestión usuarios pilotos
+            - Píldoras teóricas
+        - Mockups más específicos, con finalidad para el Sprint 1
+            - La idea es que en el S1 estén todos estos casos de uso
+        - Innovación
+        - Stack tecnológico
+        - Plan de gestión de riesgos
+        - Equipo
+            - Buena imagen, ver los miembros
+            - Imagen corporativa
+                - No papá noel
+                - Uniforme, Skills
+        - Desarrollo
+            - Plan gestión calidad
+                - Ante fallos, cómo medir y solucionar
+            - Modelo rendimiento del equipo
+                - Cómo van cada semana
+                - Cuantitativo
+            - Stack tecnológico
+                - GitHub
+                - Actions
+                - Projects (es bueno por aquí, porque se monitorizará finalmente)
+                - Controlemos CD/CI
+            - Gestión del código
+                - De cara a los S1/2/3
+                    - Cómo etiquetar, versionado del código
+            - En los entregables hay varios despliegues, estáticos, para que queden fijos, y así pueden mirarlos siempre
+                - Importante en dónde lo desplegaremos, que ahí estarán los 5 despliegues
+                - Todas las elecciones hay que verificarlas si se pueden llevar en esos despliegues
+                - Análisis para ver que siempre se pueda acceder al final ahí
+            - Landing page, privada con acceso a los profes
+                - Con email, resumen equipo, etc
+                - Última diapositiva, con QR para poder acceder
+    - Planificación
+        - División de casos de uso en cada Sprint, más concreto para el Sprint 1. Cuánto podemos tener implementado para el siguiente sprint
+- Reporte uso IA
+- Presentar con el nivel de detalle importante. Si nos piden más detalle, otras diapositivas
+- Landing page:
+    - “Despliegue”. Google Sites por ejemplo
+
 
 ## Otras anotaciones
 
