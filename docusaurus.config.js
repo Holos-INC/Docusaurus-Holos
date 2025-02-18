@@ -73,13 +73,10 @@ const config = {
           to: 'docs/Actas/intro-actas',
         },
         {
-          label: 'Documentación Actual',
+          label: 'Documentación',
           position: 'left',
-          items: [
-            { label: 'Storyboard', to: 'docs/Documentacion/Storyboard' },
-            { label: 'Especificaciones', to: 'docs/Documentacion/Especificaciones' },
-          ],
-        },
+          to: 'docs/Documentacion/intro',
+        },        
         {
           label: 'Entregas Anteriores',
           position: 'left',
