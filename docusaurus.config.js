@@ -70,7 +70,7 @@ const config = {
         {
           label: 'Actas',
           position: 'left',
-          to: 'docs/actas/intro-actas',
+          to: 'docs/Actas/intro-actas',
         },
         {
           label: 'Documentación Actual',
