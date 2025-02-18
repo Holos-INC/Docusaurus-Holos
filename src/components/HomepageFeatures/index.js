@@ -22,8 +22,8 @@ const FeatureList = [
       La estructura que se va a utilizar para esta base de gestión del conocimiento se divide en:<br /><br />
       - <b>Actas:</b> en la cual se va a guardar todas las actas de las reuniones y estará dividido en frontend o backend.<br />
       - <b>Feedback:</b> donde se recogerá todos los comentarios proporcionados por los profesores.<br />
-      - <b>Entregables pasados:</b> donde estarán las carpetas con los documentos entregados en el pasado.<br />
-      - <b>Documentación:</b> donde estarán todos los documentos actualizados en este sprint.
+      - <b>Documentación:</b> donde estarán todos los documentos actualizados en este sprint.<br />
+      - <b>Entregas anteriores:</b> donde estarán las carpetas con los documentos entregados en el pasado.
       </>
     ),
   },
