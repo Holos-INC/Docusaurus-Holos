@@ -13,8 +13,8 @@ const config = {
   favicon: 'img/favicon.ico',
   url: 'https://holos-doc.vercel.app',
   baseUrl: '/',
-  organizationName: 'Holos-INC', 
-  projectName: 'holos-doc', 
+  organizationName: 'Holos-INC',
+  projectName: 'holos-doc',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   i18n: {
@@ -27,8 +27,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl:
-            'https://github.com/Holos-INC/docusaurus/tree/main/docs/',
+          editUrl: 'https://github.com/Holos-INC/docusaurus/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -52,12 +51,21 @@ const config = {
         },
       },
     ],
-  ],  
+  ],
   themeConfig: ({
     image: 'img/social-preview.png',
     metadata: [
       { name: 'description', content: 'Documentación oficial del Grupo 1 ISPP 24-25 en Holos.' },
-      { name: 'keywords', content: 'holos, documentación, grupo 1, ISPP' }
+      { name: 'keywords', content: 'holos, documentación, grupo 1, ISPP' },
+      { property: 'og:title', content: 'Holos - Documentación Oficial' },
+      { property: 'og:description', content: 'Documentación oficial del Grupo 1 ISPP 24-25 en Holos.' },
+      { property: 'og:image', content: 'https://holos-doc.vercel.app/img/social-preview.png' },
+      { property: 'og:url', content: 'https://holos-doc.vercel.app' },
+      { property: 'og:type', content: 'website' },
+      { property: 'twitter:card', content: 'summary_large_image' },
+      { property: 'twitter:title', content: 'Holos - Documentación Oficial' },
+      { property: 'twitter:description', content: 'Documentación oficial del Grupo 1 ISPP 24-25 en Holos.' },
+      { property: 'twitter:image', content: 'https://holos-doc.vercel.app/img/social-preview.png' }
     ],
     navbar: {
       title: 'Holos',
