@@ -45,7 +45,7 @@ const config = {
         indexPages: true,
         highlightSearchTermsOnTargetPage: true,
         searchResultLimits: 10,
-        hashed: true, // 👈 Esto permite que funcione en modo desarrollo
+        hashed: true,
         translations: {
           search_placeholder: "Buscar...",
           no_results: "No se encontraron resultados.",
