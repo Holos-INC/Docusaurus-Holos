@@ -66,13 +66,19 @@ const config = {
       { property: 'twitter:image', content: 'https://holos-doc.vercel.app/img/social-preview.png' }
     ],
     navbar: {
-      title: 'Holos',
       logo: {
         alt: 'Holos Logo',
         src: 'img/logo.png', // Logo para modo claro
         srcDark: 'img/logodark.png', // Logo para modo oscuro
+        href: '/'
       },
       items: [
+        {
+          to: 'docs/intro',
+          label: 'Holos',
+          position: 'left',
+          className: 'navbar-title-link',
+        },
         {
           label: 'Feedback',
           position: 'left',
