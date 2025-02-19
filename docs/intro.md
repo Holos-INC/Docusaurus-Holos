@@ -1,7 +1,8 @@
 # Holos
 
-<img class="logo-light" src="/img/logobig.png" alt="Holos Logo Claro" width="200" />
-<img class="logo-dark" src="/img/logobig.png" alt="Holos Logo Oscuro" width="200" />
+<p align="center">
+  <img src="/img/logobig.png" alt="Universidad de Sevilla" width="150"/>
+</p>
 
 
 Holos es una plataforma innovadora creada específicamente para artistas que ofrecen comisiones de obras personalizadas. Su objetivo es facilitar la gestión de pedidos mediante un sistema Kanban intuitivo y adaptable, optimizado para ajustarse a las necesidades y flujos de trabajo de cada creador.  
