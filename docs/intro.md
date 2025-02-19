@@ -1,7 +1,7 @@
 # Holos
 
 <p align="center">
-  <img src="/img/logobig.png" alt="Universidad de Sevilla" width="150"/>
+  <img src="/img/logobig.png" alt="Holos" width="300"/>
 </p>
 
 
