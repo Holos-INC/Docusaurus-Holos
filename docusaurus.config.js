@@ -89,12 +89,12 @@ const config = {
         {
           label: 'Actas',
           position: 'left',
-          to: 'docs/Actas/intro-actas',
+          to: 'docs/Actas/0intro-actas',
         },
         {
           label: 'Documentación',
           position: 'left',
-          to: 'docs/Documentacion/intro',
+          to: 'docs/Documentacion/0intro',
         },
         {
           label: 'Entregas Anteriores',
