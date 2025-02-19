@@ -2,7 +2,7 @@
 
 Aquí se recopila toda la documentación del proyecto Holos.
 
-[Análisis de Competidores](./Analisis%20de%20competidores/intro-competidores.md)<br />
+[Análisis de Competidores](./Analisis%20de%20Competidores.md)<br />
 [Análisis del Equipo](./Analisis%20del%20Equipo.md)<br />
 [Cliente y Usuario](./ClienteYUsuario.md)<br />
 [Matriz DAFO](./DAFO.md)<br />
