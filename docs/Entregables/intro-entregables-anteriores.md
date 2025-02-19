@@ -1,3 +1,3 @@
 # Introducción
 
-Aquí se mostrarán los enregables de Holos.
+Aquí se mostrarán los entregables de Holos.
