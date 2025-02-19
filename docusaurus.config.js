@@ -129,7 +129,7 @@ const config = {
           items: [
             {
               label: 'Contacto',
-              href: 'mailto:GiBart.soporte@gmail.com',
+              href: 'mailto:holos.soporte@gmail.com',
             },
             {
               label: 'Instagram',
