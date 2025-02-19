@@ -25,7 +25,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/Holos-INC/docusaurus/tree/main/docs/',
         },
         theme: {
           customCss: './src/css/custom.css',

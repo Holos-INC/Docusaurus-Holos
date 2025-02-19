@@ -21,9 +21,7 @@
 
 ---
 
-## Índice de contenidos
-
-# Índice de Contenido
+## Índice de Contenido
 
 1. Introducción  
 2. Artistree – Juan del Junco  
@@ -70,7 +68,8 @@
 43. Catiwiki – MCarmen  
 44. Crowdspring – Nicolás Pérez  
 45. Freelancer.com – Nicolás Pérez  
-46. Unreal Engine Asset Store – Juan Antonio  
+46. Unreal Engine Asset Store – Juan Antonio 
+47. Ánalisis con Semrush - Daniel Guedes
 
 
 ---
@@ -1437,4 +1436,65 @@ Unity Asset Store es una plataforma en línea diseñada para desarrolladores y c
 - Holos se centra en la gestión de comisiones artísticas personalizadas, mientras que Unity Asset Store está orientada a la venta de recursos digitales para desarrollo.
 - La experiencia de usuario y las herramientas de gestión (por ejemplo, tableros Kanban, chats específicos y sistemas de slots) están diseñadas en Holos para el proceso de encargo artístico, lo cual difiere del enfoque transaccional de Unity Asset Store.
 
+## Análisis con Semrush - Daniel Guedes
 
+### Lista de Competidores Identificados
+
+A partir de los análisis con Semrush, hemos identificado los siguientes competidores orgánicos:
+
+**Competidores de Artistree**
+- [generativeartistry.com](https://generativeartistry.com)
+- [artistrymn.org](https://artistrymn.org)
+- [artistcommissions.com](https://artistcommissions.com)
+- [artistsnclients.com](https://artistsnclients.com)
+- [artistry-global.com](https://artistry-global.com)
+- [ej-artistry.myshopify.com](https://ej-artistry.myshopify.com)
+- [mollys-artistry.com](https://mollys-artistry.com)
+- [unitedartscfl.org](https://unitedartscfl.org)
+- [artistreevt.org](https://artistreevt.org)
+- [taikooplace.com](https://taikooplace.com)
+
+![Clasificación de Artistree](../../static/img/Artistree.png)
+
+**Competidores de Fiverr** 
+- [freelancer.es](https://www.freelancer.es)
+- [workana.com](https://www.workana.com)
+- [upwork.com](https://www.upwork.com)
+- [designevo.com](https://www.designevo.com)
+- [malt.es](https://www.malt.es)
+- [fiverr.com](https://www.fiverr.com)
+
+![Clasificación de Fiverr](../../static/img/Fiverr.png)
+
+### Clasificación de Competidores
+
+Para determinar qué tan cercanos o lejanos son estos competidores respecto a Holos, se han clasificado en dos categorías:
+
+**Competidores Cercanos (Alta Relevancia)**
+
+Estos competidores tienen una propuesta de valor similar a Holos, ya sea en términos de servicios, nicho de mercado o público objetivo.
+
+- **[artistree.io](https://artistree.io)** → Marketplace para comisiones artísticas.
+- **[artistsnclients.com](https://artistsnclients.com)** → Plataforma de encargo de arte digital.
+- **[artistcommissions.com](https://artistcommissions.com)** → Espacio para conectar artistas con clientes.
+- **[generativeartistry.com](https://generativeartistry.com)** → Comunidad de artistas digitales con herramientas creativas.
+- **[fiverr.com](https://www.fiverr.com)** → Plataforma de freelancing con una gran presencia en diseño y arte digital.
+- **[upwork.com](https://www.upwork.com)** → Similar a Fiverr, con enfoque en freelancing profesional.
+
+**Competidores Lejanos (Menor Relevancia)**
+
+Estos sitios comparten ciertos elementos con Holos, pero no están directamente enfocados en el mismo nicho o servicio.
+
+- **[workana.com](https://www.workana.com)** → Freelancing general, no solo de arte.
+- **[freelancer.es](https://www.freelancer.es)** → Similar a Workana, con enfoque más amplio.
+- **[designevo.com](https://www.designevo.com)** → Herramienta de diseño gráfico automatizado, sin la parte de marketplace.
+- **[malt.es](https://www.malt.es)** → Plataforma de freelancing para profesionales creativos, pero con enfoque más corporativo.
+- **[taikooplace.com](https://taikooplace.com)** → No tiene relación directa con el mercado de arte digital.
+- **[unitedartscfl.org](https://unitedartscfl.org)** → Organización de arte sin fines de lucro, no un marketplace.
+- **[ej-artistry.myshopify.com](https://ej-artistry.myshopify.com)** → Tienda específica en Shopify, sin marketplace abierto.
+
+### Conclusiones y Recomendaciones
+
+- **Competidores clave a monitorear**: [Artistree.io](https://artistree.io), [Artistsnclients.com](https://artistsnclients.com), [Artistcommissions.com](https://artistcommissions.com) y [Fiverr](https://www.fiverr.com) son los más cercanos a Holos. Se recomienda analizar sus estrategias de SEO y diferenciación de producto.
+- **Posicionamiento en freelancing**: Holos podría aprender de plataformas como [Upwork](https://www.upwork.com) y [Workana](https://www.workana.com) para mejorar su alcance.
+- **Oportunidades de diferenciación**: Competidores como [Designevo](https://www.designevo.com) muestran cómo herramientas digitales pueden integrarse con marketplaces para artistas.
