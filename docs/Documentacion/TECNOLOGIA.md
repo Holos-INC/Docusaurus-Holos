@@ -36,8 +36,8 @@
    - [Integración Continua - Backend (Spring Boot)](#integración-continua---backend-spring-boot)
    - [Integración Continua - Frontend (React)](#integración-continua---frontend-react)
 4. [Continuous Deploy](#4-continuous-deploy)
-   - [Despliegue Continuo - Backend](#despliegue-continúo---backend)
-   - [Despliegue Continuo - Frontend](#despliegue-continúo---frontend)
+   - [Despliegue Continuo - Backend](#despliegue-continuo---backend)
+   - [Despliegue Continuo - Frontend](#despliegue-continuo---frontend)
    - [Publicación Automática en Tiendas Móviles](#publicación-automática-en-tiendas-móviles)
 
 ---

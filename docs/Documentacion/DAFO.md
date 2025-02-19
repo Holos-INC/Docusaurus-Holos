@@ -32,7 +32,7 @@
 
 ## Índice de Contenido
 1. [Introducción](#1-introducción)
-2. [Matriz DAFO](#2-matriz-DAFO)
+2. [Matriz DAFO](#2-matriz-dafo)
 
 ---
 

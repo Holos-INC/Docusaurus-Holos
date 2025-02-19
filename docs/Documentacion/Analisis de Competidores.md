@@ -25,55 +25,52 @@
 
 # Índice de Contenido
 
-1. [Introducción](#introducción)
-2. [Artistree – Juan del Junco](#artistree–juan-del-junco)
-3. [VGen – Mar](#vgen–mar)
-4. [Etsy – Juan del Junco](#etsy–juan-del-junco)
-5. [Redbubble – Juan del Junco](#redbubble–juan-del-junco)
-6. [Society6 – Juan del Junco](#society6–juan-del-junco)
-7. [Zazzle – Juan del Junco](#zazzle–juan-del-junco)
-8. [ArtStation – Juan del Junco](#artstation–juan-del-junco)
-9. [DeviantArt – Mar](#deviantart–mar)
-10. [Upwork – Mar](#upwork–mar)
-11. [Artists&Clients – Mar](#artistsclients–mar)
-12. [Commiss.io – Mar](#commissio–mar)
-13. [Redes Sociales – Julia](#redes-sociales–julia)
-14. [Notion – Julia](#notion–julia)
-15. [Fiverr – Julia](#fiverr–julia)
-16. [Cartalia – Julia](#cartalia–julia)
-17. [Singulart – Julia](#singulart–julia)
-18. [Red Collectors – Julia](#red-collectors–julia)
-19. [Artfol – Celia](#artfol–celia)
-20. [Artsy – Celia](#artsy–celia)
-21. [Weasyl – Celia](#weasyl–celia)
-22. [Behance – Ignacio Warleta](#behance–ignacio-warleta)
-23. [Dribble – Ignacio Warleta](#dribble–ignacio-warleta)
-24. [The Dots – Ignacio Warleta](#the-dots–ignacio-warleta)
-25. [Sketchfab – Joaquín](#sketchfab–joaquín)
-26. [Creative Market – Joaquín](#creative-market–joaquín)
-27. [Artfinder – Gabriel Vaccaro](#artfinder–gabriel-vaccaro)
-28. [Saatchi – Gabriel Vaccaro](#saatchi–gabriel-vaccaro)
-29. [Trello – Daniel Guedes](#trello–daniel-guedes)
-30. [Ko‑fi – Daniel Guedes](#ko‑fi–daniel-guedes)
-31. [Saatchi Art – Francisco Pérez](#saatchi-art–francisco-pérez)
-32. [ArtPal – Francisco Pérez](#artpal–francisco-pérez)
-33. [Patreon – Juan Núñez](#patreon–juan-núñez)
-34. [Threadless – Juan Núñez](#threadless–juan-núñez)
-35. [Fur Affinity – MCarmen](#fur-affinity–mcarmen)
-36. [YCH.commishes – MCarmen](#ychcommishes–mcarmen)
-37. [Todo Cuadros – MCarmen](#todo-cuadros–mcarmen)
-38. [Sketchmob – Javi](#sketchmob–javi)
-39. [DesignCrowd – Javi](#designcrowd–javi)
-40. [99designs – Javi](#99designs–javi)
-41. [Payhip – Juan Núñez](#payhip–juan-núñez)
-42. [Inkblot Art – Juan Núñez](#inkblot-art–juan-núñez)
-43. [Catiwiki – MCarmen](#catiwiki–mcarmen)
-44. [Crowdspring – Nicolás Pérez](#crowdspring–nicolás-pérez)
-45. [Freelancer.com – Nicolás Pérez](#freelancercom–nicolás-pérez)
-46. [Unreal Engine Asset Store – Juan Antonio](#unreal-engine-asset-store–juan-antonio)
-  
-  
-
+1. Introducción  
+2. Artistree – Juan del Junco  
+3. VGen – Mar  
+4. Etsy – Juan del Junco  
+5. Redbubble – Juan del Junco  
+6. Society6 – Juan del Junco  
+7. Zazzle – Juan del Junco  
+8. ArtStation – Juan del Junco  
+9. DeviantArt – Mar  
+10. Upwork – Mar  
+11. Artists&Clients – Mar  
+12. Commiss.io – Mar  
+13. Redes Sociales – Julia  
+14. Notion – Julia  
+15. Fiverr – Julia  
+16. Cartalia – Julia  
+17. Singulart – Julia  
+18. Red Collectors – Julia  
+19. Artfol – Celia  
+20. Artsy – Celia  
+21. Weasyl – Celia  
+22. Behance – Ignacio Warleta  
+23. Dribble – Ignacio Warleta  
+24. The Dots – Ignacio Warleta  
+25. Sketchfab – Joaquín  
+26. Creative Market – Joaquín  
+27. Artfinder – Gabriel Vaccaro  
+28. Saatchi – Gabriel Vaccaro  
+29. Trello – Daniel Guedes  
+30. Ko‑fi – Daniel Guedes  
+31. Saatchi Art – Francisco Pérez  
+32. ArtPal – Francisco Pérez  
+33. Patreon – Juan Núñez  
+34. Threadless – Juan Núñez  
+35. Fur Affinity – MCarmen  
+36. YCH.commishes – MCarmen  
+37. Todo Cuadros – MCarmen  
+38. Sketchmob – Javi  
+39. DesignCrowd – Javi  
+40. 99designs – Javi  
+41. Payhip – Juan Núñez  
+42. Inkblot Art – Juan Núñez  
+43. Catiwiki – MCarmen  
+44. Crowdspring – Nicolás Pérez  
+45. Freelancer.com – Nicolás Pérez  
+46. Unreal Engine Asset Store – Juan Antonio  
 
 
 ---
