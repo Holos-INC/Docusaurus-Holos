@@ -25,8 +25,7 @@
 
 | Fecha       | Versión | Descripción           |
 |------------|---------|-----------------------|
-| 04/02/2025 | v1.0    | Creación de documento |
-| 12/02/2025 | v2.0    | Creación de documento después del cambio de ideas |
+| 12/02/2025 | v1.0    | Creación de documento |
 
 ---
 
