@@ -10,7 +10,7 @@
   <strong>Escuela Técnica Superior de Ingeniería Informática</strong>
 </p>
 
-## **Grado en Ingeniería Informática – Ingeniería del Software**
+## Grado en Ingeniería Informática – Ingeniería del Software
 
 **Curso:** 2024 – 2025  
 **Fecha:**  18/02/2025
