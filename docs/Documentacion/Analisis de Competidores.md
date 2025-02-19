@@ -1,4 +1,4 @@
-# Documentación Análisis de Competidores
+# Análisis de Competidores
 
 <p align="center">
   <img src="/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
