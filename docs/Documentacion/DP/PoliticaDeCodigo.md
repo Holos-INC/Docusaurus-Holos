@@ -37,6 +37,9 @@
    - [Ramas permanentes](#1-ramas-permanentes)
    - [Ramas temporales](#2-ramas-temporales)
    - [Reglas para las Ramas](#reglas-para-las-ramas)
+3. [Política de código](#3-política-de-código)
+4. [Política de PRs](#4-política-de-prs)
+5. [Política de versionado](#5-política-de-versionado)
 
 ---
 
@@ -77,7 +80,7 @@ Las ramas temporales servirán para realizar los cambios que después serán lle
 - Se crean a partir de `main` cuando se necesita corregir un problema crítico.
 - Se fusionan en `main` y `develop` tras la solución.
 
-### Reglas para las Ramas
+### 3. Reglas para las Ramas
 
 #### **Uso de Pull Requests (PRs) obligatorias:**
 - Todo cambio debe pasar por una PR antes de ser fusionado.
@@ -101,3 +104,26 @@ Las ramas temporales servirán para realizar los cambios que después serán lle
 #### **Automatización con CI/CD:**
 - `develop`: Despliegue automático en un entorno de prueba.
 - `main`: Despliegue automático en producción después de aprobación.
+
+## 3. Política de código
+Esta política establece los principios fundamentales que todos los desarrolladores deben seguir para contribuir de manera eficiente y ordenada al proyecto.
+
+El código debe ser claro, comprensible y bien estructurado para facilitar su lectura y mantenimiento. La aplicación de los principios SOLID y de buenas prácticas de desarrollo contribuirá a una arquitectura más robusta y modular.
+
+Para evitar inconsistencias, es fundamental seguir las guías de estilo del lenguaje de programación utilizado en el proyecto. Esto incluye mantener nombres de variables, funciones y clases que sean claros y descriptivos, evitando abreviaciones innecesarias o nombres ambiguos.
+
+Toda modificación debe ser revisada por al menos un miembro del equipo antes de ser integrada a la rama principal.
+
+Cada commit debe contener un mensaje claro y conciso que explique los cambios realizados, evitando commits que acumulen modificaciones no relacionadas.
+
+## 4. Política de PRs
+Para mantener un flujo de trabajo ordenado y asegurar la calidad del código, se seguirá la siguiente política para la creación y aprobación de Pull Requests (PRs):
+- Cada PR debe estar asociado a una tarea o incidencia del proyecto.
+- Los PRs deben ser lo más pequeños y enfocados posible, evitando grandes cambios en una sola solicitud.
+- Se debe proporcionar una descripción clara de los cambios realizados y su impacto.
+- Antes de solicitar revisión, el autor debe asegurarse de que el código se compila y pasa todas las pruebas automatizadas.
+- Se requiere al menos una aprobación de otro miembro del equipo antes de fusionar el PR.
+- No se debe fusionar un PR si existen comentarios pendientes sin resolver.
+
+## 5. Política de versionado
+Cuando el código se encuentre en la rama develop y haya pasado por las pruebas pertinentes para pasar a la rama de producción, se creará una versión la cual seguirá el versionado vX.Y.Z, siendo X una versión mayor, normalmente habrá una por entregable, Y una versión menor o funcionalidad añadida y Z el arreglo de algún bug en producción, estas últimas se versionan tras el uso de una rama hotfix
