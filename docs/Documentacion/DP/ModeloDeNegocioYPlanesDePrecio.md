@@ -84,27 +84,36 @@ Holos adopta un modelo de monetización híbrido que combina comisiones por tran
 - **Beneficio:** Garantiza pagos seguros mediante un sistema de escrow, protegiendo tanto al cliente como al artista contra fraudes o cancelaciones injustificadas.
 
 ### **2. Suscripción Premium para Artistas**
-- **Descripción:** Un plan de suscripción opcional para artistas que desean acceso a herramientas avanzadas y beneficios exclusivos.
-- **Precio estimado:** Entre 5 y 10€ al mes, según el nivel de suscripción.
-- **Beneficios:**
-  - Reducción de fees en transacciones (ejemplo: del 3% al 1.5%).
-  - Personalización avanzada del sistema Kanban.
-  - Mayor número de slots disponibles simultáneamente.
-  - Visibilidad mejorada en la plataforma (ranking superior en búsquedas).
+**Descripción:**: Un plan de suscripción opcional para artistas que desean acceso a herramientas avanzadas y beneficios exclusivos. Habrán 3 planes de suscripción, Free (0€), Basic (4€) y Premium (10€). Estos tendrán las siguientes características distintivas:
+- **Free**:
+  - Hasta 3 slots al mismo tiempo
+  - No permite personalizar el kanban
+  - No permite personalizar los formularios de request
+  - No tiene waitlist
+  - No es posible subastar arte
+- **Basic**:
+  - Hasta 5 slots al mismo tiempo
+  - Permite personalizar el kanban
+  - Permite personalizar los formularios de request
+  - Tiene waitlist
+  - No es posible subastar arte
+- **Premium**:
+  - Sin límite de slots
+  - Permite personalizar el kanban
+  - Es posible personalizar los formularios de request
+  - Tiene waitlist
+  - Es posible subastar arte
 
-### **3. Fee por reserva de slots (FastPass)**
-- **Descripción:** Los clientes pueden pagar un extra para reservar un slot prioritario en la agenda de un artista.
-- **Porcentaje estimado:** 2-3% adicional sobre el precio de la comisión.
-- **Beneficio:** Facilita la organización de los artistas y permite ingresos adicionales a través de la gestión de disponibilidad.
 
-### **4. Propinas y Extras**
+
+### **3. Propinas y Extras**
 - **Descripción:** Holos permitirá que los clientes dejen propinas opcionales a los artistas una vez finalizada la comisión.
 - **Porcentaje estimado:** 2% de cada propina se retendría como comisión para la plataforma.
 - **Beneficio:** Fuente de ingresos pasiva sin afectar el flujo de trabajo principal.
 
 ---
 
-## 5. Conclusión
+## 4. Conclusión
 Nuestra plataforma busca resolver problemas de gestión y de seguridad en el mundo de las comisiones artísticas digitales, ofreciendo un modelo de negocio basado en la seguridad y la eficiencia. Nos enfocamos en herramientas de gestión para artistas, con el objetivo de generar una comunidad de usuarios fieles y confiables.
 
 ---
