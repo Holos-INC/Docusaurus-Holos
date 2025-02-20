@@ -1,11 +1,11 @@
 # Introducción
 
-Aquí se recopila toda la documentación del proyecto Holos.
+Aquí se recopila toda la documentación del proyecto Holos para el entregable Devising a Project (DP).
 
 - [Análisis de Competidores](./Analisis%20de%20Competidores)<br />
 - [Análisis del Equipo](./Analisis%20del%20Equipo)<br />
 - [Cliente y Usuario](./ClienteYUsuario)<br />
-- [Commitment Agreement](docs/Commitment%20Agreement/0intro)<br />
+- [Commitment Agreement](/docs/Commitment%20Agreement/0intro)<br />
 - [Matriz DAFO](./DAFO)<br />
 - [Holos](./Holos)<br />
 - [Modelo de Negocio y Planes de Precio](./ModeloDeNegocioYPlanesDePrecio)<br />
