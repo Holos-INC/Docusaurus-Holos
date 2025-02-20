@@ -1,11 +1,8 @@
 # Análisis de Competidores
 
-<!-- GitHub -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
-
-
 
 <p align="center">
   <strong>Universidad de Sevilla</strong>

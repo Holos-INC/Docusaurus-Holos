@@ -1,26 +1,33 @@
-﻿| ![ref1] | **ISPP Universidad de Sevilla** |
-|---------|---------------------------------|
-|         | **Análisis de costes y TCO**   |
+﻿# Análisis de Costes y TCO
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+</p>
+<p align="center">
+  <strong>Universidad de Sevilla</strong>
+</p>
+<p align="center">
+  <strong>Escuela Técnica Superior de Ingeniería Informática</strong>
+</p>
 
-Universidad de Sevilla 
+## Grado en Ingeniería Informática – Ingeniería del Software
 
-Escuela Técnica Superior de Ingeniería Informática
+**Curso:** 2024 – 2025  
+**Fecha:** 19/02/2025  
+**Versión:** v1.0  
 
-**Documentación Análisis de costes y TCO** 
+**Grupo de prácticas:** G1  
+**Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
+---
 
-Grado en Ingeniería Informática – Ingeniería del Software                                                Curso 2024 – 2025 
+## Control de Versiones
 
+| Fecha       | Versión | Descripción              |
+|-------------|---------|--------------------------|
+| 19/02/2025  | v1.0    | Creación del documento   |
 
-
-|**Fecha** |**Versión** |
-| - | - |
-|19/02/2025 |V1r0 |
-
-Grupo de prácticas: G1 
-
-Repositorio: [https://github.com/Holos-INC](https://github.com/Holos-INC)
+---
 
 **Índice de contenido** 
 
