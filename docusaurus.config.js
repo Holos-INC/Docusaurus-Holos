@@ -96,14 +96,7 @@ const config = {
           position: 'left',
           to: 'docs/Documentacion/0intro',
         },
-        {
-          label: 'Entregas Anteriores',
-          position: 'left',
-          items: [
-            { label: 'Introducción', to: 'docs/Entregables/intro-entregables-anteriores' },
-            { label: 'Histórico', to: 'docs/Entregables/historico' },
-          ],
-        },
+        
         {
           href: 'https://github.com/Holos-INC',
           label: 'GitHub',
