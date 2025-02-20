@@ -21,7 +21,7 @@
 
 ---
 
-## 5. Control de Versiones
+## Control de Versiones
 
 | Fecha       | Versión | Descripción           |
 |------------|---------|-----------------------|
