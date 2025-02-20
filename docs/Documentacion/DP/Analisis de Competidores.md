@@ -46,7 +46,7 @@
 19. [Artsy - Celia](#19-artsy---celia)  
 20. [Weasyl - Celia](#20-weasyl---celia)  
 21. [Behance - Ignacio Warleta](#21-behance---ignacio-warleta)  
-22. [Dribble - Ignacio Warleta](#22-dribble---ignacio-warleta)  
+22. [Dribbble - Ignacio Warleta](#22-dribbble---ignacio-warleta)  
 23. [The Dots - Ignacio Warleta](#23-the-dots---ignacio-warleta)  
 24. [Sketchfab - Joaquín](#24-sketchfab---joaquín)  
 25. [Creative Market - Joaquín](#25-creative-market---joaquín)  
@@ -54,7 +54,7 @@
 27. [Artfinder - Gabriel Vacaro](#27-artfinder---gabriel-vacaro)  
 28. [Saatchi - Gabriel Vacaro](#28-saatchi---gabriel-vacaro)  
 29. [Trello - Daniel Guedes](#29-trello---daniel-guedes)  
-30. [Ko‑fi - Daniel Guedes](#30-ko‑fi---daniel-guedes)  
+30. [Ko‑fi - Daniel Guedes](#30-ko-fi---daniel-guedes)  
 31. [Saatchi Art - Francisco Pérez](#31-saatchi-art---francisco-pérez)  
 32. [ArtPal - Francisco Pérez](#32-artpal---francisco-pérez)  
 33. [Patreon - Juan Núñez](#33-patreon---juan-núñez)  
@@ -70,8 +70,8 @@
 43. [Catiwiki - MCarmen](#43-catiwiki---mcarmen)  
 44. [Crowdspring - Nicolás Pérez](#44-crowdspring---nicolás-pérez)  
 45. [Freelancer.com - Nicolás Pérez](#45-freelancercom---nicolás-pérez)  
-46. [Unreal Engine Asset Store - Juan Antonio](#46-unreal-engine-asset-store---juan-antonio)  
-47. [Ánalisis con Semrush - Daniel Guedes](#47-ánalisis-con-semrush---daniel-guedes)  
+46. [Unity Asset Store - Juan Antonio](#46-unity-asset-store---juan-antonio)  
+47. [Análisis con Semrush - Daniel Guedes](#análisis-con-semrush---daniel-guedes)  
 
 
 
@@ -309,7 +309,7 @@ https://www.artstation.com/ es una plataforma ampliamente utilizada por artistas
 
 ---
 
-## 8. DeviantArt- Mar
+## 8. DeviantArt - Mar
 
 https://www.deviantart.com/
 
@@ -368,7 +368,7 @@ Proceso de Contratación
 
 ---
 
-## 9. Upwork- Mar
+## 9. Upwork - Mar
 
 https://www.upwork.com/
 
@@ -423,7 +423,7 @@ Proceso de Contratación
 
 ---
 
-## 10. Artists&Clients- Mar
+## 10. Artists&Clients - Mar
 
 https://artistsnclients.com/
 
@@ -1457,7 +1457,9 @@ A partir de los análisis con Semrush, hemos identificado los siguientes competi
 - [artistreevt.org](https://artistreevt.org)
 - [taikooplace.com](https://taikooplace.com)
 
-![Clasificación de Artistree](../../static/img/Artistree.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Artistree.png" alt="Universidad de Sevilla" width="500"/>
+</p>
 
 **Competidores de Fiverr** 
 - [freelancer.es](https://www.freelancer.es)
@@ -1467,7 +1469,9 @@ A partir de los análisis con Semrush, hemos identificado los siguientes competi
 - [malt.es](https://www.malt.es)
 - [fiverr.com](https://www.fiverr.com)
 
-![Clasificación de Fiverr](../../static/img/Fiverr.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Fiverr.png" alt="Universidad de Sevilla" width="500"/>
+</p>
 
 ### Clasificación de Competidores
 

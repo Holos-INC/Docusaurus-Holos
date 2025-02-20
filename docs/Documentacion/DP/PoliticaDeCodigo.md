@@ -34,9 +34,6 @@
 ## Índice de contenido
 1. [Introducción](#1-introducción)
 2. [Política de ramas](#2-política-de-ramas)
-   - [Ramas permanentes](#1-ramas-permanentes)
-   - [Ramas temporales](#2-ramas-temporales)
-   - [Reglas para las Ramas](#reglas-para-las-ramas)
 3. [Política de código](#3-política-de-código)
 4. [Política de PRs](#4-política-de-prs)
 5. [Política de versionado](#5-política-de-versionado)

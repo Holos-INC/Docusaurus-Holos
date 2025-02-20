@@ -32,12 +32,7 @@
 1. [Introducción](#1-introducción)
 2. [Descripción del Negocio](#2-descripción-del-negocio)
 3. [Análisis de Mercado](#3-análisis-de-mercado)
-   - [Mercado Objetivo](#mercado-objetivo)
 4. [Modelo de Monetización](#4-modelo-de-monetización)
-   - [Comisiones por transacción (Escrow)](#1-comisiones-por-transacción-escrow)
-   - [Suscripción Premium para Artistas](#2-suscripción-premium-para-artistas)
-   - [Fee por reserva de slots (FastPass)](#3-fee-por-reserva-de-slots-fastpass)
-   - [Propinas y Extras](#4-propinas-y-extras)
 5. [Conclusión](#5-conclusión)
 
 ---
@@ -65,7 +60,7 @@ A diferencia de otras plataformas, Holos no solo facilita las transacciones, sin
 
 ## 3. Análisis de Mercado
 
-### **Mercado Objetivo**
+### Mercado Objetivo
 Nuestro mercado objetivo está compuesto por:
 - Artistas digitales que buscan plataformas seguras para gestionar comisiones.
 - Clientes interesados en contratar servicios personalizados de artistas.
@@ -76,14 +71,14 @@ Nuestro mercado objetivo está compuesto por:
 ## 4. Modelo de Monetización
 Holos adopta un modelo de monetización híbrido que combina comisiones por transacción, suscripciones premium y pagos adicionales por servicios exclusivos. Esto permite diversificar las fuentes de ingresos y asegurar la sostenibilidad del proyecto sin comprometer la accesibilidad para los artistas y clientes.
 
-### **1. Comisiones por transacción (Escrow)**
+### 1. Comisiones por transacción (Escrow)
 - **Descripción:** Cada vez que un cliente realiza un pago por una comisión a través de la plataforma, Holos retendrá un pequeño porcentaje como comisión.
 - **Porcentaje estimado:** 6% total, dividido en:
   - 3% para el cliente (incluido en el pago final).
   - 3% para el artista (descontado del pago recibido).
 - **Beneficio:** Garantiza pagos seguros mediante un sistema de escrow, protegiendo tanto al cliente como al artista contra fraudes o cancelaciones injustificadas.
 
-### **2. Suscripción Premium para Artistas**
+### 2. Suscripción Premium para Artistas
 **Descripción:**: Un plan de suscripción opcional para artistas que desean acceso a herramientas avanzadas y beneficios exclusivos. Habrán 3 planes de suscripción, Free (0€), Basic (4€) y Premium (10€). Estos tendrán las siguientes características distintivas:
 - **Free**:
   - Hasta 3 slots al mismo tiempo
@@ -106,14 +101,14 @@ Holos adopta un modelo de monetización híbrido que combina comisiones por tran
 
 
 
-### **3. Propinas y Extras**
+### 3. Propinas y Extras
 - **Descripción:** Holos permitirá que los clientes dejen propinas opcionales a los artistas una vez finalizada la comisión.
 - **Porcentaje estimado:** 2% de cada propina se retendría como comisión para la plataforma.
 - **Beneficio:** Fuente de ingresos pasiva sin afectar el flujo de trabajo principal.
 
 ---
 
-## 4. Conclusión
+## 5. Conclusión
 Nuestra plataforma busca resolver problemas de gestión y de seguridad en el mundo de las comisiones artísticas digitales, ofreciendo un modelo de negocio basado en la seguridad y la eficiencia. Nos enfocamos en herramientas de gestión para artistas, con el objetivo de generar una comunidad de usuarios fieles y confiables.
 
 ---

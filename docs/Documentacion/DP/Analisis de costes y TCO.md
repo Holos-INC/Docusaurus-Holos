@@ -25,47 +25,32 @@
 
 | Fecha       | Versión | Descripción              |
 |-------------|---------|--------------------------|
-| 19/02/2025  | v1.0    | Creación del documento   |
+| 19/02/2025  | v1r0    | Creación del documento Análisis de costes y TCO del proyecto   |
+
 
 ---
 
-**Índice de contenido** 
+## Índice de contenido
 
-1. [**Introducción**](#_page1_x72.00_y131.32) 
-1. [**Control de Versiones**](#_page1_x72.00_y246.55)
-1. [**CapEx**](#_page2_x72.00_y131.32) 
-    - [Costes de los recursos humanos](#_page2_x72.00_y181.81) 
-    - [Costes de los recursos materiales](#_page3_x72.00_y131.32) 
-    - [Costes totales de desarrollo](#_page4_x72.00_y187.49) 
-4. [**OpEx**](#_page5_x72.00_y131.32)
-4. [**Rentabilidad de la aplicación**](#_page7_x72.00_y131.32)
-4. [**Bibliografía**](#_page11_x72.00_y131.32)
+1. [Introducción](#1-introducción)
+2. [CapEx](#2-capex)
+3. [OpEx](#3-opex)
+4. [Rentabilidad de la aplicación](#4-rentabilidad-de-la-aplicación)
+5. [Bibliografía](#5-bibliografía)
 
 
 
-
-
-**1. Introducción**<a name="_page1_x72.00_y131.32"></a> 
+## 1. Introducción
 
 Este documento detalla los costes previstos para la implementación, el mantenimiento de nuestra aplicación, Holos. Además, de un  análisis de rentabilidad de la plataforma.  
 
 Este estudio nos guiará en la toma de decisiones estratégicas y nos permitirá llevar una gestión financiera eficaz a lo largo del ciclo de vida del proyecto. 
 
-**2. Control de Versiones** <a name="_page1_x72.00_y246.55"></a> 
 
 
+## 2. CapEx 
 
-|**Fecha** |**Versión** |**Descripción** |
-| - | - | - |
-|19/02/2025 |v1r0 |Análisis de costes y TCO del proyecto |
-||||
-
-
-
-
-
-**3. CapEx**<a ></a> 
-- Costes<a name="_page2_x72.00_y181.81"></a> de los recursos humanos 
+### 2.1 Costes de los recursos humanos 
 
 El costo por hora de cada tipo de trabajador se ha obtenido por dos vías: 
 
@@ -83,21 +68,21 @@ Para el desarrollo del proyecto, el equipo contaba con 17 participantes. Estos s
 
 Aplicando los salarios según las fuentes mencionadas previamente, y teniendo en cuenta que cada empleado trabaja 10 horas semanales durante 14 semanas, el gasto total de recursos humanos durante el desarrollo de la aplicación es de **55.518,40€.** 
 
+**Gastos de personal durante el desarrollo**
+
+| Tipo de trabajador            | Cantidad | Costo por hora | Horas semanales | Nº de horas totales | Coste total  |
+|------------------------------|---------|---------------|----------------|-------------------|--------------|
+| Director de proyecto        | 1       | 45,40 €       | 10             | 140               | 6.356,00 €   |
+| Frontend developer          | 6       | 22,27 €       | 10             | 140               | 18.706,80 €  |
+| Backend developer           | 5       | 23,39 €       | 10             | 140               | 16.373,00 €  |
+| Jefe de proyecto / Coordinadores | 2  | 22,50 €       | 10             | 140               | 6.300,00 €   |
+| Marketing                   | 3       | 17,35 €       | 10             | 140               | 7.287,00 €   |
+| Usuarios pilotos            | 10      | -             | -              | -                 | 495,60 €     |
+| **Coste total**             | -       | -             | -              | -                 | **55.518,40 €** |
 
 
-|**Gastos de personal durante el desarrollo** ||||||
-| - | :- | :- | :- | :- | :- |
-|Tipo de trabajador |Cantidad |Costo por hora |Horas semanales |Nº de horas totales |Coste total |
-|Director de proyecto |1 |45,40 € |10 |140 |6\.356,00 €|
-|Frontend developer |6 |22,27 € |10 |140 |18\.706,80 €|
-|Backend developer |5 |23,39 € |10 |140 |16\.373,00 €|
-|Jefe de proyecto / Coordinadores |2 |22,50 € |10 |140 |6\.300,00 €|
-|Marketing |3 |17,35 € |10 |140 |7\.287,00 €|
-|Usuarios pilotos |10 |- |- |- |495,60 €|
-|Coste total|`  `55.518,40 €|||||
 
-
-- Costes<a></a> de los recursos materiales 
+### 2.2 Costes de los recursos materiales 
 
 Dado que nuestros empleados trabajan principalmente de forma remota, el proyecto incluirá únicamente gastos genéricos. La empresa ha establecido un pago adicional de 40 € semanales por trabajador, para compensar los gastos domésticos ocasionados por el teletrabajo. 
 
@@ -111,36 +96,32 @@ Además de estos gastos, la empresa ha decidido invertir en varios recursos mate
 
 
 
-|**Gastos recursos materiales** |||||
-| - | :- | :- | :- | :- |
-|Recurso material |Cantidad |Costo mes |Nº Meses |Coste total |
-|Licencia GitHub Teams |17 |3,83 € |4|260,44 €|
-|Licencia GitHub Copilot Business |17 |18,24 € |4|1\.240,32 €|
-|Licencia Docker Team |1 |14,38 € |4|57,52 €|
-|Licencia Java Oracle |5 |14,38 € |4|287,60 €|
-|Licencia Render Professional |5 |18,24 € |4|364,80 €|
-|Render Key Value Pro |1 |129,68 € |4|518,72 €|
-|MySQL Standard Edition |1 |178,33 € |4|713,32 €|
-|Microsoft Teams Essentials |17 |4,48 € |4|304,64 €|
-|Gastos domésticos |17 |160,00 € |4|10\.880,00 €|
-|PlayStore |1 |24,01 € |- |24,01 €|
-|Portátiles |17 |600,00 € |- |10\.200,00 €|
+**Gastos recursos materiales**
+# Gastos de recursos materiales
+
+| Recurso material               | Cantidad | Costo mes  | Nº Meses | Coste total   |
+|--------------------------------|---------|-----------|---------|--------------|
+| Licencia GitHub Teams         | 17      | 3,83 €    | 4       | 260,44 €     |
+| Licencia GitHub Copilot Business | 17   | 18,24 €   | 4       | 1.240,32 €   |
+| Licencia Docker Team          | 1       | 14,38 €   | 4       | 57,52 €      |
+| Licencia Java Oracle          | 5       | 14,38 €   | 4       | 287,60 €     |
+| Licencia Render Professional  | 5       | 18,24 €   | 4       | 364,80 €     |
+| Render Key Value Pro          | 1       | 129,68 €  | 4       | 518,72 €     |
+| MySQL Standard Edition        | 1       | 178,33 €  | 4       | 713,32 €     |
+| Microsoft Teams Essentials    | 17      | 4,48 €    | 4       | 304,64 €     |
+| Gastos domésticos             | 17      | 160,00 €  | 4       | 10.880,00 €  |
+| PlayStore                     | 1       | 24,01 €   | -       | 24,01 €      |
+| Portátiles                    | 17      | 600,00 €  | -       | 10.200,00 €  |
+| Publicidad                    | 1       | 3.000,00 €| -       | 3.000,00 €   |
+| Clockify                      | 17      | -         | -       | -            |
+| **Coste total**               | -       | -         | -       | **27.851,37 €** |
 
 
-
-
-|Publicidad |1 |3\.000,00 € |- |3\.000,00 €|
-| - | - | - | - | - |
-|Clockify |17 |- |- |- |
-|Coste total|27\.851,37 €||||
-
-- Costes<a name="_page4_x72.00_y187.49"></a> totales de desarrollo 
+### 2.3 Costes totales de desarrollo 
 
 Una vez calculados los gastos en recursos materiales y humanos para el desarrollo de la aplicación, obtenemos el coste total del desarrollo. Además, la empresa ha decidido aplicar un 15% de contingencia a este coste total, por lo que el coste del desarrollo del proyecto es de **95.875,24€.** En la siguiente tabla se pueden ver los cálculos realizados para obtener dicha cifra: 
 
 **CapEx**
-
-
 
 |Costes incurridos en el proyecto |Coste |
 | - | - |
@@ -164,19 +145,22 @@ Una vez calculados los gastos en recursos materiales y humanos para el desarroll
 
 
 
-**4. OpEx**<a name="_page5_x72.00_y131.32"></a> 
+## 3. OpEx 
 
 El costo del mantenimiento de la aplicación se ha calculado asumiendo que los trabajadores continuarán dedicando 10 horas semanales al proyecto, durante 4 semanas al mes, equivalentes a un mes completo. 
 
 
 
-|**Coste mensual de la aplicación respecto a los gastos del personal** ||||||
-| - | :- | :- | :- | :- | :- |
-|Tipo de trabajador |Cantidad |Costo por hora |Horas semanales |Nº de horas totales |Coste total mensual |
-|Frontend developer |2 |22,27 € |10 |40 |1\.781,60 €|
-|Backend developer |2 |23,39 € |10 |40 |1\.871,20 €|
-|Marketing |2 |17,35 € |10 |40 |1\.388,00 €|
-|Costo mensual del personal de mantenimiento|5\.040,80 €|||||
+|**Coste mensual de la aplicación respecto a los gastos del personal**
+# Coste mensual de la aplicación respecto a los gastos del personal
+
+| Tipo de trabajador     | Cantidad | Costo por hora | Horas semanales | Nº de horas totales | Coste total mensual |
+|-----------------------|---------|---------------|----------------|-------------------|------------------|
+| Frontend developer   | 2       | 22,27 €       | 10             | 40                | 1.781,60 €       |
+| Backend developer    | 2       | 23,39 €       | 10             | 40                | 1.871,20 €       |
+| Marketing            | 2       | 17,35 €       | 10             | 40                | 1.388,00 €       |
+| **Costo mensual del personal de mantenimiento** | - | - | - | - | **5.040,80 €** |
+
 
 
 
@@ -194,11 +178,6 @@ Además, la empresa ha establecido un pago adicional de 40 € semanales por tra
 |Extra por teletrabajo |40,00 €|4|160,00 €|
 
 En la tabla a continuación, se muestran los gastos de recursos materiales que serán destinados al mantenimiento. 
-
-
-
-
-
 
 
 |**Gastos recursos materiales mantenimientos** |||||
@@ -221,8 +200,6 @@ Por tanto, sumando todos los gastos, nos sale un OpEx de **7.272,35 €**.
 
 **OpEx**
 
-
-
 |Costo mensual del personal de mantenimiento |5\.040,80 €|
 | :- | - |
 |Coste mensual de los recursos materiales para el mantenimiento |2\.231,55 €|
@@ -230,13 +207,11 @@ Por tanto, sumando todos los gastos, nos sale un OpEx de **7.272,35 €**.
 
 
 
-**5. Rentabilidad**<a name="_page7_x72.00_y131.32"></a> de la aplicación 
+## 4. Rentabilidad de la aplicación 
 
 De acuerdo con el plan de negocio de la aplicación, se establece una comisión del 6% sobre el precio de cada obra, la cual incluye la tarifa impuesta por PayPal por el uso de su API. 
 
 Los resultados de la encuesta "¡Mejoremos las comisiones!", en la que participaron 41 personas, indican que la mayoría de los encargos oscilan entre 10-30 euros y 50-100 euros. Con base en estos datos, se ha fijado un precio base de 47,5 euros por obra, sobre el cual se aplicará la comisión del 6%. La encuesta se encuentra adjunta en la documentación. 
-
-
 
 |Media de 10 y 30 |Media entre 50 y 100 |Precio medio por obra |
 | - | - | :-: |
@@ -290,12 +265,7 @@ La plataforma aplicará una comisión del 5,39% sobre la propina recibida la cua
 |400|4,75 €|45,41 €|57,00 €|`  `1.797,59 €|
 
 
-
-
-
 - **Resumen** 
-
-
 
 |Beneficios por tarifas a los artistas |4\.474,40 €|
 | :- | - |
@@ -340,25 +310,27 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-    <img src="/img/Grafica-Analisis-de-Costes-TCO.jpeg" width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Grafica-Analisis-de-Costes-TCO.jpeg" alt="Universidad de Sevilla" width="700"/>
 </p>
 
 Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a los 12 meses, es decir, al año.
 
+## 5. Bibliografía
 
+Sueldos en Indeed: [https://es.indeed.com/career/salaries?from=gnav-homepage]
 
-**6. Bibliografía**<a name="_page11_x72.00_y131.32"></a>
+Licencia Render: [https://render.com/pricing#compute]
 
-**Sueldos en Indeed:** [https://es.indeed.com/career/salaries?from=gnav-homepage]
+Licencia MySQL: [https://www.mysql.com/products/enterprise/compare/]
 
-**Licencia Render:** [https://render.com/pricing#compute]
+Licencia Java Oracle: [https://oraclelicensingexperts.com/types-of-oracle-java-licenses-a-comprehensive-overview/] 
 
-**Licencia MySQL:** [https://www.mysql.com/products/enterprise/compare/]
+Licencia GitHub Copilot: [https://github.com/features/copilot/plans?cft=copilot_li.features_copilot]
 
-**Licencia Java Oracle: [https://oraclelicensingexperts.com/types-of-oracle-java-licenses-a-comprehensive-overview/]** **Licencia GitHub Copilot: [https://github.com/features/copilot/plans?cft=copilot_li.features_copilot]** 
+Licencia para Docker: [https://www.docker.com/pricing/]
 
-**Licencia para Docker:** [https://www.docker.com/pricing/]
+Licencia para GitHub: [https://github.com/pricing#compare-features]
 
-**Licencia para GitHub:** [https://github.com/pricing#compare-features]
+Comisión Google Play Store: [https://support.google.com/googleplay/android-developer/answer/112622?hl=es-419] 
 
-**Comisión Google Play Store: [https://support.google.com/googleplay/android-developer/answer/112622?hl=es-419]** **Comisión Paypal:** [https://www.paypal.com/es/business/paypal-business-fees]
+Comisión Paypal: [https://www.paypal.com/es/business/paypal-business-fees]

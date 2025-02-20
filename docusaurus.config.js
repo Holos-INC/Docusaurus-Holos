@@ -94,7 +94,7 @@ const config = {
         {
           label: 'Documentación',
           position: 'left',
-          to: 'docs/Documentacion/0intro',
+          to: 'docs/Documentacion/DP/0intro',
         },
         
         {
