@@ -49,7 +49,94 @@
 ---
 
 ## Índice de contenido
+1. [Summary report](#1-summary-report)
+
+## 1. Summary report 
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img1.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img2.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img3.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img4.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img5.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img6.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img7.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img8.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img9.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img10.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img11.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img12.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img13.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img14.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img15.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img16.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img17.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img18.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img19.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img20.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img21.jpeg" alt="Report" width="600"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img22.jpeg" alt="Report" width="600"/>
 </p>
