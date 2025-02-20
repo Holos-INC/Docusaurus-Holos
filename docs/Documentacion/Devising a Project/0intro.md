@@ -17,3 +17,4 @@ Aquí se recopila toda la documentación del proyecto Holos para el entregable D
 - [Tecnología](./technology)<br />
 - [Agreed Individual Performance Evaluation](./PerformanceEvaluation)<br />
 - [Uso de IA](./AI-usage)
+- [Time Effort report](./Time-Effort-report)
