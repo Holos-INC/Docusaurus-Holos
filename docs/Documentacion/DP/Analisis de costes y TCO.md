@@ -17,6 +17,26 @@
 **Versión:** v1.0  
 
 **Grupo de prácticas:** G1  
+
+- María del Mar Ávila Maqueda  
+- Joaquín González Ganfornina  
+- Nerea Jiménez Adorna  
+- Juan del Junco Obregón  
+- Miguel Ángel Gómez Vela  
+- Juan Antonio Moreno Moguel  
+- María del Carmen Barrera Garrancho  
+- Daniel Guedes Preciados  
+- Julia Virginia Ángeles Burgos  
+- Javier Muñoz Romero  
+- Juan Núñez Sánchez  
+- Nicolás Pérez Gómez  
+- Francisco Pérez Lázaro  
+- Celia Aguilera Camino  
+- Gabriel María Vacaro Goytía  
+- Ignacio Warleta Murcia  
+- José María Portela Huerta  
+
+
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
 ---
