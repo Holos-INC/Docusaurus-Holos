@@ -10,6 +10,7 @@ Aquí se recopila toda la documentación del proyecto Holos.
 - [Holos](./Holos.md)<br />
 - [Modelo de Negocio y Planes de Precio](./ModeloDeNegocioYPlanesDePrecio.md)<br />
 - [Modelo de Rendimiento del Equipo](./ModeloDeRendimientoDelEquipo.md)<br />
+- [Paleta](./Paleta.md)<br />
 - [Política de Código](./PoliticaDeCodigo.md)<br />
 - [Riesgos](./Riesgos.md)<br />
 - [Tecnología](./TECNOLOGIA.md)<br />
