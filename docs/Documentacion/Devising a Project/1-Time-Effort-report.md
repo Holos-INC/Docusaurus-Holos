@@ -49,3 +49,7 @@
 ---
 
 ## Índice de contenido
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/time_report/img1.jpeg" alt="Report" width="600"/>
+</p>
