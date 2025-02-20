@@ -330,6 +330,13 @@ TCO a los 2 años
 
 Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable durante el segundo semestre. 
 
+Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
+
+<p align="center">
+    <img src="/img/Grafica-Analisis-de-Costes-TCO.jpeg" width="700"/>
+</p>
+
+Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a los 12 meses, es decir, al año.
 
 
 
