@@ -21,55 +21,57 @@
 
 ---
 
-## Índice de Contenido
+## Índice  
 
-1. Introducción  
-2. Artistree – Juan del Junco  
-3. VGen – Mar  
-4. Etsy – Juan del Junco  
-5. Redbubble – Juan del Junco  
-6. Society6 – Juan del Junco  
-7. Zazzle – Juan del Junco  
-8. ArtStation – Juan del Junco  
-9. DeviantArt – Mar  
-10. Upwork – Mar  
-11. Artists&Clients – Mar  
-12. Commiss.io – Mar  
-13. Redes Sociales – Julia  
-14. Notion – Julia  
-15. Fiverr – Julia  
-16. Cartalia – Julia  
-17. Singulart – Julia  
-18. Red Collectors – Julia  
-19. Artfol – Celia  
-20. Artsy – Celia  
-21. Weasyl – Celia  
-22. Behance – Ignacio Warleta  
-23. Dribble – Ignacio Warleta  
-24. The Dots – Ignacio Warleta  
-25. Sketchfab – Joaquín  
-26. Creative Market – Joaquín  
-27. Artfinder – Gabriel Vaccaro  
-28. Saatchi – Gabriel Vaccaro  
-29. Trello – Daniel Guedes  
-30. Ko‑fi – Daniel Guedes  
-31. Saatchi Art – Francisco Pérez  
-32. ArtPal – Francisco Pérez  
-33. Patreon – Juan Núñez  
-34. Threadless – Juan Núñez  
-35. Fur Affinity – MCarmen  
-36. YCH.commishes – MCarmen  
-37. Todo Cuadros – MCarmen  
-38. Sketchmob – Javi  
-39. DesignCrowd – Javi  
-40. 99designs – Javi  
-41. Payhip – Juan Núñez  
-42. Inkblot Art – Juan Núñez  
-43. Catiwiki – MCarmen  
-44. Crowdspring – Nicolás Pérez  
-45. Freelancer.com – Nicolás Pérez  
-46. Unreal Engine Asset Store – Juan Antonio 
-47. Ánalisis con Semrush - Daniel Guedes
+0. [Introducción](#0-introducción)  
+1. [Artistree - Juan del Junco](#1-artistree---juan-del-junco)  
+2. [VGen - Mar](#2-vgen---mar)  
+3. [Etsy - Juan del Junco](#3-etsy---juan-del-junco)  
+4. [Redbubble - Juan del Junco](#4-redbubble---juan-del-junco)  
+5. [Society6 - Juan del Junco](#5-society6---juan-del-junco)  
+6. [Zazzle - Juan del Junco](#6-zazzle---juan-del-junco)  
+7. [ArtStation - Juan del Junco](#7-artstation---juan-del-junco)  
+8. [DeviantArt - Mar](#8-deviantart---mar)  
+9. [Upwork - Mar](#9-upwork---mar)  
+10. [Artists&Clients - Mar](#10-artistsclients---mar)  
+11. [Commiss.io - Mar](#11-commissio---mar)  
+12. [Redes Sociales - Julia](#12-redes-sociales---julia)  
+13. [Notion - Julia](#13-notion---julia)  
+14. [Fiverr - Julia](#14-fiverr---julia)  
+15. [Cartalia - Julia](#15-cartalia---julia)  
+16. [Singulart - Julia](#16-singulart---julia)  
+17. [Red Collectors - Julia](#17-red-collectors---julia)  
+18. [Artfol - Celia](#18-artfol---celia)  
+19. [Artsy - Celia](#19-artsy---celia)  
+20. [Weasyl - Celia](#20-weasyl---celia)  
+21. [Behance - Ignacio Warleta](#21-behance---ignacio-warleta)  
+22. [Dribble - Ignacio Warleta](#22-dribble---ignacio-warleta)  
+23. [The Dots - Ignacio Warleta](#23-the-dots---ignacio-warleta)  
+24. [Sketchfab - Joaquín](#24-sketchfab---joaquín)  
+25. [Creative Market - Joaquín](#25-creative-market---joaquín)  
+26. [Singulart - Julia](#26-singulart---julia)  
+27. [Artfinder - Gabriel Vacaro](#27-artfinder---gabriel-vacaro)  
+28. [Saatchi - Gabriel Vacaro](#28-saatchi---gabriel-vacaro)  
+29. [Trello - Daniel Guedes](#29-trello---daniel-guedes)  
+30. [Ko‑fi - Daniel Guedes](#30-ko‑fi---daniel-guedes)  
+31. [Saatchi Art - Francisco Pérez](#31-saatchi-art---francisco-pérez)  
+32. [ArtPal - Francisco Pérez](#32-artpal---francisco-pérez)  
+33. [Patreon - Juan Núñez](#33-patreon---juan-núñez)  
+34. [Threadless - Juan Núñez](#34-threadless---juan-núñez)  
+35. [Fur Affinity - MCarmen](#35-fur-affinity---mcarmen)  
+36. [YCH.commishes - MCarmen](#36-ychcommishes---mcarmen)  
+37. [Todo Cuadros - MCarmen](#37-todo-cuadros---mcarmen)  
+38. [Sketchmob - Javi](#38-sketchmob---javi)  
+39. [DesignCrowd - Javi](#39-designcrowd---javi)  
+40. [99designs - Javi](#40-99designs---javi)  
+41. [Payhip - Juan Núñez](#41-payhip---juan-núñez)  
+42. [Inkblot Art - Juan Núñez](#42-inkblot-art---juan-núñez)  
+43. [Catiwiki - MCarmen](#43-catiwiki---mcarmen)  
+44. [Crowdspring - Nicolás Pérez](#44-crowdspring---nicolás-pérez)  
+45. [Freelancer.com - Nicolás Pérez](#45-freelancercom---nicolás-pérez)  
+46. [Unreal Engine Asset Store - Juan Antonio](#46-unreal-engine-asset-store---juan-antonio)  
+47. [Ánalisis con Semrush - Daniel Guedes](#47-ánalisis-con-semrush---daniel-guedes)  
+
 
 
 ---
@@ -129,7 +131,7 @@ https://artistree.io/ es una plataforma enfocada en comisiones de arte digital, 
 
 ---
 
-## 2. VGen- Mar
+## 2. VGen - Mar
 
 https://vgen.co/
 
@@ -919,7 +921,7 @@ A continuación te presento en Markdown el contenido completo del apartado 26 y 
 
 ---
 
-## 27. Artfinder - Gabriel Vaccaro
+## 27. Artfinder - Gabriel Vacaro
 
 https://www.artfinder.com/
 Artfinder es una plataforma especializada en la venta de arte original, incluyendo obras personalizadas. Los artistas pueden crear perfiles detallados y ofrecer sus trabajos a una audiencia global. Además, los clientes tienen la opción de solicitar encargos específicos, lo que permite una comunicación directa entre ambas partes. Aunque no cuenta con una herramienta explícita de gestión de proyectos, la interacción entre artista y cliente facilita el seguimiento del progreso de las obras encargadas.
@@ -945,7 +947,7 @@ Artfinder es una plataforma especializada en la venta de arte original, incluyen
 
 ---
 
-## 28. Saatchi - Gabriel Vaccaro
+## 28. Saatchi - Gabriel Vacaro
 
 https://www.saatchiart.com/
 
