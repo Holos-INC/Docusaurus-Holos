@@ -15,8 +15,8 @@
 ## Grado en Ingeniería Informática – Ingeniería del Software
 
 **Curso:** 2024 – 2025  
-**Fecha:** 19/02/2025  
-**Versión:** v1.0  
+**Fecha:** 18/02/2025   
+**Versión:** v2.0   
 
 **Grupo de prácticas:** G1  
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
