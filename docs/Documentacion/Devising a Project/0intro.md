@@ -15,3 +15,4 @@ Aquí se recopila toda la documentación del proyecto Holos para el entregable D
 - [Política de Código](./code_policy)<br />
 - [Riesgos del proyecto](./project_risks)<br />
 - [Tecnología](./technology)<br />
+- [Agreed Individual Performance Evaluation](./PerformanceEvaluation)<br />
