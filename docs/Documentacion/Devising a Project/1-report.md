@@ -55,7 +55,7 @@
 1. [Introducción](#1-introducción)
 2. [Enlaces relevantes](#2-enlaces-relevantes)
 3. [Feedback de nuestro grupo](#3-feedback-para-nuestro-grupo)
-4. [Feedback de otros grupos](#4-feedback-de-otros-grupo)
+4. [Feedback de otros grupos](#4-feedback-de-otros-grupos)
 5. [Bibliografía](#5-bibliografía)
 
 
