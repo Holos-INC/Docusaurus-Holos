@@ -1,4 +1,4 @@
-# Miguel Ángel Gómez
+# Juan Antonio Moreno Moguel
 
 # Commitment Agreement
 
@@ -27,13 +27,13 @@ Esquema de documento generado con ChatGPT 3.5:
 https://chat.openai.com/share/2b1d2058-c2c9-4371-a504-b00c42220569
 Compromiso de Participación en la Asignatura ISPP (Ingeniería del Software y Práctica Profesional) - Curso 2024-25 
 
-Nombre del Alumno: Miguel Ángel Gómez Vela
+Nombre del Alumno: Juan Antonio Moreno Moguel
 
 Fecha: 18-02-2025
 
 Grupo de Trabajo: Grupo 1
 
-Compromiso: Yo, Miguel Ángel Gómez Vela, al incorporarme a la asignatura de Ingeniería de Software y Práctica Profesional (ISPP) para el curso 2024-25, me comprometo a cumplir con los siguientes requisitos y condiciones como miembro activo del grupo de trabajo, compuesto por aproximadamente 15 personas:
+Compromiso: Yo, Juan Antonio Moreno Moguel, al incorporarme a la asignatura de Ingeniería de Software y Práctica Profesional (ISPP) para el curso 2024-25, me comprometo a cumplir con los siguientes requisitos y condiciones como miembro activo del grupo de trabajo, compuesto por aproximadamente 15 personas:
 
 ●  	Dedicación de Tiempo: Me comprometo a dedicar un esfuerzo de 10 horas semanales a las actividades y tareas asignadas en el marco de la asignatura, incluyendo la asistencia a clase.
 
@@ -58,9 +58,9 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 Firma del Alumno:
 
 <p align="center">
-  <img src="/img/firmas/miggomvel.png" alt="Firma" width="150"/>
+  <img src="/img/firmas/juamormog.png" alt="Firma" width="150"/>
 </p>
 
 
 
-[DESCARGAR EL PDF](../../../static/PDFs/Commitment/0CommitmentAgreement-miggomvel.pdf)
+[DESCARGAR EL PDF](../../../static/PDFs/Commitment/CommitmentAgreement-juamormog.pdf)
