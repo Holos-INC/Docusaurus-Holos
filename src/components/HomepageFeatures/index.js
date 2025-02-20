@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Fácil de usar',
+    title: 'Conocimiento',
     Svg: require('@site/static/img/simple_brush.svg').default,
     description: (
       <>
@@ -32,7 +32,7 @@ const FeatureList = [
     Svg: require('@site/static/img/landing_page.svg').default,
     description: (
       <>
-        Nuestra Landing Page se encuentra desplegada en <a href="https://holos.es/">holos.es</a>. 
+        Para acceder a nuestra landing page pulse <a href="https://sites.google.com/view/holos">aquí</a>. 
       </>
     ),
   },

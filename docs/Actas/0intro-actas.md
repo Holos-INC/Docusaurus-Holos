@@ -2,7 +2,7 @@
 
 En Actas se archivarán todas los resúmenes de las reuniones realizadas por el grupo 1 de ISPP 24-25, indicando los miembros que acuden y los puntos tratados más importantes, así como sus resoluciones.
 
-### Miembros:
+### Miembros del equipo:
 
 - María del Mar Ávila Maqueda (Backend)  
 - Joaquín González Ganfornina (Backend)  

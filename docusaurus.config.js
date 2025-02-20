@@ -6,7 +6,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Holos',
+  title: 'Base de datos de conocimiento de Holos',
   tagline: 'Grupo 1 ISPP 24-25',
   favicon: 'img/favicon.ico',
   url: 'https://holos-doc.vercel.app',
@@ -133,6 +133,10 @@ const config = {
             {
               label: 'Instagram',
               href: 'https://www.instagram.com/gibart_official/',
+            },
+            {
+              label: 'Holos',
+              href: 'https://sites.google.com/view/holos/',
             },
           ],
         },
