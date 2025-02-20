@@ -73,7 +73,7 @@ const config = {
       },
       items: [
         {
-          to: 'docs/intro',
+          to: 'docs/0intro',
           label: 'Holos',
           position: 'left',
           className: 'navbar-title-link',
@@ -119,7 +119,7 @@ const config = {
           items: [
             {
               label: '¿Quiénes somos?',
-              to: '/docs/intro',
+              to: '/docs/0intro',
             },
           ],
         },
