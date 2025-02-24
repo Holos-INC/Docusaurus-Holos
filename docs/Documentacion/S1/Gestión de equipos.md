@@ -41,10 +41,9 @@
 
 ## Control de Versiones
 
-| Fecha       | Versión | Descripción           | Autor             |
-|-------------|---------|-----------------------|-------------------|
-| 23/02/2025  | v1.0    | Creación de documento | José María Portela|
-
+| Fecha      | Versión | Descripción           | Autor                    |
+|------------|---------|-----------------------|--------------------------|
+| 23/02/2025 | v1.0    | Creación de documento | José María Portela       |
 
 ---
 
@@ -78,7 +77,7 @@ Para el rendimiento, usaremos tecnologías como Clockify, para medir el tiempo u
 ### 2.2 Mediciones a tomar
 
 Se tomarán las siguientes métricas, para evaluar el avance del proyecto:
-- Lo añadido a este documento: <a link="https://holos-doc.vercel.app/docs/Documentacion/Devising%20a%20Project/team-performance-model">Team Performance Model</a>
+- Lo añadido a este documento: [Team Performance Model](https://holos-doc.vercel.app/docs/Documentacion/Devising%20a%20Project/team-performance-model)
 
 - Rendimiento de las tareas: Dividir los puntos de usuario (estimación) entre las horas dedicadas a esa tarea, para conseguir un porcentaje de rendimiento. Cuanto mayor sea este porcentaje, mejor ha realizado la persona el trabajo.
 - Ratio de respuesta a mensajes: Número de veces contestadas / número de solicitudes de información mandadas.
@@ -105,7 +104,7 @@ La responsabilidades siguientes del grupo son de vital importancia, siendo cada 
 - JUAN DEL JUNCO OBREGON: Secretario, es decir, responsable de tomar acta y recoger el feedback.
 - MIGUEL ANGEL GOMEZ VELA: Responsable del uso de IA, y de la inclusión de esta en los documentos.
 - JOAQUIN GONZALEZ GANFORNINA: Responsable de revisar costes.
-- DANIEL GUEDES PRECIADOS: Responsable de subir información en la base de conocimiento grupal.
+- DANIEL GUEDES PRECIADOS: Responsable de subir información en la base de conocimiento común.
 - NEREA JIMENEZ ADORNA: Responsable de usuarios pilotos.
 - JUAN ANTONIO MORENO MOGUEL: Coordinador de Backend. Responsable de que se recojan las métricas del equipo.
 - JAVIER MUÑOZ ROMERO: Responsable de calidad software.
@@ -116,7 +115,7 @@ La responsabilidades siguientes del grupo son de vital importancia, siendo cada 
 - GABRIEL MARÍA VACARO GOYTIA: Secretario, es decir, responsable de tomar acta y recoger el feedback. Y responsable del docusaurus del grupo.
 - IGNACIO WARLETA MURCIA: Responsable de que el equipo acate el feedback.
 
-El <ins>**aseguramiento de los criterios**</ins> es la revisión de todos los documentos y todos los requisitos detallados por los profesores, además de informar a las debidas personas a las que les influya estos requisitos. Ser <ins>**responsable del uso de IA**</ins> implica también solicitar a los compañeros los links y descripciones para incluirlos en la documentación pertinente, así como ir solicitando por los debidos grupos esta información para poder completarla adecuadamente. Ser <ins>**responsable de la base de conocimiento grupal**</ins> implica la redacción y subida del contenido correspondiente al feedback que se da de manera grupal a otros grupos, al nuestro y las tareas mandadas por los profesores; <ins>**se diferencia de recoger el feedback**</ins> en que debe subirse a un docusaurus distinto ([enlace a dicho docusaurus](https://bcc2425.vercel.app)). <ins>**Responsable de usuarios pilotos**</ins> incluye no solo buscar y pasar formularios a estos, sino también asegurarse de que consigue feedback de estos, bien organizando calendarios para quedar con ellos o gestionar que alguien quede con ellos, o pasándoles plantillas. Ser <ins>**responsable de calidad**</ins> implica comprobar que se siguen los criterios de aceptación incluidos en la documentación, así como las políticas de commits, issues, comprobar que codacy trabaje bien, etc. Ser <ins>**responsable de revisar los competidores**</ins> es revisar que toda la documentación de estos es correcta, así como usar herramientas para comprobar que no sale ninguno nuevo directo, y en caso de que salga avisar a los compañeros y planear una estrategia de diferenciación. Y por último, ser <ins>**responsable de que se acate el feedback**</ins> implica revisar el feedback durante el proyecto y comprobar que se está llevando a cabo, según dicen los profesores.
+El <ins>**aseguramiento de los criterios**</ins> es la revisión de todos los documentos y todos los requisitos detallados por los profesores, además de informar a las debidas personas a las que les influya estos requisitos. Ser <ins>**responsable del uso de IA**</ins> implica también solicitar a los compañeros los links y descripciones para incluirlos en la documentación pertinente, así como ir solicitando por los debidos grupos esta información para poder completarla adecuadamente. Ser <ins>**responsable de la base de conocimiento común**</ins> implica la redacción y subida del contenido correspondiente al feedback que se da de manera grupal a otros grupos, al nuestro y las tareas mandadas por los profesores; <ins>**se diferencia de recoger el feedback**</ins> en que debe subirse a un docusaurus distinto ([enlace a dicho docusaurus](https://bcc2425.vercel.app)). <ins>**Responsable de usuarios pilotos**</ins> incluye no solo buscar y pasar formularios a estos, sino también asegurarse de que consigue feedback de estos, bien organizando calendarios para quedar con ellos o gestionar que alguien quede con ellos, o pasándoles plantillas. Ser <ins>**responsable de calidad**</ins> implica comprobar que se siguen los criterios de aceptación incluidos en la documentación, así como las políticas de commits, issues, comprobar que codacy trabaje bien, etc. Ser <ins>**responsable de revisar los competidores**</ins> es revisar que toda la documentación de estos es correcta, así como usar herramientas para comprobar que no sale ninguno nuevo directo, y en caso de que salga avisar a los compañeros y planear una estrategia de diferenciación. Y por último, ser <ins>**responsable de que se acate el feedback**</ins> implica revisar el feedback durante el proyecto y comprobar que se está llevando a cabo, según dicen los profesores.
 
 ### 3.1. Tabla RACI
 
