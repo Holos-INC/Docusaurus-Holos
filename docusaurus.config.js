@@ -94,7 +94,7 @@ const config = {
         {
           label: 'Documentación',
           position: 'left',
-          to: 'docs/Documentacion/Devising a Project/0intro',
+          to: 'docs/Documentacion/S1/0intro',
         },
         
         {
