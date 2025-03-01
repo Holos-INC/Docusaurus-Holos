@@ -1,0 +1,398 @@
+# Gestión de Usuarios Piloto
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+</p>
+<p align="center">
+  <strong>Universidad de Sevilla</strong> 
+</p>
+<p align="center">
+  <strong>Escuela Técnica Superior de Ingeniería Informática</strong>  
+</p>
+
+## **Grado en Ingeniería Informática – Ingeniería del Software**
+
+**Curso:** 2024 – 2025  
+**Fecha:** 25/02/2025  
+**Versión:** v1.0  
+
+**Grupo de prácticas:** G1  
+
+- María del Mar Ávila Maqueda  
+- Joaquín González Ganfornina  
+- Nerea Jiménez Adorna  
+- Juan del Junco Obregón  
+- Miguel Ángel Gómez Vela  
+- Juan Antonio Moreno Moguel  
+- María del Carmen Barrera Garrancho  
+- Daniel Guedes Preciados  
+- Julia Virginia Ángeles Burgos  
+- Javier Muñoz Romero  
+- Juan Núñez Sánchez  
+- Nicolás Pérez Gómez  
+- Francisco Pérez Lázaro  
+- Celia Aguilera Camino  
+- Gabriel María Vacaro Goytía  
+- Ignacio Warleta Murcia  
+- José María Portela Huerta 
+
+**Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
+
+
+## Control de Versiones
+
+| Fecha      | Versión | Descripción           | Autor                    |
+|------------|---------|-----------------------|--------------------------|
+| 25/02/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna       |
+
+---
+
+## Índice de Contenidos
+1. [Introducción](#1-introducción)
+2. [Selección de participantes](#2-selección-de-participantes)
+    1. [Criterios de selección de participantes](#21-criterios-de-selección-de-participantes)
+    2. [Listado de participantes](#22-listado-de-participantes)
+        1. [Usuarios piloto de otros grupos](#221-usuarios-piloto-de-otros-grupos)
+3. [Escenarios de prueba](#3-escenarios-de-prueba)
+4. [Plan de Testing y Feedback Survey](#4-plan-de-testing-y-feedback-survey)
+5. [Plan de Comunicación](#5-plan-de-comunicación)
+6. [Evaluación de los Usuarios Piloto](#6-evaluación-de-los-usuarios-piloto)
+7. [Beneficios para los Usuarios Piloto](#7-beneficios-para-los-usuarios-piloto)
+8. [Lecciones Aprendidas](#8-lecciones-aprendidas)
+   
+---
+
+## 1. Introducción
+
+En este documento se describe el método que utilizaremos a lo largo del curso para gestionar a los **usuarios piloto** y el **feedback** recibido. Además, se describirá el plan a seguir por los encargados de contactar con los usuarios piloto, así como el procedimiento para evaluar la información recibida en las **entrevistas**.
+
+
+## 2. Selección de participantes
+
+Nuestro proyecto se enfoca en facilitar el trabajo de los artistas para gestionar sus obras y a sus respectivos clientes. Es por eso que hemos decidido dividir nuestros usuarios piloto en dos grupos, que representan los dos roles principales que tenemos: **clientes** y **artistas**. 
+
+- Los **clientes** son los usuarios que encargan las comisiones, es decir, ellos pagan a los **artistas** para encargarle dibujos personalizados.
+- Los **artistas** son los usuarios que realizan las comisiones encargadas por los **clientes**. Ellos gestionan su arte mediante nuestra aplicación.
+
+### 2.1 Criterios de selección de participantes
+
+Para seleccionar a los participantes, hemos seguido un criterio diferente para seleccionar a los artistas y a los clientes. 
+
+- Para seleccionar a los **artistas**, hemos escogido a personas que se dedican de forma profesional o como trabajo extra al mundo del arte. Son personas que ya tienen experiencia en el ámbito de vender sus dibujos y atender a clientes, o bien pretenden empezar a hacerlo y quieren comprobar que nuestra plataforma es buena para ello.
+
+- Para seleccionar a los **clientes**, hemos escogido a personas que tienen interés en comprar obras personalizadas, tengan o no experiencia comprando arte por Internet. 
+
+### 2.2 Listado de participantes
+
+| Nombre | Rol     | Email de contacto  |
+|--------|---------|-------------------|
+|    Braulio   | Artista | braulioolmedo116@gmail.com        |
+|    Claudia   | Artista | xlaequis@gmail.com        |
+|    Miriam  | Artista | urownmailblik@gmail.com        |
+|    Paola   | Artista | pao.saaval@gmail.com        |
+|    Victor  | Artista | jsjxhwjifyhyyy@gmail.com        |
+|    Yellow  | Artista | yell0w.4rtist@gmail.com        |
+|    Alex  | Artista | vsandoval.gd@gmail.com        |
+|    Peu  | Artista | linkaris95@gmail.com        |
+|    Izzy  | Artista | artofiz.comms@gmail.com        |
+|    Gabriela  | Artista | meowm7512@gmail.com        |
+|    Tesla | Artista | soloparainformatica23@gmail.com        |
+|    Churros  | Artista | gurutze.contact@gmail.com        |
+|    Dam  | Artista | damaris.narvaezjimenez@gmail.com        |
+|    Rata  | Artista | already.dead.baby@gmail.com        |
+|   Jeenii   | Cliente | reinapata20@gmail.com        |
+|   Emilio   | Cliente | emilio.esp99@gmail.com        |
+|   Rafael   | Cliente | dekker.rafa@gmail.com        |
+|   Félix   | Cliente | felixsv26@gmail.com        |
+|   Raúl   | Cliente | raullebone@gmail.com        |
+|   Patricia  | Cliente | kaleta1979@gmail.com        |
+|   Joker   | Cliente | jokerin.escuchame@gmail.com        |
+|   Javier   | Cliente | javapopoz@gmail.com        |
+|   Horacio  | Cliente | geko.hor@gmail.com        |
+
+#### 2.2.1 Usuarios piloto de otros grupos
+
+Aquí está el listado de los usuarios piloto asignados de otros grupos, los cuales harán de ambos roles, para poder evaluar el sistema por completo.
+
+| Nombre | Rol   | Email de contacto  |
+|--------|---------|-------------------|
+|   Daniel Galván Cancho   | Artista/Cliente | megamagolas@gmail.com        |
+|   Rafael Duque Colete  | Artista/Cliente | rafduqcol@alum.us.es        |
+|   Rafael Castillo Cebolla   | Artista/Cliente | rafaelcastillocebolla@gmail.com        |
+|   Mohamed Abouri   | Artista/Cliente | mohmmedabourihhh@gmail.com        |
+|   Enrique García Abadía   | Artista/Cliente | kiquegaraba@gmail.com        |
+
+## 3. Escenarios de prueba
+
+El objetivo de establecer escenarios de prueba es evaluar la funcionalidad de Holos en la gestión de comisiones artísticas. Los usuarios piloto deben probar cada escenario de prueba que le propongamos. En cada entrega de un prototipo, se evaluarán diferentes escenarios de prueba, lo cual se especificará en el documento de guía que le entreguemos a los usuarios piloto.
+
+A continuación se detallan los escenarios de prueba que habrían de probarse por cada Sprint en caso de que sea efectivo y se logren todos los objetivos.
+
+### Planificación para el Sprint 1
+
+#### 1. Inicio de sesión
+**Rol**: Cliente y artista
+**Objetivo:** Verificar que los usuarios pueden iniciar sesión sin problemas con las credenciales que les vamos a proporcionar.
+**A comprobar:**
+- Que las credenciales proporcionadas sean correctas.
+- Iniciar sesión correctamente.
+- Poder acceder desde diferentes navegadores.
+
+#### 2. Búsqueda de artistas 
+**Rol**: Cliente
+**Objetivo:** Verificar que los usuarios tienen acceso a una página donde pueden buscar los artistas por diferentes parámetros de búsqueda. Les daremos ejemplos de artistas para que puedan buscar.
+**A comprobar:**
+- Ver en la pantala principal ejemplos de comisiones/arte publicado por los artistas.
+- Poder buscar a los artistas por nombre.
+- Poder filtrar a los artistas por diferentes parámetros.
+
+#### 3. Creación de Comisiones
+##### :star: Creación de solicitud como usuario
+**Rol**: Cliente
+**Objetivo:** Evaluar la facilidad con la que un cliente puede redactar solicitudes de comisiones personalizadas.
+**A comprobar:**
+- Después de seleccionar al artista deseado, hay un botón para poder hacer una solicitud.
+- Poder rellenar la solicitud con el nivel de detalle específico dependiendo del plan del artista. (Plan básico)
+- Poder enviar la solicitud al artista.
+
+##### :star: Recepción de solicitud como artista
+**Rol**: Artista
+**Objetivo:** Evaluar la facilidad con la que un artista puede recibir solicitudes bien detalladas.  
+**A comprobar:**
+- Poder recibir solicitudes hechas por clientes.
+
+
+#### 4. Gestión de Comisiones
+##### :star: Uso del tablero
+**Rol**: Artista
+**Objetivo:** Evaluar la funcionalidad del **tablero** y su utilidad en la organización de comisiones. 
+**A comprobar:**
+- Recibir una comisión de prueba.  
+- Mover la comisión por las diferentes fases del tablero.
+- Subir avances en cada etapa.
+- Leer el feedback del cliente.
+##### :star: Gestión de pedidos
+**Rol**: Cliente
+**Objetivo:** Ver en una página las comisiones que he pedido y poder dejar feedback.
+**A comprobar:**
+- Ver en qué estado está mi comisión.
+- Dejar feedback si el artista ha subido una imagen del proceso en una etapa.
+
+### Planificación para siguientes Sprint
+
+#### 5. Personalización del perfil de artista y portfolio
+**Rol**: Artistas
+**Objetivo:** Evaluar qué tan intuitivo es el proceso de configuración del perfil del artista.  
+**A comprobar:**
+- Completar la información del perfil.
+- Establecer precios y términos de servicio.
+- Definir la cantidad de slots disponibles. 
+- Poder subir la cantidad de imágenes del portfolio que te permita el plan de precios asignado.
+
+#### 6. Waitlist
+**Rol**: Cliente
+**Objetivo:** Probar cómo se gestionan las listas de espera. 
+**A comprobar:**
+- Encontrar un artista con plan premium con todos los **slots llenos**.  
+- Poder unirse a la **waitlist** del artista y rellenar una request.  
+- Simular la liberación de un slot y ver si la notificación se envía correctamente.  
+
+#### 7. Personalización del formulario de request en plan Premium
+##### :star: Personalización del formulario
+**Rol**: Artista
+**Objetivo:** Evaluar la facilidad con la que un artista puede personalizar el formulario de solicitudes de forma detallada.  
+- Crear un formulario de request personalizado.
+- Recibir request que han usado la plantilla personalizada
+##### :star: Rellenar el formulario personalizado
+**Rol**: Cliente
+**Objetivo:** Probar cómo se rellena el formulario personalizado del artista con el plan premium.
+- Encontrar un artista con plan premium y hacerle el pedido. 
+- Rellenar la plantilla de request personalizada y enviarla. 
+
+#### Más características futuras por añadir
+
+Este documento está sujeto a múltiples cambios dependiendo de los Sprint Planning de cada iteración, así que se irá editando conforme se vayan tomando decisiones de diseño e implementación.
+
+## 4. Plan de Testing y Feedback Survey
+
+Hemos planeado hacer un envío del prototipo por cada sprint. De este modo, podemos hacer que los usuarios piloto prueben determinadas funcionalidades y rellenen un formulario de opinión sobre lo que han podido probar, para nosotros poder recopilar el feedback y corregir errores, implementar mejoras y, en general, tomar en cuenta la opinión de nuestros usuarios piloto. 
+
+#### **Fases del Testeo**  
+- **Fase 1/Envío 1:** Se les enviará un correo con el Commitment Agreement y la próxima fecha estimada del siguiente envío.
+- **Fase 2/Envío 2:** Evaluación de uso del tablero y requests.  
+- **Fase 3/Envío 3:** Validación de slots, waitlist y funcionalidades premium.
+- **Fase 4/Envío 4:** Encuesta final con todas las funcionalidades para recopilar impresiones generales y posibles mejoras.  
+
+#### **Evaluación del Éxito**  
+
+Se plantearán preguntas a los usuarios piloto después de probar el sistema. Se les hará concretar sus preferencias y, en base a cada funcionalidad concreta, dejaremos que las califiquen del 1 al 5. Para considerar que el proyecto ha sido un éxito en la iteración final, estimaremos que:
+- **Más del 80%** de los usuarios deben calificar la facilidad de uso/utilidad de cada feature con al menos un 4/5.
+- **Menos del 10%** debe reportar problemas en la plataforma. Con esto nos referimos a todo tipo de incidencia que impida que el usuario pueda disfrutar con plenitud del programa.  
+
+Se deben identificar, además, tendencias claras en las respuestas sobre el precio del plan premium con las características que ofrecemos.
+
+## 5. Plan de Comunicación
+Nuestro objetivo es garantizar que los usuarios piloto tengan acceso a soporte continuo y puedan comunicarse con nosotros si surge cualquier incidencia en el programa de pilotaje.
+
+#### **Canales de Comunicación:**  
+- **Email:** Para notificaciones formales. Por correo se enviarán las instrucciones de cada envío, las credenciales de cada usuario piloto y 
+- **WhatsApp/Telegram:** Para garantizar soporte en tiempo real y discusión de dudas, así como para avisar en caso de no tener contestación en el correo electrónico.
+- **Formulario de Feedback en Google Forms:** Para recopilar la opinión de los usuarios piloto sobre nuestra aplicación.
+- **Formulario de Incidencias en Google Forms:** Para que los usuarios piloto puedan rellenarla con las incidencias que han sufrido (si es que se da el caso).
+
+#### **Disponibilidad del Equipo:**  
+Como parte del plan de usuarios piloto, nos comprometemos a:
+- Responder dudas en menos de 24 horas.
+- Enviar, como mínimo, una actualización mensual sobre el proyecto desde que enviamos el primer comunicado del plan de usuarios piloto.   
+
+## 6. **Evaluación de los Usuarios Piloto** 
+
+A pesar de que son un pilar fundamental en el proyecto, no todos los usuarios piloto pueden rendir de igual manera. Debemos evaluar la participación y el desempeño de los usuarios piloto en la fase de pruebas de nuestra aplicación. A través de esta evaluación cuantitativa, buscamos analizar la calidad del feedback recibido, la detección de errores y la utilidad de las sugerencias de mejora.
+
+Para calificar el desempeño del usuario piloto, asignamos un valor de escala de 1 a 5, donde:  
+- **1**: Muy deficiente  
+- **2**: Deficiente  
+- **3**: Aceptable  
+- **4**: Bueno  
+- **5**: Excelente  
+
+### Criterios de Evaluación  
+
+Se han definido los siguientes criterios para la evaluación:  
+
+1. Participación activa en la fase de prueba  
+2. Claridad y detalle en la retroalimentación  
+3. Identificación y reporte de errores  
+4. Calidad de las sugerencias de mejora  
+5. Cumplimiento de las instrucciones dadas  
+6. Actitud colaborativa y disposición  
+7. Frecuencia de interacción con la aplicación  
+8. Impacto del feedback en la mejora del producto  
+
+### Métricas de Evaluación  
+
+#### Participación activa en la fase de prueba  
+- **(1)** No interactuó con la aplicación.  
+- **(2)** Uso ocasional y sin compromiso.  
+- **(3)** Uso moderado y cumplió con las pruebas básicas.  
+- **(4)** Uso frecuente y aportó comentarios relevantes.  
+- **(5)** Uso constante con contribuciones significativas.  
+
+#### Claridad y detalle en la retroalimentación  
+- **(1)** No proporcionó feedback.  
+- **(2)** Comentarios vagos o irrelevantes.  
+- **(3)** Retroalimentación con algunos detalles.  
+- **(4)** Feedback detallado y útil.  
+- **(5)** Comentarios estructurados, detallados y valiosos.  
+
+#### Identificación y reporte de errores  
+- **(1)** No reportó errores.  
+- **(2)** Reportó errores sin descripción clara.  
+- **(3)** Identificó errores básicos con descripción moderada.  
+- **(4)** Reportó errores detallados con contexto.  
+- **(5)** Identificó errores críticos y sugirió soluciones.  
+
+#### Calidad de las sugerencias de mejora  
+- **(1)** No proporcionó sugerencias.  
+- **(2)** Sugerencias poco relevantes o sin contexto.  
+- **(3)** Sugerencias generales y aplicables.  
+- **(4)** Sugerencias con justificación y detalles técnicos.  
+- **(5)** Propuestas innovadoras y fundamentadas.  
+
+#### Cumplimiento de las instrucciones dadas  
+- **(1)** No siguió instrucciones.  
+- **(2)** Siguiendo instrucciones mínimas.  
+- **(3)** Cumplió con las tareas básicas.  
+- **(4)** Realizó todas las tareas correctamente.  
+- **(5)** Siguiendo instrucciones con precisión y proactividad.  
+
+#### Actitud colaborativa y disposición  
+- **(1)** No mostró disposición para colaborar.  
+- **(2)** Participación mínima y poco interés.  
+- **(3)** Colaboró ocasionalmente.  
+- **(4)** Actitud positiva y dispuesta a ayudar.  
+- **(5)** Mostró alta disposición y entusiasmo.  
+
+#### Frecuencia de interacción con la aplicación  
+- **(1)** No usó la aplicación.  
+- **(2)** Uso muy esporádico.  
+- **(3)** Uso moderado.  
+- **(4)** Uso regular y constante.  
+- **(5)** Uso intensivo y comprometido.  
+
+#### Impacto del feedback en la mejora del producto  
+- **(1)** No aportó mejoras.  
+- **(2)** Sugerencias sin impacto significativo.  
+- **(3)** Comentarios útiles con algunos cambios aplicados.  
+- **(4)** Feedback valioso que llevó a mejoras claras.  
+- **(5)** Aportaciones críticas que impactaron positivamente. 
+
+### Evaluación por Fase
+
+#### Envío 1
+
+| Nombre  | Participación activa en la fase de prueba | Claridad y detalle en la retroalimentación | Identificación y reporte de errores | Calidad de las sugerencias de mejora | Cumplimiento de las instrucciones dadas | Actitud colaborativa y disposición | Frecuencia de interacción con la aplicación | Impacto del feedback en la mejora del producto |
+|---------|--------|--------|------|----|-------|--------|----|---------|
+| Braulio |   |   |   |   |   |   |   |   |
+| Claudia |   |   |   |   |   |   |   |   |
+| Miriam  |   |   |   |   |   |   |   |   |
+| Paola   |   |   |   |   |   |   |   |   |
+| Victor |   |   |   |   |   |   |   |   |
+| Yellow  |   |   |   |   |   |   |   |   |
+| Alex    |   |   |   |   |   |   |   |   |
+| Peu     |   |   |   |   |   |   |   |   |
+| Izzy    |   |   |   |   |   |   |   |   |
+| Gabriela|   |   |   |   |   |   |   |   |
+| Tesla   |   |   |   |   |   |   |   |   |
+| Churros |   |   |   |   |   |   |   |   |
+| Dam     |   |   |   |   |   |   |   |   |
+| Rata    |   |   |   |   |   |   |   |   |
+| Jeenii  |   |   |   |   |   |   |   |   |
+| Emilio  |   |   |   |   |   |   |   |   |
+| Rafael  |   |   |   |   |   |   |   |   |
+| Félix   |   |   |   |   |   |   |   |   |
+| Raúl    |   |   |   |   |   |   |   |   |
+| Patricia|   |   |   |   |   |   |   |   |
+| Joker   |   |   |   |   |   |   |   |   |
+| Javier  |   |   |   |   |   |   |   |   |
+| Horacio |   |   |   |   |   |   |   |   |
+|
+|   Daniel Galván Cancho   |   |   |   |   |   |   |   |   |
+|   Rafael Duque Colete  |   |   |   |   |   |   |   |   |
+|   Rafael Castillo Cebolla   |   |   |   |   |   |   |   |   |
+|   Mohamed Abouri|   |   |   |   |   |   |   |   |
+|   Enrique García Abadía|   |   |   |   |   |   |   |   |
+
+## 7. Beneficios para los Usuarios Piloto
+
+Nuestro objetivo es incentivar la participación activa de los usuarios piloto mediante beneficios exclusivos, asegurando una fase de prueba efectiva y con un feedback valioso.
+
+Garantizamos:
+  
+- **Acceso gratuito al Plan Premium** durante los tres primeros meses.
+- **Prioridad en futuras funciones y mejoras en la aplicación** según su feedback. 
+
+#### **Estrategia de Fomento del Pilotaje:**  
+- **Comunicación clara** sobre los beneficios desde el inicio.
+- **Recordatorios periódicos** sobre las pruebas pendientes.
+- **Encuestas cortas y dinámicas** para reducir la carga del usuario y fomentar respuestas rápidas. 
+- **Periodos de prueba largos** para no agobiar a los usuarios piloto se les dejará un margen de unos 4-5 días para poder probar la aplicación y rellenar la encuesta de feedback.
+
+## 8. Lecciones Aprendidas
+
+Tenemos un equipo para asegurar que el feedback de los usuarios piloto sea escuchado, analizado y aplicado de manera efectiva en la evolución de Holos. 
+
+#### **Estrategia para asimilar el Feedback:**  
+1. **Clasificación de Incidencias:**  
+   - **Críticos:** Errores que afectan la funcionalidad clave (ej. problemas en pagos, fallos en la gestión de comisiones, etc).  
+   - **Importantes:** Funciones que mejoran la experiencia pero no bloquean el uso (ej. mejoras en la interfaz, añadidos importantes a considerar, etc).  
+   - **Opcionales:** Sugerencias que aportan valor pero no son esenciales.  
+
+2. **Transparencia con los Usuarios Piloto:**  
+   - Resumir en reportes qué feedback ha sido tomado en cuenta para que puedan comprobarlo.
+   - Explicar qué sugerencias se implementarán y cuáles se consideran para el futuro.  
+   - Incluir a los usuarios más activos en la toma de decisiones finales.  
+
+## 9. Conclusiones
+
+El programa piloto de Holos es una fase clave para evaluar la viabilidad y usabilidad de la plataforma antes de su lanzamiento oficial. A través de la participación activa de los usuarios piloto, se han de identificar fortalezas, áreas de mejora y algunos ajustes necesarios para garantizar una experiencia óptima para nuestros usuarios finales.
