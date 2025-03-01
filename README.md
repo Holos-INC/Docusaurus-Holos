@@ -13,12 +13,9 @@ git clone https://github.com/Holos-INC/Docusaurus-Holos.git
 4. Instalar las dependencias necesarias de docusaurus:
 ```
 npm install
+pnmp install
 ```
-5. Instalar pnpm
-```
-pnpm install
-```
-6. Lanzar docusaurus:
+5. Lanzar docusaurus:
 ```
 npx docusaurus start
 ```
