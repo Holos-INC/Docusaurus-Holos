@@ -61,10 +61,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
-| 23/02/2025 | v1.0    | Creación de documento | - Juan Antonio Moreno Moguel<br><br> - Nerea Jiménez  <br><br> - José María Portela Huerta     |
+| 23/02/2025 | v1.0    | Creación de documento | <p>- Juan Antonio Moreno Moguel</p><p> - Nerea Jiménez</p> - José María Portela Huerta     |
 | 26/02/2025 | v1.1    | Detalles Calidad |  - Juan Núñez Sánchez     |  
 | 26/02/2025 | v1.2    | Actualización Requisitos |  - Daniel Guedes Preciados     |
-| 01/03/2025 | v1.2    | Actualización a Markdown |  - Francisco Pérez Lázaro     |
+| 01/03/2025 | v1.3    | Requisitos no funcionales |  - Francisco Pérez Lázaro     |
+
 
 ---
 
@@ -90,8 +91,16 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td>- Nombre<br> - Contraseña <br> - Nombre de usuario <br> - Email <br> - Número de teléfono <br> - Foto de perfil <br> - Fecha de creación <br> - Tipo de usuario
-            </td>
+        <td>
+            <p>- Nombre</p>
+            <p>- Contraseña</p>
+            <p>- Nombre de usuario</p>
+            <p>- Email</p>
+            <p>- Número de teléfono</p>
+            <p>- Foto de perfil</p>
+            <p>- Fecha de creación</p>
+            <p>- Tipo de usuario</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -119,35 +128,10 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td>- Número de slots de trabajo <br> - Tabla de precios por comisión </td>
-    </tr>
-    <tr>
-        <th>Comentarios</th>
-        <td>-</td>
-    </tr>
-</table>
-
-
-<table>
-    <tr>
-        <th>IRQ – 003 *********</th>
-        <td>Almacenar tarjetas</td>
-    </tr>
-    <tr>
-        <th>Versión</th>
-        <td>1.0 (27/02/2025)</td>
-    </tr>
-    <tr>
-        <th>Autores</th>
-        <td>-</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Se debe de guardar la información bancaria de todos los usuarios.</td>
-    </tr>
-    <tr>
-        <th>Datos específicos</th>
-        <td>- Número de la tarjeta <br>- CVV <br>- Fecha de vencimiento</td>
+        <td>
+            <p>- Número de slots de trabajo</p>
+            <p>- Tabla de precios por comisión</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -157,34 +141,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 004 *********</th>
-        <td>Almacenar transacciones</td>
-    </tr>
-    <tr>
-        <th>Versión</th>
-        <td>1.0 (27/02/2025)</td>
-    </tr>
-    <tr>
-        <th>Autores</th>
-        <td>-</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Se debe de poder guardar las transacciones que se realicen dentro de la aplicación mientras sea necesario.</td>
-    </tr>
-    <tr>
-        <th>Datos específicos</th>
-        <td>- Cantidad <br>- Fecha <br>- Usuario remitente <br> - Usuario detinatario</td>
-    </tr>
-    <tr>
-        <th>Comentarios</th>
-        <td>-</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>IRQ – 005</th>
+        <th>IRQ – 003</th>
         <td>Gestión de obras</td>
     </tr>
     <tr>
@@ -201,7 +158,12 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td>- Nombre <br> - Descripción <br> - Precio<br> - Categoría </td>
+        <td>
+            <p>- Nombre</p>
+            <p>- Descripción</p>
+            <p>- Precio</p>
+            <p>- Categoría</p> 
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -211,7 +173,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 006</th>
+        <th>IRQ – 004</th>
         <td>Gestión de categorías de obras</td>
     </tr>
     <tr>
@@ -228,7 +190,10 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td>- Nombre <br> - Descripción </td>
+        <td>
+            <p>- Nombre</p>
+            <p>- Descripción</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -238,7 +203,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 007</th>
+        <th>IRQ – 005</th>
         <td>Almacenar comisiones</td>
     </tr>
     <tr>
@@ -255,7 +220,12 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td>- Estado de la comición <br> - Número de hitos <br> - Fecha de aceptación por el artista<br> - Método de pago </td>
+        <td>
+            <p>- Estado de la comición</p>
+            <p>- Número de hitos</p>
+            <p>- Fecha de aceptación por el artista</p>
+            <p>- Método de pago</p> 
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -266,7 +236,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 008</th>
+        <th>IRQ – 006</th>
         <td>Registro de hitos de comisión</td>
     </tr>
     <tr>
@@ -283,7 +253,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Descripción o nombre <br> - Fecha <br> - Aceptado(bool)</td>
+        <td>
+            <p>- Descripción o nombre</p>
+            <p>- Fecha</p>
+            <p>- Aceptado(bool)</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -293,7 +267,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 009</th>
+        <th>IRQ – 007</th>
         <td>Historial de pedidos</td>
     </tr>
     <tr>
@@ -310,7 +284,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Usuario <br> - Fecha <br> - Estado del pedido</td>
+        <td>
+            <p>- Usuario</p>
+            <p>- Fecha</p>
+            <p>- Estado del pedido</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -320,7 +298,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 010</th>
+        <th>IRQ – 008</th>
         <td>Almacenar kanban</td>
     </tr>
     <tr>
@@ -337,7 +315,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Orden de las tareas <br> - Descripción de las tareas <br> - Color de cada tarea</td>
+        <td>
+            <p>- Orden de las tareas</p>
+            <p>- Descripción de las tareas</p>
+            <p>- Color de cada tarea</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -348,7 +330,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 011</th>
+        <th>IRQ – 009</th>
         <td>Almacenar lista de espera</td>
     </tr>
     <tr>
@@ -365,7 +347,10 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Nombre del cliente <br> - Estado de la lista de espera en el tablero </td>
+        <td>
+            <p>- Nombre del cliente</p>
+            <p>- Estado de la lista de espera en el tablero</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -375,7 +360,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 012</th>
+        <th>IRQ – 010</th>
         <td>Almacenar chat</td>
     </tr>
     <tr>
@@ -392,7 +377,12 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Usuario remitente <br> - Usuario destinatario <br> - Mensaje<br> - Fecha y hora </td>
+        <td>
+            <p>- Usuario remitente</p>
+            <p>- Usuario destinatario</p>
+            <p>- Mensaje</p>
+            <p>- Fecha y hora</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -402,7 +392,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 013*********</th>
+        <th>IRQ – 011</th>
         <td>Almacenar reportes</td>
     </tr>
     <tr>
@@ -419,7 +409,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Usuario que reporta <br> - Razón del reporte<br> - Descripción </td>
+        <td>
+            <p>- Usuario que reporta</p>
+            <p>- Razón del reporte</p> 
+            <p>- Descripción</p>
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -430,7 +424,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>IRQ – 014</th>
+        <th>IRQ – 012</th>
         <td>Registro de trabajos terminados en la comisión</td>
     </tr>
     <tr>
@@ -447,7 +441,11 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Datos específicos</th>
-        <td> - Imagen del trabajo realizado <br> - Fecha de subida<br> - Estado del hito </td>
+        <td>
+            <p>- Imagen del trabajo realizado</p>
+            <p>- Fecha de subida</p> 
+            <p>- Estado del hito</p> 
+        </td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -1012,12 +1010,127 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-024</th>
-        <td>Personalización de kanban (plan básico o superior)</td>
+        <th>RF-025</th>
+        <td>Borrado de datos artista</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>Como artista con al menos el plan básico, quiero poder customizar mi tablero kanban.</td>
+        <td>Como artista quiero poder borrar todos mis datos de la aplicación en cualquier momento</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Baja</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-026</th>
+        <td>Borrado de datos usuario</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como usuario quiero poder borrar todos mis datos de la aplicación en cualquier momento</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Baja</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-027</th>
+        <td>Búsqueda avanzada de artistas y encargos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como cliente, quiero poder buscar artistas mediante filtros como estilo de arte, disponibilidad, precio por comisión y valoraciones, para encontrar el artista adecuado a mis necesidades.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-028</th>
+        <td>Gestión de tarifas y comisiones</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como artista, quiero poder configurar mis propias tarifas y comisiones, incluyendo precios base, costos adicionales y descuentos, para ofrecer diferentes opciones a mis clientes.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-029</th>
+        <td>Historial de encargos y pagos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como cliente y artista, quiero poder consultar un historial de encargos realizados, junto con sus estados y pagos asociados, para tener un control de mis transacciones.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Base de datos de pedidos y sistema de pagos</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-030</th>
+        <td>Edición y gestión del perfil de usuario</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como usuario, quiero poder editar mi perfil, incluyendo información personal, avatar, métodos de pago y portafolio (en el caso de los artistas), para mostrar mi identidad en la plataforma.</td>
     </tr>
     <tr>
         <th>Dependencias</th>
@@ -1033,9 +1146,309 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th>RF-031</th>
+        <td>Feedback y valoraciones</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como cliente, quiero poder dejar valoraciones y comentarios en el perfil del artista una vez completado un encargo, para ayudar a otros usuarios a tomar decisiones informadas.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td> Base de datos de reseñas, validaciones de usuario</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-032</th>
+        <td>Modo "Trabajo en progreso" para los encargos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como artista, quiero poder marcar un encargo como "Trabajo en progreso" y compartir avances con el cliente mediante imágenes y comentarios, para que pueda ver el estado de su pedido.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Tablero Kanban, sistema de mensajería</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RF-033</th>
+        <td>Moderación de contenido</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como usuario, quiero que la plataforma modere mensajes e imágenes compartidas en los chats, para evitar contenido inapropiado o dañino.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Tablero Kanban, sistema de mensajería</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Baja</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+
 ---
 
 ## 5. Requisitos no funcionales
+
+<table>
+    <tr>
+        <th>RNF-001</th>
+        <td>Compatibilidad con navegadores</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>La aplicación debe ser compatible con las versiones actuales y anteriores de Google Chrome, Firefox, Edge y Safari.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-002</th>
+        <td>Fluidez en la navegación</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe permitir una navegación intuitiva con un máximo de tres clics para llegar a cualquier funcionalidad principal.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-003</th>
+        <td>Diseño Responsive</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>La interfaz debe adaptarse correctamente a dispositivos móviles, tablets y computadoras de escritorio.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-004</th>
+        <td>Seguridad y cifrado de datos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Los datos sensibles, como credenciales de usuarios y transacciones, deben estar protegidos con protocolos HTTPS y OAuth 2.0.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>-</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-005</th>
+        <td>Tiempo de respuesta</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe garantizar un tiempo de respuesta menor a 2 segundos en el 95% de las solicitudes de usuario.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Optimización de código, uso de CDN y bases de datos eficientes.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-006</th>
+        <td>Privacidad y protección de datos</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe cumplir con el Reglamento General de Protección de Datos (GDPR) y otras normativas de privacidad aplicables.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Políticas de privacidad y gestión de consentimiento.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-007</th>
+        <td>Mantenimiento y actualizaciones</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe permitir actualizaciones sin afectar la disponibilidad del servicio.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Políticas de privacidad y gestión de consentimiento.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-008</th>
+        <td>Pasarelas de pago</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe ser compatible con PayPal para gestionar pagos de manera segura.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>APIs de pago y seguridad financiera.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Media</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-009</th>
+        <td>Usabilidad y experiencia de usuario (UX)</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>La interfaz del sistema debe ser intuitiva y fácil de usar, asegurando que tanto artistas como clientes puedan realizar sus tareas sin necesidad de formación avanzada.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Pruebas de usuario.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-010</th>
+        <td>Notificaciones en tiempo real</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>El sistema debe enviar notificaciones en tiempo real a los usuarios sobre cambios en sus encargos, mensajes y pagos.</td>
+    </tr>
+    <tr>
+        <th>Dependencias</th>
+        <td>Firebase Cloud.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
+    </tr>
+</table>
 
 
 ---
