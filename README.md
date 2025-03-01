@@ -4,9 +4,22 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 
 ### Installation
 
+1. Instalar node.js en https://nodejs.org/en/download/
+2. Clonar el repositorio:
 ```
-$ yarn
+git clone https://github.com/Holos-INC/Docusaurus-Holos.git
 ```
+3. Abrir el proyecto en vsCode o el editor de texto de su confianza.
+4. Instalar las dependencias necesarias de docusaurus:
+```
+npm install
+pnmp install
+```
+5. Lanzar docusaurus:
+```
+npx docusaurus start
+```
+
 
 ### Local Development
 
