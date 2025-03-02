@@ -65,6 +65,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 | 26/02/2025 | v1.1    | Detalles Calidad |  - Juan Núñez Sánchez     |  
 | 26/02/2025 | v1.2    | Actualización Requisitos |  - Daniel Guedes Preciados     |
 | 01/03/2025 | v1.3    | Requisitos no funcionales |  - Francisco Pérez Lázaro     |
+| 02/03/2025 | v1.4    | Actualización Datos |  - Francisco Pérez Lázaro     |
 
 
 ---
@@ -465,10 +466,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero poder ver los artistas más relevantes en mi feed como ejemplos de comisiones o de su arte.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -486,10 +483,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero poder buscar artistas en específico o poder filtrarlos por estilo, tiempo de entrega, número de obras, etc.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -511,10 +504,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero poder ver el perfil del artista, así como su galería con el arte que ha subido.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -532,10 +521,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero poder pedir una comisión (si hay slots disponibles) al artista que yo prefiera.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -557,10 +542,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero añadirme a la waitlist (si el artista dispone de ella).</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -578,10 +559,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero recibir una notificación si el artista que quiero comisionar tiene slots libres y yo estaba en su waitlist.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -603,10 +580,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero poder ver el seguimiento de mi comisión, en qué estado tiene el artista mi pedido y ver sus avances.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -624,10 +597,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero poder dar feedback de mi comisión cada vez que el artista publique avances si no me gusta lo que ha hecho o quiero cambiar algo, o simplemente dar feedback positivo.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -649,10 +618,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero que se me notifique cada vez que el artista haga avances.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -670,10 +635,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero poder comunicarme con el artista en un chat.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -695,10 +656,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero recibir mi comisión en la máxima calidad posible.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -716,10 +673,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero escribir una reseña del artista cuando haya finalizado la comisión.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -741,10 +694,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero ver las comisiones que he recibido.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
     </tr>
@@ -764,10 +713,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como cliente, quiero poder abrir una incidencia si el artista no contesta/no sube avances y recibir parte de mi dinero o mi dinero completo.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -785,10 +730,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista, quiero tener un perfil de artista donde esté mi información y una galería con mi portafolio.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -811,10 +752,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista, quiero poder editar mi perfil de artista y el portafolio.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -832,10 +769,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista, quiero poder elegir entre los tres planes de precios y recibir mis ventajas.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -857,10 +790,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista con plan premium, quiero poder subir mi arte y subastarlo, estableciendo un valor mínimo de subasta y un valor automático de compra (o no).</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Baja</td>
     </tr>
@@ -878,10 +807,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista, quiero poder disponer de un tablero kanban para gestionar el estado de mis comisiones.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -903,10 +828,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista, quiero poder ir subiendo mi trabajo (imágenes de cómo va la comisión) por estado del kanban y notificar al cliente cada vez que actualice el estado.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -924,10 +845,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista, quiero poder contestar el feedback del cliente con más imágenes con los cambios corregidos.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -949,10 +866,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista, quiero poder contactar con el cliente en caso de duda (ya sea por chat o enviándole algún tipo de notificación).</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
     </tr>
@@ -970,10 +883,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista con al menos el plan básico, quiero poder customizar mi hoja de request.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -995,10 +904,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista con al menos el plan básico, quiero poder customizar mi tablero kanban.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
     </tr>
@@ -1016,10 +921,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como artista quiero poder borrar todos mis datos de la aplicación en cualquier momento</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -1041,10 +942,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como usuario quiero poder borrar todos mis datos de la aplicación en cualquier momento</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Baja</td>
     </tr>
@@ -1062,10 +959,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente, quiero poder buscar artistas mediante filtros como estilo de arte, disponibilidad, precio por comisión y valoraciones, para encontrar el artista adecuado a mis necesidades.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>-</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -1087,10 +980,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista, quiero poder configurar mis propias tarifas y comisiones, incluyendo precios base, costos adicionales y descuentos, para ofrecer diferentes opciones a mis clientes.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
     </tr>
@@ -1108,10 +997,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Descripción</th>
         <td>Como cliente y artista, quiero poder consultar un historial de encargos realizados, junto con sus estados y pagos asociados, para tener un control de mis transacciones.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td>Base de datos de pedidos y sistema de pagos</td>
     </tr>
     <tr>
         <th>Prioridad</th>
@@ -1133,39 +1018,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como usuario, quiero poder editar mi perfil, incluyendo información personal, avatar, métodos de pago y portafolio (en el caso de los artistas), para mostrar mi identidad en la plataforma.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>RF-031</th>
-        <td>Feedback y valoraciones</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Como cliente, quiero poder dejar valoraciones y comentarios en el perfil del artista una vez completado un encargo, para ayudar a otros usuarios a tomar decisiones informadas.</td>
-    </tr>
-    <tr>
-        <th>Dependencias</th>
-        <td> Base de datos de reseñas, validaciones de usuario</td>
-    </tr>
-    <tr>
-        <th>Prioridad</th>
-        <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1179,16 +1033,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como artista, quiero poder marcar un encargo como "Trabajo en progreso" y compartir avances con el cliente mediante imágenes y comentarios, para que pueda ver el estado de su pedido.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Tablero Kanban, sistema de mensajería</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1202,16 +1048,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Como usuario, quiero que la plataforma modere mensajes e imágenes compartidas en los chats, para evitar contenido inapropiado o dañino.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Tablero Kanban, sistema de mensajería</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Baja</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1230,16 +1068,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>La aplicación debe ser compatible con las versiones actuales y anteriores de Google Chrome, Firefox, Edge y Safari.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1253,16 +1083,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe permitir una navegación intuitiva con un máximo de tres clics para llegar a cualquier funcionalidad principal.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1276,16 +1098,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>La interfaz debe adaptarse correctamente a dispositivos móviles, tablets y computadoras de escritorio.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1299,16 +1113,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>Los datos sensibles, como credenciales de usuarios y transacciones, deben estar protegidos con protocolos HTTPS y OAuth 2.0.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>-</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1322,16 +1128,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe garantizar un tiempo de respuesta menor a 2 segundos en el 95% de las solicitudes de usuario.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Optimización de código, uso de CDN y bases de datos eficientes.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1345,16 +1143,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe cumplir con el Reglamento General de Protección de Datos (GDPR) y otras normativas de privacidad aplicables.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Políticas de privacidad y gestión de consentimiento.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1368,16 +1158,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe permitir actualizaciones sin afectar la disponibilidad del servicio.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Políticas de privacidad y gestión de consentimiento.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1391,16 +1173,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe ser compatible con PayPal para gestionar pagos de manera segura.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>APIs de pago y seguridad financiera.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Media</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1414,16 +1188,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>La interfaz del sistema debe ser intuitiva y fácil de usar, asegurando que tanto artistas como clientes puedan realizar sus tareas sin necesidad de formación avanzada.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Pruebas de usuario.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
@@ -1437,16 +1203,8 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
         <td>El sistema debe enviar notificaciones en tiempo real a los usuarios sobre cambios en sus encargos, mensajes y pagos.</td>
     </tr>
     <tr>
-        <th>Dependencias</th>
-        <td>Firebase Cloud.</td>
-    </tr>
-    <tr>
         <th>Prioridad</th>
         <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
     </tr>
 </table>
 
