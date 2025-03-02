@@ -648,26 +648,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-011 ¿Funcional? ¿No funcional?</th>
-        <td>Recepción de la comisión en alta calidad</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Como cliente, quiero recibir mi comisión en la máxima calidad posible.</td>
-    </tr>
-    <tr>
-        <th>Prioridad</th>
-        <td>Alta</td>
-    </tr>
-    <tr>
-        <th>Estado</th>
-        <td> En proceso </td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>RF-012 ¿Información?</th>
+        <th>RF-011</th>
         <td>Reseñas de artistas</td>
     </tr>
     <tr>
@@ -686,7 +667,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-013</th>
+        <th>RF-012</th>
         <td>Historial de comisiones</td>
     </tr>
     <tr>
@@ -705,7 +686,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-014</th>
+        <th>RF-013</th>
         <td>Apertura de incidencias</td>
     </tr>
     <tr>
@@ -724,7 +705,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-015</th>
+        <th>RF-014</th>
         <td>Perfil de artista</td>
     </tr>
     <tr>
@@ -744,7 +725,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-016</th>
+        <th>RF-015</th>
         <td>Edición del perfil y portafolio</td>
     </tr>
     <tr>
@@ -763,7 +744,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-017</th>
+        <th>RF-016</th>
         <td>Planes de precios y ventajas</td>
     </tr>
     <tr>
@@ -782,7 +763,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-018</th>
+        <th>RF-017</th>
         <td>Subastas de arte (plan premium)</td>
     </tr>
     <tr>
@@ -801,7 +782,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-019</th>
+        <th>RF-018</th>
         <td>Kanban para gestión de comisiones</td>
     </tr>
     <tr>
@@ -820,7 +801,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-020</th>
+        <th>RF-019</th>
         <td>Subida de avances en el kanban</td>
     </tr>
     <tr>
@@ -839,7 +820,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-021</th>
+        <th>RF-020</th>
         <td>Responder feedback del cliente</td>
     </tr>
     <tr>
@@ -858,7 +839,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-022</th>
+        <th>RF-021</th>
         <td>Comunicación con el cliente</td>
     </tr>
     <tr>
@@ -877,7 +858,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-023</th>
+        <th>RF-022</th>
         <td>Personalización de hoja de request (plan básico o superior)</td>
     </tr>
     <tr>
@@ -896,7 +877,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-024</th>
+        <th>RF-023</th>
         <td>Personalización de kanban (plan básico o superior)</td>
     </tr>
     <tr>
@@ -915,7 +896,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-025</th>
+        <th>RF-024</th>
         <td>Borrado de datos artista</td>
     </tr>
     <tr>
@@ -934,7 +915,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-026</th>
+        <th>RF-025</th>
         <td>Borrado de datos usuario</td>
     </tr>
     <tr>
@@ -953,7 +934,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-027</th>
+        <th>RF-026</th>
         <td>Búsqueda avanzada de artistas y encargos</td>
     </tr>
     <tr>
@@ -972,7 +953,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-028</th>
+        <th>RF-027</th>
         <td>Gestión de tarifas y comisiones</td>
     </tr>
     <tr>
@@ -991,7 +972,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-029</th>
+        <th>RF-028</th>
         <td>Historial de encargos y pagos</td>
     </tr>
     <tr>
@@ -1010,7 +991,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-030</th>
+        <th>RF-029</th>
         <td>Edición y gestión del perfil de usuario</td>
     </tr>
     <tr>
@@ -1025,22 +1006,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 
 <table>
     <tr>
-        <th>RF-032</th>
-        <td>Modo "Trabajo en progreso" para los encargos</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Como artista, quiero poder marcar un encargo como "Trabajo en progreso" y compartir avances con el cliente mediante imágenes y comentarios, para que pueda ver el estado de su pedido.</td>
-    </tr>
-    <tr>
-        <th>Prioridad</th>
-        <td>Alta</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th>RF-033</th>
+        <th>RF-030</th>
         <td>Moderación de contenido</td>
     </tr>
     <tr>
@@ -1205,6 +1171,25 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Prioridad</th>
         <td>Alta</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>RNF-011</th>
+        <td>Recepción de la comisión en alta calidad</td>
+    </tr>
+    <tr>
+        <th>Descripción</th>
+        <td>Como cliente, quiero recibir mi comisión en la máxima calidad posible.</td>
+    </tr>
+    <tr>
+        <th>Prioridad</th>
+        <td>Alta</td>
+    </tr>
+    <tr>
+        <th>Estado</th>
+        <td> En proceso </td>
     </tr>
 </table>
 
