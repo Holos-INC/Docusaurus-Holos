@@ -1310,3 +1310,4 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 ---
 
 ## 7. Conclusión
+<p>Este documento ha detallado de manera exhaustiva los requisitos funcionales y no funcionales necesarios para desarrollar un sistema que optimice la venta de comisiones artísticas, facilite la gestión del trabajo de los artistas y mejore la comunicación con los clientes. Además, las reglas de negocio definidas ayudarán a garantizar que el sistema opere de manera coherente y eficiente, respetando los límites y las condiciones establecidas. Con todo lo que se ha mencionado en los requisitos, se espera que esta plataforma facilite la creación y gestión de comisiones artísticas de forma sencilla y eficiente, cubriendo las necesidades de todos los usuarios involucrados.</p>
