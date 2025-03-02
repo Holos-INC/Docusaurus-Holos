@@ -132,7 +132,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### 1. Inicio de sesión
 **Rol**: Cliente y artista
+
 **Objetivo:** Verificar que los usuarios pueden iniciar sesión sin problemas con las credenciales que les vamos a proporcionar.
+
 **A comprobar:**
 - Que las credenciales proporcionadas sean correctas.
 - Iniciar sesión correctamente.
@@ -140,7 +142,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### 2. Búsqueda de artistas 
 **Rol**: Cliente
+
 **Objetivo:** Verificar que los usuarios tienen acceso a una página donde pueden buscar los artistas por diferentes parámetros de búsqueda. Les daremos ejemplos de artistas para que puedan buscar.
+
 **A comprobar:**
 - Ver en la pantala principal ejemplos de comisiones/arte publicado por los artistas.
 - Poder buscar a los artistas por nombre.
@@ -149,7 +153,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 #### 3. Creación de Comisiones
 ##### :star: Creación de solicitud como usuario
 **Rol**: Cliente
+
 **Objetivo:** Evaluar la facilidad con la que un cliente puede redactar solicitudes de comisiones personalizadas.
+
 **A comprobar:**
 - Después de seleccionar al artista deseado, hay un botón para poder hacer una solicitud.
 - Poder rellenar la solicitud con el nivel de detalle específico dependiendo del plan del artista. (Plan básico)
@@ -157,7 +163,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 ##### :star: Recepción de solicitud como artista
 **Rol**: Artista
+
 **Objetivo:** Evaluar la facilidad con la que un artista puede recibir solicitudes bien detalladas.  
+
 **A comprobar:**
 - Poder recibir solicitudes hechas por clientes.
 
@@ -165,15 +173,20 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 #### 4. Gestión de Comisiones
 ##### :star: Uso del tablero
 **Rol**: Artista
+
 **Objetivo:** Evaluar la funcionalidad del **tablero** y su utilidad en la organización de comisiones. 
+
 **A comprobar:**
 - Recibir una comisión de prueba.  
 - Mover la comisión por las diferentes fases del tablero.
 - Subir avances en cada etapa.
 - Leer el feedback del cliente.
+
 ##### :star: Gestión de pedidos
 **Rol**: Cliente
+
 **Objetivo:** Ver en una página las comisiones que he pedido y poder dejar feedback.
+
 **A comprobar:**
 - Ver en qué estado está mi comisión.
 - Dejar feedback si el artista ha subido una imagen del proceso en una etapa.
@@ -182,7 +195,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### 5. Personalización del perfil de artista y portfolio
 **Rol**: Artistas
+
 **Objetivo:** Evaluar qué tan intuitivo es el proceso de configuración del perfil del artista.  
+
 **A comprobar:**
 - Completar la información del perfil.
 - Establecer precios y términos de servicio.
@@ -191,7 +206,9 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### 6. Waitlist
 **Rol**: Cliente
+
 **Objetivo:** Probar cómo se gestionan las listas de espera. 
+
 **A comprobar:**
 - Encontrar un artista con plan premium con todos los **slots llenos**.  
 - Poder unirse a la **waitlist** del artista y rellenar una request.  
@@ -199,12 +216,16 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### 7. Personalización del formulario de request en plan Premium
 ##### :star: Personalización del formulario
+
 **Rol**: Artista
+
 **Objetivo:** Evaluar la facilidad con la que un artista puede personalizar el formulario de solicitudes de forma detallada.  
 - Crear un formulario de request personalizado.
 - Recibir request que han usado la plantilla personalizada
+
 ##### :star: Rellenar el formulario personalizado
 **Rol**: Cliente
+
 **Objetivo:** Probar cómo se rellena el formulario personalizado del artista con el plan premium.
 - Encontrar un artista con plan premium y hacerle el pedido. 
 - Rellenar la plantilla de request personalizada y enviarla. 
@@ -219,7 +240,7 @@ Hemos planeado hacer un envío del prototipo por cada sprint. De este modo, pode
 
 #### **Fases del Testeo**  
 - **Fase 1/Envío 1:** Se les enviará un correo con el Commitment Agreement y la próxima fecha estimada del siguiente envío.
-- **Fase 2/Envío 2:** Evaluación de uso del tablero y requests.  
+- **Fase 2/Envío 2:** Evaluación de uso del tablero y requests.
 - **Fase 3/Envío 3:** Validación de slots, waitlist y funcionalidades premium.
 - **Fase 4/Envío 4:** Encuesta final con todas las funcionalidades para recopilar impresiones generales y posibles mejoras.  
 
