@@ -45,6 +45,7 @@
 |------------|---------|-----------------------|--------------------------|
 | 25/02/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna       |
 | 03/03/2025 | v1.1    | Correcciones y añadidos | Nerea Jiménez Adorna       |
+| 03/03/2025 | v1.2    | Más usuarios pilotos | Nerea Jiménez Adorna       |
 
 ---
 
@@ -109,11 +110,13 @@ Para la elección de los participantes, hemos aplicado un criterio para los usua
 |   Patricia  | Cliente | kaleta1979@gmail.com        |
 |   Joker   | Cliente | jokerin.escuchame@gmail.com        |
 |   Henrique   | Cliente | henrique.rebolho@gmail.com   |
-|   Javi   | Cliente | @gmail.com   |
+|   Javier Pacheco   | Cliente | pachecomarquezjavier@gmail.com   |
 |   Horacio  | Cliente | geko.hor@gmail.com        |
 |   Keegan  | Cliente | Kcullen3289@gmail.com       |
 |   Milagros  | Cliente | milagros.huerta@gm.uca.es       |
 |   Simón  | Cliente | simoncgs03@gmail.com   |
+|   Lucas  | Cliente | lmherencia2003@gmail.com   |
+|   Carlos  | Cliente | carlosperezsanchez199@gmail.com   |
 
 #### 2.2.1 Usuarios piloto de otros grupos
 
