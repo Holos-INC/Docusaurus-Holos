@@ -517,7 +517,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
     <tr>
         <th>Postcondición</th>
-        <td>El usuario (Artista/Cliente) tiene una cuenta cread en el sistema.</td>
+        <td>El usuario (Artista/Cliente) tiene una cuenta creada en el sistema.</td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -743,8 +743,9 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
             <p>1. El Artista accede a la sección de "Tablero".</p>
             <p>2. Visualiza el tablero Kanban con los proyectos organizados en tres columnas: "Pendiente", "En progreso" y "Terminado".</p>
             <p>3. Puede arrastrar y soltar un proyecto para cambiar su estado según su progreso.</p>
-            <p>4. El Cliente accede a la misma sección, pero solo puede visualizar el estado de su pedido sin modificarlo.</p>
-            <p>5. Cuando un proyecto pasa a "Terminado", el Cliente recibe una notificación.</p>
+            <p>4. El cliente es notificado por cada movimiento</p>
+            <p>5. El Cliente accede a la misma sección, pero solo puede visualizar el estado de su pedido sin modificarlo.</p>
+            <p>6. Cuando un proyecto pasa a "Terminado", el Cliente recibe una notificación de que su pedido está en la cesta.</p>
         </td>
     </tr>
     <tr>
