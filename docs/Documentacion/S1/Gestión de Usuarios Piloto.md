@@ -44,6 +44,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 25/02/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna       |
+| 03/03/2025 | v1.1    | Correcciones y añadidos | Nerea Jiménez Adorna       |
 
 ---
 
@@ -76,7 +77,7 @@ Nuestro proyecto se enfoca en facilitar el trabajo de los artistas para gestiona
 
 ### 2.1 Criterios de selección de participantes
 
-Para seleccionar a los participantes, hemos seguido un criterio diferente para seleccionar a los artistas y a los clientes. 
+Para la elección de los participantes, hemos aplicado un criterio para los usuarios tipo artista y otro distinto para los usuarios tipo cliente.
 
 - Para seleccionar a los **artistas**, hemos escogido a personas que se dedican de forma profesional o como trabajo extra al mundo del arte. Son personas que ya tienen experiencia en el ámbito de vender sus dibujos y atender a clientes, o bien pretenden empezar a hacerlo y quieren comprobar que nuestra plataforma es buena para ello.
 
@@ -90,7 +91,7 @@ Para seleccionar a los participantes, hemos seguido un criterio diferente para s
 |    Claudia   | Artista | xlaequis@gmail.com        |
 |    Miriam  | Artista | urownmailblik@gmail.com        |
 |    Paola   | Artista | pao.saaval@gmail.com        |
-|    Victor  | Artista | jsjxhwjifyhyyy@gmail.com        |
+|    Víctor  | Artista | jsjxhwjifyhyyy@gmail.com        |
 |    Yellow  | Artista | yell0w.4rtist@gmail.com        |
 |    Alex  | Artista | vsandoval.gd@gmail.com        |
 |    Peu  | Artista | linkaris95@gmail.com        |
@@ -107,12 +108,16 @@ Para seleccionar a los participantes, hemos seguido un criterio diferente para s
 |   Raúl   | Cliente | raullebone@gmail.com        |
 |   Patricia  | Cliente | kaleta1979@gmail.com        |
 |   Joker   | Cliente | jokerin.escuchame@gmail.com        |
-|   Javier   | Cliente | javapopoz@gmail.com        |
+|   Henrique   | Cliente | henrique.rebolho@gmail.com   |
+|   Javi   | Cliente | @gmail.com   |
 |   Horacio  | Cliente | geko.hor@gmail.com        |
+|   Keegan  | Cliente | Kcullen3289@gmail.com       |
+|   Milagros  | Cliente | milagros.huerta@gm.uca.es       |
+|   Simón  | Cliente | simoncgs03@gmail.com   |
 
 #### 2.2.1 Usuarios piloto de otros grupos
 
-Aquí está el listado de los usuarios piloto asignados de otros grupos, los cuales harán de ambos roles, para poder evaluar el sistema por completo.
+Además de los usuarios pilotos seleccionados anteriormente, a continuación, mostramos el listado de los usuarios piloto asignados de otros grupos. Estos usuarios desempeñarán las funciones tanto de clientes como de artistas para poder evaluar el sistema por completo.
 
 | Nombre | Rol   | Email de contacto  |
 |--------|---------|-------------------|
@@ -124,9 +129,9 @@ Aquí está el listado de los usuarios piloto asignados de otros grupos, los cua
 
 ## 3. Escenarios de prueba
 
-El objetivo de establecer escenarios de prueba es evaluar la funcionalidad de Holos en la gestión de comisiones artísticas. Los usuarios piloto deben probar cada escenario de prueba que le propongamos. En cada entrega de un prototipo, se evaluarán diferentes escenarios de prueba, lo cual se especificará en el documento de guía que le entreguemos a los usuarios piloto.
+El objetivo de establecer escenarios de prueba es evaluar la funcionalidad de Holos en la gestión de comisiones artísticas. Los usuarios piloto deben probar cada escenario de prueba que les propongamos. En cada entrega de un prototipo, se evaluarán diferentes escenarios de prueba, lo cual se especificará en el documento de guía que le entreguemos a los usuarios piloto.
 
-A continuación se detallan los escenarios de prueba que habrían de probarse por cada Sprint en caso de que sea efectivo y se logren todos los objetivos.
+A continuación se detallan los escenarios de prueba que se deberán de probar por cada Sprint en caso de que sea efectivo y se logren todos los objetivos.
 
 ### Planificación para el Sprint 1
 
@@ -146,7 +151,7 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 **Objetivo:** Verificar que los usuarios tienen acceso a una página donde pueden buscar los artistas por diferentes parámetros de búsqueda. Les daremos ejemplos de artistas para que puedan buscar.
 
 **A comprobar:**
-- Ver en la pantala principal ejemplos de comisiones/arte publicado por los artistas.
+- Ver en la pantalla principal ejemplos de comisiones/arte publicado por los artistas.
 - Poder buscar a los artistas por nombre.
 - Poder filtrar a los artistas por diferentes parámetros.
 
@@ -158,7 +163,7 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 **A comprobar:**
 - Después de seleccionar al artista deseado, hay un botón para poder hacer una solicitud.
-- Poder rellenar la solicitud con el nivel de detalle específico dependiendo del plan del artista. (Plan básico)
+- Poder rellenar la solicitud con el nivel de detalle específico según el plan del artista, que en este caso será el básico.
 - Poder enviar la solicitud al artista.
 
 ##### :star: Recepción de solicitud como artista
@@ -232,11 +237,11 @@ A continuación se detallan los escenarios de prueba que habrían de probarse po
 
 #### Más características futuras por añadir
 
-Este documento está sujeto a múltiples cambios dependiendo de los Sprint Planning de cada iteración, así que se irá editando conforme se vayan tomando decisiones de diseño e implementación.
+Este documento está sujeto a múltiples cambios dependiendo del Sprint Planning de cada iteración, así que se irá editando conforme se vayan tomando decisiones de diseño e implementación.
 
 ## 4. Plan de Testing y Feedback Survey
 
-Hemos planeado hacer un envío del prototipo por cada sprint. De este modo, podemos hacer que los usuarios piloto prueben determinadas funcionalidades y rellenen un formulario de opinión sobre lo que han podido probar, para nosotros poder recopilar el feedback y corregir errores, implementar mejoras y, en general, tomar en cuenta la opinión de nuestros usuarios piloto. 
+El plan inicial consiste en enviar un prototipo por Sprint con lo implementado hasta el momento que sea completamente funcional. Con esto, se busca que los usuarios piloto prueben determinadas funcionalidades y rellenen un formulario de opinión sobre las mismas, de modo que los miembros de nuestro equipo puedan recopilar el feedback, corregir errores, implementar mejoras y, en general, tener en cuenta la opinión de nuestros usuarios piloto para que se sientan valorados.
 
 #### **Fases del Testeo**  
 - **Fase 1/Envío 1:** Se les enviará un correo con el Commitment Agreement y la próxima fecha estimada del siguiente envío.
@@ -246,31 +251,31 @@ Hemos planeado hacer un envío del prototipo por cada sprint. De este modo, pode
 
 #### **Evaluación del Éxito**  
 
-Se plantearán preguntas a los usuarios piloto después de probar el sistema. Se les hará concretar sus preferencias y, en base a cada funcionalidad concreta, dejaremos que las califiquen del 1 al 5. Para considerar que el proyecto ha sido un éxito en la iteración final, estimaremos que:
+Se plantearán preguntas a los usuarios piloto después de probar el sistema. Se les pedirá que especifiquen sus preferencias con respecto a cada funcionalidad concreta que prueben, calificándolas con una nota del 1 al 5 (números discretos), siendo 1 muy descontento y 5 muy satisfecho. Para considerar que el proyecto ha sido un éxito en la iteración final, estimaremos que:
 - **Más del 80%** de los usuarios deben calificar la facilidad de uso/utilidad de cada feature con al menos un 4/5.
 - **Menos del 10%** debe reportar problemas en la plataforma. Con esto nos referimos a todo tipo de incidencia que impida que el usuario pueda disfrutar con plenitud del programa.  
 
-Se deben identificar, además, tendencias claras en las respuestas sobre el precio del plan premium con las características que ofrecemos.
+Se deben identificar, además, tendencias claras en las respuestas sobre el precio del plan premium con las características que ofrecemos. Esto implica que quizá debamos replantearnos el modelo de negocio si los usuarios piloto no se sienten del todo satisfechos con las funcionalidades, consideran que no valen la pena o que el precio es demasiado elevado. Por el contrario, si los usuarios piloto están muy satisfechos y sienten que nuestra apliación realmente vale la pena, también se podría llegar a considerar un aumento de precio en el plan premium.
 
 ## 5. Plan de Comunicación
-Nuestro objetivo es garantizar que los usuarios piloto tengan acceso a soporte continuo y puedan comunicarse con nosotros si surge cualquier incidencia en el programa de pilotaje.
+Se establece como objetivo principal que los usuarios piloto tengan acceso a soporte continuo y puedan comunicarse con los miembros del equipo en caso de que surja cualquier tipo de incidencia en el programa de pilotaje.
 
 #### **Canales de Comunicación:**  
-- **Email:** Para notificaciones formales. Por correo se enviarán las instrucciones de cada envío, las credenciales de cada usuario piloto y 
-- **WhatsApp/Telegram:** Para garantizar soporte en tiempo real y discusión de dudas, así como para avisar en caso de no tener contestación en el correo electrónico.
+- **Email:** Para notificaciones formales. Por correo se enviarán las instrucciones de cada envío, las credenciales de cada usuario piloto y el link al despliegue del prototipo.
+- **WhatsApp/Telegram:** Para garantizar soporte en tiempo real y discusión de dudas, así como para avisar en caso de no recibir respuesta por correo electrónico.
 - **Formulario de Feedback en Google Forms:** Para recopilar la opinión de los usuarios piloto sobre nuestra aplicación.
 - **Formulario de Incidencias en Google Forms:** Para que los usuarios piloto puedan rellenarla con las incidencias que han sufrido (si es que se da el caso).
 
 #### **Disponibilidad del Equipo:**  
-Como parte del plan de usuarios piloto, nos comprometemos a:
+Como parte del plan de usuarios piloto, todos los miembros del equipo se comprometen a:
 - Responder dudas en menos de 24 horas.
 - Enviar, como mínimo, una actualización mensual sobre el proyecto desde que enviamos el primer comunicado del plan de usuarios piloto.   
 
 ## 6. **Evaluación de los Usuarios Piloto** 
 
-A pesar de que son un pilar fundamental en el proyecto, no todos los usuarios piloto pueden rendir de igual manera. Debemos evaluar la participación y el desempeño de los usuarios piloto en la fase de pruebas de nuestra aplicación. A través de esta evaluación cuantitativa, buscamos analizar la calidad del feedback recibido, la detección de errores y la utilidad de las sugerencias de mejora.
+A pesar de que los usuarios piloto son un pilar fundamental en el proyecto, no todos rinden de la misma manera. Por ello, se evaluará su participación y desempeño durante la fase de pruebas de nuestra aplicación. A través de esta evaluación cuantitativa, buscamos analizar la calidad del feedback recibido, la detección de errores y la utilidad de las sugerencias de mejora.
 
-Para calificar el desempeño del usuario piloto, asignamos un valor de escala de 1 a 5, donde:  
+Para calificar el desempeño del usuario piloto, se asignará un valor dentro de la escala [1,5], donde:
 - **1**: Muy deficiente  
 - **2**: Deficiente  
 - **3**: Aceptable  
@@ -386,22 +391,22 @@ Se han definido los siguientes criterios para la evaluación:
 
 ## 7. Beneficios para los Usuarios Piloto
 
-Nuestro objetivo es incentivar la participación activa de los usuarios piloto mediante beneficios exclusivos, asegurando una fase de prueba efectiva y con un feedback valioso.
+En el equipo se busca incentivar la participación activa de los usuarios piloto mediante beneficios exclusivos, asegurando una fase de prueba efectiva y con un feedback valioso.
 
-Garantizamos:
+Se garantiza:
   
-- **Acceso gratuito al Plan Premium** durante los tres primeros meses.
+- **Acceso gratuito al Plan Premium** durante los tres primeros meses de uso.
 - **Prioridad en futuras funciones y mejoras en la aplicación** según su feedback. 
 
 #### **Estrategia de Fomento del Pilotaje:**  
 - **Comunicación clara** sobre los beneficios desde el inicio.
 - **Recordatorios periódicos** sobre las pruebas pendientes.
 - **Encuestas cortas y dinámicas** para reducir la carga del usuario y fomentar respuestas rápidas. 
-- **Periodos de prueba largos** para no agobiar a los usuarios piloto se les dejará un margen de unos 4-5 días para poder probar la aplicación y rellenar la encuesta de feedback.
+- **Periodos de prueba largos**. Con el objetivo de no agobiar a los usuarios piloto se les dejará un margen de unos 4-5 días para poder probar la aplicación y rellenar la encuesta de feedback.
 
 ## 8. Lecciones Aprendidas
 
-Tenemos un equipo para asegurar que el feedback de los usuarios piloto sea escuchado, analizado y aplicado de manera efectiva en la evolución de Holos. 
+Se ha establecido un equipo que asegurará la asimilación del feedback de los usuarios piloto, de forma que sea escuchado, analizado y aplicado de manera efectiva en la evolución de Holos.
 
 #### **Estrategia para asimilar el Feedback:**  
 1. **Clasificación de Incidencias:**  
