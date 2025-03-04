@@ -56,6 +56,7 @@
 3. [Política de código](#3-política-de-código)
 4. [Política de PRs](#4-política-de-prs)
 5. [Política de versionado](#5-política-de-versionado)
+6. [Política de commits](#6-política-de-commits)
 
 ---
 
@@ -143,3 +144,36 @@ Para mantener un flujo de trabajo ordenado y asegurar la calidad del código, se
 
 ## 5. Política de versionado
 Cuando el código se encuentre en la rama develop y haya pasado por las pruebas pertinentes para pasar a la rama de producción, se creará una versión la cual seguirá el versionado vX.Y.Z, siendo X una versión mayor, normalmente habrá una por entregable, Y una versión menor o funcionalidad añadida y Z el arreglo de algún bug en producción, estas últimas se versionan tras el uso de una rama hotfix
+
+## 6. Política de commits
+Para mantener un historial de cambios limpio, organizado y comprensible, se establece la siguiente política de commits basada en convenciones estándar.
+
+### 1. Formato del mensaje de commit
+
+Cada commit debe seguir la convención de formato:
+
+`<tipo>: <descripción corta y clara>`
+
+Ejemplo:
+- feat: add form validation in user registration
+- fix: fix authentication issue with OAuth
+- docs: update installation guide
+
+### 2. Tipos de commits
+
+Los commits deben clasificarse en una de las siguientes categorías:
+
+| **Tipo**  | **Descripción** |
+|-----------|----------------|
+| **feat**  | Añadir una nueva funcionalidad |
+| **fix**   | Corrección de errores |
+| **docs**  | Cambios en documentación |
+| **style** | Cambios de formato que no afectan el código (espacios, tabulaciones, comas, etc.) |
+| **test**  | Adición o modificación de pruebas |
+
+### 3. Buenas prácticas para commits
+
+- **Cada commit debe representar un cambio lógico y autónomo.** Evitar commits demasiado grandes con múltiples cambios no relacionados.
+- **Los mensajes deben ser claros y concisos.** Evitar mensajes genéricos como *"cambios"*, *"arreglos"* o *"actualización"*.
+- **Usar inglés si el equipo lo requiere.** En caso contrario, escribir mensajes en español de forma estructurada.
+- **Commits frecuentes pero significativos.** No acumular demasiados cambios en un solo commit.
