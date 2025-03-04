@@ -177,3 +177,112 @@ Los commits deben clasificarse en una de las siguientes categorías:
 - **Los mensajes deben ser claros y concisos.** Evitar mensajes genéricos como *"cambios"*, *"arreglos"* o *"actualización"*.
 - **Usar inglés si el equipo lo requiere.** En caso contrario, escribir mensajes en español de forma estructurada.
 - **Commits frecuentes pero significativos.** No acumular demasiados cambios en un solo commit.
+
+## 7. Política de Issues
+
+Para garantizar una gestión eficiente del proyecto, todas las tareas, mejoras y errores se registran y gestionan a través de issues en GitHub. Se establecen las siguientes reglas para su correcta creación y mantenimiento.
+
+### 1. Tipos de Issues
+
+El repositorio maneja tres tipos principales de issues:
+
+| **Tipo de Issue** | **Descripción** |
+|------------------|----------------|
+| **Bug** | Para reportar errores en el código o comportamiento inesperado. |
+| **Feature** | Para solicitar nuevas funcionalidades o mejoras en el sistema. |
+| **Task** | Para tareas específicas de trabajo que no están directamente relacionadas con bugs o nuevas funcionalidades. |
+
+Cada issue debe clasificarse correctamente en una de estas categorías para facilitar su gestión.
+
+---
+
+### 2. Creación de Issues
+
+Cada issue debe seguir esta estructura:
+
+#### **Formato del título**
+El título debe seguir esta convención:
+`Task <número> - <Breve descripción>`
+
+Ejemplo:
+`Task 9 - Implementar Milestones`
+
+#### **Roles**
+Debe incluir los nombres de los responsables de la tarea con su rol asignado.  
+
+Ejemplo:
+```
+Roles:
+
+Juan Antonio - Eq. Desarrollo
+José María - Project Manager y Eq. Tester & QA
+```
+#### **Descripción de la Tarea**
+Debe proporcionar un detalle claro de las actividades a realizar.
+
+Ejemplo:
+
+```plaintext
+### Descripción tarea:
+
+Realizar las siguientes tareas para cumplir el objetivo:
+
+1. Crear entidad Milestone según el UML.
+2. Añadir el repositorio, con los métodos necesarios.
+3. Añadir los servicios, donde se añadirá toda la lógica del negocio.
+4. Añadir los controladores, donde se gestionan las llamadas al Frontend.
+5. Gestionar los permisos en las rutas.
+```
+
+#### **Información del Sprint**
+Cada issue debe incluir detalles del sprint en el que se trabajará.  
+
+Ejemplo:
+```plaintext
+Sprint: Sprint 1
+Estado: In Progress
+Prioridad: P2
+Tamaño: XS
+Estimación: 0.75
+Iteración: [Seleccionar Iteración]
+Fecha de inicio: Mar 3, 2025
+Fecha de fin: Mar 5, 2025
+Tipo de código (si no es tarea de código, no se selecciona): [Backend / Frontend / DevOps]
+```
+
+### 3. Gestión de Issues
+
+- **Creación:** Cada issue debe asignarse a un responsable y clasificarse como `Bug`, `Feature` o `Task`.
+- **Seguimiento:** Se actualizará el estado (`To Do`, `In Progress`, `In Review`, `Done`) conforme avance el desarrollo.
+- **Cierre:** Una issue se cerrará solo cuando su código/documentación asociada haya sido fusionada en la rama principal.
+
+Además, se deben usar **labels** para facilitar su categorización y seguimiento.
+
+#### **Etiquetas (Labels)**
+
+| **Label** | **Descripción** |
+|-----------|----------------|
+| **documentation** | Mejoras o adiciones a la documentación. |
+| **bug** | Algo no está funcionando correctamente. |
+| **duplicate** | La issue o PR ya existe. |
+| **enhancement** | Nueva funcionalidad o mejora. |
+| **good first issue** | Ideal para nuevos colaboradores. |
+| **help wanted** | Se necesita atención adicional en la tarea. |
+| **invalid** | La issue no es válida o no tiene suficiente información. |
+| **question** | Se requiere más información antes de proceder. |
+| **review** | En espera de revisión y aprobación. |
+| **wontfix** | No se trabajará en esta issue. |
+
+### 4. Política de nombrado en Clockify
+
+Para asegurar la trazabilidad entre las issues y el tiempo trabajado, cada entrada en Clockify debe seguir el siguiente formato en la descripción:
+
+```plaintext
+Task <número de tarea> - <Descripción corta>
+```
+
+**Ejemplo:**
+
+```plaintext
+Task 11 - Mejora documento Gestión del Código
+```
