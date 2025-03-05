@@ -13,7 +13,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 05/03/2025  
-**Versión:** v1.1  
+**Versión:** v1.2  
 
 **Grupo de prácticas:** G1  
 
@@ -211,8 +211,8 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 
 | **ID del Uso** | **Uso** (descripción breve) | **Autor de la consulta** | **Fecha** | **Enlace de la consulta** |
 |--------------|---------------------------|---------------------|--------|----------------------|
-| 001          | Revisión del documento: Gestión del uso de la IA v1.0 | Gabriel Vacaro          | 05/03/2025 | [https://chatgpt.com/share/67c7b13d-455c-8000-9e9f-98858e5b76b5] |
-| 002          | Explicación de error en SQL | María López         | 02/03/2025 | [Enlace] |
+| 001          | Revisión del documento: Gestión del uso de la IA v1.0 | Gabriel Vacaro          | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67c7b13d-455c-8000-9e9f-98858e5b76b5) |
+| 002          | Resolución de dudas con respecto al uso de Inheritance.TABLE_PER_CLASS con JPARepository | José María Portela | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67c80f58-906c-800f-a924-92a3be926a2d) |
 | 003          | Revisión ortográfica de documentación | Ana Gómez | 02/03/2025 | [Enlace] |
 
 ## **4.5. Tabla 2: Evaluación de la Utilidad de la IA**  
@@ -221,9 +221,9 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 
 | **ID del Uso** | **Intentos hasta obtener respuesta válida** | **¿Se obtuvo la respuesta esperada?** | **¿Se editó la respuesta?** | **Tiempo ahorrado (minutos)** |
 |--------------|---------------------------------|----------------------------|----------------------|------------------|
-| 001          | 3                               | Sí                          | No                   | 20               |
-| 002          | 3                               | No                          | Sí                   | 10               |
-| 003          | 2                               | Sí                          | Sí                   | 15               |
+| 001          | 3                               | Sí                          | No                   | 20 min           |
+| 002          | 2                               | Sí                          | No procede           | 45 min           |
+| 003          | 2                               | Sí                          | Sí                   | 15 min           |
 
 ---
 
