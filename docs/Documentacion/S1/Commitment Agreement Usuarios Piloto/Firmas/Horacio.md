@@ -1,4 +1,4 @@
-# (Nombre)
+# Horacio
 
 # Acuerdo de Compromiso para Usuarios Piloto externos de la Aplicación Holos
 
@@ -23,11 +23,11 @@
 
 ---
 
-**Nombre con el que deseas que se te identifique:**  
+**Nombre con el que deseas que se te identifique:**  Horacio
 
-**Fecha:**  
+**Fecha:**  04/03/2025
 
-**Correo:**  
+**Correo:**  geko.hor@gmail.com
 
 **Compromiso:**  
 Al incorporarme como usuario piloto en la fase de prueba de la aplicación Holos, me comprometo a cumplir con los siguientes requisitos y condiciones:  
@@ -55,5 +55,5 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 **Firma:**  
 
 <p align="center">
-  <img src="/img/firmas/up/(nombre).png" alt="Firma" width="150"/>
+  <img src="/img/firmas/up/horacio.png" alt="Firma" width="150"/>
 </p>

@@ -1,4 +1,4 @@
-# Daniel Galván
+# Grupo 9 Daniel Galván
 
 # Acuerdo de Compromiso para Usuarios Piloto de la Aplicación Holos
 

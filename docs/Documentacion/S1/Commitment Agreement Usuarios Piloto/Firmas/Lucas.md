@@ -1,4 +1,4 @@
-# (Nombre)
+# Lucas Solis
 
 # Acuerdo de Compromiso para Usuarios Piloto externos de la Aplicación Holos
 
@@ -23,11 +23,11 @@
 
 ---
 
-**Nombre con el que deseas que se te identifique:**  
+**Nombre con el que deseas que se te identifique:**  Lucas Manuel Solis
 
-**Fecha:**  
+**Fecha:**  04/03/2025
 
-**Correo:**  
+**Correo:**  lmherencia2003@gmail.com
 
 **Compromiso:**  
 Al incorporarme como usuario piloto en la fase de prueba de la aplicación Holos, me comprometo a cumplir con los siguientes requisitos y condiciones:  
@@ -55,5 +55,5 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 **Firma:**  
 
 <p align="center">
-  <img src="/img/firmas/up/(nombre).png" alt="Firma" width="150"/>
+  <img src="/img/firmas/up/lucasmanuel.png" alt="Firma" width="150"/>
 </p>
