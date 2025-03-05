@@ -1,4 +1,4 @@
-# Registro y Evaluacion de uso de IA.
+# Registro y Evaluación del uso de la IA
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
@@ -12,8 +12,8 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 23/02/2025  
-**Versión:** v1.0  
+**Fecha:** 05/03/2025  
+**Versión:** v1.1  
 
 **Grupo de prácticas:** G1  
 
@@ -38,7 +38,6 @@
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
 
-## Índice de Contenidos
 ## Índice de Contenidos
 1. [Introducción](#1-introducción)
 2. [Usos de la Inteligencia Artificial](#2-usos-de-la-inteligencia-artificial)
@@ -85,7 +84,7 @@ Uno de los principales usos de la **IA** es la **búsqueda y análisis de inform
 Para garantizar que la documentación del proyecto sea **clara, coherente y libre de errores**, se emplearán herramientas de **IA** para realizar revisiones automáticas. Estas herramientas podrán **detectar errores gramaticales y ortográficos**, así como sugerir mejoras en la **redacción y estructuración** de documentos técnicos. Esto reducirá el tiempo de revisión manual y asegurará una comunicación más efectiva dentro del equipo.  
 
 ## **2.3. Explicación de Errores**  
-Durante el desarrollo del proyecto, pueden surgir errores en el código o en la implementación de ciertos procesos. La **IA** será utilizada para **analizar errores**, proporcionar **explicaciones detalladas** sobre su origen y sugerir **posibles soluciones**. Esto permitirá a los desarrolladores **comprender mejor los problemas** y **resolverlos de manera más eficiente**.  
+Durante el desarrollo del proyecto, pueden surgir errores en el código o en la implementación de ciertos procesos. La **IA** será utilizada para **analizar errores**, proporcionar **explicaciones detalladas** sobre su origen y sugerir **posibles soluciones**. Esto permitirá a los desarrolladores **comprender los problemas y resolverlos de forma eficiente**.  
 
 ## **2.4. Refactorización**  
 La **IA** también será utilizada para **mejorar la calidad del código**, proporcionando sugerencias de **refactorización**. Esto incluirá:  
@@ -134,7 +133,7 @@ Para llevar a cabo el desarrollo del proyecto de manera eficiente, utilizaremos 
 ## **3.1. Microsoft Copilot**  
 🔗 [Enlace: Microsoft Copilot](https://www.microsoft.com/es-es/microsoft-copilot)  
 
-Microsoft Copilot es una IA integrada en el ecosistema de Microsoft, diseñada para asistir en la **automatización de tareas, generación de texto y mejora de productividad** dentro de herramientas como Word, Excel y Teams. En este proyecto, se utilizará para la **redacción de documentación y la optimización de flujos de trabajo**.  
+Microsoft Copilot es una IA integrada en el ecosistema de Microsoft, diseñada para asistir en la **automatización de tareas, generación de texto y mejora de productividad** dentro de herramientas como Word, Excel y Teams. En este proyecto, se utilizará para la **redacción de documentación y la optimización del flujo de trabajo**.  
 
 ## **3.2. ChatGPT**  
 🔗 [Enlace: ChatGPT](https://chat.openai.com/)  
@@ -147,9 +146,9 @@ ChatGPT es un modelo de IA desarrollado por OpenAI especializado en **generació
 GitHub Copilot es un asistente de IA para la **generación de código automático**, desarrollado por GitHub y OpenAI. Se integra con editores como VS Code para sugerir líneas y funciones de código en tiempo real. En este proyecto, se utilizará para **optimizar la refactorización, mejorar la legibilidad del código y generar pruebas automatizadas**.  
 
 ## **3.4. Qodo Merge**  
-🔗 [Enlace: Qodo Merge](https://qodomerge.com/)  
+🔗 [Enlace: Qodo Merge](https://www.qodo.ai/products/qodo-merge/)  
 
-Qodo Merge es una herramienta de IA especializada en la **gestión y optimización de Pull Requests (PRs)**. Ayuda a **describir, priorizar y categorizar PRs automáticamente**, facilitando la colaboración en equipos de desarrollo y asegurando una mejor organización del código en repositorios.  
+Qodo Merge, anteriormente conocido como **PR-Agent**, es una herramienta de IA especializada en la **gestión y optimización de Pull Requests (PRs)**. Ayuda a **describir, priorizar y categorizar PRs automáticamente**, facilitando la colaboración en equipos de desarrollo y asegurando una mejor organización del código en repositorios.  
 
 ## **3.5. Codacy**  
 🔗 [Enlace: Codacy](https://www.codacy.com/)  
@@ -212,7 +211,7 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 
 | **ID del Uso** | **Uso** (descripción breve) | **Autor de la consulta** | **Fecha** | **Enlace de la consulta** |
 |--------------|---------------------------|---------------------|--------|----------------------|
-| 001          | Generación de código en Python | Juan Pérez          | 01/03/2025 | [Enlace] |
+| 001          | Revisión del documento: Gestión del uso de la IA v1.0 | Gabriel Vacaro          | 05/03/2025 | [https://chatgpt.com/share/67c7b13d-455c-8000-9e9f-98858e5b76b5] |
 | 002          | Explicación de error en SQL | María López         | 02/03/2025 | [Enlace] |
 | 003          | Revisión ortográfica de documentación | Ana Gómez | 02/03/2025 | [Enlace] |
 
@@ -222,7 +221,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 
 | **ID del Uso** | **Intentos hasta obtener respuesta válida** | **¿Se obtuvo la respuesta esperada?** | **¿Se editó la respuesta?** | **Tiempo ahorrado (minutos)** |
 |--------------|---------------------------------|----------------------------|----------------------|------------------|
-| 001          | 1                               | Sí                          | No                   | 30               |
+| 001          | 3                               | Sí                          | No                   | 20               |
 | 002          | 3                               | No                          | Sí                   | 10               |
 | 003          | 2                               | Sí                          | Sí                   | 15               |
 
