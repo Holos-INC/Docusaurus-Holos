@@ -63,6 +63,3 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 <p align="center">
   <img src="/img/firmas/up/uvus.png" alt="Firma" width="150"/>
 </p>
-
-
-[DESCARGAR EL PDF](../../../static/PDFs/CA_UsuariosPiloto/CommitmentAgreementUP-uvus.pdf)

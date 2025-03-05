@@ -63,6 +63,3 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 <p align="center">
   <img src="/img/firmas/up/dangalcan.png" alt="Firma" width="450"/>
 </p>
-
-
-[DESCARGAR EL PDF](../../../static/PDFs/Commitment/CommitmentAgreementUP-dangalcan.pdf)
