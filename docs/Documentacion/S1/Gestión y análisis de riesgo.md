@@ -1,8 +1,70 @@
 # Gestión y análisis de riesgo
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+</p>
+<p align="center">
+  <strong>Universidad de Sevilla</strong> 
+</p>
+<p align="center">
+  <strong>Escuela Técnica Superior de Ingeniería Informática</strong>  
+</p>
+
+## **Grado en Ingeniería Informática – Ingeniería del Software**
+
+**Curso:** 2024 – 2025  
+**Fecha:** 08/03/2025  
+**Versión:** v1.1  
+
+**Grupo de prácticas:** G1  
+
+- María del Mar Ávila Maqueda  
+- Joaquín González Ganfornina  
+- Nerea Jiménez Adorna  
+- Juan del Junco Obregón  
+- Miguel Ángel Gómez Vela  
+- Juan Antonio Moreno Moguel  
+- María del Carmen Barrera Garrancho  
+- Daniel Guedes Preciados  
+- Julia Virginia Ángeles Burgos  
+- Javier Muñoz Romero  
+- Juan Núñez Sánchez  
+- Nicolás Pérez Gómez  
+- Francisco Pérez Lázaro  
+- Celia Aguilera Camino  
+- Gabriel María Vacaro Goytía  
+- Ignacio Warleta Murcia  
+- José María Portela Huerta 
+
+**Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
+
+
+## Control de Versiones
+
+| Fecha      | Versión | Descripción           | Autor                    |
+|------------|---------|-----------------------|--------------------------|
+| 23/02/2025 | v1.0    | Creación de documento | José María Portela       |
+| 08/03/2025 | v1.1    | Modificación del documento | Juan del Junco Obregón  |
+
+---
+
+## Índice de Contenidos
+1. [Introducción](#1-introducción)
+2. [Escala de Impacto y Probabilidad en la Gestión de Riesgos](#2-escala-de-impacto-y-probabilidad-en-la-gestión-de-riesgos)
+    1. [Probabilidad de Ocurrencia](#probabilidad-de-ocurrencia)
+    2. [Impacto del Riesgo](#impacto-del-riesgo)
+    3. [Factor de Riesgo](#factor-de-riesgo)
+    4. [Niveles de Prioridad](#niveles-de-prioridad)
+3. [Tabla de Riesgos](#3-tabla-de-riesgos)
+4. [Tabla de Seguimiento de Riesgos](#4-tabla-de-seguimiento-de-riesgos)
+   
+---
+
+## 1. Introducción
+
 El análisis de riesgos es un proceso fundamental en la gestión de proyectos que permite identificar, evaluar y planificar posibles eventos o situaciones que podrían afectar el éxito del proyecto. En este análisis se han identificado diversos riesgos que podrían impactar en el desarrollo, la ejecución y los resultados del proyecto. 
 
-## Escala de Impacto y Probabilidad en la Gestión de Riesgos
+## 2. Escala de Impacto y Probabilidad en la Gestión de Riesgos
 
 1. ### Probabilidad de Ocurrencia
 
@@ -43,7 +105,7 @@ El factor de riesgo se calcula multiplicando la Probabilidad × Impacto. Este va
 | 9 \- Mínima | Despreciable | Impacto y probabilidad extremadamente bajos. Prácticamente no requiere gestión. |
 | 10 \- Insignificante | Sin relevancia | No representa un peligro real para el proyecto, su impacto es mínimo o nulo. |
 
-## Tabla de Riesgos
+## 3. Tabla de Riesgos
 
 A continuación se presenta una tabla que resume los principales riesgos, su impacto y probabilidad, así como las medidas de contingencia que se han diseñado para mitigar o manejar cada uno de estos riesgos.
 
@@ -63,9 +125,12 @@ A continuación se presenta una tabla que resume los principales riesgos, su imp
 | R12 | Documentación deficiente | 2 | 2 | 4 | 6 | Priorizar la creación y actualización de la documentación técnica y de proyecto de manera continua. |
 | R13 | Miembros del proyecto deciden dejar el proyecto	 | 3 | 1 | 3 | 7 | Abordar proactivamente las preocupaciones del equipo. |
 | R14 | Falta de capacidades técnicas o preparación insuficiente | 1 | 3 | 3 | 7 | Dejar tiempo para que los miembros del equipo vean tutoriales y cursos sobre las tecnologías que no conocen. |
+| R15 | Falta de comunicación entre equipos de Backend y Frontend | 4 | 4 | 16 | 2 | Establecer reuniones periódicas entre los equipos y coordinar entregas con integración continua. |
+| R16 | Usuarios pilotos no responden | 3 | 4 | 12 | 3 | Implementar recordatorios automáticos, incentivar la participación y diversificar las fuentes de feedback. |
 
-## Tabla de Seguimiento de Riesgos
+## 4. Tabla de Seguimiento de Riesgos
 
 | ID | Explicación | ¿Sigue vigente? | Acciones tomadas |
 | :---- | :---- | :---- | :---- |
+| R15 | Los equipos de Backend y Frontend trabajaron por separado sin coordinarse, lo que resultó en problemas de integración. Ahora falta conexión entre el frontend y el backend, generando retrasos y necesidad de refactorización. | Sí | Se han creado reuniones de sincronización y las nuevas tareas se asignarán en parejas (un desarrollador de Backend y uno de Frontend) para garantizar la conexión entre ambos. |
 
