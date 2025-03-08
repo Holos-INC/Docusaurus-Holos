@@ -23,7 +23,7 @@ Revisión del diseño, problemas técnicos y organización del proyecto.
   - Asignar tareas a los responsables (Asignees). Si alguien recibe una tarea por WhatsApp y no está asignada, debe autoasignársela.
   - Pasar las tareas a "In Progress" mientras se realizan. Una vez terminadas, moverlas a "In Review" y avisar al revisor.
   - Si la revisión es correcta, se mueve a "Done". Si no, regresa a "In Progress" y se repite el proceso hasta su aprobación.
-  - Incluir comentarios en las revisiones para la métrica "burro".
+  - Incluir comentarios en las revisiones para las métricas de Borroo.
   - La primera subtarea de revisión ya está creada. Si se necesitan más revisiones, se deben añadir nuevas subtareas.
 - **Documentación**: Actualizar la tabla de versionado cada vez que se suba un documento.
   <p> <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/tabla-versionado.jpeg" alt="tabla-versionado" width="550"/> </p>
