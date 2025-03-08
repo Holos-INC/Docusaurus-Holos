@@ -15,14 +15,18 @@ Revisión del diseño, problemas técnicos y organización del proyecto.
 
 ### 2. Gestión del Proyecto
 
-- **Políticas de Clockify**: Agregar tags con el nombre e ID de las tareas del tablero de proyecto de GitHub. Incluir una descripción detallada de la tarea para mejorar el seguimiento del tiempo invertido.
+- **Políticas de Clockify**: Agregar tags con el nombre e ID de las tareas del tablero de proyecto de GitHub. Incluir una descripción detallada de la tarea para mejorar el seguimiento del tiempo invertido. Por ejemplo:
+  <p>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Tags Clockify.png" alt="Tags Clockify" width="1550"/>
+  </p>
 - **GitHub (proyecto)**:
   - Asignar tareas a los responsables (Asignees). Si alguien recibe una tarea por WhatsApp y no está asignada, debe autoasignársela.
-  - Pasar las tareas a "To Do" mientras se realizan. Una vez terminadas, moverlas a "In Review" y avisar al revisor.
+  - Pasar las tareas a "In Progress" mientras se realizan. Una vez terminadas, moverlas a "In Review" y avisar al revisor.
   - Si la revisión es correcta, se mueve a "Done". Si no, regresa a "In Progress" y se repite el proceso hasta su aprobación.
   - Incluir comentarios en las revisiones para la métrica "burro".
   - La primera subtarea de revisión ya está creada. Si se necesitan más revisiones, se deben añadir nuevas subtareas.
-- **Documentación**: Actualizar la tabla de versionado cada vez que se suba un documento (imagen proporcionada por José Mar).
+- **Documentación**: Actualizar la tabla de versionado cada vez que se suba un documento.
+  <p> <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/tabla-versionado.jpeg" alt="tabla-versionado" width="550"/> </p>
 - **Métricas del equipo**: Pueden ser pocas y de baja calidad, se añadirán más en el S2. José María de encargará de calcularlas, pero es fundamental cumplir con las políticas mencionadas.
 - **Código**:
   - Problema grave: Backend y frontend desconectados.
