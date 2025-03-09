@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 25/02/2025  
-**Versión:** v1.0  
+**Versión:** v1.3  
 
 **Grupo de prácticas:** G1  
 
@@ -45,7 +45,8 @@
 |------------|---------|-----------------------|--------------------------|
 | 25/02/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna       |
 | 03/03/2025 | v1.1    | Correcciones y añadidos | Nerea Jiménez Adorna       |
-| 03/03/2025 | v1.2    | Más usuarios pilotos | Nerea Jiménez Adorna       |
+| 03/03/2025 | v1.2    | Más usuarios piloto | Nerea Jiménez Adorna       |
+| 09/03/2025 | v1.3    | Corrección Usuarios Piloto y añadido "Evaluación de Usuarios piloto de otros grupos" | Nerea Jiménez Adorna  |
 
 ---
 
@@ -54,11 +55,12 @@
 2. [Selección de participantes](#2-selección-de-participantes)
     1. [Criterios de selección de participantes](#21-criterios-de-selección-de-participantes)
     2. [Listado de participantes](#22-listado-de-participantes)
-        1. [Usuarios piloto de otros grupos](#221-usuarios-piloto-de-otros-grupos)
+        1. [Usuarios Piloto de otros grupos](#221-usuarios-piloto-de-otros-grupos)
 3. [Escenarios de prueba](#3-escenarios-de-prueba)
 4. [Plan de Testing y Feedback Survey](#4-plan-de-testing-y-feedback-survey)
 5. [Plan de Comunicación](#5-plan-de-comunicación)
 6. [Evaluación de los Usuarios Piloto](#6-evaluación-de-los-usuarios-piloto)
+    1. [Evaluación de Usuarios Piloto de otros grupos](#61-evaluación-de-los-usuarios-piloto-de-otros-grupos)
 7. [Beneficios para los Usuarios Piloto](#7-beneficios-para-los-usuarios-piloto)
 8. [Lecciones Aprendidas](#8-lecciones-aprendidas)
    
@@ -94,14 +96,14 @@ Para la elección de los participantes, hemos aplicado un criterio para los usua
 |    Paola   | Artista | pao.saaval@gmail.com        |
 |    Víctor  | Artista | jsjxhwjifyhyyy@gmail.com        |
 |    Yellow  | Artista | yell0w.4rtist@gmail.com        |
-|    Alex  | Artista | vsandoval.gd@gmail.com        |
-|    Peu  | Artista | linkaris95@gmail.com        |
-|    Izzy  | Artista | artofiz.comms@gmail.com        |
+|    Alex S  | Artista | vsandoval.gd@gmail.com        |
+|    Patricia  | Artista | linkaris95@gmail.com        |
+|    Artofiz  | Artista | artofiz.comms@gmail.com        |
 |    Gabriela  | Artista | meowm7512@gmail.com        |
-|    Tesla | Artista | soloparainformatica23@gmail.com        |
-|    Churros  | Artista | gurutze.contact@gmail.com        |
-|    Dam  | Artista | damaris.narvaezjimenez@gmail.com        |
-|    Rata  | Artista | already.dead.baby@gmail.com        |
+|    Alex | Artista | soloparainformatica23@gmail.com        |
+|    Gurutze  | Artista | gurutze.contact@gmail.com        |
+|    Damaris  | Artista | damaris.narvaezjimenez@gmail.com        |
+|    Sofía  | Artista | already.dead.baby@gmail.com        |
 |   Jeenii   | Cliente | reinapata20@gmail.com        |
 |   Emilio   | Cliente | emilio.esp99@gmail.com        |
 |   Rafael   | Cliente | dekker.rafa@gmail.com        |
@@ -360,37 +362,82 @@ Se han definido los siguientes criterios para la evaluación:
 
 #### Envío 1
 
-| Nombre  | Participación activa en la fase de prueba | Claridad y detalle en la retroalimentación | Identificación y reporte de errores | Calidad de las sugerencias de mejora | Cumplimiento de las instrucciones dadas | Actitud colaborativa y disposición | Frecuencia de interacción con la aplicación | Impacto del feedback en la mejora del producto |
-|---------|--------|--------|------|----|-------|--------|----|---------|
-| Braulio |   |   |   |   |   |   |   |   |
-| Claudia |   |   |   |   |   |   |   |   |
-| Miriam  |   |   |   |   |   |   |   |   |
-| Paola   |   |   |   |   |   |   |   |   |
-| Victor |   |   |   |   |   |   |   |   |
-| Yellow  |   |   |   |   |   |   |   |   |
-| Alex    |   |   |   |   |   |   |   |   |
-| Peu     |   |   |   |   |   |   |   |   |
-| Izzy    |   |   |   |   |   |   |   |   |
-| Gabriela|   |   |   |   |   |   |   |   |
-| Tesla   |   |   |   |   |   |   |   |   |
-| Churros |   |   |   |   |   |   |   |   |
-| Dam     |   |   |   |   |   |   |   |   |
-| Rata    |   |   |   |   |   |   |   |   |
-| Jeenii  |   |   |   |   |   |   |   |   |
-| Emilio  |   |   |   |   |   |   |   |   |
-| Rafael  |   |   |   |   |   |   |   |   |
-| Félix   |   |   |   |   |   |   |   |   |
-| Raúl    |   |   |   |   |   |   |   |   |
-| Patricia|   |   |   |   |   |   |   |   |
-| Joker   |   |   |   |   |   |   |   |   |
-| Javier  |   |   |   |   |   |   |   |   |
-| Horacio |   |   |   |   |   |   |   |   |
-|
-|   Daniel Galván Cancho   |   |   |   |   |   |   |   |   |
-|   Rafael Duque Colete  |   |   |   |   |   |   |   |   |
-|   Rafael Castillo Cebolla   |   |   |   |   |   |   |   |   |
-|   Mohamed Abouri|   |   |   |   |   |   |   |   |
-|   Enrique García Abadía|   |   |   |   |   |   |   |   |
+| Nombre          |   Participación activa   |   Claridad del feedback   |   Reporte de errores   |   Sugerencias de mejora   |   Cumplimiento de instrucciones   |   Actitud colaborativa   |   Interacción con la app   |   Impacto del feedback   |   Promedio   |
+|----------------|-------------------------|--------------------------|------------------------|--------------------------|----------------------------------|-------------------------|--------------------------|------------------------|-------------|
+| Braulio        |   |   |   |   |   |   |   |   |   |
+| Claudia        |   |   |   |   |   |   |   |   |   |
+| Miriam         |   |   |   |   |   |   |   |   |   |
+| Paola          |   |   |   |   |   |   |   |   |   |
+| Víctor         |   |   |   |   |   |   |   |   |   |
+| Yellow         |   |   |   |   |   |   |   |   |   |
+| Alex S         |   |   |   |   |   |   |   |   |   |
+| Patricia       |   |   |   |   |   |   |   |   |   |
+| Artofiz        |   |   |   |   |   |   |   |   |   |
+| Gabriela       |   |   |   |   |   |   |   |   |   |
+| Alex           |   |   |   |   |   |   |   |   |   |
+| Gurutze        |   |   |   |   |   |   |   |   |   |
+| Damaris        |   |   |   |   |   |   |   |   |   |
+| Sofía          |   |   |   |   |   |   |   |   |   |
+| Jeenii         |   |   |   |   |   |   |   |   |   |
+| Emilio         |   |   |   |   |   |   |   |   |   |
+| Rafael         |   |   |   |   |   |   |   |   |   |
+| Félix          |   |   |   |   |   |   |   |   |   |
+| Raúl           |   |   |   |   |   |   |   |   |   |
+| Patricia       |   |   |   |   |   |   |   |   |   |
+| Joker          |   |   |   |   |   |   |   |   |   |
+| Henrique       |   |   |   |   |   |   |   |   |   |
+| Javier Pacheco |   |   |   |   |   |   |   |   |   |
+| Horacio        |   |   |   |   |   |   |   |   |   |
+| Keegan         |   |   |   |   |   |   |   |   |   |
+| Milagros       |   |   |   |   |   |   |   |   |   |
+| Simón          |   |   |   |   |   |   |   |   |   |
+| Lucas          |   |   |   |   |   |   |   |   |   |
+| Carlos         |   |   |   |   |   |   |   |   |   |
+
+
+
+### **6.1. Criterios de Evaluación**
+
+Para evaluar a los usuarios piloto asignados por la asignatura a nuestro programa de pilotaje, debemos adaptarnos al método de evaluación convencional estableciendo una nota del **1 al 10**. Para ello, se ha transformado la evaluación original (de 1 a 5) en un sistema de puntuación más acorde. 
+
+Después de evaluar con las mismas métricas descritas en el anterior apartado, se implementa el método de multiplicar por dos la nota para hacer la conversión más sencilla.
+
+  - 1 en la escala original → 2 en la nueva  
+  - 2 en la escala original → 4 en la nueva  
+  - 3 en la escala original → 6 en la nueva  
+  - 4 en la escala original → 8 en la nueva  
+  - 5 en la escala original → 10 en la nueva  
+
+Después, simplemente se hace un promedio y esa será la nota final.
+
+#### Ejemplo de Evaluación
+Un usuario piloto obtiene estas puntuaciones en la escala de 1 a 5:
+
+| Criterio | Puntuación (1-5) | Convertido (1-10) |
+|----------|----------------|-----------------|
+| Participación activa | 4 | 8 |
+| Claridad del feedback | 5 | 10 |
+| Reporte de errores | 3 | 6 |
+| Sugerencias de mejora | 4 | 8 |
+| Cumplimiento de instrucciones | 5 | 10 |
+| Actitud colaborativa | 4 | 8 |
+| Interacción con la app | 3 | 6 |
+| Impacto del feedback | 2 | 4 |
+
+Promedio: **(8+10+6+8+10+8+6+4) / 8 = 7.5**
+
+### Evaluación por Fase
+
+#### Envío 1
+
+| Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
+|---------|--------|--------|------|----|-------|--------|----|---------|----|
+|   Daniel Galván Cancho   |   |   |   |   |   |   |   |   |    |
+|   Rafael Duque Colete  |   |   |   |   |   |   |   |   |    |
+|   Rafael Castillo Cebolla   |   |   |   |   |   |   |   |   | |
+|   Mohamed Abouri|   |   |   |   |   |   |   |   | |
+|   Enrique García Abadía|   |   |   |   |   |   |   |   | |
+|---------|--------|--------|------|----|-------|--------|----|---------|----|
 
 ## 7. Beneficios para los Usuarios Piloto
 
