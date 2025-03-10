@@ -44,6 +44,7 @@
 | Fecha       | Versión | Descripción           |
 |------------|---------|-----------------------|
 | 19/02/2025 | v1.0    | Creación de documento |
+| 09/03/2025 | v2.0    | Modificación del apartado "Monetización del modelo de negocio e inclusión del apartado "Métodos de pago" |
 
 ---
 
@@ -88,44 +89,59 @@ Nuestro mercado objetivo está compuesto por:
 ---
 
 ## 4. Modelo de Monetización
-Holos adopta un modelo de monetización híbrido que combina comisiones por transacción, suscripciones premium y pagos adicionales por servicios exclusivos. Esto permite diversificar las fuentes de ingresos y asegurar la sostenibilidad del proyecto sin comprometer la accesibilidad para los artistas y clientes.
+En Holos adoptamos un modelo de monetización híbrido que combina comisiones por las ventas de obras y suscripciones premium para los artistas.
 
-### 1. Comisiones por transacción (Escrow)
-- **Descripción:** Cada vez que un cliente realiza un pago por una comisión a través de la plataforma, Holos retendrá un pequeño porcentaje como comisión.
-- **Porcentaje estimado:** 6% total, dividido en:
-  - 3% para el cliente (incluido en el pago final).
-  - 3% para el artista (descontado del pago recibido).
-- **Beneficio:** Garantiza pagos seguros mediante un sistema de escrow, protegiendo tanto al cliente como al artista contra fraudes o cancelaciones injustificadas.
+### 1. Comisiones por venta
+- **Descripción:** En el momento de la creación del contrato de una obra y, por lo tanto, cuando se establece el precio del servicio, se añadirá automáticamente un 6% de comisión al precio de la obra fijado. Este incremento se reflejará en el precio final del contrato, asegurandonos así que el artista recibe íntegramente el importe acordado con el cliente. 
 
-### 2. Suscripción Premium para Artistas
-**Descripción:**: Un plan de suscripción opcional para artistas que desean acceso a herramientas avanzadas y beneficios exclusivos. Habrán 3 planes de suscripción, Free (0€), Basic (4€) y Premium (10€). Estos tendrán las siguientes características distintivas:
-- **Free**:
-  - Hasta 3 slots al mismo tiempo
-  - No permite personalizar el kanban
-  - No permite personalizar los formularios de request
-  - No tiene waitlist
-  - No es posible subastar arte
-- **Basic**:
-  - Hasta 5 slots al mismo tiempo
-  - Permite personalizar el kanban
-  - Permite personalizar los formularios de request
-  - Tiene waitlist
-  - No es posible subastar arte
-- **Premium**:
-  - Sin límite de slots
-  - Permite personalizar el kanban
-  - Es posible personalizar los formularios de request
-  - Tiene waitlist
-  - Es posible subastar arte
+### 2. Tarifa premium para los artistas
+- **Descripción:**  Nuestra plataforma proporcionará un plan de suscripción premium opcional para los artistas por un costo de 9,45€ al mes con las siguientes características:
+
+* **Funcionalidades premium:** 
+  - Personalización de los formularios de request de las comisiones.
+  - Aumento del límite de encargos simultáneos por artista de 2 a 8.
+  - Acceso a la función de lista de espera, en donde los clientes interesados podrán inscribirse para ser considerados en futuras comisiones cuando el artista tenga disponibilidad.
+  - Ampliación del portafolio del artista: se suprime el límite de número de obras publicadas en el perfil del artista.
+  - Acceso al método de pago Modelador.
 
 
+### 3. Resumen de los tipos de suscripciones que hay en la plataforma
 
-### 3. Propinas y Extras
-- **Descripción:** Holos permitirá que los clientes dejen propinas opcionales a los artistas una vez finalizada la comisión.
-- **Porcentaje estimado:** 2% de cada propina se retendría como comisión para la plataforma.
-- **Beneficio:** Fuente de ingresos pasiva sin afectar el flujo de trabajo principal.
+* **Para los usuarios clientes:** 
 
----
+Los usuarios clientes disponen de una única tarifa, la cual es gratuita.
+
+|                                 Tarifa gratuita                             |
+|-------------------------------------------|
+   |Los usuarios clientes podrán acceder a la plataforma de manera gratuita, sin restricciones en funcionalidades o servicios.|
+
+
+* **Para los usuarios artistas:** 
+
+
+| Características                                             | Tarifa gratuita | Tarifa premium |
+|-------------------------------------------------------------|-----------------|----------------|
+| Costo de la tarifa                                         |       0,00 €        | 4,99 €          |
+| Nº de comisiones que se pueden realizar simultaneamente | 2 | 8 |
+| Pueden personalizar los request de las comisiones | No | Sí |
+| Número máximo de imágenes en el portafolio |  7 | Indefinido |
+| Personalización del tablero de gestión de comisiones (Kanban) |  No | Sí |
+| Acceso al método de pago Escrow |  No | Sí |
+
+
+### 3. Métodos de pago
+Nuestro objetivo es proteger al máximo a nuestros usuarios de fraudes o estafas. Por ello, nuestros métodos de pago proporcionan confidencialidad a todos los implicados. 
+
+Nuestra plataforma ofrece tres métodos de pago a seleccionar para los artistas con tarifa gratuita:
+
+- Pago íntegro al inicio.
+- Pago en dos partes: 50% al inicio y 50% al finalizar.
+- Pago íntegro al finalizar.
+
+Para los artistas que dispongan tarifa premium, se le ofertará la posibilidad adicional de poder seleccionar el método de pago **Modelador**, el cual consiste en el ingreso íntegro del precio acordado en el contrato al inicio del servicio por parte del cliente en una de nuestras cuentas y,  enfunción de los hitos establecidos y aceptados, se va añadiendo dinero a la futura transferencia que se hará al artista al finalizar la obra. En caso de cancelación de la comisión, el artista recibiría el valor acumulado hasta ese momento y al cliente le será reembolsado el saldo restante del precio de la obra.
+
+
+-----
 
 ## 5. Conclusión
 Nuestra plataforma busca resolver problemas de gestión y de seguridad en el mundo de las comisiones artísticas digitales, ofreciendo un modelo de negocio basado en la seguridad y la eficiencia. Nos enfocamos en herramientas de gestión para artistas, con el objetivo de generar una comunidad de usuarios fieles y confiables.
