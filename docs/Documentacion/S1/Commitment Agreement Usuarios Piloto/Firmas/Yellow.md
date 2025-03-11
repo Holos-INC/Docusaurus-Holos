@@ -3,7 +3,7 @@
 # Acuerdo de Compromiso para Usuarios Piloto externos de la Aplicación Holos
 
 <p align="center">
-  <img src="/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
 <p align="center">
   <strong>Universidad de Sevilla</strong>
@@ -55,5 +55,5 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 **Firma:**  
 
 <p align="center">
-  <img src="/img/firmas/up/yellow.png" alt="Firma" width="150"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/firmas/up/yellow.png" alt="Universidad de Sevilla" width="150"/>
 </p>
