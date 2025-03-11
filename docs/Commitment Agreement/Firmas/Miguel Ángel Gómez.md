@@ -58,9 +58,8 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 Firma del Alumno:
 
 <p align="center">
-  <img src="/img/firmas/miggomvel.png" alt="Firma" width="150"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/firmas/miggomvel.png" alt="Universidad de Sevilla" width="150"/>
 </p>
-
 
 
 [DESCARGAR EL PDF](../../../static/PDFs/Commitment/0CommitmentAgreement-miggomvel.pdf)
