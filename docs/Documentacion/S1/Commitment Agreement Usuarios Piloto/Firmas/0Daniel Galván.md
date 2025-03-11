@@ -59,7 +59,6 @@ Al firmar este documento, entiendo y acepto las responsabilidades que se me han 
 
 **Firma del Alumno:**  
 
-
 <p align="center">
-  <img src="/img/firmas/up/dangalcan.png" alt="Firma" width="450"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/firmas/up/dangalcan.png" alt="Universidad de Sevilla" width="150"/>
 </p>
