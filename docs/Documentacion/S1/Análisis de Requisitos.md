@@ -44,10 +44,10 @@
 2. [Control de Versiones](#2-control-de-versiones)
 3. [Requisitos de Información](#3-requisitos-de-información)
 4. [Casos de uso](#4-casos-de-uso)
-5. [Requisitos funcionales](#4-requisitos-funcionales)
-6. [Requisitos no funcionales](#5-requisitos-no-funcionales)
-7. [Reglas de negocio](#6-reglas-de-negocio)
-8. [Conclusión](#7-conclusión)
+5. [Requisitos funcionales](#5-requisitos-funcionales)
+6. [Requisitos no funcionales](#6-requisitos-no-funcionales)
+7. [Reglas de negocio](#7-reglas-de-negocio)
+8. [Conclusión](#8-conclusión)
 
 ---
 

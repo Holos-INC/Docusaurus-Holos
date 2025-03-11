@@ -60,7 +60,6 @@
 4. [Plan de Testing y Feedback Survey](#4-plan-de-testing-y-feedback-survey)
 5. [Plan de Comunicación](#5-plan-de-comunicación)
 6. [Evaluación de los Usuarios Piloto](#6-evaluación-de-los-usuarios-piloto)
-    1. [Evaluación de Usuarios Piloto de otros grupos](#61-evaluación-de-los-usuarios-piloto-de-otros-grupos)
 7. [Beneficios para los Usuarios Piloto](#7-beneficios-para-los-usuarios-piloto)
 8. [Lecciones Aprendidas](#8-lecciones-aprendidas)
    
