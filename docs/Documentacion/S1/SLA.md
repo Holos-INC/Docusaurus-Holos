@@ -69,6 +69,8 @@ Nos comprometemos a brindarle un servicio de alta calidad. Nos esforzamos por sa
 
 - Completaremos al menos el 99% de todas las solicitudes dentro de los tiempos de servicio acordados. Si no cumplimos con este compromiso, tendrá derecho a créditos de servicio que podrá utilizar para futuras compras dentro de nuestra aplicación. Las compensaciones están definidas en la sección [Compensaciones](#6-compensaciones).
 
+- Garantizamos un 99.5% de disponibilidad del servicio en un período mensual, con excepciones por mantenimientos programados y eventos fuera de nuestro control.
+
 - Este compromiso de nivel de servicio tiene como objetivo brindarle confianza en nuestra capacidad para ofrecer el servicio que necesita. Estamos comprometidos a trabajar con usted para garantizar que sus necesidades sean atendidas.
 
 ## 3. Servicio de Soporte
@@ -79,6 +81,23 @@ Los usuarios pueden contactar al equipo de soporte a través del siguiente canal
 - **Correo electrónico:** [holos.soporte@gmail.com](mailto:holos.soporte@gmail.com)   
 
 Cabe destacar que, según el horario, el servicio puede variar en calidad y disponibilidad. Para más información, continúe leyendo.
+
+### 3.1 Mecanismos de Escalamiento
+
+Cuando un problema no puede ser resuelto en el primer nivel de soporte, se implementa un mecanismo de escalamiento para garantizar su solución efectiva. Este proceso sigue las siguientes fases:
+
+1. **Primer Nivel de Soporte:** El equipo de atención inicial intenta resolver el problema en el primer contacto. Se encarga de problemas comunes y consultas generales.
+2. **Escalamiento al Segundo Nivel:** Si el incidente requiere conocimientos técnicos más avanzados, se escala a un equipo especializado en análisis y resolución de problemas complejos.
+3. **Escalamiento al Tercer Nivel:** Para casos críticos que involucren fallos del sistema o infraestructura, el problema se transfiere a los ingenieros de plataforma o desarrollo.
+
+Cada nivel de escalamiento puede implicar tiempos de respuesta adicionales, que varían según la prioridad del problema:
+
+| **Nivel de Escalamiento** | **Tiempos Adicionales de Respuesta** |
+|--------------------------|--------------------------------|
+| Segundo Nivel           | +4 a 8 horas hábiles          |
+| Tercer Nivel            | +12 a 24 horas hábiles        |
+
+El usuario será notificado en cada fase del proceso de escalamiento para mantener la transparencia y ofrecer estimaciones de resolución más precisas.
 
 ## 4. Métricas del Servicio  
 
@@ -161,6 +180,8 @@ En caso de que no cumplamos con nuestro compromiso de nivel de servicio de compl
 | &lt;97.5% y &ge;90.0%                        | **1 mes Premium** |
 | &lt;90.0% y &ge;80.0%                        | **2 meses Premium** |
 | &lt;80.0%                                   | **3 meses Premium** |
+
+Por ejemplo, si en un mes se reportaron 200 incidentes y solo se resolvieron 160 dentro del tiempo comprometido, el cumplimiento sería del 80%, lo que significa que los usuarios afectados recibirían 2 meses de Plan Premium gratuito.
 
 > **Nota:**  
 > - La compensación de meses gratuitos se aplica automáticamente al usuario afectado.  
