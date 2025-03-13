@@ -40,8 +40,8 @@
 **Responsables:**
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
-| Joaquón González Ganfornina  |  Redactor                |
-
+| Joaquín González Ganfornina  |  Redactor                |
+| María del Mar Ávila Maqueda  |  Revisora                |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -59,6 +59,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 13/03/2025 | v1.0    | Creación de documento | Joaquín González Ganfornina      |
+| 13/03/2025 | v1.1    | Corrección de algunos apartados | Joaquín González Ganfornina      |
 ---
 
 ## 2. Introducción
@@ -67,15 +68,19 @@ En el presente documentro se definiran y explicaran detalladamente las métricas
 
 Para cada métrica, se explicarán como se han tomado los datos y cómo se han evaluado, y finalmente se mostrará una tabla con cada uno de los miembros del grupo, mostrando las métricas más relevantes de estos.
 
-A continuación, explicarán cada una de las métricas obtenidas.
-
+A continuación, se explicarán cada una de las métricas obtenidas.
 
 
 ## 3. Cumplimiento de plazos
 
-Para esta métrica, se han registrado todas las tareas que se encontraban en el kanban del equipo en Github Project. Para cada tarea, los miembros del equipo pueden tener 3 valores, **"1"** , en caso de que la tarea se cumpliera en el tiempo establecido; **"-1"** , en caso de que la tarea no se cumpliera en el tiempo establecido y **"0"** si no se había asignado esa tarea. Con esto, pudimos obtener el número de tareas que realizó cada alumno según las tareas del Github Project y el porcentaje de estas tareas que fueron entregadas a tiempo.
+Para esta métrica, se han registrado todas las tareas que se encontraban en el kanban del equipo en Github Project. "Cada tarea puede tener uno de tres valores posibles: 
+- 1 :  en caso de que la tarea se cumpliera en el tiempo establecido.
+- 1: en caso de que la tarea no se cumpliera en el tiempo establecido.
+- 0: si esa tarea no ha sido asignada a ese miembro concreto.
 
-A continuación se muestra una tabla simplificada, ya que debido al gran número de tareas esta tabla es muy extensa:
+Con esto se puede obtener el número de tareas realizadas por cada miembro del equipo según las asignadas en el GitHub Project, así como el porcentaje de ellas que fueron entregadas a tiempo.
+
+A continuación se muestra una versión simplificada de la tabla original, ya que el gran número de tareas existentes hace que dicha tabla original sea demasiado extensa:
 
 | Tareas                           | Portela Huerta, José María | Ángeles Burgos, Julia Virgínia | Moreno Moguel, Juan Antonio | del Junco Obregón, Juan | González Ganfornina, Joaquín | Aguilera Camino, Celia | Barrera Garracho, María del Carmen | Guedes Preciados, Daniel | Gómez Vela, Miguel Ángel | Warleta Murcia, Ignacio | Vacaro Goytía, Gabriel Maria | Ávila Maqueda, María del Mar | Pérez Gómez, Nicolás | Nuñez Sánchez, Juan | Muñoz Romero, Javier | Jiménez Adorna, Nerea | Pérez Lázaro, Francisco |
 |-------------------------------------------------------|----------------------------|-------------------------------|----------------------------|-------------------------|-----------------------------|------------------------|----------------------------------|-------------------------|--------------------------|--------------------------|----------------------------|----------------------------|---------------------|------------------|--------------------|------------------------|-------------------------|
@@ -93,7 +98,13 @@ Según esta métrica, un 53,63% porciento de las tareas totales fueron entregada
 
 ## 4. Métricas Niko-Niko
 
-Para la evaluación del estado emocional durante el trascurso del Sprint, el grupo de trabajo ha usado un calendario Niko-Niko. En este calendario, cada uno de los miembros del grupo ponía un emoticono representando cómo se había sentido durante ese día de trabajo. Como habían 6 emoticonos disponibles, se ha asgnado un valor numérico para cada uno de los emoticonos, con el fin de obtener valores como la felicidad media de cada individuo o del equipo.
+Para la evaluación del estado emocional durante el transcurso del Sprint, el grupo de trabajo ha usado un calendario Niko-Niko. En este calendario, cada uno de los miembros del grupo ha puesto un emoticono representando cómo se ha sentido durante el día de trabajo correspondiente. 
+En dicho calendario se han definido 6 emoticonos diferentes, cada uno representando un estado de ánimo (muy mal, mal, neutral, bien, muy bien, descanso). Por lo que, para poder obtener un valor numérico que represente aproximadamente la felicidad media de cada miembro del equipo con el fin de obtener  a felicidad media del equipo, se ha asignado un valor numérico a cada uno de los emoticonos.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Emoticonos-Niko-Niko.PNG" alt="Emoticonos niko-niko" width="150"/>
+</p>
+
 
 Durante este Sprint, se ha obtenido la siguiente tabla:
 
@@ -118,7 +129,7 @@ Durante este Sprint, se ha obtenido la siguiente tabla:
 | Ignacio Warleta                | 3,80  |
 | **PROMEDIO DEL EQUIPO**        | **3,56** |
 
-Se ha obtenido un promedio del equipo de 3,56, lo que quiere decir que el estado promedio del equipo durante el Sprint ha sido entre Mal y Regular
+Se ha obtenido un promedio del equipo de 3,56, es decir, del equipo ha tenido un estado de ánimo medio entre Mal y Regular durante el desarrollo de Sprint.
 
 ## 5. Conclusiones
 
