@@ -213,7 +213,7 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 |--------------|---------------------------|---------------------|--------|----------------------|
 | 001          | Revisión del documento: Gestión del uso de la IA v1.0 | Gabriel Vacaro          | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67c7b13d-455c-8000-9e9f-98858e5b76b5) |
 | 002          | Resolución de dudas con respecto al uso de Inheritance.TABLE_PER_CLASS con JPARepository | José María Portela | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67c80f58-906c-800f-a924-92a3be926a2d) |
-| 003          | Revisión ortográfica de documentación | Ana Gómez | 02/03/2025 | [Enlace] |
+| 003          | Despliegue de la aplicación | Juan Antonio Moreno | 13/03/2025 | [Enlace](https://chatgpt.com/share/67d2d67b-d150-8000-bc46-b56dbc88ef66) |
 | 004          | Recomendaciones de uso responsive en front | Francisco Pérez | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67d22373-52fc-8001-9b58-415582498579) |
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
@@ -224,7 +224,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 |--------------|---------------------------------|----------------------------|----------------------|------------------|
 | 001          | 3                               | Sí                          | No                   | 20 min           |
 | 002          | 2                               | Sí                          | No procede           | 45 min           |
-| 003          | 2                               | Sí                          | Sí                   | 15 min           |
+| 003          | 2                               | Sí                          | Sí                   | 300 min           |
 | 004          | 3                               | Sí                          | No                   | 30 min           |
 ---
 
