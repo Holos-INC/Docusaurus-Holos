@@ -930,6 +930,10 @@ Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a
 - **Caso neutro**: A los 13 meses.
 - **Caso optimista**: A los 8 meses.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/resumen.png" alt="Universidad de Sevilla " width="700"/>
+</p>
+
 ## 6. Bibliografía
 
 Sueldos en Indeed: [https://es.indeed.com/career/salaries?from=gnav-homepage]
