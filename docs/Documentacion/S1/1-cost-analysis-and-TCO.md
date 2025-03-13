@@ -53,11 +53,18 @@
 
 ## Índice de contenido
 
-1. [Introducción](#1-introducción)
-2. [Gastos de capital](#2-capex)
-3. [Gastos operativos](#3-opex)
-4. [Rentabilidad de la aplicación](#4-rentabilidad-de-la-aplicación)
-5. [Bibliografía](#5-bibliografía)
+1. [Introducción](#1-introducción)  
+2. [CapEx](#2-capex)  
+3. [OpEx](#3-opex)  
+4. [Rentabilidad de la aplicación](#4-rentabilidad-de-la-aplicación)  
+   4.1 [Caso pesimista](#41-caso-pesimista)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.1.1 [Cálculos del TCO pesimista](#411-cálculos-del-tco-pesimista)  
+   4.2 [Caso neutro](#42-caso-neutro)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.2.1 [Cálculos del TCO neutro](#421-cálculos-del-tco-neutro)  
+   4.3 [Caso optimista](#43-caso-optimista)  
+   &nbsp;&nbsp;&nbsp;&nbsp;4.3.1 [Cálculos del TCO optimista](#431-cálculos-del-tco-optimista)
+5. [Rentabilidad (Resumen)](#5-Rentabilidad-resumen)    
+6. [Bibliografía](#6-bibliografía)   
 
 
 
@@ -101,7 +108,7 @@ Aplicando los salarios según las fuentes mencionadas previamente, y teniendo en
 
 ### 2.2 Costes de los recursos materiales 
 
-La empresa ha decidido invertir en diversos recursos materiales como en licencias de software o hardware para el uso de los trabajadores o en publicidad. Los precios de las licencias de software se han consultado en sus páginas web oficiales, las cuales se han referenciado en la bibliografía. En algunos casos, se ha tenido que pasar el precio de dólar a euro, por lo que se han tomado en cuenta la diferentcia entre los valores de las monedas a fecha 13 de marzo de 2025. En la siguiente tabla se muestra en qué se destinarán los **22.901,92 €** invertidos en recursos materiales: 
+La empresa ha decidido invertir en diversos recursos materiales como en licencias de software o hardware para el uso de los trabajadores o en publicidad. Los precios de las licencias de software se han consultado en sus páginas web oficiales, las cuales se han referenciado en la bibliografía. En algunos casos, se ha tenido que pasar el precio de dólar a euro, por lo que se han tomado en cuenta la diferencia entre los valores de las monedas a fecha 13 de marzo de 2025. En la siguiente tabla se muestra en qué se destinarán los **22.901,92 €** invertidos en recursos materiales: 
 
 
 
@@ -159,7 +166,7 @@ Una vez calculado el coste total del proyecto, se aplica un incremento del 15 % 
 
 
 
-## 3. Gatos de operativos
+## 3. OpEx
 
 El costo del mantenimiento de la aplicación se ha calculado asumiendo que los trabajadores continuarán dedicando 10 horas semanales al proyecto, durante 4 semanas al mes, equivalentes a un mes completo. 
 
@@ -207,7 +214,7 @@ En la tabla a continuación, se muestran los gastos de los recursos materiales q
 
 
 
-**Gatos operativos**
+**OpEx**
 
 |Costo mensual de mantenimiento | |
 | :- | - |
@@ -215,7 +222,7 @@ En la tabla a continuación, se muestran los gastos de los recursos materiales q
 |Coste mensual de los recursos materiales para el mantenimiento | 2.246,62 €|
 |**Costes mensual de mantenimiento** |**8.799,66 €**|
 
-Por tanto, sumando todos los gastos, obtenemos un gastos operativo de **8.799,66 €**.
+Por tanto, sumando todos los gastos, obtenemos un Opex de **8.799,66 €**.
 
 
 ## 4. Rentabilidad de la aplicación 
@@ -415,7 +422,6 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 
 
-
 -------------------------------------------------
 
 
@@ -423,26 +429,31 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 
 
- #### 4.1.1 Cálculos del TCO ####
+ #### 4.1.1 Cálculos del TCO pesimista ####
 
-En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
+En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios, considerando los ingresos generados y descontando los costes asociados. 
+
+Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 10.500 imágenes, cada una con un peso aproximado de 5 MB, y 12.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+
+**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
+
+
 
 **TCO a los 6 meses** 
 
 
+| CapEx        | OpEx mensual | OpEx lo largo de 6 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|-------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.536,92 €  | 51.196,12 €            | 165.668,06 € | 53.251,14 €    | -112.416,92 €  |
 
-||CapEx |OpEx mensual |<p>OpEx </p><p>lo largo de 6 meses </p>|TCO |Ingresos totales |Beneficios |
-| :- | - | :- | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|43\.634,10 €|`  `139.509,34 €|`  `93.953,64 €|` `-45.555,70 €|
+
 
 **TCO a al año** 
 
 
-
-||CapEx |OpEx mensual |OpEx a los 12 meses |TCO |Ingresos totales |Beneficios |
-| :- | - | - | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|87\.268,20 €|183\.143,44 €|`  `187.907,28 €|`  `4.763,84 €|
-
+| CapEx        | OpEx mensual | OpEx lo largo de 12 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.536,92 €  | 102.405,83 €            | 216.877,78 € | 124.612,76 €   | -92.265,01 €   |
 
 
 
@@ -450,20 +461,19 @@ En el siguiente apartado se realizará el cálculo del TCO, junto con la estimac
 **TCO a a los 2 años** 
 
 
+| CapEx        | OpEx mensual | OpEx lo largo de 24 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.536,92 €  | 204.886,15 €            | 319.358,09 € | 348.399,38 €   | 29.041,28 €    |
 
-||CapEx |OpEx mensual |<p>OpEx a </p><p>lo largo de 24 meses </p>|TCO |Ingresos totales |Beneficios |
-| :- | - | - | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|174\.536,40 €|`  `270.411,64 €|` `375.814,56 €|`  `105.402,92 €|
 
-Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable durante el segundo semestre. 
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 23 meses, es decir, casi a los 2 años. 
 
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Grafica-Analisis-de-Costes-TCO.jpeg" alt="Universidad de Sevilla" width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/caso_pesimista.png" alt="Rentabilidad caso pesimista" width="150"/>
 </p>
 
-Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a los 12 meses, es decir, al año.
 
 ### 4.2 Caso neutro
 
@@ -641,25 +651,257 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 
 
- #### 4.2.1 Cálculos del TCO ####
+ #### 4.2.1 Cálculos del TCO neutro####
 
 En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
+
+Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 16.000 imágenes, cada una con un peso aproximado de 5 MB, y 18.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+
+**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
 
 **TCO a los 6 meses** 
 
 
+| CapEx        | OpEx mensual | OpEx lo largo de 6 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|-------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.561,88 €  | 51.221,89 €            | 165.693,84 € | 91.440,23 €    | -74.253,61 €   |
 
-||CapEx |OpEx mensual |<p>OpEx </p><p>lo largo de 6 meses </p>|TCO |Ingresos totales |Beneficios |
-| :- | - | :- | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|43\.634,10 €|`  `139.509,34 €|`  `93.953,64 €|` `-45.555,70 €|
+
+
+
+**TCO a al año** 
+
+| CapEx        | OpEx mensual | OpEx lo largo de 12 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.561,88 €  | 102.466,16 €            | 216.938,10 € | 213.978,89 €   | -2.959,21 €    |
+
+
+
+
+**TCO a a los 2 años** 
+
+
+| CapEx        | OpEx mensual | OpEx lo largo de 24 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.561,88 €  | 205.054,81 €            | 319.526,76 € | 598.254,23 €   | 278.727,47 €   |
+
+
+
+
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 13 meses. 
+
+Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/caso_nuetro.png" alt="Universidad de Sevilla" width="700"/>
+</p>
+
+
+
+
+### 4.3 Caso optimista
+
+Para el caso optimista, se han usado porcentajes mayores para las comisiones más caras y menores para las más baratas, pero teniendo en cuenta los resultados de la encuesta. Por tanto el porcentaje de las comisiones según su rango de precio es:
+
+| Rango de precio | Porcentaje de comisiones a ese precio | Media del precio |
+|----------------|---------------------------------|----------------|
+| 5-15€         | 25%                           | 10,00 €        |
+| 15-30€        | 25%                           | 22,50 €        |
+| 30-50€        | 25%                           | 40,00 €        |
+| 50-75€        | 15%                           | 62,50 €        |
+| 75-100€       | 10%                            | 87,50 €        |
+
+Hemos considerado en el caso pesimista que en un plazo de 2 años vamos a conseguir 8001 artistas empezando con el primer mes con 2605 artistas y creciendo constantemente un 5% por ciento a partir de este. En relación con los usuarios clientes esperamos tener unos 12000 al final de los dos años.
+
+Tabla de incrementos mensuales de número de artistas y  comisiones cada mes:
+
+| Número de mes | Número de artistas | Número de comisiones totales |
+|--------------|--------------------|-----------------------------|
+| 1            | 2605               | 7086                        |
+| 2            | 2735               | 7440                        |
+| 3            | 2872               | 7812                        |
+| 4            | 3016               | 8202                        |
+| 5            | 3166               | 8613                        |
+| 6            | 3325               | 9043                        |
+| 7            | 3491               | 9495                        |
+| 8            | 3665               | 9970                        |
+| 9            | 3849               | 10469                       |
+| 10           | 4041               | 10992                       |
+| 11           | 4243               | 11542                       |
+| 12           | 4455               | 12119                       |
+| 13           | 4678               | 12725                       |
+| 14           | 4912               | 13361                       |
+| 15           | 5158               | 14029                       |
+| 16           | 5416               | 14730                       |
+| 17           | 5686               | 15467                       |
+| 18           | 5971               | 16240                       |
+| 19           | 6269               | 17052                       |
+| 20           | 6583               | 17905                       |
+| 21           | 6912               | 18800                       |
+| 22           | 7257               | 19740                       |
+| 23           | 7620               | 20727                       |
+| 24           | 8001               | 21764                       |
+
+
+
+Distribución de dichas comisiones en los rangos de precios establecidos:
+
+| Número de mes | 5-15€ | 15-30€ | 30-50€ | 50-75€ | 75-100€ |
+|--------------|-------|--------|--------|--------|--------|
+| 1            | 1771  | 1771   | 1771   | 1063   | 709    |
+| 2            | 1860  | 1860   | 1860   | 1116   | 744    |
+| 3            | 1953  | 1953   | 1953   | 1172   | 781    |
+| 4            | 2051  | 2051   | 2051   | 1230   | 820    |
+| 5            | 2153  | 2153   | 2153   | 1292   | 861    |
+| 6            | 2261  | 2261   | 2261   | 1356   | 904    |
+| 7            | 2374  | 2374   | 2374   | 1424   | 950    |
+| 8            | 2493  | 2493   | 2493   | 1496   | 997    |
+| 9            | 2617  | 2617   | 2617   | 1570   | 1047   |
+| 10           | 2748  | 2748   | 2748   | 1649   | 1099   |
+| 11           | 2885  | 2885   | 2885   | 1731   | 1154   |
+| 12           | 3030  | 3030   | 3030   | 1818   | 1212   |
+| 13           | 3181  | 3181   | 3181   | 1909   | 1272   |
+| 14           | 3340  | 3340   | 3340   | 2004   | 1336   |
+| 15           | 3507  | 3507   | 3507   | 2104   | 1403   |
+| 16           | 3683  | 3683   | 3683   | 2210   | 1473   |
+| 17           | 3867  | 3867   | 3867   | 2320   | 1547   |
+| 18           | 4060  | 4060   | 4060   | 2436   | 1624   |
+| 19           | 4263  | 4263   | 4263   | 2558   | 1705   |
+| 20           | 4476  | 4476   | 4476   | 2686   | 1790   |
+| 21           | 4700  | 4700   | 4700   | 2820   | 1880   |
+| 22           | 4935  | 4935   | 4935   | 2961   | 1974   |
+| 23           | 5182  | 5182   | 5182   | 3109   | 2073   |
+| 24           | 5441  | 5441   | 5441   | 3265   | 2176   |
+
+Los beneficios esperados son: 
+
+| Número de mes | Dinero que mueve la aplicación | Ingresos de la aplicación por transacciones |
+|--------------|--------------------------------|-------------------------------------------|
+| 1            | 256.853,00 €                   | 15.411,18 €                              |
+| 2            | 269.695,65 €                   | 16.181,74 €                              |
+| 3            | 283.180,43 €                   | 16.990,83 €                              |
+| 4            | 297.339,45 €                   | 17.840,37 €                              |
+| 5            | 312.206,43 €                   | 18.732,39 €                              |
+| 6            | 327.816,75 €                   | 19.669,00 €                              |
+| 7            | 344.207,59 €                   | 20.652,46 €                              |
+| 8            | 361.417,96 €                   | 21.685,08 €                              |
+| 9            | 379.488,86 €                   | 22.769,33 €                              |
+| 10           | 398.463,31 €                   | 23.907,80 €                              |
+| 11           | 418.386,47 €                   | 25.103,19 €                              |
+| 12           | 439.305,80 €                   | 26.358,35 €                              |
+| 13           | 461.271,08 €                   | 27.676,27 €                              |
+| 14           | 484.334,64 €                   | 29.060,08 €                              |
+| 15           | 508.551,37 €                   | 30.513,08 €                              |
+| 16           | 533.978,94 €                   | 32.038,74 €                              |
+| 17           | 560.677,89 €                   | 33.640,67 €                              |
+| 18           | 588.711,78 €                   | 35.322,71 €                              |
+| 19           | 618.147,37 €                   | 37.088,84 €                              |
+| 20           | 649.054,74 €                   | 38.943,28 €                              |
+| 21           | 681.507,48 €                   | 40.890,45 €                              |
+| 22           | 715.582,85 €                   | 42.934,97 €                              |
+| 23           | 751.361,99 €                   | 45.081,72 €                              |
+| 24           | 788.930,09 €                   | 47.335,81 €                              |
+
+
+
+
+- **A través de las tarifas para los artistas** 
+
+Según los datos de las encuestas, se ha supuesto que un 35% de los usuarios artista estarían dispuestos a pagar esta mensualidad. Esto nos daría los siguientes ingresos:
+
+| Número de mes | Usuarios premium (35%) | Ingresos por el plan premium (4,99€) |
+|--------------|------------------------|--------------------------------------|
+| 1            | 912                    | 4.549,63 €                          |
+| 2            | 957                    | 4.777,11 €                          |
+| 3            | 1005                   | 5.015,97 €                          |
+| 4            | 1055                   | 5.266,77 €                          |
+| 5            | 1108                   | 5.530,11 €                          |
+| 6            | 1164                   | 5.806,61 €                          |
+| 7            | 1222                   | 6.096,94 €                          |
+| 8            | 1283                   | 6.401,79 €                          |
+| 9            | 1347                   | 6.721,88 €                          |
+| 10           | 1414                   | 7.057,97 €                          |
+| 11           | 1485                   | 7.410,87 €                          |
+| 12           | 1559                   | 7.781,42 €                          |
+| 13           | 1637                   | 8.170,49 €                          |
+| 14           | 1719                   | 8.579,01 €                          |
+| 15           | 1805                   | 9.007,96 €                          |
+| 16           | 1895                   | 9.458,36 €                          |
+| 17           | 1990                   | 9.931,28 €                          |
+| 18           | 2090                   | 10.427,84 €                         |
+| 19           | 2194                   | 10.949,23 €                         |
+| 20           | 2304                   | 11.496,69 €                         |
+| 21           | 2419                   | 12.071,53 €                         |
+| 22           | 2540                   | 12.675,11 €                         |
+| 23           | 2667                   | 13.308,86 €                         |
+| 24           | 2800                   | 13.974,30 €                         |
+
+
+Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premium) de la aplicación del caso optimista a lo largo de 24 meses serían los siguientes:
+
+| Número de mes | Ingresos de la aplicación | Ingresos acumulados |
+|--------------|--------------------------|----------------------|
+| 1            | 19.960,81 €               | 19.960,81 €         |
+| 2            | 20.958,85 €               | 40.919,67 €         |
+| 3            | 22.006,80 €               | 62.926,46 €         |
+| 4            | 23.107,14 €               | 86.033,60 €         |
+| 5            | 24.262,49 €               | 110.296,09 €        |
+| 6            | 25.475,62 €               | 135.771,71 €        |
+| 7            | 26.749,40 €               | 162.521,10 €        |
+| 8            | 28.086,87 €               | 190.607,97 €        |
+| 9            | 29.491,21 €               | 220.099,18 €        |
+| 10           | 30.965,77 €               | 251.064,95 €        |
+| 11           | 32.514,06 €               | 283.579,01 €        |
+| 12           | 34.139,76 €               | 317.718,78 €        |
+| 13           | 35.846,75 €               | 353.565,53 €        |
+| 14           | 37.639,09 €               | 391.204,62 €        |
+| 15           | 39.521,04 €               | 430.725,66 €        |
+| 16           | 41.497,10 €               | 472.222,76 €        |
+| 17           | 43.571,95 €               | 515.794,71 €        |
+| 18           | 45.750,55 €               | 561.545,26 €        |
+| 19           | 48.038,08 €               | 609.583,33 €        |
+| 20           | 50.439,98 €               | 660.023,31 €        |
+| 21           | 52.961,98 €               | 712.985,29 €        |
+| 22           | 55.610,08 €               | 768.595,36 €        |
+| 23           | 58.390,58 €               | 826.985,95 €        |
+| 24           | 61.310,11 €               | 888.296,06 €        |
+
+
+
+
+
+
+-------------------------------------------------
+
+
+
+
+
+
+ #### 4.3.1 Cálculos del TCO optimista ####
+
+En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
+
+Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 21,000 imágenes, cada una con un peso aproximado de 5 MB, y 23,000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+
+**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
+
+
+**TCO a los 6 meses** 
+
+
+| CapEx        | OpEx mensual | OpEx lo largo de 6 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|-------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.550,38 €  | 51.245,50 €            | 165.717,44 € | 135.771,71 €   | -29.945,73 €   |
+
 
 **TCO a al año** 
 
 
+| CapEx        | OpEx mensual | OpEx lo largo de 12 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.550,38 €  | 102.521,39 €            | 216.993,33 € | 317.718,78 €   | 100.725,44 €   |
 
-||CapEx |OpEx mensual |OpEx a los 12 meses |TCO |Ingresos totales |Beneficios |
-| :- | - | - | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|87\.268,20 €|183\.143,44 €|`  `187.907,28 €|`  `4.763,84 €|
 
 
 
@@ -668,23 +910,31 @@ En el siguiente apartado se realizará el cálculo del TCO, junto con la estimac
 **TCO a a los 2 años** 
 
 
+| CapEx        | OpEx mensual | OpEx lo largo de 24 meses | TCO         | Ingresos totales | Beneficios       |
+|-------------|-------------|--------------------------|------------|----------------|----------------|
+| 114.471,94 € | 8.550,38 €  | 205.209,24 €            | 319.681,18 € | 888.296,06 €   | 568.614,88 €   |
 
-||CapEx |OpEx mensual |<p>OpEx a </p><p>lo largo de 24 meses </p>|TCO |Ingresos totales |Beneficios |
-| :- | - | - | - | - | :-: | - |
-|TCO |95\.875,24 €|7\.272,35 €|174\.536,40 €|`  `270.411,64 €|` `375.814,56 €|`  `105.402,92 €|
-
-Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable durante el segundo semestre. 
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 8 meses.  
 
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Grafica-Analisis-de-Costes-TCO.jpeg" alt="Universidad de Sevilla" width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/caso_optimista.png" alt="Universidad de Sevilla " width="700"/>
 </p>
 
 Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a los 12 meses, es decir, al año.
 
+## 5. Rentabilidad (Resumen)
 
-## 5. Bibliografía
+- **Caso pesimista**: A los 23 meses.
+- **Caso neutro**: A los 13 meses.
+- **Caso optimista**: A los 8 meses.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/resumen.png" alt="Universidad de Sevilla " width="700"/>
+</p>
+
+## 6. Bibliografía
 
 Sueldos en Indeed: [https://es.indeed.com/career/salaries?from=gnav-homepage]
 
@@ -703,3 +953,5 @@ Licencia para GitHub: [https://github.com/pricing#compare-features]
 Comisión Google Play Store: [https://support.google.com/googleplay/android-developer/answer/112622?hl=es-419] 
 
 Comisión Paypal: [https://www.paypal.com/es/business/paypal-business-fees]
+
+Planes de precios de Firebase: [https://firebase.google.com/docs/projects/billing/firebase-pricing-plans?hl=es-419]
