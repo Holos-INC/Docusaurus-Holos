@@ -1,4 +1,4 @@
-# Gestión y análisis de riesgo
+# Gestión y análisis de riesgo - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -14,9 +14,11 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 08/03/2025  
-**Versión:** v1.1  
+**Versión:** v1.2  
 
 **Grupo de prácticas:** G1  
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -34,7 +36,13 @@
 - Celia Aguilera Camino  
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
-- José María Portela Huerta 
+- José María Portela Huerta
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Juan del Junco       |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -44,7 +52,8 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 23/02/2025 | v1.0    | Creación de documento | José María Portela       |
-| 08/03/2025 | v1.1    | Modificación del documento | Juan del Junco Obregón  |
+| 08/03/2025 | v1.2    | Modificación del documento | Juan del Junco Obregón  |
+| 13/03/2025 | v1.2    | Modificación de la portada | María del Mar  |
 
 ---
 
