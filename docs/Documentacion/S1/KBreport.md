@@ -1,4 +1,4 @@
-# Aportaciones a la BCC
+# Aportaciones a la BCC - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -13,7 +13,7 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 08/03/2025  
+**Fecha:** 13/03/2025  
 **Versión:** v1.1  
 
 **Grupo de prácticas:** G1  
@@ -35,7 +35,13 @@
 - Celia Aguilera Camino  
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
-- José María Portela Huerta 
+- José María Portela Huerta
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Gabriel Vacaro       |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -46,6 +52,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 13/03/2025 | v1.0    | Creación de documento | Gabriel Vacaro Goytia      |
+| 13/03/2025 | v1.1    | Modificación Portada| María del Mar Ávila      |
 
 ---
 

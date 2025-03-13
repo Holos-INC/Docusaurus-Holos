@@ -1,4 +1,4 @@
-﻿# Análisis de Costes y TCO
+﻿# Análisis de Costes y TCO - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -14,9 +14,10 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 19/02/2025  
-**Versión:** v1.0  
+**Versión:** v2.1  
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -34,7 +35,14 @@
 - Celia Aguilera Camino  
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
-- José María Portela Huerta  
+- José María Portela Huerta
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Joaquín González      |  Redactor                       |
+| María del Carmen Garrancho  |  Redactora                       |
+| María del Mar Ávila  |  Revisora                       | 
 
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
@@ -47,6 +55,7 @@
 |------------|---------|-----------------------|--------------------------|
 | 19/02/2025  | v1.0    | Creación del documento Análisis de costes y TCO del proyecto   | <p>- Joaquín González Ganfornina  </p><p> - María del Carmen Garrancho</p>
 | 13/03/2025  | v2.0    | Modificación de los costes en función del nuevo modelo de negocio y tecnologías a usar  |<p>- Joaquín González Ganfornina  </p><p> - María del Carmen Garrancho</p>|
+| 13/03/2025  | v2.1    | Modificación de la portada  |María del Mar Ávila|
 
 
 ---

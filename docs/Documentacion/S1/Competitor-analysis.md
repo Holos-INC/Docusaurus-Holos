@@ -1,4 +1,4 @@
-# Análisis de Competidores
+# Análisis de Competidores - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -15,9 +15,11 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:**  11/03/2025
-**Versión:**  v1.1
+**Versión:**  v1.2
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1 
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -38,16 +40,23 @@
 - José María Portela Huerta  
 
 
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Ignacio Warleta      |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
+
 **Repositorio:** [https://github.com/Holos-INC](https://github.com/Holos-INC)
 
 ---
 
 ## Control de Versiones
 
-| Fecha       | Versión | Descripción              |
-|-------------|---------|--------------------------|
-| 12/02/2025  | v1r0    | Creación del documento   |
-| 11/03/2025  | v1r1    | Análisis de mas competidores con semrush y conclusion   modificada   |
+| Fecha       | Versión | Descripción              | Autor|
+|-------------|---------|--------------------------|------|
+| 12/02/2025  | v1.0    | Creación del documento   | Ignacio Warleta Murcia |
+| 11/03/2025  | v1.1    | Análisis de mas competidores con semrush y conclusion   modificada   |Ignacio Warleta Murcia|
+| 13/03/2025  | v1.2    | Modificación Portada   | María del Mar Ávila|
 
 
 ---

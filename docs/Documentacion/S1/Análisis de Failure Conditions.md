@@ -67,7 +67,7 @@
 
 | Estado | Documento | Descripción |
 |--------|-----------|-------------|
-| ❌ | KBreport.md | Contribuciones a la base de conocimiento. Debe incluir: enlace a la base común de conocimiento, contenido añadido por el grupo, feedback recibido y anotaciones sobre el feedback general, y acciones de consolidación realizadas. Si no hay, especificar "No consolidation actions have been carried out". |
+| ✔️ | KBreport.md | Contribuciones a la base de conocimiento. Debe incluir: enlace a la base común de conocimiento, contenido añadido por el grupo, feedback recibido y anotaciones sobre el feedback general, y acciones de consolidación realizadas. Si no hay, especificar "No consolidation actions have been carried out". |
 | ✔️ | pilotUsers.md | Reporte de usuarios piloto: lista de UP, plan de comunicación y gestión, gestión del feedback, etc. |
 | ❌ | performanceEvaluation.md | Evaluación del desempeño individual siguiendo la plantilla en EV. |
 | ❌ | timeEffortReport.md | Reporte del tiempo-esfuerzo de cada miembro del grupo, incluyendo gráficos. |
@@ -84,10 +84,10 @@
 | Requisito | Estado |
 |------------|---------|
 | Número del grupo | ✔️ |
-| Nombre del grupo | ❌ |
-| Nombre de la entrega (Sprint 1) | ❌ |
+| Nombre del grupo | ✔️ |
+| Nombre de la entrega (Sprint 1) | ✔️ |
 | Título descriptivo | ✔️ |
-| Nombre y apellidos de los miembros con su contribución | ❌ |
+| Nombre y apellidos de los miembros con su contribución | ✔️ |
 
 ---
 
