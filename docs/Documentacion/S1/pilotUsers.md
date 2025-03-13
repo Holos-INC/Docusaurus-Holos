@@ -1,4 +1,4 @@
-# Gestión de Usuarios Piloto
+# Gestión de Usuarios Piloto - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -17,6 +17,8 @@
 **Versión:** v1.3  
 
 **Grupo de prácticas:** G1  
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -35,6 +37,12 @@
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
 - José María Portela Huerta 
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Nerea Jiménez Adorna  |  Redactora                      |
+| María del Mar Ávila   |  Revisora                        |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 

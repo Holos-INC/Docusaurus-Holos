@@ -1,4 +1,4 @@
-# Evaluación del Desempeño de los Usuarios Piloto
+# Evaluación del Desempeño de los Usuarios Piloto - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -17,6 +17,8 @@
 **Versión:** v1.0  
 
 **Grupo de prácticas:** G1  
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -35,6 +37,13 @@
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
 - José María Portela Huerta 
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Nerea Jiménez Adorna  |  Redactora                      |
+| María del Mar Ávila   |  Revisora                        |
+
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -158,11 +167,11 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 |   Mohamed Abouri  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
 |   Enrique García Abadía  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
 
-## Conclusión
+## 3. Conclusión
 
 Dado que hasta la fecha únicamente se ha enviado el **Commitment Agreement** para su firma, la evaluación de los usuarios piloto se basa exclusivamente en su respuesta a este primer requerimiento. Las calificaciones reflejan la disposición de los usuarios para participar en el proceso de prueba, pero no pueden medir aún su desempeño en la detección de errores ni en la calidad del feedback, hecho del cual nos responsabilizamos totalmente por no haber cumplido los plazos designados para la primera entrega en el calendario.
 
-Está claro que para la siguiente entrega (Sprint 2) debemos ser conscientes de nuestras capacidades y de la posibilidad de que surjan problemas como nos ha ocurrido en este caso, por lo que por no haber sido más previsores hemos dado fechas a los Usuarios Piloto que no hemos sido capaces de cumplir y además nos hemos quedado sin un valioso feedback.
+Está claro que para la siguiente entrega (Sprint 2) debemos ser conscientes de nuestras capacidades y de la posibilidad de que surjan problemas como nos ha ocurrido en este caso, ya que, por no haber sido más previsores hemos dado fechas a los usuarios piloto que no hemos sido capaces de cumplir y además nos hemos quedado sin un valioso feedback.
 
 Para cada entrega este documento se actualizará, de modo que por Sprint aparecerá la evaluación detallada de esa misma entrega, mientras que respecto a las anteriores (excepto en el Sprint 1) aparecerá el solo el resumen.
 
