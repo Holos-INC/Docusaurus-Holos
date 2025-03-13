@@ -47,6 +47,7 @@
 | 03/03/2025 | v1.1    | Correcciones y añadidos | Nerea Jiménez Adorna       |
 | 03/03/2025 | v1.2    | Más usuarios piloto | Nerea Jiménez Adorna       |
 | 09/03/2025 | v1.3    | Corrección Usuarios Piloto y añadido "Evaluación de Usuarios piloto de otros grupos" | Nerea Jiménez Adorna  |
+| 13/03/2025 | v1.4    | Añadida evaluación de Usuarios Piloto y actualización del calendario | Nerea Jiménez Adorna  |
 
 ---
 
@@ -58,6 +59,7 @@
         1. [Usuarios Piloto de otros grupos](#221-usuarios-piloto-de-otros-grupos)
 3. [Escenarios de prueba](#3-escenarios-de-prueba)
 4. [Plan de Testing y Feedback Survey](#4-plan-de-testing-y-feedback-survey)
+    1. [Calendario de envíos](#41-calendario-de-envios)
 5. [Plan de Comunicación](#5-plan-de-comunicación)
 6. [Evaluación de los Usuarios Piloto](#6-evaluación-de-los-usuarios-piloto)
 7. [Beneficios para los Usuarios Piloto](#7-beneficios-para-los-usuarios-piloto)
@@ -261,6 +263,25 @@ Se plantearán preguntas a los usuarios piloto después de probar el sistema. Se
 
 Se deben identificar, además, tendencias claras en las respuestas sobre el precio del plan premium con las características que ofrecemos. Esto implica que quizá debamos replantearnos el modelo de negocio si los usuarios piloto no se sienten del todo satisfechos con las funcionalidades, consideran que no valen la pena o que el precio es demasiado elevado. Por el contrario, si los usuarios piloto están muy satisfechos y sienten que nuestra apliación realmente vale la pena, también se podría llegar a considerar un aumento de precio en el plan premium.
 
+### 4.1 Calendario de envíos
+
+| Envío | Sprint | Fecha de Entrega | Fecha Límite | Estado | Descripción |
+|---------------|--------|----------------|--------------|--------|-------------|
+| 1  | Sprint 1 | 3/03/2025    | 8/03/2025   | Completado | Envío del Commitment Agreement para firma |
+| 2 | Sprint 1 | 9/03/2025    | 13/03/2025   | Retrasado | Primera entrega de prototipo para prueba inicial |
+| 2  | Sprint 2 | 15/03/2025    | 15/03/2025   | Pendiente | Primera entrega de prototipo para prueba inicial |
+| 3  | Sprint 2 | 22/03/2025    | 27/04/2025   | Pendiente | Evaluación de funcionalidades adicionales y premium |
+| 4 | Sprint 3 | 5/04/2025   | 10/04/2025   | Pendiente | Implementación de feedback recibido y funcionalidades adicionales |
+| 5   | PPL | 19/04/2025    | 24/04/2025   | Pendiente | Implementación de feedback y evaluación de características visuales (UI) |
+| 6  | WPL | 10/05/2025    | 15/05/2025   | Pendiente | Última iteración antes del cierre de pruebas, evaluación definitiva |
+
+**Estado de los envíos:**
+- **Pendiente:** Aún no enviado.
+- **Retrasado:** No se ha podido cumplir la fecha prevista en el calendario. Se establece otra fecha para ese envío.
+- **Completado:** Se ha recibido feedback y el envío ha sido procesado.
+
+Este calendario será actualizado conforme avancen los sprints y se realicen los envíos a los usuarios piloto. En caso de no cumplir con la fecha de un envío, avisaremos con la máxima antelación posible y nos disculparemos por no haber podido cumplir los plazos. Si un usuario piloto se demora más de la fecha límite para entregar el feedback, se aceptará, pero se valorará negativamente a no ser que tenga una justificación comprensible.
+
 ## 5. Plan de Comunicación
 Se establece como objetivo principal que los usuarios piloto tengan acceso a soporte continuo y puedan comunicarse con los miembros del equipo en caso de que surja cualquier tipo de incidencia en el programa de pilotaje.
 
@@ -361,37 +382,39 @@ Se han definido los siguientes criterios para la evaluación:
 
 #### Envío 1
 
-| Nombre          |   Participación activa   |   Claridad del feedback   |   Reporte de errores   |   Sugerencias de mejora   |   Cumplimiento de instrucciones   |   Actitud colaborativa   |   Interacción con la app   |   Impacto del feedback   |   Promedio   |
-|----------------|-------------------------|--------------------------|------------------------|--------------------------|----------------------------------|-------------------------|--------------------------|------------------------|-------------|
-| Braulio        |   |   |   |   |   |   |   |   |   |
-| Claudia        |   |   |   |   |   |   |   |   |   |
-| Miriam         |   |   |   |   |   |   |   |   |   |
-| Paola          |   |   |   |   |   |   |   |   |   |
-| Víctor         |   |   |   |   |   |   |   |   |   |
-| Yellow         |   |   |   |   |   |   |   |   |   |
-| Alex S         |   |   |   |   |   |   |   |   |   |
-| Patricia       |   |   |   |   |   |   |   |   |   |
-| Artofiz        |   |   |   |   |   |   |   |   |   |
-| Gabriela       |   |   |   |   |   |   |   |   |   |
-| Alex           |   |   |   |   |   |   |   |   |   |
-| Gurutze        |   |   |   |   |   |   |   |   |   |
-| Damaris        |   |   |   |   |   |   |   |   |   |
-| Sofía          |   |   |   |   |   |   |   |   |   |
-| Jeenii         |   |   |   |   |   |   |   |   |   |
-| Emilio         |   |   |   |   |   |   |   |   |   |
-| Rafael         |   |   |   |   |   |   |   |   |   |
-| Félix          |   |   |   |   |   |   |   |   |   |
-| Raúl           |   |   |   |   |   |   |   |   |   |
-| Patricia       |   |   |   |   |   |   |   |   |   |
-| Joker          |   |   |   |   |   |   |   |   |   |
-| Henrique       |   |   |   |   |   |   |   |   |   |
-| Javier Pacheco |   |   |   |   |   |   |   |   |   |
-| Horacio        |   |   |   |   |   |   |   |   |   |
-| Keegan         |   |   |   |   |   |   |   |   |   |
-| Milagros       |   |   |   |   |   |   |   |   |   |
-| Simón          |   |   |   |   |   |   |   |   |   |
-| Lucas          |   |   |   |   |   |   |   |   |   |
-| Carlos         |   |   |   |   |   |   |   |   |   |
+# Evaluación de Usuarios Piloto
+
+| Nombre          | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
+|----------------|---------------------|----------------------|--------------------|----------------------|--------------------------|-----------------|----------------------|------------------|----------|
+| Braulio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Claudia  |    10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Miriam  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Paola  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Víctor  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Yellow   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Alex S   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Patricia  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Artofiz   |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Gabriela | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Alex      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Gurutze  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Damaris  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Sofía    | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Jeenii   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Emilio   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Rafael   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Félix     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Raúl      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Patricia | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Joker     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Henrique  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Javier Pacheco | 10 | N/A    | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Horacio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Keegan    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Milagros  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Simón     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Lucas     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Carlos    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
 
 
 
@@ -429,14 +452,15 @@ Promedio: **(8+10+6+8+10+8+6+4) / 8 = 7.5**
 
 #### Envío 1
 
+En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño de los Usuarios Piloto se detalla la evaluación de los Usuarios Piloto asignados de otros grupos con más exactitud.
+
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |   |   |   |   |   |   |   |   |    |
-|   Rafael Duque Colete  |   |   |   |   |   |   |   |   |    |
-|   Rafael Castillo Cebolla   |   |   |   |   |   |   |   |   | |
-|   Mohamed Abouri|   |   |   |   |   |   |   |   | |
-|   Enrique García Abadía|   |   |   |   |   |   |   |   | |
-|---------|--------|--------|------|----|-------|--------|----|---------|----|
+|   Daniel Galván Cancho   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10** |
+|   Rafael Duque Colete   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
+|   Rafael Castillo Cebolla   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
+|   Mohamed Abouri  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
+|   Enrique García Abadía  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
 
 ## 7. Beneficios para los Usuarios Piloto
 
