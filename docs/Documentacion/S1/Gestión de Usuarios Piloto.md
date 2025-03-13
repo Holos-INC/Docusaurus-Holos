@@ -269,8 +269,8 @@ Se deben identificar, además, tendencias claras en las respuestas sobre el prec
 |---------------|--------|----------------|--------------|--------|-------------|
 | 1  | Sprint 1 | 3/03/2025    | 8/03/2025   | Completado | Envío del Commitment Agreement para firma |
 | 2 | Sprint 1 | 9/03/2025    | 13/03/2025   | Retrasado | Primera entrega de prototipo para prueba inicial |
-| 2  | Sprint 2 | 15/03/2025    | 15/03/2025   | Pendiente | Primera entrega de prototipo para prueba inicial |
-| 3  | Sprint 2 | 22/03/2025    | 27/04/2025   | Pendiente | Evaluación de funcionalidades adicionales y premium |
+| 2  | Sprint 2 | 15/03/2025    | 20/03/2025   | Pendiente | Primera entrega de prototipo para prueba inicial |
+| 3  | Sprint 2 | 22/03/2025    | 27/03/2025   | Pendiente | Evaluación de funcionalidades adicionales y premium |
 | 4 | Sprint 3 | 5/04/2025   | 10/04/2025   | Pendiente | Implementación de feedback recibido y funcionalidades adicionales |
 | 5   | PPL | 19/04/2025    | 24/04/2025   | Pendiente | Implementación de feedback y evaluación de características visuales (UI) |
 | 6  | WPL | 10/05/2025    | 15/05/2025   | Pendiente | Última iteración antes del cierre de pruebas, evaluación definitiva |
