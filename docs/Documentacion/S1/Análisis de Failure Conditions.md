@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 10/03/2025  
-**Versión:** v1.0  
+**Versión:** v1.1  
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -60,7 +60,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 10/03/2025 | v1.0    | Creación de documento | María del Mar Ávila      |
-| 10/03/2025 | v1.2    | Actualizada tabla de documentación| María del Mar Ávila      |
+| 10/03/2025 | v1.1    | Actualizada tabla de documentación| María del Mar Ávila      |
 ---
 
 ## 2. Documentación
