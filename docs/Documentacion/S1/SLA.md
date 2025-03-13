@@ -1,4 +1,4 @@
-# SLA para Holos
+# SLA para Holos - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -16,7 +16,9 @@
 **Fecha:** 08/03/2025  
 **Versión:** v1.1  
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -34,7 +36,14 @@
 - Celia Aguilera Camino  
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
-- José María Portela Huerta 
+- José María Portela Huerta
+
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Ignacio Warleta      |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -44,6 +53,9 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 11/03/2025 | v1.0    | Creación de documento | Ignacio Warleta Murcia   |
+| 13/03/2025 | v1.1   | Actualizar Portada    | María del Mar Ávila      |
+
+**Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
 
 ---

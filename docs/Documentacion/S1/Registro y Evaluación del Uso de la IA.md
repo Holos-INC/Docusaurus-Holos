@@ -1,4 +1,4 @@
-# Registro y Evaluación del uso de la IA
+# Registro y Evaluación del uso de la IA - Sprint 1
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
@@ -13,9 +13,11 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 05/03/2025  
-**Versión:** v1.2  
+**Versión:** v1.3  
 
 **Grupo de prácticas:** G1  
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -34,6 +36,12 @@
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
 - José María Portela Huerta 
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Miguel Ángel Gómez   |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -215,6 +223,8 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 002          | Resolución de dudas con respecto al uso de Inheritance.TABLE_PER_CLASS con JPARepository | José María Portela | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67c80f58-906c-800f-a924-92a3be926a2d) |
 | 003          | Despliegue de la aplicación | Juan Antonio Moreno | 13/03/2025 | [Enlace](https://chatgpt.com/share/67d2d67b-d150-8000-bc46-b56dbc88ef66) |
 | 004          | Recomendaciones de uso responsive en front | Francisco Pérez | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67d22373-52fc-8001-9b58-415582498579) |
+| 005          | Investigación sobre cómo insertar múltiples líneas de texto en un campo de entrada de texto. | María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdeee7-5930-8006-a4ae-289158db3f07) |
+| 006          | Investigación sobre la generación de  un mockup de backend en el frontend.| María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdedea-0e08-8006-bb75-d69b706d7935) |
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
 
@@ -226,5 +236,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 002          | 2                               | Sí                          | No procede           | 45 min           |
 | 003          | 2                               | Sí                          | Sí                   | 300 min           |
 | 004          | 3                               | Sí                          | No                   | 30 min           |
+| 005          | 2                               | Sí                          | No                   | 20 min           |
+| 006          | 1                               | Sí                          | No                   | 45 min           |
 ---
 
