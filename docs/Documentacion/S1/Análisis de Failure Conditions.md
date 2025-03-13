@@ -60,6 +60,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 10/03/2025 | v1.0    | Creación de documento | María del Mar Ávila      |
+| 10/03/2025 | v1.2    | Actualizada tabla de documentación| María del Mar Ávila      |
 ---
 
 ## 2. Documentación
