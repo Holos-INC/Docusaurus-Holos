@@ -73,7 +73,7 @@
 | ✔️ | AIusage.md | Reporte del uso de la IA. |
 | ✔️ | CommitmentAgreement.md | Acuerdo de compromiso con versión, estado, etc. |
 | ✔️ | pilotUsersCommitmentAgreement.md | Acuerdo de compromiso de los UP. |
-| ❌ | pilotUsersPerformanceEvaluation.md | Evaluación de los UP. Debe valorar y puntuar a los estudiantes de ISPP que hacen de usuarios piloto. |
+| ✔️ | pilotUsersPerformanceEvaluation.md | Evaluación de los UP. Debe valorar y puntuar a los estudiantes de ISPP que hacen de usuarios piloto. |
 | ✔️ | revision.md | Revisión de la implementación. Debe incluir un mapeo explícito de los casos de uso a interacciones en el software, datos necesarios para la revisión (usuarios, credenciales, ejemplos de datasets), requisitos potenciales, enlace a la demo en MP4 y otros documentos relevantes. |
 
 ---
