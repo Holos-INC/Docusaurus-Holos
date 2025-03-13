@@ -1,4 +1,4 @@
-# Análisis de Requisitos
+# Análisis de Requisitos - Sprint 1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -14,9 +14,10 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 23/02/2025  
-**Versión:** v1.0  
+**Versión:** v1.6  
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1 
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
 
 - María del Mar Ávila Maqueda  
 - Joaquín González Ganfornina  
@@ -34,7 +35,17 @@
 - Celia Aguilera Camino  
 - Gabriel María Vacaro Goytía  
 - Ignacio Warleta Murcia  
-- José María Portela Huerta 
+- José María Portela Huerta
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Juan Antonio Moreno  |  Redactor                       |
+| José María Portela   |  Redactor                       |
+| Juan Núñez           |  Redactor                       |
+| Francisco Pérez      |  Redactor                       |
+| Daniel Guedes        |  Redactor                       |
+| María del Mar Ávila  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -68,6 +79,7 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 | 01/03/2025 | v1.3    | Requisitos no funcionales |  - Francisco Pérez Lázaro     |
 | 02/03/2025 | v1.4    | Actualización Datos |  - Francisco Pérez Lázaro     |
 | 03/03/2025 | v1.5    | Añadiendo Casos de Uso |  - Francisco Pérez Lázaro     |
+| 13/03/2025 | v1.6    | Modificada la portada |  - María del Mar Ávila    |
 
 
 ---
