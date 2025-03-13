@@ -53,7 +53,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 11/03/2025 | v1.0    | Creación de documento | Ignacio Warleta Murcia   |
-| 13/03/2025 | v1.01   | Actualizar Portada    | María del Mar Ávila      |
+| 13/03/2025 | v1.1   | Actualizar Portada    | María del Mar Ávila      |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
