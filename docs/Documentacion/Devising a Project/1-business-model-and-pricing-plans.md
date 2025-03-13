@@ -126,7 +126,7 @@ Los usuarios clientes disponen de una única tarifa, la cual es gratuita.
 | Pueden personalizar los request de las comisiones | No | Sí |
 | Número máximo de imágenes en el portafolio |  7 | Indefinido |
 | Personalización del tablero de gestión de comisiones (Kanban) |  No | Sí |
-| Acceso al método de pago Escrow |  No | Sí |
+| Acceso al método de pago Modelador |  No | Sí |
 
 
 ### 3. Métodos de pago
