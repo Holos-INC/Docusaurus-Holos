@@ -7,10 +7,10 @@ assignees: ''
 
 ---
 
-**Roles:**
+# **Roles:**
 - Nombre1 - Rol responsable Tabla RACI
 - Nombre2 - Rol aceptador Tabla RACI
 - José María - Project Manager
 
-**Descripción tarea:**
+# **Descripción tarea:**
 Breve descripción de la tarea a realizar
