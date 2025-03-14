@@ -122,16 +122,6 @@ public ResponseEntity<Page<Work>> searchWorks(...) {
     Page<Work> results = searchService.searchWorks(...);
     return ResponseEntity.ok(results);
 }
-
-@GetMapping("/works")
-public ResponseEntity<Page<Work>> searchWorks(...) {
-    if (minPrice != null && maxPrice != null && minPrice > maxPrice) {
-        throw new IllegalArgumentException("El precio mínimo no puede ser mayor que el máximo.");
-    }
-    
-    Page<Work> results = workRepository.searchByTitleAndPrice(query, minPrice, maxPrice, pageable);
-    return ResponseEntity.ok(results);
-}
 ```
 **No hacer:**
 ```java
@@ -292,7 +282,7 @@ Cuando una API no maneja correctamente los errores:
 ### Ejemplos de uso en el código
 
 #### **`AccessDeniedException`: Bloquear acceso a un recurso ajeno**  
-Si un usuario intenta modificar un trabajo que no es suyo, se le debe denegar el acceso.  
+Se usa cuando el usuario no tiene el rol o permisos suficientes para realizar una acción (ejemplo: solo los administradores pueden eliminar cuentas). 
 
 ```java
 public void updateWork(Long workId, Work updatedWork) {
@@ -318,31 +308,32 @@ public Work getWorkById(Long workId) {
 }
 ```
 ### **`ResourceNotOwnedException`: Evitar modificaciones no autorizadas**  
-Si un usuario intenta modificar un recurso que no es suyo, se lanza un **400 BAD REQUEST**.  
+Se usa cuando un usuario intenta modificar un objeto que no le pertenece, pero el sistema no maneja roles estrictos (ejemplo: un usuario intenta editar un pedido de otro usuario).  
 
 ```java
-public void createWork(Work work) {
-    if (work.getPrice() < 0) {
-        throw new ResourceNotOwnedException("El precio no puede ser negativo.");
+public void updateWork(Long workId, Work updatedWork) {
+    BaseUser user = baseUserService.findCurrentUser();
+     ...
+
+    if (!work.getArtist().getId().equals(user.getId())) {
+        throw new ResourceNotOwnedException("No puedes modificar un trabajo que no te pertenece.");
     }
+
+    work.setName(updatedWork.getName());
     workRepository.save(work);
+}
 }
 ```
 ### **`MethodArgumentNotValidException`: Manejar errores de validación de entrada**  
-Si un usuario envía un campo inválido en una solicitud, la API debe devolver un error detallado.
+Si un usuario envía un campo inválido en una solicitud, la API debe devolver un error detallado. `MethodArgumentNotValidException` no se lanza manualmente con `throw new MethodArgumentNotValidException(...)`, sino que Spring Boot la lanza automáticamente cuando un parámetro de un método anotado con @Valid no cumple con las validaciones definidas en la entidad.
 
 ```java
-@ExceptionHandler(value = MethodArgumentNotValidException.class)
-public final ResponseEntity<ErrorMessage> handleMethodArgumentException(MethodArgumentNotValidException ex, WebRequest request) {
-    Map<String, Object> fieldError = new HashMap<>();
-    List<FieldError> fieldErrors = ex.getBindingResult().getFieldErrors();
-    fieldErrors.forEach(error -> fieldError.put(error.getField(), error.getDefaultMessage()));
-
-    ErrorMessage message = new ErrorMessage(HttpStatus.BAD_REQUEST.value(), new Date(), fieldError.toString(),
-            request.getDescription(false));
-
-    return new ResponseEntity<>(message, HttpStatus.BAD_REQUEST);
+@PostMapping("/works")
+public ResponseEntity<Work> createWork(@Valid @RequestBody Work work) {
+    Work savedWork = workRepository.save(work);
+    return ResponseEntity.status(HttpStatus.CREATED).body(savedWork);
 }
+
 ```
 **Ejemplo de error JSON devuelto por esta excepción:**
 ```java
@@ -353,6 +344,8 @@ public final ResponseEntity<ErrorMessage> handleMethodArgumentException(MethodAr
   "description": "uri=/api/v1/works"
 }
 ```
+- `@Valid` hace que los datos se validen antes de ejecutar el método. Si price es menor que 1, Spring lanza automáticamente `MethodArgumentNotValidException`, generando el JSON de error.
+
 ### Manejo centralizado en `ExceptionHandlerController.java`
 **Todas las excepciones se gestionan en `ExceptionHandlerController.java`, para evitar que los controladores manejen errores.**
 
