@@ -1,4 +1,4 @@
-# Sesión 4
+# Sesión 5
 
 **Fecha: 14/03/2025**
 
@@ -22,24 +22,22 @@ App para venta de obras de artistas.
 - Uso de tablero niko niko el cual es una métrica adicional útil.
 muy bien el final de la presentación en cuestión de tiempo.
 
-
 ## Feedback negativo de estudiante
 - No llega a relacionar bien el problema con la solución.
-- Tardamos  en explicar a qué nos dedicamos.demasiado
+- Tardamos  en explicar a qué nos dedicamos, quizá sería buena idea ajustar el nivel de detalle.
 - No hemos hecho caso al feedback. Pablo nos sugirió eliminar el plan premium y sacar únicamente dinero por comisiones.
 - En algunos datos se usa el k para referirse a los miles y en otros no.
 - Gráfica no muy intuitiva del análisis de coste. Quizás el diagrama de barras no es la mejor idea.
 - La explicación de los porcentajes no ha quedado claro.
 - El ritmo de la demo es muy lento, No se ha preparado bien el video de la demo.
 - No se ve muy bien el video de la demo. Faltan zooms o tamaños de letra más grandes.
-- Mucho tiempo explicando el equipo.
+- Mucho tiempo explicando el equipo, quizá sería adecuado ajustar el nivel de detalle.
 - Foto con marca de agua. Sensación de que no es provisional.
-- Se repite mucho la muletilla “estilo”
-- Se dice tareas de CI/CD, quizás un usuario promedio que escuche la charla no sepa lo que es.
-- Nos comentaron que basar las métricas de rendimiento según el número de commits no es recomendable. No es necesario en la presentación.
-- Las fechas de la gráfica del niko-niko están mal (21/02, 03/02, 21/02).
-- Presentación poco preparada. Se ha dado mucha prisa al final. Demasiadas diapositivas. Tenemos 40 diapositivas.
-
+- Anque va mejorando, el presentador repite todavia la muletilla “estilo” con cierta regularidad.
+- En la presentación se hace mención "tareas de CI/CD", quizás un usuario promedio que escuche la charla no sepa lo que es.
+- No hicimos caso al feedback: Nos comentaron que basar las métricas de rendimiento según el número de commits no es recomendable. Es muy falseable.
+- Las fechas de la gráfica del Niko-Niko están mal (21/02, 03/02, 21/02).
+- Da la sensación de una presentación poco preparada. Se ha dado mucha prisa al final. Demasiadas diapositivas (tenemos 40).
 
 ## Feedback de profesores (Carlos)
 - Le ha gustado la idea de que haga que levantemos la mano, pero opina que tiene sus desventajas, como en el caso de que nadie la levante.
