@@ -271,7 +271,7 @@ Cuando una API no maneja correctamente los errores:
 
 | Excepción                        | Código HTTP                 | Uso                                                                 |
 |----------------------------------|-----------------------------|---------------------------------------------------------------------|
-| `AccessDeniedException`          | 403 FORBIDDEN               | Se lanza cuando un usuario intenta acceder a un recurso que no le pertenece. |
+| `AccessDeniedException`          | 403 FORBIDDEN               | Se usa cuando el usuario no tiene el rol o permisos suficientes para realizar una acción|
 | `ResourceNotFoundException`      | 404 NOT FOUND               | Se usa cuando un recurso solicitado no existe en la base de datos. |
 | `ResourceNotOwnedException`      | 400 BAD REQUEST             | Se lanza cuando un usuario intenta modificar un recurso que no es suyo. |
 | `MethodArgumentNotValidException`| 400 BAD REQUEST             | Se lanza cuando un parámetro de entrada no cumple con las validaciones definidas. |
