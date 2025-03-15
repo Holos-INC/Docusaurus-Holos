@@ -52,16 +52,16 @@
 | v1.0    | 14/03/2025 | Creación del documento. | María del Mar Ávila   |
 
 ## **Índice** 
-1. [Introducción](#-introducción)  
-2. [Estructura del Código](#-1-estructura-del-código)  
-3. [Uso de Swagger](#-2-uso-de-swagger-para-probar-el-backend)  
-4. [Gestión de permisos en SecurityConfig](#-3-gestión-de-permisos-en-securityconfig)  
-5. [Uso de findCurrentUser](#-4-uso-de-findcurrentuser)  
-6. [Manejo de excepciones](#-5-manejo-de-excepciones)  
-7. [Evaluación del Código](#-6-evaluación-del-código)  
-8. [Conclusión](#-conclusión)  
+1. [Introducción](#introducción)  
+2. [Estructura del Código](#1-estructura-del-código)  
+3. [Uso de Swagger](#2-uso-de-swagger-para-probar-el-backend)  
+4. [Gestión de permisos en SecurityConfig](#3-gestión-de-permisos-en-securityconfig)  
+5. [Uso de findCurrentUser](#4-uso-de-findcurrentuser)  
+6. [Manejo de excepciones](#5-manejo-de-excepciones)  
+7. [Evaluación del Código](#6-evaluación-del-código)  
+8. [Conclusión](#conclusión)  
 
-## **Introducción** 
+## Introducción
 El desarrollo de una API backend debe seguir una estructura clara y segura para garantizar **mantenibilidad, escalabilidad y protección de datos**.  
 Este documento establece las **buenas prácticas** a seguir en el desarrollo backend, abordando:
 -  **Estructura del código** (Controlador, Servicio, Repositorio).  

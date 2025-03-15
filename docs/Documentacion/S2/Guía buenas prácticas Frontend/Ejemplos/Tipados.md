@@ -1,6 +1,11 @@
 # Ejemplos de tipado
+
 ## 1. Tipado en componentes
-``` js
+
+```tsx
+import { TouchableOpacity, Text } from "react-native";
+
+// Definiendo un tipo de propiedades para un botón
 type ButtonProps = {
   label: string;
   onPress: () => void;
@@ -13,17 +18,24 @@ const CustomButton: React.FC<ButtonProps> = ({ label, onPress }) => (
 );
 ```
 
-* **Type ButtonProps** define el tipo de las props.
-* **React.FC<ButtonProps/>** asegura que el componente espera esas props.
+* **Type `ButtonProps`** define el tipo de las props.
+* **React.FC`<ButtonProps>`** asegura que el componente espera esas props.
 
 ## 2. Tipado en useState
-``` js
+
+```tsx
+import { useState } from "react";
+
+// Definiendo un tipo de usuario
 type User = { name: string; age: number };
 const [user, setUser] = useState<User | null>(null);
 ```
 
 ## 3. Tipado en useEffect
-``` js
+
+```tsx
+import { useState, useEffect } from "react";
+
 const [userId, setUserId] = useState<number | null>(null);
 
 useEffect(() => {
@@ -31,11 +43,14 @@ useEffect(() => {
     console.log(`Cargando datos para el usuario ${userId}`);
   }
 }, [userId]);
-
 ```
 
 ## 4. Tipado en requests a API
-``` js
+
+```tsx
+import { useEffect } from "react";
+
+// Definiendo un tipo de usuario
 type User = { id: number; name: string };
 
 const fetchUser = async (): Promise<User> => {
@@ -46,5 +61,4 @@ const fetchUser = async (): Promise<User> => {
 useEffect(() => {
   fetchUser().then((user) => console.log(user.name));
 }, []);
-
 ```

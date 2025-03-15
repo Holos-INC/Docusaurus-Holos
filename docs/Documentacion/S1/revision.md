@@ -49,7 +49,7 @@
 ## Índice de Contenidos
 1. [Control de Versiones](#1-control-de-versiones)
 2. [Mapeo de Casos de Uso](#2-mapeo-de-casos-de-uso)
-3. [Información para la Revisión](#3-informacion-para-la-revision)
+3. [Información para la Revisión](#3-información-para-la-revisión)
 
 ---
 ## 1. Control de Versiones

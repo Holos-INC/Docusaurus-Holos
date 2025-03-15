@@ -105,7 +105,7 @@ const ProfileScreen = () => {
 
 ## 2. ¿Cómo se usa useState?
 
-`useState` en React Native permite manejar [estado](./1-%20Fundamentos%20de%20React%20Native.md) local en un componente funcional. Es útil cuando un valor cambia con las interacciones del usuario, como un contador, un input o el estado de un botón.
+`useState` en React Native permite manejar [estado](./1-Fundamentos.md) local en un componente funcional. Es útil cuando un valor cambia con las interacciones del usuario, como un contador, un input o el estado de un botón.
 
 ¡Vamos a poner un ejemplo para verlo de manera más explícita! A pesar de que [este código](https://github.com/Holos-INC/Holos/blob/main/frontend/app/src/screens/RequestCommission/form/RequestForm.tsx) puede mejorar en ciertos aspectos nos sirve para comprender cómo se debe usar la `AuthenticationContext`, `useState` y cómo crear formularios.
 

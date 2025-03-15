@@ -67,7 +67,7 @@
         1. [Usuarios Piloto de otros grupos](#221-usuarios-piloto-de-otros-grupos)
 3. [Escenarios de prueba](#3-escenarios-de-prueba)
 4. [Plan de Testing y Feedback Survey](#4-plan-de-testing-y-feedback-survey)
-    1. [Calendario de envíos](#41-calendario-de-envios)
+    1. [Calendario de envíos](#41-calendario-de-envíos)
 5. [Plan de Comunicación](#5-plan-de-comunicación)
 6. [Evaluación de los Usuarios Piloto](#6-evaluación-de-los-usuarios-piloto)
 7. [Beneficios para los Usuarios Piloto](#7-beneficios-para-los-usuarios-piloto)

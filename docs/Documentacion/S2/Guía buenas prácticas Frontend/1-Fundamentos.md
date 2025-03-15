@@ -56,7 +56,7 @@
 ## 0. Índice
 
 1. [Introducción](#1-introducción)
-2. [Props y estado (useState)](#2-crear-un-contexto-de-autenticación)
+2. [Props y estado (useState)](#2-props-y-estado-usestate)
 3. [Componentes](#3-componentes)
 4. [Eventos y manejo de eventos](#4-eventos-y-manejo-de-eventos)
 5. [Funciones API](#5-funciones-api)
