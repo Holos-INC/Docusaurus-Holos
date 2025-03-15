@@ -1,7 +1,6 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/Holos-INC/Docusaurus-Holos)](https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors)
-
 <a href="https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos" width="300" height="150" alt="Contribuidores" />
+  <img src="https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos" width="300" height="50" alt="Contribuidores" />
 </a>
 
 
