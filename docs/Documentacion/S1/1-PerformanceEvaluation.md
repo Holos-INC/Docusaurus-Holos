@@ -63,7 +63,7 @@
 | del Junco Obregón, Juan | 10 | 10 |  |  |  |  |  |
 | González Ganfornina, Joaquín | 10 | 9 |  |  |  |  |  |
 | Aguilera Camino, Celia | 10 | 10 |  |  |  |  |  |
-| Barrera Garracho, María del Carmen | 10 | 9 |  |  |  |  |  |
+| Barrera Garracho, María del Carmen | 10 | 10 |  |  |  |  |  |
 | Guedes Preciados, Daniel | 10 | 9 |  |  |  |  |  |
 | Gómez Vela, Miguel Ángel | 10 | 8 |  |  |  |  |  |
 | Warleta Murcia, Ignacio | 10 | 10 |  |  |  |  |  |
