@@ -66,18 +66,15 @@ Aplicación para gestionar eventos cristianos; bodas, bautizos y comuniones
 - Se nota que han practicado la presentación, en todo momento sabían lo que venía a continuación.
 - Sinceros con los problemas.  
 - Reestimación de tareas para solucionar problemas.  
-- Diapositivas muy visuales, con el texto justo. En ninguna le sobra texto.*  
+- Diapositivas muy visuales, con el texto justo. En ninguna le sobra texto. 
 - Planificación de sprint clara y sencilla donde se entiende perfectamente las tareas destinadas a cada uno.  
 - Muy clara la gestión de usuarios pilotos en una sola diapositiva (intereses de los usuarios, etc.).
 - 30 diapositivas, cantidad justa para contar todo.  
-- Buen detalle dejar al final el QR de la landing page.  
-
 
 **Feedback negativo de estudiante**
-- Mucha info quizá en los costes.
-- Habla muy rápido.
+- Mucha información quizá en los costes.
+- En ocasiones acelera mucho su dicción.
 - Uso de IA un poco recargado.
-
 
 **Feedback de profesores (Carlos)**
 - La botella es un gran recurso para cuando no te acuerdas de algo.  
