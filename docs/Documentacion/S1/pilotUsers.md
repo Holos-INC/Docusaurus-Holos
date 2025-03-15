@@ -393,35 +393,35 @@ Se han definido los siguientes criterios para la evaluación:
 
 | Nombre          | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |----------------|---------------------|----------------------|--------------------|----------------------|--------------------------|-----------------|----------------------|------------------|----------|
-| Braulio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Claudia  |    10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Miriam  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Paola  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Víctor  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Yellow   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Alex S   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Patricia  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Artofiz   |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Gabriela | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Alex      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Gurutze  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Damaris  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Sofía    | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Jeenii   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Emilio   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Rafael   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Félix     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Raúl      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Patricia | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Joker     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Henrique  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Javier Pacheco | 10 | N/A    | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Horacio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Keegan    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Milagros  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Simón     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Lucas     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
-| Carlos    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | 10    |
+| Braulio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Claudia  |    10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Miriam  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A    |
+| Paola  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A    |
+| Víctor  |  10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A    |
+| Yellow   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Alex S   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Patricia  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Artofiz   |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Gabriela | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Alex      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Gurutze  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Damaris  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Sofía    | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A   |
+| Jeenii   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    |N/A   |
+| Emilio   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Rafael   | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Félix     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    |N/A   |
+| Raúl      |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A |
+| Patricia | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    |N/A   |
+| Joker     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Henrique  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Javier Pacheco | 10 | N/A    | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Horacio  | 10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Keegan    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Milagros  |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A |
+| Simón     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    |N/A  |
+| Lucas     |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
+| Carlos    |10      | N/A     | N/A   | N/A    | 10   | 10  | N/A  | N/A    | N/A  |
 
 
 
@@ -463,11 +463,11 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10** |
-|   Rafael Duque Colete   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Rafael Castillo Cebolla   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Mohamed Abouri  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Enrique García Abadía  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
+|   Daniel Galván Cancho   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
+|   Rafael Duque Colete   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
+|   Rafael Castillo Cebolla   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
+|   Mohamed Abouri  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
+|   Enrique García Abadía  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
 
 ## 7. Beneficios para los Usuarios Piloto
 
