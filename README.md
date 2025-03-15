@@ -1,3 +1,7 @@
+[![GitHub Contributors](https://img.shields.io/github/contributors/Holos-INC/Docusaurus-Holos)](https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors)
+
+
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
