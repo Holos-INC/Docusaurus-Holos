@@ -1,5 +1,6 @@
 [![GitHub Contributors](https://img.shields.io/github/contributors/Holos-INC/Docusaurus-Holos)](https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors)
 
+[![Contribuidores](https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos)](https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors)
 
 
 # Website
