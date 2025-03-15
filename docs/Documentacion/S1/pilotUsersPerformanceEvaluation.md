@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 13/03/2025  
-**Versión:** v1.0  
+**Versión:** v1.1  
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -53,6 +53,8 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 13/03/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna      |
+| 15/03/2025 | v1.1    | Corrección de la evaluación para el Sprint 1 | Nerea Jiménez Adorna      |
+
 
 ---
 
@@ -88,72 +90,72 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 ### 2.1 Sprint 1
 
 #### Daniel Galván Cancho
-- **Participación activa en la fase de prueba:** 10/10 (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
+- **Participación activa en la fase de prueba:** N/A (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
 - **Claridad y detalle en la retroalimentación:** N/A (No ha habido oportunidad de proporcionar feedback hasta el momento).
 - **Identificación y reporte de errores:** N/A (No ha habido interacción con el sistema todavía).
 - **Calidad de las sugerencias de mejora:** N/A (No se han recibido comentarios debido a la ausencia de envíos).
-- **Cumplimiento de las instrucciones dadas:** 10/10 (Firmó el Commitment Agreement dentro del plazo establecido).
-- **Actitud colaborativa y disposición:** 10/10 (Ha mostrado disposición para participar).
+- **Cumplimiento de las instrucciones dadas:** N/A (Firmó el Commitment Agreement dentro del plazo establecido).
+- **Actitud colaborativa y disposición:** N/A (Ha mostrado disposición para participar).
 - **Frecuencia de interacción con la aplicación:** N/A (No ha habido acceso al sistema aún).
 - **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
 
-**Calificación:** 10/10
+**Calificación:** N/A
 
 ---
 
 #### Rafael Duque Colete
-- **Participación activa en la fase de prueba:** 10/10 (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
+- **Participación activa en la fase de prueba:** N/A (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
 - **Claridad y detalle en la retroalimentación:** N/A (No ha habido oportunidad de proporcionar feedback hasta el momento).
 - **Identificación y reporte de errores:** N/A (No ha habido interacción con el sistema todavía).
 - **Calidad de las sugerencias de mejora:** N/A (No se han recibido comentarios debido a la ausencia de envíos).
-- **Cumplimiento de las instrucciones dadas:** 10/10 (Firmó el Commitment Agreement dentro del plazo establecido).
-- **Actitud colaborativa y disposición:** 10/10 (Ha mostrado disposición para participar).
+- **Cumplimiento de las instrucciones dadas:** N/A (Firmó el Commitment Agreement dentro del plazo establecido).
+- **Actitud colaborativa y disposición:** N/A (Ha mostrado disposición para participar).
 - **Frecuencia de interacción con la aplicación:** N/A (No ha habido acceso al sistema aún).
 - **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
 
-**Calificación:** 10/10
+**Calificación:** N/A
 
 ---
 
 #### Rafael Castillo Cebolla
-- **Participación activa en la fase de prueba:** 10/10 (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
+- **Participación activa en la fase de prueba:** N/A (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
 - **Claridad y detalle en la retroalimentación:** N/A (No ha habido oportunidad de proporcionar feedback hasta el momento).
 - **Identificación y reporte de errores:** N/A (No ha habido interacción con el sistema todavía).
 - **Calidad de las sugerencias de mejora:** N/A (No se han recibido comentarios debido a la ausencia de envíos).
-- **Cumplimiento de las instrucciones dadas:** 10/10 (Firmó el Commitment Agreement dentro del plazo establecido).
-- **Actitud colaborativa y disposición:** 10/10 (Ha mostrado disposición para participar).
+- **Cumplimiento de las instrucciones dadas:** N/A (Firmó el Commitment Agreement dentro del plazo establecido).
+- **Actitud colaborativa y disposición:** N/A (Ha mostrado disposición para participar).
 - **Frecuencia de interacción con la aplicación:** N/A (No ha habido acceso al sistema aún).
 - **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
 
-**Calificación:** 10/10
+**Calificación:** N/A
 
 ---
 
 #### Mohamed Abouri
-- **Participación activa en la fase de prueba:** 10/10 (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
+- **Participación activa en la fase de prueba:** N/A (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
 - **Claridad y detalle en la retroalimentación:** N/A (No ha habido oportunidad de proporcionar feedback hasta el momento).
 - **Identificación y reporte de errores:** N/A (No ha habido interacción con el sistema todavía).
 - **Calidad de las sugerencias de mejora:** N/A (No se han recibido comentarios debido a la ausencia de envíos).
-- **Cumplimiento de las instrucciones dadas:** 10/10 (Firmó el Commitment Agreement dentro del plazo establecido).
-- **Actitud colaborativa y disposición:** 10/10 (Ha mostrado disposición para participar).
+- **Cumplimiento de las instrucciones dadas:** N/A (Firmó el Commitment Agreement dentro del plazo establecido).
+- **Actitud colaborativa y disposición:** N/A (Ha mostrado disposición para participar).
 - **Frecuencia de interacción con la aplicación:** N/A (No ha habido acceso al sistema aún).
 - **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
 
-**Calificación:** 10/10
+**Calificación:** N/A
 
 ---
 
 #### Enrique García Abadía
-- **Participación activa en la fase de prueba:** 10/10 (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
+- **Participación activa en la fase de prueba:** N/A (Ha firmado el Commitment Agreement, pero no ha podido interactuar con la plataforma debido a la falta del despliegue).
 - **Claridad y detalle en la retroalimentación:** N/A (No ha habido oportunidad de proporcionar feedback hasta el momento).
 - **Identificación y reporte de errores:** N/A (No ha habido interacción con el sistema todavía).
 - **Calidad de las sugerencias de mejora:** N/A (No se han recibido comentarios debido a la ausencia de envíos).
-- **Cumplimiento de las instrucciones dadas:** 10/10 (Firmó el Commitment Agreement dentro del plazo establecido).
-- **Actitud colaborativa y disposición:** 10/10 (Ha mostrado disposición para participar).
+- **Cumplimiento de las instrucciones dadas:** N/A (Firmó el Commitment Agreement dentro del plazo establecido).
+- **Actitud colaborativa y disposición:** N/A (Ha mostrado disposición para participar).
 - **Frecuencia de interacción con la aplicación:** N/A (No ha habido acceso al sistema aún).
 - **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
 
-**Calificación:** 10/10
+**Calificación:** N/A
 
 ---
 
@@ -161,15 +163,15 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10** |
-|   Rafael Duque Colete   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Rafael Castillo Cebolla   |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Mohamed Abouri  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
-|   Enrique García Abadía  |  10 |  N/A |  N/A |  N/A |  10 |  10 |  N/A |  N/A |   **10**  |
+|   Daniel Galván Cancho   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
+|   Rafael Duque Colete   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
+|   Rafael Castillo Cebolla    |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
+|   Mohamed Abouri  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
+|   Enrique García Abadía |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A** |
 
 ## 3. Conclusión
 
-Dado que hasta la fecha únicamente se ha enviado el **Commitment Agreement** para su firma, la evaluación de los usuarios piloto se basa exclusivamente en su respuesta a este primer requerimiento. Las calificaciones reflejan la disposición de los usuarios para participar en el proceso de prueba, pero no pueden medir aún su desempeño en la detección de errores ni en la calidad del feedback, hecho del cual nos responsabilizamos totalmente por no haber cumplido los plazos designados para la primera entrega en el calendario.
+Dado que hasta la fecha únicamente se ha enviado el **Commitment Agreement** para su firma, la evaluación de los usuarios piloto se podría basar exclusivamente en su respuesta a este primer requerimiento. Las calificaciones no pueden medir aún su desempeño en la detección de errores ni en la calidad del feedback, hecho del cual nos responsabilizamos totalmente por no haber cumplido los plazos designados para la primera entrega en el calendario, así que se ha tomado la decisión de saltarse esta entrega y simplemente no evaluarla, haciendo una media de sus calificaciones solo de las evaluaciones posteriores.
 
 Está claro que para la siguiente entrega (Sprint 2) debemos ser conscientes de nuestras capacidades y de la posibilidad de que surjan problemas como nos ha ocurrido en este caso, ya que, por no haber sido más previsores hemos dado fechas a los usuarios piloto que no hemos sido capaces de cumplir y además nos hemos quedado sin un valioso feedback.
 
