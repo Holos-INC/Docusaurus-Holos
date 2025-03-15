@@ -480,7 +480,7 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/caso_pesimista.png" alt="Rentabilidad caso pesimista" width="150"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/caso_pesimista.png" alt="Rentabilidad caso pesimista" width="550"/>
 </p>
 
 
@@ -655,12 +655,7 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 -------------------------------------------------
 
-
-
-
-
-
- #### 4.2.1 Cálculos del TCO neutro####
+ #### 4.2.1 Cálculos del TCO neutro
 
 En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
 
@@ -702,7 +697,7 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/caso_nuetro.png" alt="Universidad de Sevilla" width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/caso_neutro.png" alt="Universidad de Sevilla" width="700"/>
 </p>
 
 
@@ -913,9 +908,6 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 
 
 
-
-
-
 **TCO a a los 2 años** 
 
 
@@ -928,7 +920,7 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/caso_optimista.png" alt="Universidad de Sevilla " width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/caso_optimista.png" alt="Universidad de Sevilla " width="700"/>
 </p>
 
 Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a los 12 meses, es decir, al año.
@@ -940,7 +932,7 @@ Como se puede apreciar en la gráfica, la aplicación ampezará a ser rentable a
 - **Caso optimista**: A los 8 meses.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/resumen.png" alt="Universidad de Sevilla " width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/resumen.png" alt="Universidad de Sevilla " width="700"/>
 </p>
 
 ## 6. Bibliografía
