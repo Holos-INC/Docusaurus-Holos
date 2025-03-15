@@ -13,6 +13,7 @@
 
 ## Contribuidores
 El éxito de este proyecto es gracias a nuestros increíbles contribuidores.
+
 <a href="https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos" width="300" height="50" alt="Contribuidores" />
 </a>
