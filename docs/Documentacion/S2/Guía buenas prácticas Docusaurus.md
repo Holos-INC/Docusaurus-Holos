@@ -39,7 +39,7 @@
 **Responsables:**
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
-| Ignacio Warleta  |  Redactora                      |
+| Ignacio Warleta  |  Redactor                      |
 | Gabriel Vacaro       |  Revisor                        |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
@@ -50,12 +50,14 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 14/03/2025 | Creación del documento. | Ignacio Warleta   |
+| v1.1    | 16/03/2025 | Primera revisión. | Gabriel Vacaro   |
 
 ## **Índice** 
 1. [Introducción](#1-introducción) 
 2. [Problemas comunes en el índice](#2-problemas-comunes-en-el-índice)
 3. [Probar antes de subir contenido](#3-probar-antes-de-subir-contenido)
 4. [Subida de imágenes](#4-subida-de-imágenes)
+5. [Política de Commits](#5-política-de-commits)
 
 
 ## 1. Introducción
@@ -77,7 +79,7 @@ Por ejemplo, si tenemos el subtítulo «## **Apartado 2**», docusaurus referenc
 
 ### 2.3 Solución
 
-Para evitar estos fallos en el índice, es recomendable hacerlo manualmente escribiendo # y seleccionando el título que se quiere referenciar.
+Para evitar estos fallos en el índice, se recomienda escribir manualmente el enlace de referencia (con #) y asegurarse de que coincida exactamente con el título correspondiente.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/guiadocusaurus.png" alt="Guia docusaurus" width="550"/>
@@ -89,13 +91,14 @@ Otro fallo común que hemos detectado es que se sube contenido a docusaurus sin 
 
 ### 3.1 Probar localmente
 
-Antes de realizar cambios en la documentación, se recomienda probar localmente ejecutando el siguiente comando:
+Antes de realizar cambios en la documentación, se recomienda probar localmente ejecutando los siguientes comandos:
 
 ```sh
 npm run build
+npm run serve
 ```
 
-De haber cualquier problema con el despliegue ese comando nos lo hará saber. El comando
+Si hay algún problema con el despliegue, este comando lo detectará y mostrará un mensaje de error, mientras que el comando:
 
 ```sh
 npx docusaurus start
@@ -116,7 +119,7 @@ Otro aspecto que ha causado más dolores de cabeza es la subida de imágenes en 
        alt="DESCRIPCIÓN" width="TAMAÑO"/>
 </p>
 ````
-Esta manera permite que la imagen se muestre tanto en docusaurus como en github. Importante mencionar que hasta que no se suba la imagen a github no se podrá ver, por lo que no hay que alarmarse si no se ve la imagen cuando probemos en local.
+Esta manera permite que la imagen se muestre tanto en docusaurus como en github. Importante mencionar que Las imágenes no se visualizarán en la versión local hasta que sean subidas a GitHub, por lo que es normal que no aparezcan antes de su carga en el repositorio, por lo que no hay que alarmarse si no se ve la imagen cuando probemos en local.
 
 A la hora de subir imágenes, de ser de un apartado concreto o ser muchas imagenes (más de dos) se debería crear una carpeta dentro de /img con el nombre que se considere y, por supuesto, no olvidarse de hacer referencia a esta nueva carpeta en el enlace.
 
@@ -126,3 +129,36 @@ A la hora de subir imágenes, de ser de un apartado concreto o ser muchas imagen
        alt="DESCRIPCIÓN" width="TAMAÑO"/>
 </p>
 ````
+
+## 5. Política de commits
+
+Para garantizar un historial de cambios claro y estructurado en el repositorio de Docusaurus, se deben seguir las siguientes reglas al realizar commits:  
+
+### 5.1 Formato del mensaje de commit  
+Cada commit debe seguir el siguiente formato:  
+
+```html
+<Tipo>: <Breve descripción del cambio> #issueTag
+
+Donde <Tipo> puede ser uno de los siguientes:  
+````
+- **feat**: Nueva funcionalidad añadida  
+- **fix**: Corrección de errores  
+- **docs**: Cambios en documentación  
+- **maint**: Tareas de mantenimiento del repositorio  
+
+Ejemplo de mensaje correcto:  
+```html
+docs: Buenas prácticas Docusaurus/REV1 (#108)
+````
+
+### 5.2 Buenas prácticas  
+- **Commits específicos**: Cada commit debe abordar un único cambio para facilitar la revisión, evitar creación de varios documentos incorrelados en el mismo commit.  
+- **Mensajes descriptivos**: Evitar mensajes genéricos como "cambios" o "arreglado".  
+- **Referencias a issues**: Si un commit está relacionado con un issue, se debe incluir el número en el mensaje:  
+
+```html
+fix: Arreglado indice corrupto en Buenas Practicas Docusaurus.md (#108)
+````
+
+- **Probar antes de hacer commit**: Ejecutar `npm run build` y `npm run serve` para evitar errores en el despliegue. 
