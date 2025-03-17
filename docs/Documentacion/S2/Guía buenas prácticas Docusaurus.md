@@ -128,9 +128,9 @@ A la hora de subir imágenes, de ser de un apartado concreto o ser muchas imagen
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/CARPETA/NOMBRE.png" 
        alt="DESCRIPCIÓN" width="TAMAÑO"/>
 </p>
-````
+```
 
-## 5. Política de commits
+## 5.Política de commits
 
 Para garantizar un historial de cambios claro y estructurado en el repositorio de Docusaurus, se deben seguir las siguientes reglas al realizar commits:  
 
@@ -150,7 +150,7 @@ Donde <Tipo> puede ser uno de los siguientes:
 Ejemplo de mensaje correcto:  
 ```html
 docs: Buenas prácticas Docusaurus/REV1 (#108)
-````
+```
 
 ### 5.2 Buenas prácticas  
 - **Commits específicos**: Cada commit debe abordar un único cambio para facilitar la revisión, evitar creación de varios documentos incorrelados en el mismo commit.  
@@ -159,6 +159,6 @@ docs: Buenas prácticas Docusaurus/REV1 (#108)
 
 ```html
 fix: Arreglado indice corrupto en Buenas Practicas Docusaurus.md (#108)
-````
+```
 
 - **Probar antes de hacer commit**: Ejecutar `npm run build` y `npm run serve` para evitar errores en el despliegue. 
