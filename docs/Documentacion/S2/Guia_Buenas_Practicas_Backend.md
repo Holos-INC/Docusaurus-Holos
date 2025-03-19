@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 14/03/2025  
-**Versión:** v1.0  
+**Versión:** v1.1  
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -50,6 +50,7 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 14/03/2025 | Creación del documento. | María del Mar Ávila   |
+| v1.1    | 19/03/2025 | Añadidos @transactional y rollback, bloques try-catch y explicación de @quey | María del Mar Ávila   |
 
 ## **Índice** 
 1. [Introducción](#introducción)  
@@ -57,9 +58,10 @@
 3. [Uso de Swagger](#2-uso-de-swagger-para-probar-el-backend)  
 4. [Gestión de permisos en SecurityConfig](#3-gestión-de-permisos-en-securityconfig)  
 5. [Uso de findCurrentUser](#4-uso-de-findcurrentuser)  
-6. [Manejo de excepciones](#5-manejo-de-excepciones)  
-7. [Evaluación del Código](#6-evaluación-del-código)  
-8. [Conclusión](#conclusión)  
+6. [Manejo de excepciones](#5-manejo-de-excepciones) 
+7. [Manejo de transacciones](#6-manejo-de-transacciones)  
+8. [Evaluación del Código](#7-evaluación-del-código)  
+9. [Conclusión](#conclusión)  
 
 ## Introducción
 El desarrollo de una API backend debe seguir una estructura clara y segura para garantizar **mantenibilidad, escalabilidad y protección de datos**.  
@@ -99,11 +101,17 @@ Page<Artist> searchByName(String query, Pageable pageable) {
 Contiene la lógica de negocio y validaciones.  
 **Hacer:**
 ```java
-public Page<Work> searchWorks(...) {
-    if (minPrice != null && maxPrice != null && minPrice > maxPrice) {
-        throw new ResourceNotOwnedException("El precio mínimo no puede ser mayor que el máximo.");
-    }
-    return workRepository.searchByTitleAndPrice(query, minPrice, maxPrice, pageable);
+public Page<Work> searchWorks(String query, Double minPrice, Double maxPrice, Pageable pageable) {
+        try {
+            if (minPrice != null && maxPrice != null && minPrice > maxPrice) {
+                throw new ResourceNotOwnedException("El precio mínimo no puede ser mayor que el máximo.");
+            }
+            return workRepository.searchByTitleAndPrice(query, minPrice, maxPrice, pageable);
+        } catch (ResourceNotOwnedException e) {
+            throw new IllegalArgumentException("Error en los parámetros de búsqueda: " + e.getMessage(), e);
+        } catch (Exception e) {
+            throw new RuntimeException("Error inesperado al buscar trabajos", e);
+        }
 }
 ```
 **No hacer:**
@@ -112,15 +120,29 @@ public Page<Work> searchWorks(...) {
     return workRepository.searchByTitleAndPrice(query, minPrice, maxPrice, pageable);
 }
 ```
+#### Nota sobre el parámetro query en searchWorks:
+- query es un parámetro opcional que permite buscar trabajos y/o artistas basándose en palabras clave:
+    - En artistas se puede usar para buscar por email, username o name.
+    - En trabajos se puede usar para buscar por name.
 
 ### **Controlador (`Controller`)**  
 Gestiona las peticiones HTTP sin incluir lógica de negocio.  
 **Hacer:**
 ```java
 @GetMapping("/works")
-public ResponseEntity<Page<Work>> searchWorks(...) {
-    Page<Work> results = searchService.searchWorks(...);
-    return ResponseEntity.ok(results);
+public ResponseEntity<?> searchWorks(@RequestParam(required = false) String query,
+                                     @RequestParam(required = false) Double minPrice,
+                                     @RequestParam(required = false) Double maxPrice,
+                                     @RequestParam(defaultValue = "0") int page,
+                                     @RequestParam(defaultValue = "10") int size) {
+    try {
+        Page<Work> results = searchService.searchWorks(query, minPrice, maxPrice, PageRequest.of(page, size));
+        return ResponseEntity.ok(results);
+    } catch (IllegalArgumentException e) {
+        return ResponseEntity.badRequest().body(e.getMessage());
+    } catch (Exception e) {
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Error interno al buscar trabajos");
+    }
 }
 ```
 **No hacer:**
@@ -361,8 +383,109 @@ public ResponseEntity<ErrorMessage> resourceNotFoundException(ResourceNotFoundEx
 ```
 
 ---
+## **6. Manejo de Transacciones**
 
-## **6. Evaluación del Código**
+`@Transactional` es una anotación de Spring que gestiona transacciones en la base de datos. Permite garantizar la **atomicidad** de las operaciones, lo que significa que todas las acciones dentro de un método anotado con `@Transactional` se ejecutan como una única unidad de trabajo.
+
+Si alguna de las operaciones dentro del método falla, **todas las modificaciones en la base de datos se revierten automáticamente (rollback)**, asegurando que los datos no queden en un estado inconsistente.
+
+### Comportamiento de `@Transactional`
+Por defecto, `@Transactional`:
+
+1. **Hace commit** automáticamente si el método se ejecuta correctamente.
+2. **Realiza rollback solo en excepciones no comprobadas** (unchecked exceptions), es decir, `RuntimeException` y `Error`.
+3. **No hace rollback en excepciones comprobadas (checked exceptions)** como `IOException` o `SQLException`, a menos que se especifique con `rollbackFor`.
+
+### Ejemplo de uso con `rollback` automático
+```java
+@Service
+public class CommisionService {
+
+    private final CommisionRepository commisionRepository;
+
+    @Autowired
+    public CommisionService(CommisionRepository commisionRepository) {
+        this.commisionRepository = commisionRepository;
+    }
+
+    @Transactional
+    public Commision processCommision(Commision commision) {
+        commisionRepository.save(commision);
+        
+        if (commision.getPrice() < 0) {
+            throw new IllegalArgumentException("El precio de la comisión no puede ser negativo.");
+        }
+
+        return commision;
+    }
+}
+```
+
+### Ejemplo con `rollbackFor` para capturar excepciones comprobadas
+
+Si queremos que **también haga rollback en excepciones comprobadas** (Checked Exceptions), debemos usar rollbackFor = NombreDeLaExcepcion.class:
+```java
+@Service
+public class PaymentService {
+
+    @Transactional(rollbackFor = {SQLException.class, IOException.class})
+    public void processPayment(Payment payment) throws SQLException, IOException {
+        paymentRepository.save(payment);
+        
+        if (payment.hasDatabaseError()) {
+            throw new SQLException("Error en la base de datos");
+        }
+
+        if (payment.hasFileError()) {
+            throw new IOException("Error al generar el archivo de pago");
+        }
+    }
+}
+```
+### `@Transactional(readOnly = true)`
+
+Una de las formas de usar `@Transactional` es añadir `readOnly = true`. Esto indica que el método solo realizará **operaciones de lectura** en la base de datos y **no permitirá modificaciones**. Al habilitar `readOnly = true`, Spring/Hibernate optimiza las consultas de lectura al evitar el seguimiento innecesario de cambios en las entidades, reduciendo el consumo de recursos y mejorando el rendimiento. Sin embargo, si intentamos modificar una entidad dentro de un método marcado como `readOnly = true`, los cambios **no se aplicarán** o podrían generar errores según el motor de base de datos utilizado.
+
+
+### Diferencias entre `@Transactional` y `@Transactional(readOnly = true)`
+
+| **Tipo de Transacción**          | **Propósito**              | **Características**                                      |
+|----------------------------------|---------------------------|----------------------------------------------------------|
+| `@Transactional`                | Modificación de datos     | Permite `INSERT`, `UPDATE`, `DELETE` y garantiza rollback en errores. |
+| `@Transactional(readOnly = true)` | Solo lectura de datos     | Optimiza consultas porque no bloquea la base de datos ni mantiene caché de entidades. |
+
+### Ejemplo de uso con `@Transactional(readOnly = true)`
+```java
+@Service
+public class WorkService {
+
+    private final WorkRepository workRepository;
+
+    @Autowired
+    public WorkService(WorkRepository workRepository) {
+        this.workRepository = workRepository;
+    }
+
+    @Transactional(readOnly = true)
+    public List<Work> getAllWorks() {
+        return workRepository.findAll();
+    }
+}
+```
+
+### Cuándo usar ´@Transactional´
+
+| **Caso de Uso**                                   | `@Transactional` | `@Transactional(readOnly = true)` |
+|--------------------------------------------------|----------------|---------------------------------|
+| **Consultar registros**                           | ❌ No necesario | ✅ Recomendado |
+| **Modificar registros (`update/delete`)**        | ✅ Obligatorio | ❌ Incorrecto |
+| **Insertar nuevos registros**                    | ✅ Obligatorio | ❌ Incorrecto |
+| **Ejecutar múltiples consultas SQL en la misma operación** | ✅ Obligatorio | ⚠️ No recomendable |
+
+
+
+
+## **7. Evaluación del Código**
 | **Nivel** | **Descripción** |
 |-----------|---------------|
 | **1 - Deficiente** ❌ | No hay estructura clara, la lógica está desorganizada. No se implementan medidas de seguridad ni validaciones. |
