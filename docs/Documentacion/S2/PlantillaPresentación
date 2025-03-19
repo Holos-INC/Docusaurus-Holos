@@ -1,0 +1,78 @@
+# Documento de Presentación - Holos
+
+A continuación, se detallan los diferentes puntos a tratar en la presentación, con las personas responsables asignadas. Se debe resumir y destacar lo más importante e imprescindible que debe aparecer en la presentación, con datos específicos. He puesto aquello que considero importante a rellenar, pero si hay algo que no está y creéis importante que se añada en la presentación, por favor añadirlo.
+
+## 1. Revisión de Competidores (Daniel y Gabriel)
+- ¿Ha habido algún cambio que deba estar reflejado en la presentación?
+
+
+## 2. Investigación sobre el Trackeo del Uso de IA (Miguel)
+- Conclusiones sobre cómo podríamos implementar la detección de una obra de arte generada por IA.
+
+- Análisis del número de prompts utilizados y datos clave.
+
+- Métrica que utilizó Borrow(creo), de alucinaciones.
+
+
+## 3. Costes (MCarmen y Joaquín)
+- Desglose de Capex y Opex.
+
+- Datos clave del análisis financiero con escenarios pesimista, neutro y optimista (número de artistas, volumen de comisiones, porcentajes de crecimiento).
+
+
+## 4. Costes Incurridos (MCarmen y Joaquín)
+- Evaluación de costes actuales vs. planificación inicial.
+
+- Presentación de gráfica y análisis comparativo similar a Borrow.
+
+
+## 5. Demo (Gabriel)
+- Envío de la nueva demo por WhatsApp.
+
+
+## 6. Licencias (Juanan)
+- Número de horas de licencia utilizadas en GitHub Actions y herramientas similares.
+
+- Tecnologías empleadas y sus licencias correspondientes.
+
+- Conclusiones sobre requerimientos legales para cumplimiento normativo y prevención de delitos informáticos.
+
+
+## 7. Implementación de Términos y Servicios y GDPR (Nico)
+- Impacto del GDPR en la implementación de Holos.
+
+- Estrategias de cumplimiento normativo.
+
+
+## 8. Nuevas Métricas para Evaluación del Rendimiento, etc. (Joaquín)
+- Definir métricas y todo lo relativo que deba estar en la presentación.
+
+- ¿Alguna automatizada?
+
+
+## 9. Storyboard (Nerea)
+- Estrategia de anuncios para distintos públicos:
+  - Anuncio para usuarios.
+  
+  - Anuncio para inversores (datos, cifras y proyecciones).
+  
+  - Anuncio para clientes.
+
+
+## 10. Nuevos Riesgos - Sprint 2 (Juan del Junco)
+- Identificación de riesgos en sprint 2.
+
+- Planes de contingencia para mitigación de estos riesgos.
+
+
+## 11. Usuarios Piloto (Nerea)
+- Análisis del feedback obtenido en el primer envío.
+
+- Evaluación de la calidad del feedback.
+
+- Calendario de fechas de envío y funcionalidades probadas en cada fase.
+
+- Evaluación del desempeño de los usuarios piloto.
+
+
+## 12. Planificación o Replanificación de Sprint 2 y 3 (JMaría)
