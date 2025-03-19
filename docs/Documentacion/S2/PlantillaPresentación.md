@@ -1,3 +1,70 @@
+# Documentación presentación - Sprint 2
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
+</p>
+<p align="center">
+  <strong>Universidad de Sevilla</strong> 
+</p>
+<p align="center">
+  <strong>Escuela Técnica Superior de Ingeniería Informática</strong>  
+</p>
+
+## **Grado en Ingeniería Informática – Ingeniería del Software**
+
+**Curso:** 2024 – 2025  
+**Fecha:** 14/03/2025  
+**Versión:** v1.1  
+
+**Grupo de prácticas:** G1  
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+- María del Mar Ávila Maqueda  
+- Joaquín González Ganfornina  
+- Nerea Jiménez Adorna  
+- Juan del Junco Obregón  
+- Miguel Ángel Gómez Vela  
+- Juan Antonio Moreno Moguel  
+- María del Carmen Barrera Garrancho  
+- Daniel Guedes Preciados  
+- Julia Virginia Ángeles Burgos  
+- Javier Muñoz Romero  
+- Juan Núñez Sánchez  
+- Nicolás Pérez Gómez  
+- Francisco Pérez Lázaro  
+- Celia Aguilera Camino  
+- Gabriel María Vacaro Goytía  
+- Ignacio Warleta Murcia  
+- José María Portela Huerta 
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Celia Aguilera  |  Redactora                      |
+
+
+**Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
+
+
+**Tabla de versiones**
+
+| Versión | Fecha       | Descripción de cambios | Autor                 |
+|---------|------------|------------------------|------------------------|
+| v1.0    | 20/03/2025 | Creación del documento. | Celia Aguilera  |
+
+## Índice de Contenidos
+1. [Revisión de Competidores](#1-Revisión-de-Competidores (Daniel y Gabriel))
+2. [Investigación sobre el Trackeo del Uso de IA](#2-Investigación-sobre-el-Trackeo-del-Uso-de-IA (Miguel))
+3. [Costes](#3-Costes (MCarmen y Joaquín))
+4. [Costes Incurridos](#4-Costes-Incurridos (MCarmen y Joaquín))
+5. [Demo](#5-Demo (Gabriel))
+6. [Licencias](#5-Licencias (Juanan))
+7. [Implementación de Términos y Servicios y GDPR](#5-Implementación-de-Términos-y-Servicios-y-GDPR (Nico))
+8. [Nuevas Métricas para Evaluación del Rendimiento, etc.](#5-Nuevas-Métricas-para-Evaluación-del-Rendimiento,-etc. (Joaquín))
+9. [Storyboard](#5-Storyboard (Nerea))
+10. [Nuevos Riesgos - Sprint 2](#5-Nuevos-Riesgos---Sprint-2 (Juan del Junco))
+11. [Usuarios Piloto](#5-Usuarios-Piloto(Nerea))
+12. [Planificación o Replanificación de Sprint 2 y 3](#5-Planificación-o-Replanificación-de-Sprint-2-y-3 (JMaría))
+
 # Documento de Presentación - Holos
 
 A continuación, se detallan los diferentes puntos a tratar en la presentación, con las personas responsables asignadas. Se debe resumir y destacar lo más importante e imprescindible que debe aparecer en la presentación, con datos específicos. He puesto aquello que considero importante a rellenar, pero si hay algo que no está y creéis importante que se añada en la presentación, por favor añadirlo.
