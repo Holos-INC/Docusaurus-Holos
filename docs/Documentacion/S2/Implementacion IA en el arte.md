@@ -137,6 +137,35 @@ Las imágenes generadas por IA a menudo carecen de sutilezas artísticas que se 
 - **Incoherencias en la iluminación**: Las sombras pueden no alinearse correctamente con la fuente de luz.
 - **Detalles visuales artificiales**: Los bordes de los objetos pueden ser demasiado suaves o los patrones pueden no seguir reglas realistas, lo que es típico en las imágenes generadas por IA.
 
+### 2.8. Reporte Manual por Parte del Equipo
+
+A pesar de los avances tecnológicos en la detección de imágenes generadas por IA, es posible que se presenten casos complejos o ambiguos que no puedan ser resueltos únicamente a través de las herramientas automáticas. Para abordar estos casos, se habilitará una opción para el **reporte manual** por parte del equipo.
+
+#### Proceso de Reporte Manual
+
+1. **Identificación del Caso**:  
+   Cuando un miembro del equipo detecte una imagen que sospeche que ha sido generada o manipulada por IA, se debe registrar el caso en el sistema con la siguiente información:  
+   - Descripción de la sospecha (¿qué aspectos de la imagen levantaron dudas?).  
+   - Análisis visual preliminar (detalles como incoherencias en las sombras, distorsiones en las caras, patrones repetitivos, etc.).  
+   - Herramientas de IA usadas en la creación de la imagen (si es conocida).  
+   - Referencias a la metodología utilizada para la detección.
+
+2. **Formulario de Reporte**:  
+   Se proporcionará un formulario estandarizado dentro de la plataforma para registrar los casos de reporte manual. Este formulario debe incluir:  
+   - Nombre del miembro del equipo que realiza el reporte.  
+   - Fecha de detección del caso.  
+   - Descripción detallada del motivo del reporte.  
+   - Archivos o capturas de pantalla relacionados.
+   
+3. **Revisión del Caso**:  
+   Una vez que se haya registrado el caso, un revisor del equipo será encargado de evaluar la imagen y los informes adjuntos. El revisor debe seguir los métodos estándar de análisis (como la revisión de artefactos visuales o análisis de píxeles) y proporcionar un informe de validación.
+
+4. **Validación y Acción**:  
+   Si el reporte se valida, el caso se marcará como sospechoso de haber sido generado por IA. Dependiendo del contexto, se tomará la decisión correspondiente (por ejemplo, el rechazo de la imagen en un proyecto artístico o la notificación al creador). Si no se valida, el caso se cerrará.
+
+El reporte manual se integrará en el flujo de trabajo automatizado, donde el sistema utilizará los informes manuales como un conjunto adicional de datos para mejorar el algoritmo de detección. Estos reportes pueden ayudar a refinar los modelos de IA, añadiendo más ejemplos de imágenes generadas por IA que no hayan sido detectadas inicialmente.
+
+
 ## 3. Herramientas y APIs de Detección de IA
 
 Existen diversas herramientas y APIs que pueden ayudar a detectar imágenes generadas por IA. Algunas de las más populares incluyen:
