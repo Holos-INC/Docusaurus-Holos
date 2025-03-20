@@ -251,17 +251,24 @@ Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo re
 
 ## 6. Licencias (Juanan)
 - Número de horas de licencia utilizadas en GitHub Actions y herramientas similares.
-
-- Tecnologías empleadas y sus licencias correspondientes.
+  MySQL (GPL v2),
+  Spring Boot (Apache 2.0),
+  React Native (MIT),
+  Git (GPL v2),
+  Java (OpenJDK GPL v2),
+  250 horas entre todas (obtenidas de clockify)
+  Docker (Apache 2.0),
+  20 horas (obtenidas de clockify)
 
 - Conclusiones sobre requerimientos legales para cumplimiento normativo y prevención de delitos informáticos.
-
+Holos asegura el cumplimiento de licencias y GDPR, protegiendo la privacidad de los usuarios y gestionando los datos de forma segura. Implementamos medidas de seguridad robustas, como encriptación y monitoreo, para prevenir delitos informáticos y brechas de seguridad.
 
 ## 7. Implementación de Términos y Servicios y GDPR (Nico)
 - Impacto del GDPR en la implementación de Holos.
+Permitimos debido a los GDPR el acceso, rectificacion y eliminacion de los datos, ademas de su distribucion con permiso previo
 
 - Estrategias de cumplimiento normativo.
-
+Implementamos encriptacion de datos sensibles como contraseñas y hacemos que los usuarios no suban datos por medio de un documento de terminos y condiciones del servicio dejando claro que no nos hacemos cargo de la informacion que envien dentro de la aplicacion
 
 ## 8. Nuevas Métricas para Evaluación del Rendimiento, etc. (Joaquín)
 - Definir métricas y todo lo relativo que deba estar en la presentación.
