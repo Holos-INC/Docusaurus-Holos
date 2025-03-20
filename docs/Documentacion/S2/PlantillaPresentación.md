@@ -130,9 +130,33 @@ A continuación, se detallan los diferentes puntos a tratar en la presentación,
 
 
 ## 10. Nuevos Riesgos - Sprint 2 (Juan del Junco)
-- Identificación de riesgos en sprint 2.
 
-- Planes de contingencia para mitigación de estos riesgos.
+Durante este sprint, se han identificado nuevos riesgos que podrían afectar el desarrollo y entrega del proyecto. A continuación, se detallan estos riesgos junto con sus respectivos planes de mitigación:
+
+### **R17 - Falta de organización en la gestión del sprint**
+- **Descripción:** Se han identificado problemas en la planificación del sprint anterior, lo que provocó una distribución desigual del trabajo y dificultades para cumplir con los objetivos.  
+- **Impacto:** Retrasos en las tareas críticas y posibles bloqueos en el desarrollo.  
+- **Plan de mitigación:** Se han implementado reuniones de planificación más detalladas para mejorar la asignación de tareas y el control del sprint.
+
+### **R18 - Carga de trabajo desigual entre los miembros del equipo**
+- **Descripción:** Algunos integrantes del equipo han experimentado sobrecarga de trabajo, mientras que otros han tenido menos tareas asignadas.  
+- **Impacto:** Desmotivación y reducción de la eficiencia del equipo.  
+- **Plan de mitigación:** Se ha implementado un sistema de seguimiento en GitHub Projects para equilibrar la carga de trabajo de manera más eficiente.
+
+### **R19 - No conseguir desplegar la aplicación**
+- **Descripción:** En el sprint anterior, no se logró el despliegue exitoso de la aplicación, lo que afectó la validación de funcionalidades.  
+- **Impacto:** Riesgo de no contar con una versión funcional en producción.  
+- **Plan de mitigación:** Se han asignado responsables específicos para el despliegue y se realizarán pruebas intermedias en entornos controlados antes de la entrega final.
+
+### **R20 - Desmotivación y agotamiento de algunos integrantes del equipo**
+- **Descripción:** La carga de trabajo y el estrés pueden afectar la motivación del equipo, reduciendo la productividad.  
+- **Impacto:** Posible disminución del rendimiento y conflictos internos.  
+- **Plan de mitigación:** Se han establecido espacios de comunicación para detectar problemas a tiempo y se busca equilibrar mejor las tareas entre los integrantes.
+
+### **R21 - No alcanzar la entrega**
+- **Descripción:** Existen retrasos en algunas tareas clave, lo que podría comprometer la entrega final del sprint.  
+- **Impacto:** Riesgo de incumplimiento en los plazos y baja calidad en la entrega.  
+- **Plan de mitigación:** Se han establecido checkpoints intermedios para validar el progreso y asegurar que las funcionalidades críticas estén listas a tiempo.
 
 
 ## 11. Usuarios Piloto (Nerea)
