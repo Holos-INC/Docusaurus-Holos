@@ -225,6 +225,10 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 004          | Recomendaciones de uso responsive en front | Francisco Pérez | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67d22373-52fc-8001-9b58-415582498579) |
 | 005          | Investigación sobre cómo insertar múltiples líneas de texto en un campo de entrada de texto. | María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdeee7-5930-8006-a4ae-289158db3f07) |
 | 006          | Investigación sobre la generación de  un mockup de backend en el frontend.| María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdedea-0e08-8006-bb75-d69b706d7935) |
+| 007          | Pasar tablas a Markdown | Joaquín González Ganfornina | 13/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67dc6124-07b4-8005-a067-f91535738300) |
+| 008          | Duda sobre TCO | Joaquín González Ganfornina | 13/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67dc6202-889c-8005-93ec-9a3806700650) |
+| 009          | Duda sobre Excel | Joaquín González Ganfornina | 13/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67dc6244-26d4-8005-9ed1-39d3ead0d6b6) |
+| 010          | Información sobre métricas de software | Joaquín González Ganfornina | 16/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67dc6174-4288-8005-bf82-19a0d5d06220) |
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
 
@@ -238,5 +242,10 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 004          | 3                               | Sí                          | No                   | 30 min           |
 | 005          | 2                               | Sí                          | No                   | 20 min           |
 | 006          | 1                               | Sí                          | No                   | 45 min           |
+| 007          | 1                               | Sí                          | No                   | 30 min           |
+| 008          | 1                               | Sí                          | No                   | 15 min           |
+| 009          | 1                               | Sí                          | No                   | 15 min           |
+| 010          | 1                               | Sí                          | No                   | 15 min           |
+
 ---
 
