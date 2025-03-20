@@ -271,10 +271,9 @@ Permitimos debido a los GDPR el acceso, rectificacion y eliminacion de los datos
 Implementamos encriptacion de datos sensibles como contraseñas y hacemos que los usuarios no suban datos por medio de un documento de terminos y condiciones del servicio dejando claro que no nos hacemos cargo de la informacion que envien dentro de la aplicacion
 
 ## 8. Nuevas Métricas para Evaluación del Rendimiento, etc. (Joaquín)
-- Definir métricas y todo lo relativo que deba estar en la presentación.
+Durante este Sprint se han modificado las métricas para evaluar el desempeño del trabajo del grupo o la calidad del software. Con respecto al anterior Sprint, solo se mantendrán las métricas obtenidas del Calendario Niko-Niko que se usan para evaluar el nivel de motivación del equipo. Para la presentación, se podrá exponer una tabla con el estado de ánimo medio del grupo por cada día de trabajo, como se realizó en el Sprint anterior.
 
-- ¿Alguna automatizada?
-
+Además, para evaluar la calidad del software tanto en Backend como en Frontend se ha creado un workflow de SonarCloud que realiza un análisis del código. En la presentación se pueden mencionar los resultados obtenidos de este análisis de SonarCould.
 
 ## 9. Storyboard (Nerea)
 - Estrategia de anuncios para distintos públicos:
