@@ -88,7 +88,8 @@ Artistree, al ser una plataforma dedicada a las comisiones artísticas, sigue si
 - Métrica que utilizó Borrow(creo), de alucinaciones.
 
 
-## 3. Costes (MCarmen y Joaquín) (Costes actuales, se esperan modificaciones para la siguiente presentación)
+## 3. Costes (MCarmen y Joaquín) 
+(Costes actuales, se esperan modificaciones para la siguiente presentación)
 
 * Capex
   - **Recursos humanos:** 76.638,90 € (En esta cifra vienen incluida los costes Sociales, un impuesto del 30% sobre el coste   salarial bruto )

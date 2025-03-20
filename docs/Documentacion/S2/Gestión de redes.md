@@ -52,11 +52,11 @@
 | v1.0    | 20/03/2025 | Creación del documento. | Celia Aguilera  |
 
 ## Índice de Contenidos
-1. [Objetivos](#1-Objetivos)
-2. [Público Objetivo](#2-Público-Objetivo)
-3. [Plataformas utilizadas](#3-Plataformas-utilizadas)
-4. [Calendario de Publicaciones](#4-cCalendario-de-Publicaciones)
-5. [Ideas de publicaciones](#5-Ideas-de-publicaciones)
+1. [Objetivos](#1-objetivos)
+2. [Público Objetivo](#2-público-objetivo)
+3. [Plataformas utilizadas](#3-plataformas-utilizadas)
+4. [Calendario de Publicaciones](#4-calendario-de-publicaciones)
+5. [Ideas de publicaciones](#5-ideas-de-publicaciones)
 
 # Plan de Gestión de Redes Sociales y Marketing - Holos
 
