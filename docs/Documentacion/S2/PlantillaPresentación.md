@@ -50,6 +50,7 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 20/03/2025 | Creación del documento. | Celia Aguilera  |
+| v1.1    | 20/03/2025 |  Inclusión de la información de costes y Costes Incurridos  | María del Carmen Barrera  |
 
 ## Índice de Contenidos
 1. [Revisión de Competidores](#1-revisión-de-competidores-daniel)
@@ -81,16 +82,157 @@ A continuación, se detallan los diferentes puntos a tratar en la presentación,
 - Métrica que utilizó Borrow(creo), de alucinaciones.
 
 
-## 3. Costes (MCarmen y Joaquín)
-- Desglose de Capex y Opex.
+## 3. Costes (MCarmen y Joaquín) (Costes actuales, se esperan modificaciones para la siguiente presentación)
 
-- Datos clave del análisis financiero con escenarios pesimista, neutro y optimista (número de artistas, volumen de comisiones, porcentajes de crecimiento).
+* Capex
+  - **Recursos humanos:** 76.638,90 € (En esta cifra vienen incluida los costes Sociales, un impuesto del 30% sobre el coste   salarial bruto )
+  - **Recursos materiales:** 
+    - Licencias: 3.734,64 €
+    - Cuenta Bancaria: 3.000,00 €
+    - Alquiler de la oficina: 3.400,00 €
+    - Publicidad: 2.300,00 €
+    - Portátiles: 10.200,00 €
+  
+  - **Costes totales incurridos en el proyecto (Sin incluir la reserva de gestión):** 99.273,54 €
+  - **Reserva de gestión (15%):** 14.931,12 € 
+
+  - **Coste total del proyecto (Capex): 114.164,57 €**
+
+* Opex
+
+  - **Recursos humanos:** 6.553,04 €
+   - **Recursos materiales:** 
+      - Licencias: 371,84 € €
+      - Alquiler de la oficina: 850,00 €
+      - Publicidad: 787,00 €
+
+    - **Coste total de mantenimiento (Opex): 8.561,88 €**
+
+
+
+En todos los escenarios (caso optimista, pesimista y neutro), la aplicación crece un 5% respecto al mes anterior respecto a los usuarios artistas, esto no es equitativo a las comisiones realizadas dado a que estas crecen según la fórmula:
+
+**(Nº de artistas de ese mes *0,42 * 2) + (Nº de ese mes *0,51 *3) + (Nº de artistas de ese mes * 0,07*5)**
+
+Los porcentajes (en tantos por uno en esta representación) han sido obtenidos mediantes las encuestas realizadas a los usuarios pilotos y representan el porcentaje de usuarios artistas que realizan una cantidad u otra de comisiones al mes.
+Los valores enteros representan el nº de comisiones que realizan los artistas.
+
+Nuestra aplicación ha considerado (según los datos obtenidos por la encuesta realizada a los usuarios pilotos) para hacer los costes que el rango de los precios de las obras que se van a vender en nuestra aplicación son:
+
+- 5-15€
+- 15-30€
+- 30-50€
+- 50-75€
+- 75-100€
+
+La distribución de las obras en estos rangos se ha realizado mediante los datos obtenidos a través de la encuesta mencionada anteriormente.
+
+También cabe mencionar que el precio de la tarifa premium para los artistas es de 4,99€
+
+**Casos analizados**
+
+El análisis ha sido realizado con vistas a 2 años.
+
+En nuestro alálisis hemos considerado atraer cómo máximo entre un 3% y un 8% del total de los artistas digitales de españa que se estiman entree 100.000 a 200.000 artistas. (Consulta realizada a la fecha de 13 de marzo de 2025 (prompt https://chatgpt.com/share/67d1aa43-4f18-800f-a359-99d2adbf93b4)) 
+
+  **- Caso pesimista**
+
+  Se ha considerado que un 25% de los artistas están subscritos a la tarifa premium.
+
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|--|-----|------|-----|------|----- |----- |
+|1|1302|326|3541|6.204,60 €|1.624,25 €|7.828,85 €|
+|24|3999|1000|10878|19.057,59 €|4.988,91 €|348.399,38 €| 
+
+
+En relación con los usuarios clientes esperamos tener unos 6500 al final de los dos años.
+
+* TCO
+
+- A los 6 meses: 165.360,69 €
+- Al año: 216.570,40 €
+- A los 2 años: 319.050,72 €
+
+
+
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 23 meses, es decir, casi a los 2 años. 
+
+Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_p_s2.PNG" alt="Universidad de Sevilla" width="550"/>
+</p>
+
+
+  **- Caso neutro**
+
+Se ha considerado que un 30% de los artistas están subscritos a la tarifa premium.
+
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|--|-----|------|-----|------|----- |----- |
+|1|1953|586|5312|10.519,67 €|2.923,64 €|13.443,31 €|
+|24|5999|1800|16316|32.311,42 €|8.980,03 €|598.254,23 €| 
+
+
+En relación con los usuarios clientes esperamos tener unos 9000 al final de los dos años.
+
+* TCO
+
+  - A los 6 meses: 165.386,47 €
+  - Al año: 216.630,73 €
+  - A los 2 años: 319.219,39  €
+
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 13 meses. 
+
+Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_n_s2.PNG" alt="Universidad de Sevilla" width="700"/>
+</p>
+
+
+  **- Caso optimista**
+
+Se ha considerado que un 35% de los artistas están subscritos a la tarifa premium.
+
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|--|-----|------|-----|------|----- |----- |
+|1|2605|912|7086|15.411,18 €|4.549,63 €|19.960,81 €|
+|24|8001|2800|21764|47.335,81 €|13.974,30 €|888.296,06 €| 
+
+
+En relación con los usuarios clientes esperamos tener unos 12000 al final de los dos años.
+
+* TCO
+  - A los 6 meses: 165.410,07 €
+  - Al año: 216.685,96  €
+  - A los 2 años: 319.373,81  €
+
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 8 meses.  
+
+Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_o_s2.PNG" alt="Universidad de Sevilla " width="700"/>
+</p>
 
 
 ## 4. Costes Incurridos (MCarmen y Joaquín)
 - Evaluación de costes actuales vs. planificación inicial.
 
-- Presentación de gráfica y análisis comparativo similar a Borrow.
+
+| Semanas | Gastos acumulados incurridos | Gastos estimados |
+|---------|-----------------------------|------------------|
+| 1       | 31.182,20 €                 | 22.502,00 €      |
+| 2       | 32.491,30 €                 | 30.112,97 €      |
+| 3       | 34.062,22 €                 | 37.723,95 €      |
+| 4       | 35.371,32 €                 | 45.334,92 €      |
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/gastos_incuridos_s2.PNG" alt="Universidad de Sevilla " width="700"/>
+</p>
+
+
 
 
 ## 5. Demo (Gabriel e Ignacio)
