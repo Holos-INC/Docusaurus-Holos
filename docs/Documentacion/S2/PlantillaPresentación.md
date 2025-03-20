@@ -53,24 +53,24 @@
 | v1.1    | 20/03/2025 |  Inclusión de la información de costes y Costes Incurridos  | María del Carmen Barrera  |
 
 ## Índice de Contenidos
-1. [Revisión de Competidores](#1-Revisión-de-Competidores (Daniel y Gabriel))
-2. [Investigación sobre el Trackeo del Uso de IA](#2-Investigación-sobre-el-Trackeo-del-Uso-de-IA (Miguel))
-3. [Costes](#3-Costes (MCarmen y Joaquín))
-4. [Costes Incurridos](#4-Costes-Incurridos (MCarmen y Joaquín))
-5. [Demo](#5-Demo (Gabriel))
-6. [Licencias](#5-Licencias (Juanan))
-7. [Implementación de Términos y Servicios y GDPR](#5-Implementación-de-Términos-y-Servicios-y-GDPR (Nico))
-8. [Nuevas Métricas para Evaluación del Rendimiento, etc.](#5-Nuevas-Métricas-para-Evaluación-del-Rendimiento,-etc. (Joaquín))
-9. [Storyboard](#5-Storyboard (Nerea))
-10. [Nuevos Riesgos - Sprint 2](#5-Nuevos-Riesgos---Sprint-2 (Juan del Junco))
-11. [Usuarios Piloto](#5-Usuarios-Piloto(Nerea))
-12. [Planificación o Replanificación de Sprint 2 y 3](#5-Planificación-o-Replanificación-de-Sprint-2-y-3 (JMaría))
+1. [Revisión de Competidores](#1-revisión-de-competidores-daniel)
+2. [Investigación sobre el Trackeo del Uso de IA](#2-investigación-sobre-el-trackeo-del-uso-de-ia-miguel)
+3. [Costes](#3-costes-mcarmen-y-joaquín)
+4. [Costes Incurridos](#4-costes-incurridos-mcarmen-y-joaquín)
+5. [Demo](#5-demo-gabriel-e-ignacio)
+6. [Licencias](#6-licencias-juanan)
+7. [Implementación de Términos y Servicios y GDPR](#7-implementación-de-términos-y-servicios-y-gdpr-nico)
+8. [Nuevas Métricas para Evaluación del Rendimiento, etc.](#8-nuevas-métricas-para-evaluación-del-rendimiento-etc-joaquín)
+9. [Storyboard](#9-storyboard-nerea)
+10. [Nuevos Riesgos - Sprint 2](#10-nuevos-riesgos---sprint-2-juan-del-junco)
+11. [Usuarios Piloto](#11-usuarios-piloto-nerea)
+12. [Planificación o Replanificación de Sprint 2 y 3](#12-planificación-o-replanificación-de-sprint-2-y-3-jmaría)
 
 # Documento de Presentación - Holos
 
 A continuación, se detallan los diferentes puntos a tratar en la presentación, con las personas responsables asignadas. Se debe resumir y destacar lo más importante e imprescindible que debe aparecer en la presentación, con datos específicos. He puesto aquello que considero importante a rellenar, pero si hay algo que no está y creéis importante que se añada en la presentación, por favor añadirlo.
 
-## 1. Revisión de Competidores (Daniel y Gabriel)
+## 1. Revisión de Competidores (Daniel)
 - ¿Ha habido algún cambio que deba estar reflejado en la presentación?
 
 
@@ -235,8 +235,11 @@ Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo re
 
 
 
-## 5. Demo (Gabriel)
-- Envío de la nueva demo por WhatsApp.
+## 5. Demo (Gabriel e Ignacio)
+- Seguimiento del feedback del profesor:
+  - Añadir zooms para mejorar visibilidad.
+  - Ajustar velocidad de la demo.
+  - Acompañarla de un audio hablado.
 
 
 ## 6. Licencias (Juanan)
