@@ -130,7 +130,7 @@ A la hora de subir imágenes, de ser de un apartado concreto o ser muchas imagen
 </p>
 ```
 
-## 5.Política de commits
+## 5. Política de commits
 
 Para garantizar un historial de cambios claro y estructurado en el repositorio de Docusaurus, se deben seguir las siguientes reglas al realizar commits:  
 
