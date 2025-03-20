@@ -73,6 +73,12 @@ A continuación, se detallan los diferentes puntos a tratar en la presentación,
 ## 1. Revisión de Competidores (Daniel)
 - ¿Ha habido algún cambio que deba estar reflejado en la presentación?
 
+Hasta el momento, no hemos identificado la aparición de nuevos competidores relevantes en el mercado, ni los competidores ya establecidos han desarrollado nuevas funcionalidades que puedan amenazar nuestra propuesta de valor. En particular, ninguno de ellos ha integrado una herramienta de gestión visual tan diferenciadora como el sistema de tablero Kanban que ofrecemos en Holos.
+
+Actualmente, seguimos centrando principalmente nuestro análisis en los competidores más directos: Artistree y Fiverr. Estos dos actores son los que ofrecen una oferta más similar a la nuestra en términos de comisiones artísticas personalizadas, lo que los convierte en los competidores más relevantes a monitorizar.
+
+Artistree, al ser una plataforma dedicada a las comisiones artísticas, sigue siendo uno de nuestros principales puntos de referencia, ya que comparte el mismo enfoque de mercado. Por otro lado, Fiverr, aunque no está especializado exclusivamente en comisiones artísticas, es un jugador importante debido a su gran audiencia y la variedad de servicios que ofrece en el ámbito artístico y creativo.
+
 
 ## 2. Investigación sobre el Trackeo del Uso de IA (Miguel)
 - Conclusiones sobre cómo podríamos implementar la detección de una obra de arte generada por IA.
