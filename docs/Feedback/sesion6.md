@@ -4,7 +4,7 @@
 
 **Hora inicio: 10:40**
 
-**Hora finalización: 14:31**
+**Hora finalización: 14:30**
 
 **Lugar: Aula H1.12**
 
@@ -24,8 +24,7 @@ Usa lenguaje coloquial chocante: “Se jode”, por otra parte esto puede ser pe
 - Calendario niko-niko único.
 
 ## Feedback negativo de estudiante
-- Hay bordes negros, no se aprovecha al máximo las dimensiones.
-- La demo ha sido quizás demasiado lenta, distorsionando demasiado el audio.
+- La demo ha ido quizás un poco lenta.
 
 ## Feedback de profesores (Pablo)
 - El tema del inicio efectivo, pablo plantearía algo mas enfocado a un hecho o una historia, que permita introducir más rapido el tema, por ej: picasso tuvo 4 intentos de suicidio cuando no fue capaz de tener los encargos a tiempo. (que se entienda el dolor y la necesidad del proyecto, que hay un problema que solucionar)
