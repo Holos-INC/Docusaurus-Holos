@@ -45,6 +45,7 @@ Investigación de la ley y adición de tecnologías y licencias
 | Miembro                          | Responsabilidad                 |
 |----------------------------------|---------------------------------|
 | Juan Antonio Moreno Moguel       |  Redactor                       |
+| Nicolás Pérez Gómez              |  Redactor                       |
 
 **Repositorio:** [https://github.com/Holos-INC](https://github.com/Holos-INC)
 
@@ -55,6 +56,7 @@ Investigación de la ley y adición de tecnologías y licencias
 | Fecha       | Versión | Descripción              | Autor|
 |-------------|---------|--------------------------|------|
 | 22/03/2025  | v1.0    | Creación del documento   | Juan Antonio Moreno Moguel|
+| 23/03/2025  | v2.0    | Terminar y revisar el documento   | Nicolás Pérez Gómez|
 
 
 ---
@@ -65,7 +67,9 @@ Investigación de la ley y adición de tecnologías y licencias
 1. [Metodología](#1-Metodología)
 2. [Licencias](#2-Licencias)
 3. [Implicaciones legales](#3-Implicaciones-legales)
-
+4. [Implementación del GDPR y almacenamiento de datos](#4-implementación-del-gdpr-y-almacenamiento-de-datos)
+5. [Términos y Condiciones](#5-términos-y-condiciones)
+6. [Integración con el frontend](#6-integración-con-el-frontend)
 
 ---
 
@@ -76,7 +80,7 @@ Es crucial conocer las restricciones y derechos de cada una para garantizar el c
 A continuación, se presenta un análisis detallado de las tecnologías utilizadas y sus respectivas licencias.
 
 ---
-### Metodología
+## 1. Metodología
 
 La metodología utilizada a lo largo de este proceso se resume en tres pasos:
 1. La busqueda de leyes referentes como la GDPR y las licencias de los softwares utilizados.
@@ -84,7 +88,7 @@ La metodología utilizada a lo largo de este proceso se resume en tres pasos:
 3. Aplicación de los metodos necesarios para cumplir con la legislatura actual
 
 ---
-### Licencias
+## 2. Licencias
 
 A continuacion se presenta una tabla con todas las licencias y lo que esto implica para nuestra aplicación
 
@@ -100,13 +104,13 @@ A continuacion se presenta una tabla con todas las licencias y lo que esto impli
 |Java (GPL v2 Software Libre)| Ninguna ya que se usa OpenJDK |
 
 ---
-### Implicaciones legales
+## 3. Implicaciones legales
 
 El cumplimiento legal en el desarrollo de software es fundamental para evitar infracciones que puedan derivar en sanciones económicas 
 o responsabilidad penal. 
 A continuación, se presentan aspectos clave que deben ser considerados.
 
-## Propiedad Intelectual y Uso de Software de Terceros
+### Propiedad Intelectual y Uso de Software de Terceros
 
 El uso de software de terceros debe realizarse conforme a sus respectivas licencias. En este sentido, es imprescindible:
 
@@ -117,11 +121,11 @@ Cualquier software de código cerrado solo puede utilizarse con la debida licenc
 - Respetar las condiciones de atribución:
 Algunas licencias, como Apache 2.0 y MIT, requieren que se mencione a los autores originales en la documentación del proyecto.
 
-## Protección de Datos y Cumplimiento de Normativas
+### Protección de Datos y Cumplimiento de Normativas
 
 El manejo de datos personales dentro de la aplicación debe cumplir con normativas internacionales de protección de datos, como:
 
-# Reglamento General de Protección de Datos (GDPR) de la UE:
+#### Reglamento General de Protección de Datos (GDPR) de la UE:
 El GDPR es una de las normativas más estrictas en términos de protección de datos personales dentro de la Unión Europea. 
 Si el sistema maneja información de ciudadanos europeos, es obligatorio garantizar el cumplimiento de los siguientes principios:
 
@@ -132,8 +136,62 @@ Si el sistema maneja información de ciudadanos europeos, es obligatorio garanti
 - Limitación del almacenamiento: Los datos personales no pueden conservarse por más tiempo del necesario.
 - Integridad y confidencialidad: Se deben implementar medidas técnicas y organizativas para garantizar la seguridad de los datos.
 
-Además, es obligatorio implementar medidas clave como:
+#### Seguridad Informática y Prevención de Ciberataques
 
+Las mejores prácticas de seguridad informática deben implementarse en todas las fases del desarrollo para evitar vulnerabilidades explotables. 
+Algunas acciones esenciales incluyen:
+
+- Gestión segura de credenciales: Evitar la inclusión de claves de API o credenciales en el código fuente; en su lugar, utilizar variables de entorno o gestores de secretos.
+- Monitoreo y auditoría de accesos: Registrar intentos de acceso sospechosos y generar alertas de seguridad.
+
+Implementación de medidas contra ataques comunes:
+
+- Protección contra inyección SQL mediante ORM seguro y validaciones estrictas.
+- Prevención de Cross-Site Scripting (XSS) sanitizando entradas de usuario.
+
+#### Uso Ético de Recursos y Servicios en la Nube
+
+El abuso o uso indebido de servicios en la nube puede resultar en la suspensión de cuentas o incluso en acciones legales. Para garantizar un uso adecuado de los servicios en la nube se recomienda:
+
+- Respetar los términos de servicio de GitHub Actions, Google Cloud y Render.
+- Evitar automatizaciones excesivas o maliciosas, como el scraping sin permiso de sitios web.
+- Optimizar los recursos consumidos para evitar costos inesperados y reducir el impacto ambiental del procesamiento en la nube.
+
+#### Documentación de Licencias y Cumplimiento Legal
+
+Para mantener un estado legal se tomaran las siguientes medidas:
+
+- Incluir un archivo LICENSE en el repositorio, indicando la licencia del software desarrollado.
+- Revisar periódicamente los términos de servicio de las herramientas y servicios utilizados, ya que pueden cambiar con el tiempo.
+- Realizar auditorías internas para asegurar el cumplimiento de normativas y buenas prácticas.
+
+## 4. Implementación del GDPR y almacenamiento de datos
+
+En cumplimiento con el Reglamento General de Protección de Datos (GDPR) y otras normativas aplicables, la aplicación garantiza la protección y el manejo seguro de los datos personales de los usuarios.
+
+### Tipos de datos recogidos
+La aplicación recopila y gestiona los siguientes tipos de datos personales:
+
+- Datos de registro: Nombre, correo electrónico, contraseña y otros datos necesarios para la creación de la cuenta.
+
+- Datos de transacciones: Información relacionada con los pagos realizados mediante PayPal. La aplicación no almacena datos sensibles de pago, sino que delega el procesamiento a PayPal, asegurando así el cumplimiento con sus políticas de seguridad.
+
+- Datos de uso: Registros de actividad en la aplicación para mejorar la experiencia del usuario y mantener la seguridad del sistema.
+
+### Planteamiento del Almacenamiento de Datos
+
+Para garantizar un equilibrio entre seguridad y eficiencia, los datos se manejan de la siguiente manera:
+
+- Verificación en el frontend: Ciertos datos se validan en el frontend antes de ser enviados al backend, reduciendo la carga en el servidor y minimizando la exposición de datos innecesarios.
+
+- Almacenamiento en el backend: Solo se almacenan los datos esenciales en una base de datos SQL, asegurando su integridad y protegiéndolos con medidas de seguridad adecuadas.
+
+- Cifrado de información sensible: Las contraseñas se almacenan utilizando algoritmos de cifrado seguros.
+
+- Restricción de acceso: Se implementan controles de acceso para evitar el uso no autorizado de la información.
+
+### Medidas de seguridad implementadas
+Para garantizar la protección de los datos personales, se aplican las siguientes medidas:
 - Consentimiento explícito del usuario:
 El usuario debe otorgar su consentimiento informado antes de que sus datos sean procesados.
 Esto significa que no se pueden recopilar datos sin una aceptación clara y verificable.
@@ -151,31 +209,66 @@ Medidas de seguridad recomendadas:
 - Cifrado de datos en reposo.
 - Restricción del acceso a información confidencial.
 
-## Seguridad Informática y Prevención de Ciberataques
+## 5. Términos y condiciones
+Estos términos y condiciones regulan el acceso y uso de la aplicación, estableciendo los derechos y responsabilidades de los usuarios y los desarrolladores. Al registrarse y utilizar la aplicación, el usuario acepta las siguientes condiciones:
 
-Las mejores prácticas de seguridad informática deben implementarse en todas las fases del desarrollo para evitar vulnerabilidades explotables. 
-Algunas acciones esenciales incluyen:
+#### Uso de la Aplicación
 
-- Gestión segura de credenciales: Evitar la inclusión de claves de API o credenciales en el código fuente; en su lugar, utilizar variables de entorno o gestores de secretos.
-- Monitoreo y auditoría de accesos: Registrar intentos de acceso sospechosos y generar alertas de seguridad.
+- El usuario se compromete a utilizar la aplicación de manera legal y conforme a estos términos.
 
-Implementación de medidas contra ataques comunes:
+- Se prohíbe el uso de la aplicación para actividades fraudulentas, ilegales o que puedan afectar a otros usuarios o a la plataforma.
 
-- Protección contra inyección SQL mediante ORM seguro y validaciones estrictas.
-- Prevención de Cross-Site Scripting (XSS) sanitizando entradas de usuario.
+- La aplicación se proporciona "tal cual", sin garantías explícitas o implícitas sobre su funcionamiento o resultados.
 
-## Uso Ético de Recursos y Servicios en la Nube
+#### Registro y Seguridad de la Cuenta
 
-El abuso o uso indebido de servicios en la nube puede resultar en la suspensión de cuentas o incluso en acciones legales. Para garantizar un uso adecuado de los servicios en la nube se recomienda:
+- Los usuarios deben proporcionar información precisa y verídica al momento del registro.
 
-- Respetar los términos de servicio de GitHub Actions, Google Cloud y Render.
-- Evitar automatizaciones excesivas o maliciosas, como el scraping sin permiso de sitios web.
-- Optimizar los recursos consumidos para evitar costos inesperados y reducir el impacto ambiental del procesamiento en la nube.
+- El usuario es responsable de mantener la confidencialidad de sus credenciales y de todas las actividades que se realicen bajo su cuenta.
 
-## Documentación de Licencias y Cumplimiento Legal
+- Se recomienda utilizar contraseñas seguras y cambiarlas periódicamente.
 
-Para mantener un estado legal se tomaran las siguientes medidas:
+#### Política de Privacidad y Tratamiento de Datos
 
-- Incluir un archivo LICENSE en el repositorio, indicando la licencia del software desarrollado.
-- Revisar periódicamente los términos de servicio de las herramientas y servicios utilizados, ya que pueden cambiar con el tiempo.
-- Realizar auditorías internas para asegurar el cumplimiento de normativas y buenas prácticas.
+- La aplicación recoge y procesa información personal conforme a la Política de Privacidad y el GDPR.
+
+- Los usuarios pueden solicitar la eliminación o modificación de sus datos personales en cualquier momento.
+
+- La aplicación se compromete a no vender ni compartir información personal sin el consentimiento explícito del usuario.
+
+#### Pagos y Transacciones
+
+- Los pagos dentro de la aplicación se procesan mediante PayPal u otros proveedores de pago seguros.
+
+- La aplicación no almacena información de tarjetas de crédito ni otros datos de pago sensibles.
+
+- Cualquier problema con los pagos debe ser reportado a PayPal o al proveedor correspondiente.
+
+#### Modificaciones a los Términos
+
+- Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios entrarán en vigor desde su publicación en la aplicación.
+
+- Se recomienda a los usuarios revisar periódicamente los términos para mantenerse informados sobre posibles modificaciones.
+
+#### Limitación de Responsabilidad
+
+- No nos hacemos responsables de daños directos, indirectos o incidentales derivados del uso de la aplicación.
+
+- La aplicación puede estar sujeta a interrupciones por mantenimiento o mejoras, sin previo aviso.
+
+#### Terminación del Servicio
+
+- Nos reservamos el derecho de suspender o cancelar el acceso de un usuario si incumple estos términos.
+
+- La aplicación también puede cesar su operación en cualquier momento sin responsabilidad adicional.
+
+## 6. Integración con el Frontend
+
+- Los términos y condiciones estarán accesibles en una página de Docusaurus.
+
+- Antes de utilizar la aplicación, el usuario deberá aceptar los términos y condiciones de manera explícita mediante una casilla de verificación en la pantalla de registro.
+
+- La aceptación de los términos quedará registrada en la base de datos para futuras referencias.
+
+- Estos términos y condiciones aseguran el cumplimiento legal de la aplicación y establecen un marco claro para el uso seguro y adecuado del servicio.
+
