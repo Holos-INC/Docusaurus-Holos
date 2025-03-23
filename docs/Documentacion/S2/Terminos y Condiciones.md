@@ -62,19 +62,19 @@
 
 1. [Términos y Condiciones](#1-términos-y-condiciones)
 
-    [Uso de la aplicación](#11-uso-de-la-aplicación)
+    [Uso de la aplicación](#uso-de-la-aplicación)
 
-    [Registro y seguridad de la cuenta](#12-registro-y-seguridad-de-la-cuenta)
+    [Registro y seguridad de la cuenta](#registro-y-seguridad-de-la-cuenta)
 
-    [Política de Privacidad y Tratamiento de Datos](#13-política-de-privacidad-y-tratamiento-de-datos)
+    [Política de Privacidad y Tratamiento de Datos](#política-de-privacidad-y-tratamiento-de-datos)
 
-    [Pagos y Transacciones](#14-pagos-y-transacciones)
+    [Pagos y Transacciones](#pagos-y-transacciones)
 
-    [Modificaciones a los Términos](#15-modificaciones-a-los-términos)
+    [Modificaciones a los Términos](#modificaciones-a-los-términos)
 
-    [Limitación de Responsabilidad](#16-limitación-de-responsabilidad)
+    [Limitación de Responsabilidad](#limitación-de-responsabilidad)
 
-    [Terminación del Servicio](#17-terminación-del-servicio)
+    [Terminación del Servicio](#terminación-del-servicio)
 
 
 
