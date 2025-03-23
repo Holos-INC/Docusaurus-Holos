@@ -225,6 +225,7 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 004          | Recomendaciones de uso responsive en front | Francisco Pérez | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67d22373-52fc-8001-9b58-415582498579) |
 | 005          | Investigación sobre cómo insertar múltiples líneas de texto en un campo de entrada de texto. | María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdeee7-5930-8006-a4ae-289158db3f07) |
 | 006          | Investigación sobre la generación de  un mockup de backend en el frontend.| María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdedea-0e08-8006-bb75-d69b706d7935) |
+| 007          | Resolución de dudas con respecto uso de DTOs en el repositorio | José María Portela | 21/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67ddd002-6fd4-800f-be68-63dde405047b) |
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
 
@@ -238,5 +239,6 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 004          | 3                               | Sí                          | No                   | 30 min           |
 | 005          | 2                               | Sí                          | No                   | 20 min           |
 | 006          | 1                               | Sí                          | No                   | 45 min           |
+| 007          | 1                               | Sí                          | No                   | 60 min           |
 ---
 
