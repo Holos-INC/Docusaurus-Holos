@@ -139,7 +139,9 @@ Las imágenes generadas por IA a menudo carecen de sutilezas artísticas que se 
 
 ### 2.8. Reporte Manual por Parte del Equipo
 
-A pesar de los avances tecnológicos en la detección de imágenes generadas por IA, es posible que se presenten casos complejos o ambiguos que no puedan ser resueltos únicamente a través de las herramientas automáticas. Para abordar estos casos, se habilitará una opción para el **reporte manual** por parte del equipo.
+A pesar de los avances tecnológicos en la detección de imágenes generadas por IA, es posible que se presenten casos complejos o ambiguos que no puedan ser resueltos únicamente a través de las herramientas automáticas. Para abordar estos casos, se habilitará una opción para el reporte manual por parte de los propios usuarios de la aplicación. Estos reportes serán revisados posteriormente por el administrador, quien evaluará cada caso y tomará las medidas correspondientes.
+
+
 
 #### Proceso de Reporte Manual
 
