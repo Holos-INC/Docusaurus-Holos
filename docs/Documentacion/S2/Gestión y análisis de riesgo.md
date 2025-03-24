@@ -68,7 +68,7 @@
     3. [Factor de Riesgo](#factor-de-riesgo)
     4. [Niveles de Prioridad](#niveles-de-prioridad)
 3. [Tabla de Riesgos](#3-tabla-de-riesgos)
-4. [Tabla de Seguimiento de Riesgos](#4-tabla-de-seguimiento-de-riesgos)
+4. [Tabla de Seguimiento de Problemas](#4-tabla-de-seguimiento-de-problemas)
    
 ---
 
@@ -151,13 +151,13 @@ A continuación se presenta una tabla que resume los principales riesgos, su imp
 
 
 
-## 4. Tabla de Seguimiento de Riesgos
+## 4. Tabla de Seguimiento de Problemas
 
-| ID | Explicación | ¿Sigue vigente? | Acciones tomadas |
-|----|-------------|------------------|-------------------|
-| R17 | Persiste el riesgo de una mala organización del sprint, que podría afectar la distribución de tareas y las entregas. | Sí | Se han reforzado las reuniones de planificación y se detallan mejor las tareas en GitHub Projects. |
-| R18 | Se está percibiendo desmotivación en algunos miembros, posiblemente por carga de trabajo desigual o falta de implicación. | Sí | Se ha fomentado el reconocimiento interno y se están rotando tareas para mantener el interés y la equidad. |
-| R19 | Siguen existiendo fallos en el despliegue que impiden entregar una versión funcional estable. | Sí | Se han asignado responsables, se está automatizando el proceso y haciendo pruebas en entorno de staging. |
-| R21 | Se han producido errores y conflictos en varias ramas debido a una gestión inadecuada de ramas, esto ha provocado que se produzca pérdida de tiempo y necesidad de rehacer cambios o de resolver conflictos.  | Sí | Se establece la práctica de cerrar ramas inmediatamente después de hacer merge de esta rama para evitar confusiones innecesarias y mantener el repositorio lo más limpio posible. |
-| R22 | Se ha detectado baja implicación en parte del equipo, afectando a la eficiencia general. | Sí | Se han hecho reuniones uno a uno y se han redistribuido tareas con más seguimiento por parte del equipo de coordinación. |
-| R10 | El retraso en la entrega a los usuarios piloto puede generar insatisfacción o desinterés por parte de estos. | Sí | Se está priorizando la finalización del MVP funcional y se ha comunicado a los usuarios una nueva fecha de entrega estimada. |
+| ID | Explicación | ¿Sigue vigente? | Acciones tomadas | Trazabilidad |
+|----|-------------|------------------|-------------------|-------------------|
+| P1 | Persiste el riesgo de una mala organización del sprint, que podría afectar la distribución de tareas y las entregas. | Sí | Se han reforzado las reuniones de planificación y se detallan mejor las tareas en GitHub Projects. | Número de tareas replanificadas o retrasadas: Si disminuye, la planificación es más efectiva. /  Tareas replanificadas / tareas planificadas = 0 cuanto más cercano a 0 mejor |
+| P2 | Se está percibiendo desmotivación en algunos miembros, posiblemente por carga de trabajo desigual o falta de implicación. | Sí | Se ha fomentado el reconocimiento interno y se están rotando tareas para mantener el interés y la equidad. | Tendencia del estado de ánimo después de la implementación de las medidas. |
+| P3 | Siguen existiendo fallos en el despliegue que impiden entregar una versión funcional estable. | Sí | Se han asignado responsables, se está automatizando el proceso y haciendo pruebas en entorno de staging. | Éxito en despliegues automáticos (%) → Si aumenta, la automatización está funcionando bien. |
+| P4 | Se han producido errores y conflictos en varias ramas debido a una gestión inadecuada de ramas, esto ha provocado que se produzca pérdida de tiempo y necesidad de rehacer cambios o de resolver conflictos.  | Sí | Se establece la práctica de cerrar ramas inmediatamente después de hacer merge de esta rama para evitar confusiones innecesarias y mantener el repositorio lo más limpio posible. | Workflow que detecta las ramas inactivas desde hace más de 7 días y las añade en un txt de ramas inactivas, para que alguien las revise y elimine. Además se analiza cuántas ramas inactivas se detectan semanalmente y cuántas se eliminan efectivamente. Si el número de ramas inactivas disminuye con el tiempo, la solución está funcionando.|
+| P5 | El retraso en la entrega a los usuarios piloto puede generar insatisfacción o desinterés por parte de estos. | Sí | Se está priorizando la finalización del MVP funcional y se ha comunicado a los usuarios una nueva fecha de entrega estimada. | Medir los días de retraso (Fecha real de entrega - fecha estimada inicial) / Tasa de abandono de usuarios piloto (UP que abandonan/UP)x100 |
+| P6 | Los equipos de Backend y Frontend trabajaron por separado sin coordinarse, lo que resultó en problemas de integración. Ahora falta conexión entre el frontend y el backend, generando retrasos y necesidad de refactorización. | No | Se han creado reuniones de sincronización y las nuevas tareas se asignarán en parejas (un desarrollador de Backend y uno de Frontend) para garantizar la conexión entre ambos. | % de funcionalidades integradas sin errores - (Integraciones exitosas / Total de integraciones) × 100 |
