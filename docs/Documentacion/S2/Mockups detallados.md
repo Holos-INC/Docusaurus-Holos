@@ -50,7 +50,7 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 23/03/2025 | Creación del documento. | Francisco Pérez   |
-| v1.1    | XX/03/2025 | Primera revisión. | Julia Ángeles   |
+| v1.1    | 24/03/2025 | Primera revisión. | Julia Ángeles   |
 
 ## **Índice** 
 1. [Introducción](#1-introducción) 
