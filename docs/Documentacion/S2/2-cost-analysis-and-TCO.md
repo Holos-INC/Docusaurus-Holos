@@ -101,7 +101,7 @@ Para el desarrollo del proyecto, el equipo contaba con 17 participantes. Estos s
 Aplicando los salarios según las fuentes mencionadas previamente, y teniendo en cuenta que cada empleado trabaja 10 horas semanales durante 15 semanas, el gasto total de los recursos humanos durante el desarrollo de la aplicación es de **76.638,90 €.** 
 
 
-# Gastos de personal durante el desarrollo
+**Gastos de personal durante el desarrollo**
 
 | **Tipo de trabajador**                    | **Cantidad** | **Costo por hora** | **Horas semanales** | **Nº de horas totales** | **Coste salarial bruto** | **Costes sociales (30% de los costes brutos)** | **Coste total del personal** |
 |--------------------------------------------|--------------|--------------------|---------------------|------------------------|-------------------------|--------------------------------------------------|-----------------------------|
@@ -117,12 +117,10 @@ Aplicando los salarios según las fuentes mencionadas previamente, y teniendo en
 
 ### 2.2 Costes de los recursos materiales 
 
-La empresa ha decidido invertir en diversos recursos materiales como en licencias de software o hardware para el uso de los trabajadores o en publicidad. Los precios de las licencias de software se han consultado en sus páginas web oficiales, las cuales se han referenciado en la bibliografía. En algunos casos, se ha tenido que pasar el precio de dólar a euro, por lo que se han tomado en cuenta la diferencia entre los valores de las monedas a fecha 13 de marzo de 2025. En la siguiente tabla se muestra en qué se destinarán los **22.901,92 €** invertidos en recursos materiales: 
+La empresa ha decidido invertir en diversos recursos materiales como en licencias de software o hardware para el uso de los trabajadores o en publicidad. Los precios de las licencias de software se han consultado en sus páginas web oficiales, las cuales se han referenciado en la bibliografía. En algunos casos, se ha tenido que pasar el precio de dólar a euro, por lo que se han tomado en cuenta la diferencia entre los valores de las monedas a fecha 13 de marzo de 2025.
 
 
-
-**Gastos recursos materiales**
-# Gastos en los recursos materiales
+**Gastos en los recursos materiales**
 
 
 | Recurso material                    | Cantidad | Costo mes por unidad | Nº Meses | Coste total    |
@@ -153,7 +151,7 @@ La empresa ha decidido invertir en diversos recursos materiales como en licencia
 
 ### 2.3 Costes totales de desarrollo 
 
-Una vez calculado el coste total del proyecto, se aplica un incremento del 15 % en concepto de reservas de gestión. Como resultado, el coste final del desarrollo del proyecto asciende a **114.471,94 €**. En la siguiente tabla se pueden ver los cálculos realizados para obtener dicha cifra:
+Una vez calculado el coste total del proyecto, se aplica un incremento del 15 % en concepto de reservas de gestión.
 
 **Gastos de capital**
 
@@ -165,7 +163,7 @@ Una vez calculado el coste total del proyecto, se aplica un incremento del 15 % 
 
 
 
-|Coste del proyecto |91.322,08€|
+|Coste del proyecto |90.807,68 €|
 | - | - |
 |% de reserva |15,00%|
 |Total de la reserva |13.621,15 €|
@@ -237,13 +235,12 @@ Se ha estimado una amortización mensual de 12,50 € por portátil, tomando com
 
 **OpEx**
 
-|Costo mensual de mantenimiento | |
+|Costo mensual de mantenimiento (Opex)| **9.136,01 €**|
 | :- | - |
 |Costo mensual del personal de mantenimiento | 6.553,04 €|
 |Coste mensual de los recursos materiales para el mantenimiento | 2.582,97 €|
-|**Costes mensual de mantenimiento** |**9.136,01 €**|
 
-Por tanto, sumando todos los gastos, obtenemos un Opex de **9.136,01 €**.
+
 
 
 ## 4. Rentabilidad de la aplicación 
@@ -355,9 +352,9 @@ Distribución de dichas comisiones en los rangos de precios establecidos:
 | 23 | 3729  | 3108   | 1968   | 1140   | 518     |
 | 24 | 3916  | 3263   | 2067   | 1197   | 545     |
 
-Los beneficios esperados son: 
+Los benefícios esperados son: 
 
-| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Beneficios obtenidos |
+| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Benefícios obtenidos por las obras|
 |----------------|------------------------------------------------------------|------------------------------------------------------------------------|---------------------------------------------|--------------------------------------------------------|
 | 1              | 103.410,05 €                                               | 6.204,60 €                                                            | 3.492,50 €                                  | 2.712,11 €                                             |
 | 2              | 108.580,55 €                                               | 6.514,83 €                                                            | 3.667,12 €                                  | 2.847,71 €                                             |
@@ -390,7 +387,7 @@ Los beneficios esperados son:
 
 Según los resultados de la encuesta sobre la disposición de los artistas a pagar una cuota mensual, se han establecido una tarifa premium. En el caso pesimista, según los datos de las encuestas, se ha supuesto que un 25% de los usuarios artista estarían dispuestos a pagar esta mensualidad. Esto nos daría los siguientes ingresos:
 
-| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Ingresos obtenidos por las suscripciones |
+| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Benefícios obtenidos por las suscripciones |
 |-----|-----------------------|---------------------------------------------|------------------------------------------------------------------------|------------------------------------------|
 | 1   | 326                   | 1.624,25 €                                  | 325,01 €                                                               | 1.299,23 €                               |
 | 2   | 342                   | 1.705,46 €                                  | 341,26 €                                                               | 1.364,19 €                               |
@@ -462,7 +459,7 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
  #### 4.1.1 Cálculos del TCO pesimista ####
 
-En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios, considerando los ingresos generados y descontando los costes asociados. 
+En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefícios, considerando los ingresos generados y descontando los costes asociados. 
 
 Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 10.500 imágenes, cada una con un peso aproximado de 5 MB, y 12.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
@@ -473,7 +470,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a los 6 meses** 
 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 6 meses | TCO           | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx a lo largo de 6 meses | TCO           | Ingresos totales | Benefícios       |
 |--------------|---------------|-----------------------------|----------------|------------------|------------------|
 | 104.428,83 €  | 9.146,91 €   | 54.856,06 €                 | 159.284,89 €  | 45.425,25 €      | -113.859,64 €     |
 
@@ -483,7 +480,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a al año** 
 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 12 meses | TCO           | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx a lo largo de 12 meses | TCO           | Ingresos totales | Benefícios       |
 |--------------|---------------|------------------------------|----------------|------------------|------------------|
 | 104.428,83 €  | 9.146,91 €   | 109.725,71 €                 | 214.154,54 €  | 116.786,87 €     | -97.367,68 €      |
 
@@ -493,7 +490,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a a los 2 años** 
 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 24 meses | TCO           | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx a lo largo de 24 meses | TCO           | Ingresos totales | Benefícios       |
 |--------------|---------------|------------------------------|----------------|------------------|------------------|
 | 104.428,83 €  | 9.146,91 €   | 219.525,91 €                 | 323.954,74 €  | 340.573,49 €     | 16.618,74 €   |
 
@@ -581,8 +578,8 @@ Distribución de dichas comisiones en los rangos de precios establecidos:
 | 23 | 4444 | 4444 | 3325 | 2222 | 1103 |
 | 24 | 4666 | 4666 | 3492 | 2333 | 1158 |
 
-Los beneficios esperados son: 
-| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Beneficios obtenidos |
+Los benefícios esperados son: 
+| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Benefícios obtenidos por las obras|
 |-----|-----------------------------|--------------------------|--------------------| ----|
 | 1   | 103.410,05 €                | 6.204,60 €               | 3.492,50 €         | 2.712,11 €             |
 | 2   | 108.580,55 €                | 6.514,83 €               | 3.667,12 €         | 2.847,71 €             |
@@ -614,7 +611,7 @@ Los beneficios esperados son:
 
 Según los datos de las encuestas, se ha supuesto que un 30% de los usuarios artista estarían dispuestos a pagar esta mensualidad. Esto nos daría los siguientes ingresos:
 
-| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Ingresos obtenidos por las suscripciones |
+| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Benefícios obtenidos por las suscripciones |
 |-----|-----------------------|---------------------------------------------|------------------------------------------------------------------------|------------------------------------------|
 | 1   | 326                  | 1.624,25 €                       | 325,01 €                  | 1.299,23 €                  |
 | 2   | 342                  | 1.705,46 €                       | 341,26 €                  | 1.364,19 €                  |
@@ -680,7 +677,7 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
  #### 4.2.1 Cálculos del TCO neutro
 
-En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
+En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefíos netos, considerando los ingresos generados y descontando los costes asociados. 
 
 Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 16.000 imágenes, cada una con un peso aproximado de 5 MB, y 18.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
@@ -689,7 +686,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a los 6 meses** 
 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 6 meses | TCO           | Ingresos totales | Beneficios        |
+| CapEx        | OpEx mensual | OpEx a lo largo de 6 meses | TCO           | Ingresos totales | Benefícios        |
 |--------------|--------------|-----------------------------|----------------|------------------|-------------------|
 | 104.428,83 € | 9.171,87 €   | 54.881,83 €     | 159.310,67 €  | 78.811,60 €      | -80.499,07 €      |
 
@@ -699,7 +696,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 
 **TCO a al año** 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 12 meses | TCO           | Ingresos totales | Beneficios        |
+| CapEx        | OpEx mensual | OpEx a lo largo de 12 meses | TCO           | Ingresos totales | Benefícios        |
 |--------------|--------------|------------------------------|----------------|------------------|-------------------|
 | 104.428,83 € | 9.171,87 €   | 109.786,04 €    | 214.214,87 €  | 201.350,25 €     | -12.864,62 €      |
 
@@ -710,7 +707,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 
 
 
-| CapEx        | OpEx mensual | OpEx a lo largo de 24 meses | TCO           | Ingresos totales | Beneficios        |
+| CapEx        | OpEx mensual | OpEx a lo largo de 24 meses | TCO           | Ingresos totales | Benefícios        |
 |--------------|--------------|------------------------------|----------------|------------------|-------------------|
 | 104.428,83 € | 9.171,87 €   | 219.694,57 €    | 324.123,41 €  | 585.625,60 €     | 261.502,19 €  |
 
@@ -802,9 +799,9 @@ Distribución de dichas comisiones en los rangos de precios establecidos:
 | 23           | 5182  | 5182   | 5182   | 3109   | 2073   |
 | 24           | 5441  | 5441   | 5441   | 3265   | 2176   |
 
-Los beneficios esperados son: 
+Los benefícios esperados son: 
 
-| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Beneficios obtenidos |
+| Número de mes  | Precio total de las obras (Sin contar la comisión del 6%) | Cuantía obtenida por la plataforma (6% de comisión) | Comisión por el uso de la pasarela de pago | Benefícios obtenidos por las obras|
 |-----|-----------------------------|--------------------------|--------------------| ----|
 | 1   | 256.853,00 €  | 15.411,18 € | 7.819,40 €         | 7.591,78 €            |
 | 2   | 269.695,65 €  | 16.181,74 € | 8.210,37 €         | 7.971,37 €            |
@@ -838,7 +835,7 @@ Los beneficios esperados son:
 
 Según los datos de las encuestas, se ha supuesto que un 35% de los usuarios artista estarían dispuestos a pagar esta mensualidad. Esto nos daría los siguientes ingresos:
 
-| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Ingresos obtenidos por las suscripciones |
+| Mes | Usuarios premium 25% | Cuantía obtenida por el plan premium (4,99€) | Comisión del sistema de pago por gestionar las suscripciones| Benefícios obtenidos por las suscripciones |
 |-----|-----------------------|---------------------------------------------|------------------------------------------------------------------------|------------------------------------------|
 | 1   | 912         | 4.549,63 €        | 910,38 €       | 3.639,25 €     |
 | 2   | 957         | 4.777,11 €        | 955,90 €       | 3.821,21 €     |
@@ -911,7 +908,7 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
  #### 4.3.1 Cálculos del TCO optimista ####
 
-En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los beneficios netos, considerando los ingresos generados y descontando los costes asociados. 
+En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefícios netos, considerando los ingresos generados y descontando los costes asociados. 
 
 Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 21,000 imágenes, cada una con un peso aproximado de 5 MB, y 23,000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
@@ -921,14 +918,14 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a los 6 meses** 
 
 
-| CapEx        | OpEx mensual | OpEx lo largo de 6 meses | TCO         | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx lo largo de 6 meses | TCO         | Ingresos totales | Benefícios       |
 |-------------|-------------|-------------------------|------------|----------------|----------------|
 | 104.428,83 € | 9.160,37 €   | 54.905,44 €     | 159.334,27 €  | 117.875,65 €     | -41.458,62 €      |
 
 **TCO a al año** 
 
 
-| CapEx        | OpEx mensual | OpEx lo largo de 12 meses | TCO         | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx lo largo de 12 meses | TCO         | Ingresos totales | Benefícios       |
 |-------------|-------------|--------------------------|------------|----------------|----------------|
 | 104.428,83 € | 9.160,37 €   | 109.841,27 €    | 214.270,10 €  | 299.822,72 €     | 85.552,62 €   |
 
@@ -936,7 +933,7 @@ Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfi
 **TCO a a los 2 años** 
 
 
-| CapEx        | OpEx mensual | OpEx lo largo de 24 meses | TCO         | Ingresos totales | Beneficios       |
+| CapEx        | OpEx mensual | OpEx lo largo de 24 meses | TCO         | Ingresos totales | Benefícios       |
 |-------------|-------------|--------------------------|------------|----------------|----------------|
 | 104.428,83 € | 9.160,37 €   | 219.849,00 €    | 324.277,83 €  | 870.400,00 €     | 546.122,17 €  |
 
@@ -956,7 +953,7 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 - **Caso optimista**: Aproximadamente a los 8 meses.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s1/resumen.png" alt="Universidad de Sevilla " width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/resumen.PNG" alt="Universidad de Sevilla " width="700"/>
 </p>
 
 ## 6. Bibliografía

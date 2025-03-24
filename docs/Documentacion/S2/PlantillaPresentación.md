@@ -51,6 +51,7 @@
 |---------|------------|------------------------|------------------------|
 | v1.0    | 20/03/2025 | Creación del documento. | Celia Aguilera  |
 | v1.1    | 20/03/2025 |  Inclusión de la información de costes y Costes Incurridos  | María del Carmen Barrera  |
+| v1.2    | 23/03/2025 |  Inclusión de la información de costes y Costes Incurridos  | María del Carmen Barrera  |
 
 ## Índice de Contenidos
 1. [Revisión de Competidores](#1-revisión-de-competidores-daniel)
@@ -89,37 +90,39 @@ Artistree, al ser una plataforma dedicada a las comisiones artísticas, sigue si
 
 
 ## 3. Costes (MCarmen y Joaquín) 
-(Costes actuales, se esperan modificaciones para la siguiente presentación)
 
 * Capex
   - **Recursos humanos:** 76.638,90 € (En esta cifra vienen incluida los costes Sociales, un impuesto del 30% sobre el coste   salarial bruto )
-  - **Recursos materiales:** 
-    - Licencias: 3.734,64 €
+  - **Recursos materiales:** : 14.168,78 €
+    - Licencias: 5.256,28 € €
     - Cuenta Bancaria: 3.000,00 €
     - Alquiler de la oficina: 3.400,00 €
     - Publicidad: 2.300,00 €
-    - Portátiles: 10.200,00 €
+    - Amortización total de portátiles: 212,50 €
   
-  - **Costes totales incurridos en el proyecto (Sin incluir la reserva de gestión):** 99.273,54 €
-  - **Reserva de gestión (15%):** 14.931,12 € 
+  - **Costes totales incurridos en el proyecto (Sin incluir la reserva de gestión):** 90.807,68 €
+  - **Reserva de gestión (15%):** 13.621,15 € 
 
-  - **Coste total del proyecto (Capex): 114.164,57 €**
+  - **Coste total del proyecto (Capex): 104.428,83 €**
 
 * Opex
 
   - **Recursos humanos:** 6.553,04 €
-   - **Recursos materiales:** 
-      - Licencias: 371,84 € €
-      - Alquiler de la oficina: 850,00 €
+   - **Recursos materiales:**: 2.582,97 €
+      - Licencias: 870,97 €
+      - Alquiler de oficina: 850,00 €
       - Publicidad: 787,00 €
+      - Amortización de portátiles*: 75,00 €
+    
+    **Importantísimo**: Se debe explicar que: Al finalizar la clase, se consultó al profesorado cómo imputar la amortización de los portátiles durante la fase de mantenimiento de la aplicación. Se comentó la posibilidad de poder considerar dicha amortización como un gasto de mantenimiento, al tratarse de una herramienta esencial para que los trabajadores puedan desempeñar su trabajo. Además, de ser un gasto fijo y permanente.
 
-    - **Coste total de mantenimiento (Opex): 8.561,88 €**
+    - **Coste total de mantenimiento (Opex): 9.136,01 €**
 
 
 
 En todos los escenarios (caso optimista, pesimista y neutro), la aplicación crece un 5% respecto al mes anterior respecto a los usuarios artistas, esto no es equitativo a las comisiones realizadas dado a que estas crecen según la fórmula:
 
-**(Nº de artistas de ese mes *0,42 * 2) + (Nº de ese mes *0,51 *3) + (Nº de artistas de ese mes * 0,07*5)**
+                                                 (Nº de artistas de ese mes * 0,42 * 2) + (Nº de ese mes * 0,51 *3) + (Nº de artistas de ese mes * 0,07*5)
 
 Los porcentajes (en tantos por uno en esta representación) han sido obtenidos mediantes las encuestas realizadas a los usuarios pilotos y representan el porcentaje de usuarios artistas que realizan una cantidad u otra de comisiones al mes.
 Los valores enteros representan el nº de comisiones que realizan los artistas.
@@ -134,7 +137,9 @@ Nuestra aplicación ha considerado (según los datos obtenidos por la encuesta r
 
 La distribución de las obras en estos rangos se ha realizado mediante los datos obtenidos a través de la encuesta mencionada anteriormente.
 
-También cabe mencionar que el precio de la tarifa premium para los artistas es de 4,99€
+También cabe mencionar que el precio de la tarifa premium para los artistas es de 4,99€.
+
+Además, se ha establecido el uso de los servicios de pago de Stripe durante los 2 primeros meses.
 
 **Casos analizados**
 
@@ -146,28 +151,27 @@ En nuestro alálisis hemos considerado atraer cómo máximo entre un 3% y un 8% 
 
   Se ha considerado que un 25% de los artistas están subscritos a la tarifa premium.
 
-|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Benefícios obtenidos a través de las comisiones|Benefícios obtenidos a través de las suscripciones premium para artistas|Ingresos totales acumulados|
 |--|-----|------|-----|------|----- |----- |
-|1|1302|326|3541|6.204,60 €|1.624,25 €|7.828,85 €|
-|24|3999|1000|10878|19.057,59 €|4.988,91 €|348.399,38 €| 
+|1|1302|326|3541|2.712,11 €|1.299,23 €|4.011,34 €|
+|24|3999|1000|10878|19.057,59 €|4.988,91 €|340.573,49 €| 
+
+La cuantía total que recibe Stripe por prestarnos sus servicios durante los dos meses que los utilizaremos es de: 7.825,89 €
 
 
 En relación con los usuarios clientes esperamos tener unos 6500 al final de los dos años.
 
 * TCO
+   - A los 6 meses: 159.284,89 €
+   - Al año: 214.154,54 €
+   - A los 2 años: 323.954,74 €
 
-- A los 6 meses: 165.360,69 €
-- Al año: 216.570,40 €
-- A los 2 años: 319.050,72 €
-
-
-
-Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 23 meses, es decir, casi a los 2 años. 
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable aproximadamente a los 23 meses, es decir, casi a los 2 años. 
 
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_p_s2.PNG" alt="Universidad de Sevilla" width="550"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/caso_pesimista.PNG" alt="Universidad de Sevilla" width="550"/>
 </p>
 
 
@@ -175,26 +179,27 @@ Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo re
 
 Se ha considerado que un 30% de los artistas están subscritos a la tarifa premium.
 
-|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Benefícios obtenidos a través de las comisiones|Benefícios obtenidos a través de las suscripciones premium para artistas|Ingresos totales (Acumulados)|
 |--|-----|------|-----|------|----- |----- |
-|1|1953|586|5312|10.519,67 €|2.923,64 €|13.443,31 €|
-|24|5999|1800|16316|32.311,42 €|8.980,03 €|598.254,23 €| 
+|1|1953|586|5312|4.944,38 €|2.338,62 €|7.283,00 €|
+|24|5999|1800|16316|32.311,42 €|8.980,03 €|585.625,60 €| 
 
+La cuantía total que recibe Stripe por prestarnos sus servicios durante los dos meses que los utilizaremos es de: 12.628,63 €
 
 En relación con los usuarios clientes esperamos tener unos 9000 al final de los dos años.
 
 * TCO
 
-  - A los 6 meses: 165.386,47 €
-  - Al año: 216.630,73 €
-  - A los 2 años: 319.219,39  €
+  - A los 6 meses: 159.310,67 €
+  - Al año: 214.214,87 €
+  - A los 2 años: 324.123,41  €
 
 Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 13 meses. 
 
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_n_s2.PNG" alt="Universidad de Sevilla" width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/caso_neutro.PNG" alt="Universidad de Sevilla" width="700"/>
 </p>
 
 
@@ -202,42 +207,42 @@ Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo re
 
 Se ha considerado que un 35% de los artistas están subscritos a la tarifa premium.
 
-|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Recaudado a través de las comisiones|Recaudado a través de las suscripciones premium para artistas|Ingresos totales (No acumulados)|
+|Mes|Nº de artistas|Nº de artistas premium|Nº de comisiones|Benefícios obtenidos a través de las comisiones|Benefícios obtenidos  a través de las suscripciones premium para artistas|Ingresos totales (Acumulados)|
 |--|-----|------|-----|------|----- |----- |
-|1|2605|912|7086|15.411,18 €|4.549,63 €|19.960,81 €|
-|24|8001|2800|21764|47.335,81 €|13.974,30 €|888.296,06 €| 
+|1|2605|912|7086|7.591,78 €|3.639,25 €|11.231,03 €|
+|24|8001|2800|21764|47.335,81 €|13.974,30 €|870.400,00 €| 
 
+La cuantía total que recibe Stripe por prestarnos sus servicios durante los dos meses que los utilizaremos es de: 17.896,06  €
 
 En relación con los usuarios clientes esperamos tener unos 12000 al final de los dos años.
 
 * TCO
-  - A los 6 meses: 165.410,07 €
-  - Al año: 216.685,96  €
-  - A los 2 años: 319.373,81  €
+    - A los 6 meses: 159.334,27 €
+    - Al año: 214.270,10 €
+    - A los 2 años: 324.277,83 €
 
-Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable a los 8 meses.  
+Según los datos obtenidos, se estima que la aplicación comenzará a ser rentable aproximadamente a los 8 meses.  
 
 Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo resumen se presenta en la siguiente gráfica. En ella se muestra el punto en el que recuperaremos la inversión inicial y, considerando los gastos mensuales asociados, comenzaremos a generar beneficios.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/rentabilidad_caso_o_s2.PNG" alt="Universidad de Sevilla " width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/caso_optimista.PNG" alt="Universidad de Sevilla " width="700"/>
 </p>
 
 
-## 4. Costes Incurridos (MCarmen y Joaquín)
-- Evaluación de costes actuales vs. planificación inicial.
+ **Resumen de la rentabilidad**
 
-
-| Semanas | Gastos acumulados incurridos | Gastos estimados |
-|---------|-----------------------------|------------------|
-| 1       | 31.182,20 €                 | 22.502,00 €      |
-| 2       | 32.491,30 €                 | 30.112,97 €      |
-| 3       | 34.062,22 €                 | 37.723,95 €      |
-| 4       | 35.371,32 €                 | 45.334,92 €      |
+- **Caso pesimista**: Aproximadamente a los 23 meses.
+- **Caso neutro**: A los 13 meses.
+- **Caso optimista**: Aproximadamente a los 8 meses.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/gastos_incuridos_s2.PNG" alt="Universidad de Sevilla " width="700"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/resumen.PNG" alt="Universidad de Sevilla " width="700"/>
 </p>
+
+## 4. Costes Incurridos (MCarmen y Joaquín)
+
+-Queda por calcular. 
 
 
 
