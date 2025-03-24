@@ -13,8 +13,8 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 17/03/2025  
-**Versión:** v1.3  
+**Fecha:** 24/03/2025  
+**Versión:** v1.4
 
 **Grupo de prácticas:** G1  
 
@@ -41,8 +41,8 @@
 **Responsables:**
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
-| Juan del Junco       |  Redactor                       |
-| María del Mar Ávila  |  Revisora                       |
+| Juan del Junco Obregón      |  Redactor                       |
+| Celia Aguilera Camino  |  Revisora                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -55,6 +55,7 @@
 | 08/03/2025 | v1.2    | Modificación del documento | Juan del Junco Obregón  |
 | 13/03/2025 | v1.2    | Modificación de la portada | María del Mar  |
 | 17/03/2025 | v1.3    | Modificación del documento | Juan del Junco Obregón  |
+| 24/03/2025 | v1.4    | Modificación del documento | Juan del Junco Obregón  |
 
 
 ---
@@ -138,19 +139,24 @@ A continuación se presenta una tabla que resume los principales riesgos, su imp
 | R14 | Falta de capacidades técnicas o preparación insuficiente | 1 | 3 | 3 | 7 | Dejar tiempo para que los miembros del equipo vean tutoriales y cursos sobre las tecnologías que no conocen. |
 | R15 | Falta de comunicación entre equipos de Backend y Frontend | 4 | 4 | 16 | 2 | Establecer reuniones periódicas entre los equipos y coordinar entregas con integración continua. |
 | R16 | Usuarios pilotos no responden | 3 | 4 | 12 | 3 | Implementar recordatorios automáticos, incentivar la participación y diversificar las fuentes de feedback. |
-| R17 | Falta de organización en la gestión del sprint | 4 | 4 | 16 | 1 | Reuniones de planificación detalladas, asegurando la distribución equitativa del trabajo para evitar retrasos globales. |
-| R18 | Carga de trabajo desigual entre los miembros del equipo | 3 | 4 | 12 | 3 | Uso de herramientas de seguimiento de carga de trabajo y redistribución periódica de tareas para evitar el burnout. |
-| R19 | No conseguir desplegar la aplicación | 5 | 3 | 15 | 1 | Asignación de responsables específicos para el despliegue, pruebas en entornos controlados antes de la entrega y automatización de procesos cuando sea posible. |
-| R20 | Desmotivación y agotamiento de algunos integrantes del equipo | 4 | 3 | 12 | 3 | Crear espacios de comunicación, detectar problemas a tiempo, equilibrar tareas y reconocer el esfuerzo del equipo. |
-| R21 | No alcanzar la entrega | 5 | 3 | 15 | 2 | Establecer checkpoints intermedios en el sprint para validar avances y garantizar que las funcionalidades críticas estén listas a tiempo. |
+| R17 | Mala organización del sprint | 4 | 4 | 16 | 1 | Planificar en detalle cada tarea del sprint, definir claramente las responsabilidades y tareas, y usar GitHub Projects como herramienta para dar seguimiento. |
+| R18 | Burnout en el equipo | 3 | 4 | 12 | 3 | Fomentar pausas activas, equilibrar la carga de trabajo, detectar signos tempranos de agotamiento y mantener una comunicación constante para ajustar expectativas. |
+| R19 | Fallos en el despliegue | 5 | 3 | 15 | 1 | Asignación de responsables específicos para el despliegue, pruebas en entornos controlados antes de la entrega y automatización de procesos cuando sea posible. |
+| R20 | Dependencia de servicios externos | 3 | 3 | 9 | 4 | Identificar dependencias críticas, mantener versiones estables y planificar alternativas ante caídas o cambios en servicios de terceros. |
+| R21 | Confusión en la gestión de ramas | 3 | 3 | 9 | 4 | Establecer una convención clara de nombres y flujos de trabajo en Git, formar al equipo y revisar PRs antes de fusionar. |
+| R22 | Escasa implicación de algún miembro | 3 | 2 | 6 | 5 | Mantener la motivación mediante reconocimiento, comunicar expectativas con claridad y redistribuir tareas si hay inactividad prolongada. |
+| R23 | Errores no detectados en testing | 4 | 3 | 12 | 3 | Ampliar la cobertura de pruebas, revisar los tests críticos y aplicar testing manual en funcionalidades clave. |
+| R24 | Cambios tardíos sin validación | 4 | 2 | 8 | 3 | Establecer fechas límite internas para cambios, exigir revisión obligatoria y pruebas antes de cualquier merge final. |
+| R25 | Incumplimiento de aspectos legales o de privacidad | 4 | 2 | 8 | 3 | Revisar la normativa vigente (como el RGPD), evitar la recopilación innecesaria de datos personales, y asegurar que las funcionalidades relacionadas con usuarios cumplan con los principios de protección de datos. |
+
+
 
 ## 4. Tabla de Seguimiento de Riesgos
 
 | ID | Explicación | ¿Sigue vigente? | Acciones tomadas |
-| :---- | :---- | :---- | :---- |
-| R15 | Los equipos de Backend y Frontend trabajaron por separado sin coordinarse, lo que resultó en problemas de integración. Ahora falta conexión entre el frontend y el backend, generando retrasos y necesidad de refactorización. | No | Se han creado reuniones de sincronización y las nuevas tareas se asignarán en parejas (un desarrollador de Backend y uno de Frontend) para garantizar la conexión entre ambos. |
-| R17 | En el Sprint anterior hubo problemas de organización, lo que llevó a una mala distribución del trabajo y a no cumplir con la entrega. | Sí | Se han implementado reuniones de planificación más detalladas para garantizar un mejor control del sprint. |
-| R18 | Algunos integrantes del equipo se han sentido sobrecargados, mientras que otros han tenido pocas tareas. Esto ha generado desmotivación. | Sí | Se está utilizando una tabla de "Team Capacity" dentro de GitHub Projects para equilibrar la carga de trabajo. |
-| R19 | En el Sprint anterior no se logró desplegar la aplicación. | Sí | Se han asignado responsables específicos para el despliegue y se realizarán pruebas intermedias. |
-| R21 | Existe el riesgo de no alcanzar la entrega nuevamente debido a los retrasos. | Sí | Se han establecido checkpoints intermedios para validar el progreso. |
-
+|----|-------------|------------------|-------------------|
+| R17 | Persiste el riesgo de una mala organización del sprint, que podría afectar la distribución de tareas y las entregas. | Sí | Se han reforzado las reuniones de planificación y se detallan mejor las tareas en GitHub Projects. |
+| R18 | Se está percibiendo desmotivación en algunos miembros, posiblemente por carga de trabajo desigual o falta de implicación. | Sí | Se ha fomentado el reconocimiento interno y se están rotando tareas para mantener el interés y la equidad. |
+| R19 | Siguen existiendo fallos en el despliegue que impiden entregar una versión funcional estable. | Sí | Se han asignado responsables, se está automatizando el proceso y haciendo pruebas en entorno de staging. |
+| R22 | Se ha detectado baja implicación en parte del equipo, afectando a la eficiencia general. | Sí | Se han hecho reuniones uno a uno y se han redistribuido tareas con más seguimiento por parte del equipo de coordinación. |
+| R10 | El retraso en la entrega a los usuarios piloto puede generar insatisfacción o desinterés por parte de estos. | Sí | Se está priorizando la finalización del MVP funcional y se ha comunicado a los usuarios una nueva fecha de entrega estimada. |
