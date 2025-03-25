@@ -70,17 +70,94 @@ Para recopilar el feedback de los usuarios piloto, se ha utilizado una encuesta 
 
 ## 3. Análisis de resultados
 
-### 3.1 Usuarios Piloto externos
+### 3.1 Inicio de sesión y acceso a Holos
+
+**¿Pudiste acceder correctamente a la aplicación con tus credenciales?**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/UP/UP_1.png" alt="Universidad de Sevilla" width="750"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_1.png" alt="UP_3" width="1000"/>
 </p>
 
-### 3.2 Usuarios Piloto ISPP
+**¿Tuviste que esperar más de 10 minutos para iniciar sesión?**
 
-Tabla resumen con las valoraciones por categoría (si aplican).
+**Valoración media de la experiencia con el inicio de sesión:**
 
-Distribución de respuestas (gráfico de barras o pastel).
+**Comentarios**
+
+### 3.2 Gestión de pedidos y bandeja de entrada
+
+**¿Pudiste visualizar claramente las comisiones que tenías pendientes?**
+
+**Valoración media de lo intuitivo que resultó aceptar o rechazar pedidos**
+
+**¿Pudiste aceptar y rechazar comisiones sin errores?**
+
+**Comentarios**
+
+### 3.3 Panel de gestión de comisiones (Kanban)
+
+**¿Pudiste mover las comisiones entre los diferentes estados?**
+
+**Valoración media de la utilidad del tablero Kanban**
+
+**¿Te gustó la función de los botones de flecha? ¿O preferirías arrastrar la comisión?**
+
+**Comentarios**
+
+### 3.4 Búsqueda de otros artistas
+
+**¿Pudiste acceder a la sección de búsqueda de artistas?**
+
+**¿Pudiste acceder al perfil de artist1 y ver sus obras?**
+
+**Valoración media sobre si pareció clara la experiencia de navegación**
+
+**Comentarios**
+
+### 3.5 Feedback general
+
+**¿Te sentiste cómodo/a usando la app en general?**
+
+**¿Tuviste errores técnicos no mencionados en el manual?**
+
+**Comentarios sobre funcionalidades que gustaría ver en el futuro**
+
+**Valoración media de la nota a Holos**
+
+### Otras Preguntas
+
+**¿Alguna vez te has sentido agobiado al tener más de una comisión al mismo tiempo?**
+
+**¿Estaría bien ir poniendo fechas de entrega por estados?**
+
+**¿Te gustaría poder subir una imagen del estado de la comisión por el que vayas en el tablero para que el cliente pueda verlo (Sketch, Lineart, Flat Color, etc.)?**
+
+**En Holos estamos en contra del uso de IA para generar arte. ¿Cómo lo combatirías?**
+
+**En caso de que detectemos uso de IA para realizar una comisión, ¿cómo lo castigarías?**
+
+**Comentarios sobre el uso de la IA para complementar Holos**
+
+
+------
+
+**¿Qué características de nuestra aplicación Holos te llaman más la atención? Ordénalas, con 1 como la que más te llama la atención y 7 la que menos.**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_1.png" alt="UP_1" width="1000"/>
+</p>
+
+El análisis del gráfico muestra que la característica más valorada por los usuarios es el uso del tablero para gestionar las comisiones, seguida por tener un portfolio sin límite, lo que indica que estas funcionalidades son clave para su experiencia. Por otro lado, opciones como tener una Waitlist y tener muchos slots recibieron puntuaciones más altas (menos llamativas), sugiriendo que son menos prioritarias. La personalización del tablero y de las requests tuvo una distribución más equilibrada, lo que indica opiniones divididas entre los usuarios. Finalmente, la reducción del porcentaje de comisión en el plan premium generó interés, pero sin una tendencia clara de alta prioridad.
+
+
+**¿Cuántas comisiones sueles gestionar al mismo tiempo?**
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_2.png" alt="UP_1" width="1000"/>
+</p>
+
+La mayoría de los usuarios gestiona entre 3-4 comisiones a la vez (50%), lo que indica que este es el rango más común. Un 42.9% de los encuestados maneja solo 1-2 comisiones, lo que sugiere que una parte significativa de los usuarios trabaja con volúmenes más reducidos. Un pequeño 7.1% gestiona entre 5-6 comisiones, mientras que no se registraron respuestas para los rangos de 7-8, 9-10 o más de 10 comisiones.
+
 
 ## 4. Incidencias
 
