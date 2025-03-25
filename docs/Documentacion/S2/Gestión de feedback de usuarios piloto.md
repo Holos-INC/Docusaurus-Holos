@@ -75,7 +75,7 @@ Para recopilar el feedback de los usuarios piloto, se ha utilizado una encuesta 
 **¿Pudiste acceder correctamente a la aplicación con tus credenciales?**
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_1.png" alt="UP_3" width="1000"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_3.png" alt="UP_3" width="1000"/>
 </p>
 
 **¿Tuviste que esperar más de 10 minutos para iniciar sesión?**
@@ -114,7 +114,7 @@ Para recopilar el feedback de los usuarios piloto, se ha utilizado una encuesta 
 
 **Comentarios**
 
-### 3.5 Feedback general
+### 3.5 Feedback general
 
 **¿Te sentiste cómodo/a usando la app en general?**
 
