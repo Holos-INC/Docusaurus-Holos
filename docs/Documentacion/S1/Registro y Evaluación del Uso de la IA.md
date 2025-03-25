@@ -228,6 +228,8 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 007          | Resolución de dudas con respecto uso de DTOs en el repositorio | José María Portela | 21/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67ddd002-6fd4-800f-be68-63dde405047b) |
 | 008          | Ayuda para hacer formularios para los Usuarios Piloto partiendo de los manuales | Nerea Jiménez Adorna | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1f430-ee00-8003-9cc8-30fcb31a92d5) |
 | 009          | Ideas para el storyboard de inversores y ayuda con gráficas | Nerea Jiménez Adorna | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1f415-12c8-8003-86e4-a5b41297d72d) |
+| 010          | Duda sobre buenas prácticas a la hora de realizar un componente (Frontend) | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e203e9-0fcc-8008-b0a5-eafaa7fe4cd7) |
+| 011          | Corrección de faltas ortográficas e incoherencias en el procesado de feedback | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e20705-4e58-8008-b781-0b43c7a54723) |
 
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
@@ -245,5 +247,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 007          | 1                               | Sí                          | No                   | 60 min           |
 | 008          | 1                               | Sí                          | No                   | 40 min           |
 | 009          | 1                               | Sí                          | No                   | 20 min           |
+| 010          | 2                               | Sí                          | No                   | 15 min           |
+| 011          | 5                               | Sí                          | No                   | 35 min           |
 ---
 
