@@ -64,12 +64,11 @@ Investigación de la ley y adición de tecnologías y licencias
 ## Índice  
 
 0. [Introducción](#0-introducción)
-1. [Metodología](#1-Metodología)
-2. [Licencias](#2-Licencias)
-3. [Implicaciones legales](#3-Implicaciones-legales)
+1. [Metodología](#1-metodología)
+2. [Licencias](#2-licencias)
+3. [Implicaciones legales](#3-implicaciones-legales)
 4. [Implementación del GDPR y almacenamiento de datos](#4-implementación-del-gdpr-y-almacenamiento-de-datos)
-5. [Integración con el frontend](#6-integración-con-el-frontend)
-
+5. [Integración con el frontend](#5-integración-con-el-frontend)
 ---
 
 ## 0. Introducción

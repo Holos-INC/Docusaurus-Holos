@@ -1,4 +1,4 @@
-# Registro y Evaluación del uso de la IA - Sprint 1
+# Registro y Evaluación del uso de la IA - Sprint 2
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
@@ -70,6 +70,10 @@
    - [Plantilla para el Registro del Uso de IA](#43-plantilla-para-el-registro-del-uso-de-ia)
    - [Tabla 1: Registro del Uso de IA](#44-tabla-1-registro-del-uso-de-ia)
    - [Tabla 2: Evaluación de la Utilidad de la IA](#45-tabla-2-evaluación-de-la-utilidad-de-la-ia)
+5. [Cálculo de la Alucinación de la IA](#5-cálculo-de-la-alucinación-de-la-ia)  
+   - [¿Qué es una alucinación en IA?](#51-qué-es-una-alucinación-en-ia)  
+   - [Niveles de alucinación](#52-niveles-de-alucinación)  
+   - [Fórmula de cálculo](#53-fórmula-de-cálculo)  
 
 
 ## 1. Introducción
@@ -230,6 +234,9 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 009          | Ideas para el storyboard de inversores y ayuda con gráficas | Nerea Jiménez Adorna | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1f415-12c8-8003-86e4-a5b41297d72d) |
 | 010          | Duda sobre buenas prácticas a la hora de realizar un componente (Frontend) | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e203e9-0fcc-8008-b0a5-eafaa7fe4cd7) |
 | 011          | Corrección de faltas ortográficas e incoherencias en el procesado de feedback | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e20705-4e58-8008-b781-0b43c7a54723) |
+| 012          | Consulta sobre cómo ajustar la opacidad de una superposición de vídeo en iMovie para la demo | Ignacio Warleta Murcia | 20/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b17f-b934-800c-9ec7-db3fa13cbba6) |
+| 013          | Consulta sobre creación de workflow para eliminación de ramas inactivas | Juan del Junco Obregón | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b31c-df14-8005-bf61-9cde3c984fff) |
+
 
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
@@ -239,7 +246,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | **ID del Uso** | **Intentos hasta obtener respuesta válida** | **¿Se obtuvo la respuesta esperada?** | **¿Se editó la respuesta?** | **Tiempo ahorrado (minutos)** |
 |--------------|---------------------------------|----------------------------|----------------------|------------------|
 | 001          | 3                               | Sí                          | No                   | 20 min           |
-| 002          | 2                               | Sí                          | No procede           | 45 min           |
+| 002          | 2                               | Sí                          | No            | 45 min           |
 | 003          | 2                               | Sí                          | Sí                   | 300 min           |
 | 004          | 3                               | Sí                          | No                   | 30 min           |
 | 005          | 2                               | Sí                          | No                   | 20 min           |
@@ -249,5 +256,44 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 009          | 1                               | Sí                          | No                   | 20 min           |
 | 010          | 2                               | Sí                          | No                   | 15 min           |
 | 011          | 5                               | Sí                          | No                   | 35 min           |
+| 012          | 1                               | Sí                          | No                   | 10 min           |
+| 013          | 1                               | Sí                          | No                   | 90 min           |
 ---
+
+
+## 5. Cálculo de la Alucinación de la IA
+
+Con el fin de analizar la fiabilidad de las respuestas generadas por las herramientas de inteligencia artificial utilizadas en el proyecto, se incorpora un mecanismo para calcular el porcentaje de **alucinación**, es decir, respuestas incorrectas, engañosas o poco útiles.
+
+### 5.1. ¿Qué es una alucinación en IA?
+
+Una alucinación ocurre cuando una IA genera contenido incorrecto, inventado o que no se corresponde con la realidad o con las mejores prácticas conocidas. Evaluar este fenómeno permite identificar en qué medida se puede confiar en las respuestas obtenidas.
+
+### 5.2. Niveles de alucinación
+
+A cada uso registrado de IA se le asigna un nivel de alucinación:
+
+| Nivel | Descripción |
+|-------|-------------|
+| 0     | Respuesta completamente correcta y útil. No presenta alucinación. |
+| 1     | Respuesta parcialmente incorrecta o confusa. Requiere correcciones. Alucinación leve. |
+| 2     | Respuesta incorrecta, inventada o sin base. Alucinación grave. |
+
+### 5.3. Fórmula de cálculo
+
+El porcentaje de alucinación se calcula mediante la siguiente fórmula:
+
+```plaintext
+
+% Alucinación = (Suma de niveles de alucinación / (Número total de usos × 2)) × 100
+```
+### Cálculo de la Alucinación de la IA
+
+- **Total de registros evaluados**: 13
+- **Respuestas editadas**: 1 (ID 003)
+- **Nivel de Alucinación asignado**:
+  - **Nivel 0**: Respuestas completamente correctas (11 respuestas).
+  - **Nivel 1**: Respuestas editadas (1 respuestas).
+  
+- **Porcentaje de Alucinación**: **3.85%**
 
