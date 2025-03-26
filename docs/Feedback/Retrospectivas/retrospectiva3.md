@@ -4,7 +4,7 @@
 
 **Hora inicio: 18:15**
 
-**Hora finalización: 19:**
+**Hora finalización: 19:05**
 
 **Lugar: Telemático**
 
