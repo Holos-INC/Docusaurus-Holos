@@ -57,7 +57,7 @@
 | 13/03/2025  | v2.0    | Modificación de los costes en función del nuevo modelo de negocio y tecnologías a usar  |<p>- Joaquín González Ganfornina  </p><p> - María del Carmen Barrera  Garrancho</p>|
 | 13/03/2025  | v2.1    | Modificación de la portada  |<p> - María del Mar Ávila </p> |
 | 24/03/2025  | v3.0    |Ajuste de costes por cambios de licencias y servicios empleados |<p> - María del Carmen Barrera  Garrancho </p> |
-
+| 26/03/2025  | v3.1    |Inclusión de aclaraciones  |<p> - María del Carmen Barrera Garrancho </p> |
 ---
 
 ## Índice de contenido
@@ -136,7 +136,7 @@ La empresa ha decidido invertir en diversos recursos materiales como en licencia
 | Portátiles *                        | 17       | 12,50 €               | -        | 212,50 €       |
 | Publicidad                         | -        | 2.300,00 €            | -        | 2.300,00 €     |
 | Dominio web                        | 1        | 1,00 €                | -        | 4,00 €         |
-| Cuenta bancaria                    | -        | 3.000,00 €            | -        | 3.000,00 €     |
+| Creación de una sociedad limitada                    | -        | 3.000,00 €            | -        | 3.000,00 €     |
 | Google Cloud SQL                   | 1        | 146,76 €              | 4        | 587,04 €       |
 | Google Cloud App                   | 1        | 30,13 €               | 4        | 120,52 €       |
 | ChatGPT Plus                       | 13       | 18,39 €               | 4        | 956,28 €       |
@@ -276,7 +276,7 @@ De acuerdo con el plan de negocio de la aplicación, se establece una comisión 
 
 En este análisis, se asumirá que los gastos de licencia variables serán contratados a un precio fijo y constante cada mes. Además, el valor de dichos gastos se tomará según el escenario optimista, garantizando así su cobertura en cualquier situación.
 
-Además, se ha considerado que durante los 2 primeros meses se utilizará la pasarela de pago Strike para realizar las transcacciones tanto de las obras como de ejecutar el cobro de las comisiones. Strike establece una comisión de 1,5% + 0,25€ por transferencia realizada. 
+Además, se ha considerado que durante los 2 primeros meses se utilizará la pasarela de pago Strike para realizar las transcacciones tanto de las obras como de ejecutar el cobro de las comisiones. Strike establece una comisión de 1,5% + 0,25€ por transferencia realizada. Este método de pago se ha incluido de forma temporal, ya que nuestra intención es gestionar los cobros y pagos a través de una sociedad limitada. Sin embargo, crearla cuesta 3.000 €, y si este proyecto continúa en el mundo real, tenemos pensado obtener dicha cuantía a partir de los beneficios de los dos primeros meses. Esto no ha sido reflejado como tal en los costes, ya que, dentro del marco de la asignatura, no tenemos límite de presupuesto y, en el mundo real, no tenemos que cubrir cubrir gastos de desarrollo ni contamos con trabajadores a nuestro cargo de mantenimmiento. Por lo tanto, en el Capex se ha incluido directamente el coste asociado a la creación de una sociedad limitada, mientras que en los beneficios de los dos primeros meses se ha descontado el gasto derivado del uso de un sistema de pago externo.
 
 ### 4.1 Caso pesimista
 Para estimar el valor aproximado de una obra dentro de un rango determinado, se ha calculado la media de dicho rango. Además, para determinar los porcentajes de obras realizadas en cada intervalo de precio, nos hemos basado en los resultados de la encuesta mencionada previamente. 
