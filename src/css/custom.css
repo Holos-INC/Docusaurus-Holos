@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+@import "https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css";
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #183771;
