@@ -229,6 +229,15 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 004          | Recomendaciones de uso responsive en front | Francisco Pérez | 04/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67d22373-52fc-8001-9b58-415582498579) |
 | 005          | Investigación sobre cómo insertar múltiples líneas de texto en un campo de entrada de texto. | María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdeee7-5930-8006-a4ae-289158db3f07) |
 | 006          | Investigación sobre la generación de  un mockup de backend en el frontend.| María del Carmen Barrera | 05/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67cdedea-0e08-8006-bb75-d69b706d7935) |
+| 007          | Resolución de dudas con respecto uso de DTOs en el repositorio | José María Portela | 21/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67ddd002-6fd4-800f-be68-63dde405047b) |
+| 008          | Ayuda para hacer formularios para los Usuarios Piloto partiendo de los manuales | Nerea Jiménez Adorna | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1f430-ee00-8003-9cc8-30fcb31a92d5) |
+| 009          | Ideas para el storyboard de inversores y ayuda con gráficas | Nerea Jiménez Adorna | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1f415-12c8-8003-86e4-a5b41297d72d) |
+| 010          | Duda sobre buenas prácticas a la hora de realizar un componente (Frontend) | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e203e9-0fcc-8008-b0a5-eafaa7fe4cd7) |
+| 011          | Corrección de faltas ortográficas e incoherencias en el procesado de feedback | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e20705-4e58-8008-b781-0b43c7a54723) |
+| 012          | Consulta sobre cómo ajustar la opacidad de una superposición de vídeo en iMovie para la demo | Ignacio Warleta Murcia | 20/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b17f-b934-800c-9ec7-db3fa13cbba6) |
+| 013          | Consulta sobre creación de workflow para eliminación de ramas inactivas | Juan del Junco Obregón | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b31c-df14-8005-bf61-9cde3c984fff) |
+
+
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
 
@@ -237,11 +246,18 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | **ID del Uso** | **Intentos hasta obtener respuesta válida** | **¿Se obtuvo la respuesta esperada?** | **¿Se editó la respuesta?** | **Tiempo ahorrado (minutos)** |
 |--------------|---------------------------------|----------------------------|----------------------|------------------|
 | 001          | 3                               | Sí                          | No                   | 20 min           |
-| 002          | 2                               | Sí                          | No procede           | 45 min           |
+| 002          | 2                               | Sí                          | No            | 45 min           |
 | 003          | 2                               | Sí                          | Sí                   | 300 min           |
 | 004          | 3                               | Sí                          | No                   | 30 min           |
 | 005          | 2                               | Sí                          | No                   | 20 min           |
 | 006          | 1                               | Sí                          | No                   | 45 min           |
+| 007          | 1                               | Sí                          | No                   | 60 min           |
+| 008          | 1                               | Sí                          | No                   | 40 min           |
+| 009          | 1                               | Sí                          | No                   | 20 min           |
+| 010          | 2                               | Sí                          | No                   | 15 min           |
+| 011          | 5                               | Sí                          | No                   | 35 min           |
+| 012          | 1                               | Sí                          | No                   | 10 min           |
+| 013          | 1                               | Sí                          | No                   | 90 min           |
 ---
 
 
@@ -270,4 +286,14 @@ El porcentaje de alucinación se calcula mediante la siguiente fórmula:
 ```plaintext
 
 % Alucinación = (Suma de niveles de alucinación / (Número total de usos × 2)) × 100
+```
+### Cálculo de la Alucinación de la IA
+
+- **Total de registros evaluados**: 13
+- **Respuestas editadas**: 1 (ID 003)
+- **Nivel de Alucinación asignado**:
+  - **Nivel 0**: Respuestas completamente correctas (11 respuestas).
+  - **Nivel 1**: Respuestas editadas (1 respuestas).
+  
+- **Porcentaje de Alucinación**: **3.85%**
 
