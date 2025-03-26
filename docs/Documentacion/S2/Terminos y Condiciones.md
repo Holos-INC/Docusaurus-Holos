@@ -70,7 +70,7 @@
 
     [Pagos y Transacciones](#pagos-y-transacciones)
 
-    [Modificaciones a los Términos](#modificaciones-a-los-términos)
+    [En relación a los términos](#en-relación-a-los-términos)
 
     [Limitación de Responsabilidad](#limitación-de-responsabilidad)
 
