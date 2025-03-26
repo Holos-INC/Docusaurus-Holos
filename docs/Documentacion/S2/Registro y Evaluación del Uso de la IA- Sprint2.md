@@ -236,6 +236,7 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 011          | Corrección de faltas ortográficas e incoherencias en el procesado de feedback | Gabriel Vacaro Goytia | 25/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e20705-4e58-8008-b781-0b43c7a54723) |
 | 012          | Consulta sobre cómo ajustar la opacidad de una superposición de vídeo en iMovie para la demo | Ignacio Warleta Murcia | 20/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b17f-b934-800c-9ec7-db3fa13cbba6) |
 | 013          | Consulta sobre creación de workflow para eliminación de ramas inactivas | Juan del Junco Obregón | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b31c-df14-8005-bf61-9cde3c984fff) |
+| 014          | Consulta sobre visualización de fórmulas matemáticas en un archivo markdown | Ignacio Warleta | 26/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e46a70-4384-800c-b3b3-58edcf2f976e) |
 
 
 
