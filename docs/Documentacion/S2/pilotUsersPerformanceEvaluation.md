@@ -65,7 +65,7 @@
 2. [Evaluación de Usuarios Piloto](#2-evaluación-de-usuarios-piloto)
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
-     - [Daniel Galván Cancio](#daniel-galván-cancio)
+     - [Daniel Galván Cancio](#daniel-galván-cancho)
      - [Rafael Duque Colete](#rafael-duque-colete)
      - [Rafael Castillo Cebolla](#rafael-castillo-cebolla)
      - [Mohamed Abouri](#mohamed-abouri)
