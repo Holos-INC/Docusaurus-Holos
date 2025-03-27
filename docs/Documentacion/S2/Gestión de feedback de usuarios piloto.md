@@ -51,7 +51,9 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 25/03/2025 | Creación del documento. | Ignacio Warleta  |
-| v1.2    | 26/03/2025 | Actualización con el feedback de algunos usuarios piloto | Nerea Jiménez Adorna   |
+| v1.1    | 26/03/2025 | Actualización con el feedback de algunos usuarios piloto | Nerea Jiménez Adorna   |
+| v1.2    | 27/03/2025 | Actualización con el feedback de otros usuarios piloto | Nerea Jiménez Adorna   |
+
 
 ## Índice de Contenidos
 1. [Resumen](#1-resumen)
@@ -74,19 +76,19 @@ Para recopilar el feedback de los usuarios piloto, se ha utilizado una encuesta 
 ### 3.1 Inicio de sesión y acceso a Holos
 
 **¿Pudiste acceder correctamente a la aplicación con tus credenciales?**
-- Sí (15 de 17)
-- No (2 de 17)
+- Sí (18 de 22)
+- No (4 de 22)
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/feedback-UP/static/img/UP/UP_3.png" alt="UP_3" width="1000"/>
 </p>
 
 **¿Tuviste que esperar más de 10 minutos para iniciar sesión?** 
-- Sí (2 de 17)
-- No (15 de 17)
+- Sí (4 de 22)
+- No (18 de 22)
 
 **Valoración media de la experiencia con el inicio de sesión:** 
-- 3,26 de 17 opiniones (Artistas)
+- 3,27 de 22 opiniones (Artistas)
 
 **Comentarios**
 
@@ -109,22 +111,26 @@ Para recopilar el feedback de los usuarios piloto, se ha utilizado una encuesta 
 - La pagina de incio me parece demasiado simple, no llama la atencion y tener que darle justo en la esquina izquierda es incomodo ya que el boton no esta justo donde esta la casita o en la misma palabra, si no que esta desplazado a la izquierda.
 - Tarda bastante en iniciar sesión o en mostrar errores, probé credenciales invalidas y tardo un rato en mostrarme el error y lo mismo para el inicio de sesión
 - El inició de sesión ha sido rápido
+- Simplemente lo que ya es sabido, inicio de sesión lento. Por lo demás pinta bastante bien.
+- Me ha costado encontrar la sección de la izquierda para encontrar el inicio de sesión
+- Ya he puesto el error que encontré en botón de Inicio, así que nop. Ojalá puedan solucionarlo
+- No, todo bien, quizá ponerlo más bonito o que sea lo primero que se vea, eso o lo de la búsqueda
 
 #### Incidencias con esta sección:
 
-**Número de reportes:**  min 4
+**Número de reportes:**  min 5
 
 ### 3.2 Gestión de pedidos y bandeja de entrada
 
 **¿Pudiste visualizar claramente las comisiones que tenías pendientes?**
-- Sí (9 de 11)
-- No (2 de 11)
+- Sí (11 de 14)
+- No (3 de 14)
 
-**Valoración media de lo intuitivo que resultó aceptar o rechazar pedidos** 3.64 de 11 opiniones
+**Valoración media de lo intuitivo que resultó aceptar o rechazar pedidos** 3.43 de 14 opiniones
 
 **¿Pudiste aceptar y rechazar comisiones sin errores?**
-- Sí (8 de 11)
-- No (3 de 11)
+- Sí (9 de 14)
+- No (5 de 14)
 
 **Comentarios**
 - Pondría los botones más autoexplicativos, pero por lo demás bien. Además le añadiría más estética
@@ -138,29 +144,32 @@ Añadir texto de aceptar y denegar además de los colores, posiblemente añadir 
 - Poner una cruz o un tic dentro de los botones ayudaría a que sea más intuitivo (no sé si eso estaba ya planteando o en proceso)
 - No he podido hacer mucho debido a errores que reportaré en el form de incidencias
 - No pude entrar a esta parte porque se petaba el programa así que no puedo opinar realmente
+- No pude iniciar sesión para poder probarlo
+- Separar las que he rechazado en otra página
+- Tardó un poco y los botones se veían mal, poner cruces o ticks. La sección de abajo no sé por qué no aparecía nada
 
 #### Incidencias con esta sección:
 
-**Número de reportes:** 4 mín
-
-**Incidencias:**
+**Número de reportes:** 5 mín
 
 ### 3.3 Panel de gestión de comisiones (Kanban)
 
 **¿Pudiste mover las comisiones entre los diferentes estados?**
-- Sí (11 de 11)
+- Sí (13 de 14)
+- No (1 de 14)
 
-**Valoración media de la utilidad del tablero Kanban** 4.55 de 11
+**Valoración media de la utilidad del tablero Kanban** 4.36 de 11
 
 **¿Te gustó la función de los botones de flecha? ¿O preferirías arrastrar la comisión?**
 
-- Prefiero arrastrar (5 de 11)
-- Ambas posibilidades están bien, hay gente que puede tener problemas al arrastrarlo así que las flechas para ellos están perfe(1 de 11)
-- Si se pudiera tener ambas opciones, sería mejor(1 de 11)
-- Los dos pueden ser buenos juntos. Quizás para un público menos informatizado, sea más claro usar las flechas, si no se dan cuenta de que son movibles. Pero si se coloca un texto arriba diciendo algo como "Organice sus lo que sea", pues a lo mejor les sale intuitivo arrastrar. (1 de 11)
-- Me es indiferente, mientras este bien implementado y sea intuitivo esta bien.(1 de 11)
-- Cualquiera vale pero creo que arrastrar en más intuitivo(1 de 11)
-- Las dos, las flechas y arrastrar (1 de 11)
+- Prefiero arrastrar (7 de 14)
+- Ambas posibilidades están bien, hay gente que puede tener problemas al arrastrarlo así que las flechas para ellos están perfe(1 de 14)
+- Si se pudiera tener ambas opciones, sería mejor(1 de 14)
+- Los dos pueden ser buenos juntos. Quizás para un público menos informatizado, sea más claro usar las flechas, si no se dan cuenta de que son movibles. Pero si se coloca un texto arriba diciendo algo como "Organice sus lo que sea", pues a lo mejor les sale intuitivo arrastrar. (1 de 14)
+- Me es indiferente, mientras este bien implementado y sea intuitivo esta bien.(1 de 14)
+- Cualquiera vale pero creo que arrastrar en más intuitivo(1 de 14)
+- Las dos, las flechas y arrastrar (1 de 14)
+- No pude la plataforma como tal. (1 de 14)
 
 **Comentarios**
 
@@ -175,22 +184,24 @@ Añadir texto de aceptar y denegar además de los colores, posiblemente añadir 
 - Nothing comes to mind besides the features that you've already stated in the to-implement part of the manual.
 - Arrastrar creo que sería mucho mejor
 - A la hora de pasar una comisión a On Hold y darle a la flecha en la derecha, se desaparece la comisión y no se sabe lo que le ha pasado
+- Poner alguna imagen o poder editarlo
+- Ponerlo más bonito, que se vean las imágenes
 
 #### Incidencias con esta sección:
 
 **Número de reportes:** Mín 1
 
-**Incidencias:**
-
 ### 3.4 Búsqueda de otros artistas
 
 **¿Pudiste acceder a la sección de búsqueda de artistas?**
-- Sí (11 de 11)
+- Sí (13 de 14)
+- No (1 de 14)
 
 **¿Pudiste acceder al perfil de artist1 y ver sus obras?**
-- Sí (11 de 11)
+- Sí (12 de 14)
+- No (2 de 14)
 
-**Valoración media sobre si pareció clara la experiencia de navegación** 3.64 de 11 opiniones
+**Valoración media sobre si pareció clara la experiencia de navegación** 3.43 de 11 opiniones
 
 **Comentarios**
 - Es clara pero intentaría reducir la cantidad de clicks para poder ver el perfil de alguien, solo de cara a usabilidad.
@@ -207,39 +218,40 @@ Poder entrar en las obras de un artista desde el perfil de ese artista"
 - Poder acceder a los detalles de la obra desde el perfil del artista y no solamente desde la página de búsqueda
 "Añadiría que desde el perfil del artista, se pudiese entrar a ver los detalles de las obras, cosas que ahora mismo no deja, solo enseña la imagen
 - Otra cosa es que, desde la página de explorar, al entrar a ver los detalles de una obra e intentar ir a la página anterior (de vuelta a donde aparecen todas las demás), manda directamente a la pantalla principal"
+- No se cargan las imágenes 
+- Se veía extraño por no tener imágenes, apartado muy confuso
 
 #### Incidencias con esta sección:
 
 **Número de reportes:**  mín 1
 
-**Incidencias:**
-
 ### 3.5 Búsqueda de artistas y pedir una comisión (Clientes)
 
 **Pudiste acceder a la sección de búsqueda de artistas**
-- Sí (11 de 11)
+- Sí (13 de 13)
 
 **Pudiste acceder al perfil de artist1 y ver sus obras**
-- Sí (11 de 11)
+- Sí (13 de 13)
 
 **Pediste una comisión**
-- Sí (8 de 11)
-- No (3 de 11)
+- Sí (9 de 13)
+- No (4 de 13)
 
-**¿Qué te pareció la forma de poder pedir una comisión?** 3.45 de 11 opiniones
+**¿Qué te pareció la forma de poder pedir una comisión?** 3.46 de 13 opiniones
 
 **¿Pusiste una imagen en el formulario tal y como se estimó no hacer?**
-- No, te hice caso (11 de 11)
+- No, te hice caso (12 de 13)
+- Sí, subí una imagen, me dio error y seguí sin probar nada más (1 de 13)
 
 **¿Probaste a reportar alguna obra?**
-- Sí (10 de 11)
-- No (1 de 11)
+- Sí (11 de 13)
+- No (2 de 13)
 
 **¿Te dio error cuando enviaste el reporte? (Debe dar error)**
-- Sí (10 de 11)
-- Milagrosamente no (1 de 11)
+- Sí (12 de 13)
+- Milagrosamente no (1 de 13)
 
-**¿Qué te pareció la forma de poder hacer reportes?** 3.36 de 11 
+**¿Qué te pareció la forma de poder hacer reportes?** 3.31 de 13
 
 **Opiniones:**
 
@@ -259,19 +271,18 @@ Respecto a los reportes:
 - El select para reportar no tiene valores para seleccionar,  además hay texto en ingles y texto en español debería estar unificado
 - "Dentro del perfil del artista, no se puede hacer click en una de sus obras y llevarte a la pantalla de descripción de la obra. Solamente se puede acceder desde la página de búsqueda de artistas. Lo que mejoraría sería poder acceder a la descripción de la obra desde las dos partes. Por otra parte, a la hora de crear la comisión y darle  al buton de submit sale que se ha creado correctamente pero no me redirige al perfil del artista."
 - añadir el tipo
+- No he entendido mucho la página, solo he seguido la guia, de no leerlo no tendría idea de qué hacer
 
 #### Incidencias con esta sección:
 
 **Número de reportes:**  mín 6
 
-**Incidencias:**
-
 ### 3.6 Visualización del estado de pedidos
 
 **¿Pudiste acceder a la sección para ver el estado de tus pedidos?**
-- Sí (11 de 11)
+- Sí (13 de 13)
 
-**¿Te pareció clara la forma en que se muestran los estados de cada comisión?** 2.82 de 11 opiniones
+**¿Te pareció clara la forma en que se muestran los estados de cada comisión?** 2.77 de 11 opiniones
 
 **Comentarios:**
 - No me dejó ver mi pedido porque me dio un error al crearse
@@ -283,22 +294,21 @@ Respecto a los reportes:
 - Pude acceder pero estaba vacio
 - Mi sale que aún no he hecho ningún encargo, o sea que no me sale ningún pedido
 - No se puede abrir cada pedido ni ver los datos de qué he pedido
+- No entendi mucho porque no se veian mis pedidos
 
 #### Incidencias con esta sección:
 
 **Número de reportes:**  mín 3
 
-**Incidencias:** 
-
 ### 3.7 Feedback general
 
 **¿Te sentiste cómodo/a usando la app en general?**
-- Sí (14 de 11)
-- No (3 de 17)
+- Sí (15 de 22)
+- No (7 de 22)
 
 **¿Tuviste errores técnicos no mencionados en el manual?**
-- Sí (8 de 17)
-- No (9 de 17)
+- Sí (8 de 22)
+- No (14 de 22)
 
 **Comentarios sobre funcionalidades que gustaría ver en el futuro**
 - En general de momento con que mejoréis la estética y la seguridad está bastante bien
@@ -324,46 +334,49 @@ Respecto a los reportes:
 - Que pudiera hacer reportes e información real, el boton para desplegar la navbar no es clickable tengo que darle un poco más a la izquierda del boton
 - Poder filtrar las obras por temáticas
 - Cancelar peticiones si no se han empezado
+- Solo espero poder probar la página como tal en algún momento ^^
+- Editar perfil y subir imágenes 
+- El kanban mejorado, chat con los clientes, poder customizar mi perfil y eso
+- No se me ocurre nada que puedan añadir, está bastante completa.
+- Poder ver mis pedidos y pedir comisiones con imágenes
 
-**Valoración media de la nota a Holos** 3.31 de 17 opiniones
+**Valoración media de la nota a Holos** 3.14 de 22 opiniones
 
 ### Otras Preguntas
 
 **¿Alguna vez te has sentido agobiado al tener más de una comisión al mismo tiempo?**
-- No, nunca, llevo bien manejar varias comisiones a la vez (3 de 11)
-- Sí, pero sólo cuando es más de 3 (2 de 11)
-- Sí, pero sólo cuando es más de 5 (1 de 11)
-- Sí (4 de 11)
-- Sentirme no me he sentido agobiado yo, pero entiendo que un artista, que al final no es una máquina de una fábrica sino un artista que necesita inspiración y arte, se sienta agobiado. No sé yo ante si aceptaban encargos en cola o no. Yo, muchos más de cinco no pondría. Muy bajo parece que lo vuelves exclusivo y al no ver la cola se podría disuadir a los compradores. Muy alto y agobia al artista. (1 de 11)
+- No, nunca, llevo bien manejar varias comisiones a la vez (3 de 14)
+- Sí, pero sólo cuando es más de 3 (3 de 14)
+- Sí, pero sólo cuando es más de 5 (1 de 14)
+- Sí (5 de 14)
+- Sentirme no me he sentido agobiado yo, pero entiendo que un artista, que al final no es una máquina de una fábrica sino un artista que necesita inspiración y arte, se sienta agobiado. No sé yo ante si aceptaban encargos en cola o no. Yo, muchos más de cinco no pondría. Muy bajo parece que lo vuelves exclusivo y al no ver la cola se podría disuadir a los compradores. Muy alto y agobia al artista. (1 de 14)
+- No he trabajado con dos o más comisiones al mismo tiempo. (1 de 14)
 
 **¿Estaría bien ir poniendo fechas de entrega por estados?**
-- Sí, me parece buena idea para que el
-cliente no pregunte tanto (9 de 11)
-- No, me parece agobiante. Con la fecha
-de entrega final aproximada basta, y si
-lo entrego antes, mejor. (2 de 11)
+- Sí, me parece buena idea para que el cliente no pregunte tanto (10 de 14)
+- No, me parece agobiante. Con la fecha de entrega final aproximada basta, y si lo entrego antes, mejor. (4 de 14)
 
 **¿Te gustaría poder subir una imagen del estado de la comisión por el que vayas en el tablero para que el cliente pueda verlo (Sketch, Lineart, Flat Color, etc.)?**
-- Sí (9 de 11)
+- Sí (11 de 14)
 - Debería ser obligatorio para poder pedir
-feedback al cliente (2 de 11)
+feedback al cliente (3 de 14)
 
 **En Holos estamos en contra del uso de IA para generar arte. ¿Cómo lo combatirías?**
-- Opción de reportes manuales, que el administrador revise la publicación. (8 de 11)
-- Que se detecte automáticamente, no sé cómo (1 de 11)
-- No estoy en contra de la IA, yo haría una sección para que puedas pedir cosas generadas por IA (1 de 11)
-- la opción 1 y la 2 (1 de 11)
+- Opción de reportes manuales, que el administrador revise la publicación. (11 de 14)
+- Que se detecte automáticamente, no sé cómo (1 de 14)
+- No estoy en contra de la IA, yo haría una sección para que puedas pedir cosas generadas por IA (1 de 14)
+- la opción 1 y la 2 (1 de 14)
 
 **En caso de que detectemos uso de IA para realizar una comisión, ¿cómo lo castigarías?**
-- Penalizaría al artista con 1 strike, y a los 3 estaría baneado. - Obviamente esto ocurriría si la obra esta generada por IA pero se indica que no se iba a usar, de lo contrario no penalizaria (1 de 11)
-- Baneo por 30 días y que su perfil no se muestre durante ese tiempo
-- la opción 2 y 3 (1 de 11)
-- Baneo de por vida y eliminar su perfil (2 de 11)
-- Penalizaciones incrementales. Primero tan solo hacer la obra privada (no borrársela) y avisar. Segundo, quizás baneo durante un mes está bien. Y así. No meterse con el dinero. (1 de 11)
-- Borrar la obra simplemente (2 de 11)
-- Second option + if the artist repeats their behaviour post-temporary ban, lifetime ban should be given. (1 de 11)
-- Un sistema de strikes, cuando se lleguen a x strikes banear (1 de 11)
-- Borrar la obra y si se detecta IA del mismo perfil varias veces. borrar el perfil entero(1 de 11)
+- Penalizaría al artista con 1 strike, y a los 3 estaría baneado. - Obviamente esto ocurriría si la obra esta generada por IA pero se indica que no se iba a usar, de lo contrario no penalizaria (1 de 14)
+- Baneo por 30 días y que su perfil no se muestre durante ese tiempo (1 de 14)
+- la opción 2 y 3 (1 de 14)
+- Baneo de por vida y eliminar su perfil (5 de 14)
+- Penalizaciones incrementales. Primero tan solo hacer la obra privada (no borrársela) y avisar. Segundo, quizás baneo durante un mes está bien. Y así. No meterse con el dinero. (1 de 14)
+- Borrar la obra simplemente (2 de 14)
+- Second option + if the artist repeats their behaviour post-temporary ban, lifetime ban should be given. (1 de 14)
+- Un sistema de strikes, cuando se lleguen a x strikes banear (1 de 14)
+- Borrar la obra y si se detecta IA del mismo perfil varias veces. borrar el perfil entero(1 de 14)
 
 **Comentarios sobre el uso de la IA para complementar Holos**
 - Yo la pondría para generar arte, no tengáis miedo. Necesitamos más ingenieros y menos gente que viva de manchar un folio con pintura. 
@@ -378,6 +391,9 @@ Me parece perfecto que se penalice el uso de IA, teniendo en cuenta que es una a
 - Creo que a nivel de programación quita mucho trabajo y para obtener ideas en la parte visual viene muy bien (1 de 11)
 - Yo lo veo bien para dar ideas pero no para generar arte (1 de 11)
 - No lo veo mal aunque probablemente no lo usaría(1 de 11)
+- Siempre en cuando se use como una herramienta tal cual es para mejorar la plataforma y no en cuanto a generar arte, de mi parte está bien. 
+- No lo veo como algo positivo. La mayoría de páginas siempre incorporan algo de IA y personalmente me arruina la experiencia. Es un tema demasiado saturado.
+- Nada, a los artistas no les gusta la IA para nada
 
 ## 4. Incidencias
 
