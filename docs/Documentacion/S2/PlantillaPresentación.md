@@ -332,7 +332,7 @@ Durante este sprint, se han identificado nuevos riesgos que podrían afectar el 
 ## 11. Usuarios Piloto (Nerea)
 ### Análisis del feedback obtenido en el primer envío.
 
-La satisfacción general con holos ha sido de 3.31, una nota muy mejorable dentro de lo que cabe. A los usuarios lo que más le gusta es el Kanban con diferencia, ya que es nuestra feature mejor puntuada con un 4.55. Lo que más ha decepcionado ha sido el visor de pedidos de los clientes, que tiene apenas un 2.82. Los clientes han estado más decepcionados con la aplicación ya que se nota que nos hemos centrado mucho más en pulir las features de los artistas. Han reportado muchos errores, 25 incidencias.
+La satisfacción general con holos ha sido de 3.14, una nota muy mejorable dentro de lo que cabe. A los usuarios lo que más le gusta es el Kanban con diferencia, ya que es nuestra feature mejor puntuada con un 4.36. Lo que más ha decepcionado ha sido el visor de pedidos de los clientes, que tiene apenas un 2.77. Los clientes han estado más decepcionados con la aplicación ya que se nota que nos hemos centrado mucho más en pulir las features de los artistas. Han reportado muchos errores, 25 incidencias.
 
 
 En general:
@@ -359,7 +359,7 @@ La calidad ha sido buena: hemos obtenido respuestas extensas, los cuestionarios 
 
 ### Evaluación del desempeño de los usuarios piloto.
 
-En general muy bien, han participado 21 de 34 usuarios piloto, de los cuales han participado 9 de los 14 artistas, que son nuestra principal preocupación ya que serán futuros clientes de la aplicación. En general han aportado mucho con opiniones, críticas y sugerencias de mejora, rellenando el formulario de incidencias cuando era oportuno. Su desempeño ha sido bastante bueno.
+En general muy bien, han participado 22 de 34 usuarios piloto, de los cuales han participado 9 de los 14 artistas, que son nuestra principal preocupación ya que serán futuros clientes de la aplicación. En general han aportado mucho con opiniones, críticas y sugerencias de mejora, rellenando el formulario de incidencias cuando era oportuno. Su desempeño ha sido bastante bueno.
 
 
 ## 12. Planificación o Replanificación de Sprint 2 y 3 (JMaría)
