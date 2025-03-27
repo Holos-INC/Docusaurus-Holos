@@ -294,9 +294,9 @@ Además, para evaluar la calidad del software tanto en Backend como en Frontend 
 - Estrategia de anuncios para distintos públicos:
   - Anuncio para usuarios.
   
-  - Anuncio para inversores (datos, cifras y proyecciones).
+  - Anuncio para inversores (datos, cifras y proyecciones). (Poner storyboard de inversores, está en el drive)
   
-  - Anuncio para clientes.
+  - Anuncio para clientes. (Poner StoryBoard de artista en el drive)
 
 
 ## 10. Nuevos Riesgos - Sprint 2 (Juan del Junco)
@@ -330,13 +330,36 @@ Durante este sprint, se han identificado nuevos riesgos que podrían afectar el 
 
 
 ## 11. Usuarios Piloto (Nerea)
-- Análisis del feedback obtenido en el primer envío.
+### Análisis del feedback obtenido en el primer envío.
 
-- Evaluación de la calidad del feedback.
+La satisfacción general con holos ha sido de 3.31, una nota muy mejorable dentro de lo que cabe. A los usuarios lo que más le gusta es el Kanban con diferencia, ya que es nuestra feature mejor puntuada con un 4.55. Lo que más ha decepcionado ha sido el visor de pedidos de los clientes, que tiene apenas un 2.82. Los clientes han estado más decepcionados con la aplicación ya que se nota que nos hemos centrado mucho más en pulir las features de los artistas. Han reportado muchos errores, 25 incidencias.
+
+
+En general:
+- Lo que más gusta es el kanban, hay que centrarse en mejorarlo pues es lo que más llama la atención a los UP
+- Tenemos que pulir features de los clientes, que se han sentido muy dejados de lado
+- Hay que mejorar el apartado visual en general, ya que la gran mayoría se ha quejado de eso
+- Muchas features no tienen las validaciones correctas, y eso ha generado que los UP se encuentren con más errores de la cuenta
+- Lo más grave, algunos UP más entendidos en la informática han encontrado brechas de seguridad
+
+### Evaluación de la calidad del feedback.
+
+La calidad ha sido buena: hemos obtenido respuestas extensas, los cuestionarios se han rellenado por completo y hemos recibido hasta la fecha 25 incidencias. Además, se ha notado sinceridad y mucha crítica constructiva de parte de los usuarios piloto, que era lo que se esperaba de ellos.
 
 - Calendario de fechas de envío y funcionalidades probadas en cada fase.
 
-- Evaluación del desempeño de los usuarios piloto.
+| Envío | Sprint | Fecha de Entrega | Fecha Límite | Estado | Descripción |
+|---------------|--------|----------------|--------------|--------|-------------|
+| 1  | Sprint 1 | 3/03/2025    | 8/03/2025   | Completado | Envío del Commitment Agreement para firma |
+| 2 | Sprint 1 | 9/03/2025    | 13/03/2025   | Retrasado | Primera entrega de prototipo para prueba inicial |
+| 3  | Sprint 2 | 22/03/2025    | 27/03/2025   | Completado | Primera entrega de prototipo con features adicionales. Fusión con el envío 2. Kanban, gestor de pedidos, visualización de pedidos, poner reportes y pedir ocmisiones |
+| 4 | Sprint 3 | 5/04/2025   | 10/04/2025   | Pendiente | Implementación de feedback recibido y funcionalidades adicionales, como el chat, los pagos y búsqueda avanzada |
+| 5   | PPL | 19/04/2025    | 24/04/2025   | Pendiente | Implementación de feedback y mejora de características visuales (UI) |
+| 6  | WPL | 10/05/2025    | 15/05/2025   | Pendiente | Última iteración antes del cierre de pruebas, evaluación definitiva |
+
+### Evaluación del desempeño de los usuarios piloto.
+
+En general muy bien, han participado 21 de 34 usuarios piloto, de los cuales han participado 9 de los 14 artistas, que son nuestra principal preocupación ya que serán futuros clientes de la aplicación. En general han aportado mucho con opiniones, críticas y sugerencias de mejora, rellenando el formulario de incidencias cuando era oportuno. Su desempeño ha sido bastante bueno.
 
 
 ## 12. Planificación o Replanificación de Sprint 2 y 3 (JMaría)
