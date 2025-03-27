@@ -242,9 +242,19 @@ Para determinar el momento exacto, hemos realizado un estudio detallado, cuyo re
 
 ## 4. Costes Incurridos (MCarmen y Joaquín)
 
--Queda por calcular. 
+Las dos gráficas representan lo mismo, podeis coger la que más os guste
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/gastos_incurridos_1.PNG" alt="Universidad de Sevilla " width="700"/>
+</p>
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s2/gastos_incurridos_2.PNG" alt="Universidad de Sevilla " width="700"/>
+</p>
+
+Las reservas de contingencia se han incluido progresivamente a lo largo de los 3 Sprints. Cada Sprint tiene 4.540,38 € del plan de contingencia. 
+
+Actualmente se ha tenido que usar del plan de contingencia: 3.576,48 €
 
 
 ## 5. Demo (Gabriel e Ignacio)
