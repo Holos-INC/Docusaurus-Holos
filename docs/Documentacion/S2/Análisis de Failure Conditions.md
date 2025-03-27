@@ -73,7 +73,7 @@ A continuación, se listan los documentos obligatorios y/o recomendados para est
 
 | Estado | Documento                           | Descripción                                                                                                                                        |
 |--------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| ❌ | KBreport.md                           | Contribuciones a la base de conocimiento. Debe incluir: enlace a la base común de conocimiento, contenido añadido, feedback recibido y acciones de consolidación. |
+| ✔️ | KBreport.md                           | Contribuciones a la base de conocimiento. Debe incluir: enlace a la base común de conocimiento, contenido añadido, feedback recibido y acciones de consolidación. |
 | ✔️ | pilotUsers.md                         | Informe de usuarios piloto: lista de UP, plan de comunicación y gestión, feedback, etc.                                                            |
 | ❌ | performanceEvaluation.md              | Evaluación del desempeño individual siguiendo la plantilla en EV.                                                                                  |
 | ❌ | timeEffortReport.md                   | Reporte de tiempo-esfuerzo de cada miembro del grupo, con gráficos incluidos.                                                                      |
@@ -81,7 +81,7 @@ A continuación, se listan los documentos obligatorios y/o recomendados para est
 | ✔️ | CommitmentAgreement.md                | Acuerdo de compromiso, versión y estado actualizados si procede.                                                                                   |
 | ✔️ | pilotUsersCommitmentAgreement.md       | Acuerdo de compromiso de los usuarios piloto (UP).                                                                                                 |
 | ❌ | pilotUsersPerformanceEvaluation.md     | Evaluación de los UP (valoración y puntuación a estudiantes ISPP que actúan como usuarios piloto).                                                 |
-| ❌ | revision.md                           | Revisión de la implementación. Debe incluir mapeo de casos de uso a interacciones, credenciales, datasets de ejemplo, requisitos, enlace a la demo en MP4, etc. |
+| ✔️ | revision.md                           | Revisión de la implementación. Debe incluir mapeo de casos de uso a interacciones, credenciales, datasets de ejemplo, requisitos, enlace a la demo en MP4, etc. |
                                                        |
 
 > **Nota:** Si alguno de los documentos no aplica en este Sprint, se debe justificar en la documentación (por ejemplo, indicando “No aplica en este sprint” o “No se han llevado a cabo acciones de consolidación”).
