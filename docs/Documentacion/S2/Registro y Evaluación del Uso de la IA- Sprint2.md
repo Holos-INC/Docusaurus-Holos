@@ -13,7 +13,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 05/03/2025  
-**Versión:** v1.3  
+**Versión:** v2  
 
 **Grupo de prácticas:** G1  
 
@@ -170,7 +170,13 @@ Codacy es una plataforma de **control de calidad del código**, que permite **id
 ### 3.6. Claude 
 🔗 [Enlace: Claude AI](https://www.anthropic.com/)  
 
-Claude es un modelo de **inteligencia artificial especializado en generación y análisis de código**, desarrollado por Anthropic. Se utilizará en este proyecto para **refactorización, optimización de código y generación de explicaciones detalladas sobre problemas técnicos**.  
+Claude es un modelo de **inteligencia artificial especializado en generación y análisis de código**, desarrollado por Anthropic. Se utilizará en este proyecto para **refactorización, optimización de código y generación de explicaciones detalladas sobre problemas técnicos**. 
+
+### 3.7. Claudette
+🔗 [Enlace: Claudette](http://claudette.eui.eu/)
+
+Claudette es una herramienta de **inteligencia artificial** especializada en el análisis de cláusulas contractuales. Se utiliza para **la estimación de cláusulas abusivas** en contratos y acuerdos legales. En este proyecto, se utilizará para **evaluar y verificar cláusulas contractuales** con el fin de identificar posibles **prácticas abusivas o desleales** en los contratos generados.
+
 
 ## 4. Registro y Evaluación del Uso de IA  
 
