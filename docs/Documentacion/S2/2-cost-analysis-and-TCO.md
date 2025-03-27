@@ -58,6 +58,7 @@
 | 13/03/2025  | v2.1    | Modificación de la portada  |<p> - María del Mar Ávila </p> |
 | 24/03/2025  | v3.0    |Ajuste de costes por cambios de licencias y servicios empleados |<p> - María del Carmen Barrera  Garrancho </p> |
 | 26/03/2025  | v3.1    |Inclusión de aclaraciones  |<p> - María del Carmen Barrera Garrancho </p> |
+| 27/03/2025  | v3.2    |Inclusión de aclaraciones  |<p> - María del Carmen Barrera Garrancho </p> |
 ---
 
 ## Índice de contenido
@@ -278,6 +279,8 @@ En este análisis, se asumirá que los gastos de licencia variables serán contr
 
 Además, se ha considerado que durante los 2 primeros meses se utilizará la pasarela de pago Strike para realizar las transcacciones tanto de las obras como de ejecutar el cobro de las comisiones. Strike establece una comisión de 1,5% + 0,25€ por transferencia realizada. Este método de pago se ha incluido de forma temporal, ya que nuestra intención es gestionar los cobros y pagos a través de una sociedad limitada. Sin embargo, crearla cuesta 3.000 €, y si este proyecto continúa en el mundo real, tenemos pensado obtener dicha cuantía a partir de los beneficios de los dos primeros meses. Esto no ha sido reflejado como tal en los costes, ya que, dentro del marco de la asignatura, no tenemos límite de presupuesto y, en el mundo real, no tenemos que cubrir cubrir gastos de desarrollo ni contamos con trabajadores a nuestro cargo de mantenimmiento. Por lo tanto, en el Capex se ha incluido directamente el coste asociado a la creación de una sociedad limitada, mientras que en los beneficios de los dos primeros meses se ha descontado el gasto derivado del uso de un sistema de pago externo.
 
+Strike por el uso de sus servicios cobra 1,5% de la cuantía que se esté transferiendo, más 25 céntimos por cada transacción.
+
 ### 4.1 Caso pesimista
 Para estimar el valor aproximado de una obra dentro de un rango determinado, se ha calculado la media de dicho rango. Además, para determinar los porcentajes de obras realizadas en cada intervalo de precio, nos hemos basado en los resultados de la encuesta mencionada previamente. 
 Para el caso pesimista, se han cambiado ligeramente los porcentajes de las comisiones, para que se tenga un mayor número de comisiones a un menor precio y un menor número de comisiones a un mayor precio. Los porcentajes son los siguientes:
@@ -461,9 +464,9 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefícios, considerando los ingresos generados y descontando los costes asociados. 
 
-Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 10.500 imágenes, cada una con un peso aproximado de 5 MB, y 12.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+Para los costes se ha estimado en el escenario pesimista  un tráfico de 10.500 imágenes, cada una con un peso aproximado de 5 MB, y 12.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
-**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
+**Nota**: En en Opex mensual se ha considerado un gasto fijos para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
 
 
 
@@ -679,9 +682,9 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefíos netos, considerando los ingresos generados y descontando los costes asociados. 
 
-Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 16.000 imágenes, cada una con un peso aproximado de 5 MB, y 18.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+Para los costes se ha estimado en el escenario pesimista  un tráfico de 16.000 imágenes, cada una con un peso aproximado de 5 MB, y 18.000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
-**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
+**Nota**: En en Opex mensual se ha considerado un gasto fijo para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
 
 **TCO a los 6 meses** 
 
@@ -910,9 +913,9 @@ Por tanto, los ingresos totales (tanto de transacciones como de la tarifa premiu
 
 En el siguiente apartado se realizará el cálculo del TCO, junto con la estimación de los benefícios netos, considerando los ingresos generados y descontando los costes asociados. 
 
-Para los costos de Firebase, se ha estimado en el escenario pesimista  un tráfico de 21,000 imágenes, cada una con un peso aproximado de 5 MB, y 23,000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
+Para los costes se ha estimado en el escenario pesimista  un tráfico de 21,000 imágenes, cada una con un peso aproximado de 5 MB, y 23,000 mensajes de 1 KB cada uno para el primer mes. Este gasto aumentará un 5% cada mes respecto al mes anterior, siguiendo el crecimiento de artistas en la plataforma y las comisiones realizadas.
 
-**Nota**: En en Opex mensual se ha considerado un gasto fijo de firebase para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
+**Nota**: En en Opex mensual se ha considerado un gasto fijo para dar una cifra exacta de costes de mantenimiento mensuales. Se ha realizado un repoarto equitativo de los gastos considerando los incurridos a lo largo de 2 años. Sin embargo, para los costes del Opex en una fecha determinada se ha considerado el gasto acumulado que se ha hecho hasta esa fecha.
 
 
 **TCO a los 6 meses** 
