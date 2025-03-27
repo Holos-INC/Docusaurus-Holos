@@ -75,8 +75,8 @@ A continuación, se listan los documentos obligatorios y/o recomendados para est
 |--------|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | ✔️ | KBreport.md                           | Contribuciones a la base de conocimiento. Debe incluir: enlace a la base común de conocimiento, contenido añadido, feedback recibido y acciones de consolidación. |
 | ✔️ | pilotUsers.md                         | Informe de usuarios piloto: lista de UP, plan de comunicación y gestión, feedback, etc.                                                            |
-| ❌ | performanceEvaluation.md              | Evaluación del desempeño individual siguiendo la plantilla en EV.                                                                                  |
-| ❌ | timeEffortReport.md                   | Reporte de tiempo-esfuerzo de cada miembro del grupo, con gráficos incluidos.                                                                      |
+| ✔️ | performanceEvaluation.md              | Evaluación del desempeño individual siguiendo la plantilla en EV.                                                                                  |
+| ✔️ | timeEffortReport.md                   | Reporte de tiempo-esfuerzo de cada miembro del grupo, con gráficos incluidos.                                                                      |
 | ✔️ | AIusage.md                            | Reporte del uso de la IA (actualizado para Sprint 2).                                                                                              |
 | ✔️ | CommitmentAgreement.md                | Acuerdo de compromiso, versión y estado actualizados si procede.                                                                                   |
 | ✔️ | pilotUsersCommitmentAgreement.md       | Acuerdo de compromiso de los usuarios piloto (UP).                                                                                                 |
