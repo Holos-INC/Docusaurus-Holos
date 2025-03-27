@@ -66,7 +66,7 @@
 ### **Emparejamiento (Matchmaking)**
 - Un usuario explora obras de arte disponibles. (**UC-003** parcialmente implementado en `ExploreScreen.tsx`).  
 - Un usuario solicita un trabajo personalizado a un artista. (**UC-004** implementado en `RequestCommissionUserScreen.tsx`).  
-- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** no implementado en `ArtistRequestOrders.tsx`).  
+- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** no implementado ).  
 - Un artista gestiona encargos en un tablero Kanban. (**UC-009** implementado en `KanbanScreen.tsx`).  
 - Un usuario realiza el pago de una obra de arte. (**UC-010** no implementado).  
 - Un usuario inicia sesión en el sistema. (**UC-001** implementado en `LoginScreen.tsx`).  
@@ -75,7 +75,7 @@
 - Un usuario abre una incidencia sobre un problema. (**UC-013**  implementado parcialmente ).  
 - Un artista acepta o deniega una solicitud. (**UC-005** parcialmente implementado en `ArtistRequestOrders.tsx`).
 - Un usuario visualiza los detalles de una obra de arte. (**UC-015** implementado en `WorkDetailScreen.tsx`).
-- Un usuario deja una reseña sobre un artista. (**UC-012** no implementado aún).  
+- Un usuario deja una reseña sobre un artista. (**UC-012** no implementado).  
 
 ### **Sin Emparejamiento (No Matchmaking)**
 
@@ -84,7 +84,7 @@
 - Un usuario añade un artista a favoritos. (**UC-006** no implementado).  
 - Un usuario consulta el historial de pedidos. (**UC-011** parcialmente implementado).  
 - Un artista visualiza las obras que ha subido. (**UC-016** parcialemente implementado).  
-- Un usuario elimina su cuenta. (**UC-014** no implementado aún).  
+- Un usuario elimina su cuenta. (**UC-014** no implementado).  
  
 
 ---
