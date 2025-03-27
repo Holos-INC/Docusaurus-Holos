@@ -80,7 +80,7 @@ A continuación, se listan los documentos obligatorios y/o recomendados para est
 | ✔️ | AIusage.md                            | Reporte del uso de la IA (actualizado para Sprint 2).                                                                                              |
 | ✔️ | CommitmentAgreement.md                | Acuerdo de compromiso, versión y estado actualizados si procede.                                                                                   |
 | ✔️ | pilotUsersCommitmentAgreement.md       | Acuerdo de compromiso de los usuarios piloto (UP).                                                                                                 |
-| ❌ | pilotUsersPerformanceEvaluation.md     | Evaluación de los UP (valoración y puntuación a estudiantes ISPP que actúan como usuarios piloto).                                                 |
+| ✔️ | pilotUsersPerformanceEvaluation.md     | Evaluación de los UP (valoración y puntuación a estudiantes ISPP que actúan como usuarios piloto).                                                 |
 | ✔️ | revision.md                           | Revisión de la implementación. Debe incluir mapeo de casos de uso a interacciones, credenciales, datasets de ejemplo, requisitos, enlace a la demo en MP4, etc. |
                                                        |
 
