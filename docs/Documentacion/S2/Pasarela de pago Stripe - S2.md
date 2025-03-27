@@ -13,8 +13,11 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 26=3/2025 
+**Fecha:** 26/03/2025 
 **Versión:** v1.0  
+
+
+
 
 **Grupo de prácticas:** G1  
 
@@ -40,8 +43,18 @@
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
 | Miguel Ángel Gómez   |  Redactor                       |
+| José María Portela Huerta    |  Revisor                       |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
+
+
+## Control de Versiones
+
+| Fecha       | Versión | Descripción              | Autor|
+|-------------|---------|--------------------------|------|
+| 26/03/2025  | v1.0    | Creación del documento   | Miguel Gómez Vela|
+
+
 
 ## Índice de Contenidos
 
@@ -69,8 +82,8 @@ Este sistema facilita la transferencia de fondos entre los clientes de manera r�
 
 La pasarela de pago se implementa siguiendo una arquitectura de **microservicios**, donde cada componente tiene una responsabilidad específica en el proceso de gestión de pagos. La infraestructura incluye los siguientes elementos:
 
-- **Cliente A (Pagador)**: El cliente que realiza el pago hacia otro cliente.
-- **Cliente B (Receptor)**: El cliente que recibe el dinero.
+- **Cliente **: El cliente que realiza el pago hacia otro cliente.
+- **Artista**: El cliente que recibe el dinero.
 - **Aplicación Backend**: Encargada de gestionar las peticiones de pago y retiro, interactuar con Stripe, y actualizar las cuentas internas de los clientes.
 - **Stripe API**: Proveedor de pagos que facilita la transferencia de fondos entre clientes.
 - **Cuenta Interna**: La cuenta virtual dentro de la aplicación donde se almacenan las ganancias de cada cliente.
@@ -83,20 +96,20 @@ La pasarela de pago se implementa siguiendo una arquitectura de **microservicios
 
 El proceso de pago se realiza utilizando la API de **Stripe**, donde el Cliente A paga al Cliente B. Los pasos detallados son los siguientes:
 
-1. **Autenticación**: El Cliente A se autentica en la aplicación utilizando sus credenciales.
-2. **Selección de Monto**: El Cliente A selecciona el monto que desea transferir al Cliente B.
-3. **Generación del Pago**: La aplicación realiza una solicitud a Stripe para crear una **PaymentIntent** con el monto y la información del receptor (Cliente B).
-4. **Confirmación del Pago**: Una vez que Stripe procesa el pago, se confirma la transacción y el dinero es transferido a la cuenta interna de Cliente B.
-5. **Notificación**: Ambos clientes reciben notificaciones sobre el estado de la transacción.
+1. **Autenticación**: El Cliente  se autentica en la aplicación utilizando sus credenciales.
+2. **Selección de Monto**: El Cliente A selecciona el monto que desea transferir al Artista.
+3. **Generación del Pago**: La aplicación realiza una solicitud a Stripe para crear una **PaymentIntent** con el monto y la información del receptor (Artista).
+4. **Confirmación del Pago**: Una vez que Stripe procesa el pago, se confirma la transacción y el dinero es transferido a la cuenta interna de Artista.
+5. **Notificación**: Ambos reciben notificaciones sobre el estado de la transacción.
 
 ### 3.2. Proceso de Retiro de Ganancias
 
-Una vez que las ganancias de un cliente han sido transferidas a su cuenta interna, pueden ser retiradas en cualquier momento a través de los siguientes pasos:
+Una vez que las ganancias de un Artista han sido transferidas a su cuenta interna, pueden ser retiradas en cualquier momento a través de los siguientes pasos:
 
-1. **Solicitud de Retiro**: El Cliente B solicita retirar el dinero disponible en su cuenta interna.
-2. **Verificación de Fondos**: La aplicación verifica que el Cliente B tiene suficiente saldo disponible para realizar el retiro.
-3. **Transferencia de Fondos**: La aplicación solicita a Stripe la transferencia del saldo de la cuenta interna del Cliente B a su cuenta bancaria asociada.
-4. **Notificación**: El Cliente B es notificado sobre el estado del retiro (exitoso o fallido).
+1. **Solicitud de Retiro**: El Artista solicita retirar el dinero disponible en su cuenta interna.
+2. **Verificación de Fondos**: La aplicación verifica que el Artista tiene suficiente saldo disponible para realizar el retiro.
+3. **Transferencia de Fondos**: La aplicación solicita a Stripe la transferencia del saldo de la cuenta interna del Artista a su cuenta bancaria asociada.
+4. **Notificación**: El Artista es notificado sobre el estado del retiro (exitoso o fallido).
 
 ---
 
@@ -104,10 +117,10 @@ Una vez que las ganancias de un cliente han sido transferidas a su cuenta intern
 
 El flujo de pagos entre clientes se basa en un modelo de **pago por transferencia directa**, donde los fondos se mueven de un cliente a otro a través de la pasarela de pago. La estructura básica del flujo es:
 
-1. Cliente A realiza el pago al Cliente B.
-2. El monto pagado es depositado en la cuenta interna de Cliente B.
-3. Cliente B puede solicitar el retiro de sus ganancias en cualquier momento.
-4. El retiro se procesa y se transfiere a la cuenta bancaria de Cliente B a través de Stripe.
+1. Cliente realiza el pago al Artista.
+2. El monto pagado es depositado en la cuenta interna de Artista.
+3. Artista puede solicitar el retiro de sus ganancias en cualquier momento.
+4. El retiro se procesa y se transfiere a la cuenta bancaria de Artista a través de Stripe.
 
 Desde el punto de vista de la aplicación, el proceso de pago sigue una secuencia de pasos que garantiza que el dinero primero llega a la cuenta de la aplicación antes de ser distribuido entre las partes involucradas.
 
@@ -163,5 +176,3 @@ Cada transacción realizada será registrada con los siguientes datos:
 - **Fecha de la Transacción**: Fecha y hora en que se realizó la transacción.
 
 ---
-
-Este documento proporciona una guía detallada sobre el funcionamiento de la pasarela de pago integrada con Stripe en tu proyecto, asegurando una correcta implementación y gestión de las transacciones dentro de la aplicación.
