@@ -42,7 +42,7 @@
 |----------------------|---------------------------------|
 | Juan Núñez           |  Redactor                       |
 | María del Mar Ávila  |  Revisora                       |
-
+| María del Carmen Barrera  |  Revisora  |                    
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
@@ -58,33 +58,32 @@
 | Fecha      | Versión | Descripción                                   | Autor                    |
 |------------|---------|-----------------------------------------------|--------------------------|
 | 27/03/2025 | v2.0    | Actualización del documento a Sprint 2        |Juan Núñez      |
-
+| 27/03/2025 | v3.0    | Actualización del documento a Sprint 2        | <p> - María del Mar Ávila </p>  <p> -María del Carmen Barrera  </p>   |
 ---
 
 ## 2. Mapeo de Casos de Uso
 
 ### **Emparejamiento (Matchmaking)**
-- Un usuario explora obras de arte disponibles. (**UC-003** implementado en `ExploreScreen.tsx`).  
+- Un usuario explora obras de arte disponibles. (**UC-003** parcialmente implementado en `ExploreScreen.tsx`).  
 - Un usuario solicita un trabajo personalizado a un artista. (**UC-004** implementado en `RequestCommissionUserScreen.tsx`).  
-- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** implementado en `ArtistRequestOrders.tsx`).  
+- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** no implementado en `ArtistRequestOrders.tsx`).  
 - Un artista gestiona encargos en un tablero Kanban. (**UC-009** implementado en `KanbanScreen.tsx`).  
-- Un usuario realiza el pago de una obra de arte. (**UC-010** botón presente en `PaymentScreen.tsx` y `WorkDetailScreen.tsx`, pero actualmente no realiza ninguna acción).  
+- Un usuario realiza el pago de una obra de arte. (**UC-010** no implementado).  
 - Un usuario inicia sesión en el sistema. (**UC-001** implementado en `LoginScreen.tsx`).  
-- Un usuario se registra en el sistema. (**UC-002** implementado en `signup.tsx`).  
-- Un usuario visualiza su perfil. (**UC-007** implementado en `UserProfileScreen.tsx`).  
-- Un usuario envía un mensaje a un artista. (**UC-008** botón presente en `WorkDetailScreen.tsx`, pero la funcionalidad de mensajería no está completamente implementada).  
-- Un usuario abre una incidencia sobre un problema. (**UC-013** no implementado completo).  
-- Un artista acepta o deniega una solicitud. (**UC-005** botones presentes en `ArtistRequestOrders.tsx`).
-- Un usuario visualiza los detalles de una obra de arte. (**UC-015** implementado en `WorkDetailScreen.tsx`).  
+- Un usuario se registra en el sistema. (**UC-002** parcialmente implementado en `signup.tsx`. No funciona el botón de resgistro).  
+- Un usuario envía un mensaje a un artista. (**UC-008** no implementado).  
+- Un usuario abre una incidencia sobre un problema. (**UC-013**  implementado parcialmente ).  
+- Un artista acepta o deniega una solicitud. (**UC-005** parcialmente implementado en `ArtistRequestOrders.tsx`).
+- Un usuario visualiza los detalles de una obra de arte. (**UC-015** implementado en `WorkDetailScreen.tsx`).
+- Un usuario deja una reseña sobre un artista. (**UC-012** no implementado aún).  
 
 ### **Sin Emparejamiento (No Matchmaking)**
 
-
-- Un usuario modifica su perfil. (**UC-007** botón presente en `UserProfileScreen.tsx`, pero la funcionalidad de edición aún no está implementada).  
-- Un usuario añade un artista a favoritos. (**UC-006** botón presente en `ArtistDetailScreen.tsx`, pero actualmente no realiza ninguna acción).  
-- Un usuario consulta el historial de pedidos. (**UC-011** implementado en `OrderHistoryScreen.tsx`).  
-- Un artista visualiza las obras que ha subido. (**UC-016** implementado en `ArtworksScreen.tsx`).  
-- Un usuario deja una reseña sobre un artista. (**UC-012** no implementado aún).  
+- Un usuario visualiza su perfil. (**UC-007** implementado  en `UserProfileScreen.tsx`).  
+- Un usuario modifica su perfil. (**UC-007** no implementado).  
+- Un usuario añade un artista a favoritos. (**UC-006** no implementado).  
+- Un usuario consulta el historial de pedidos. (**UC-011** parcialmente implementado).  
+- Un artista visualiza las obras que ha subido. (**UC-016** parcialemente implementado).  
 - Un usuario elimina su cuenta. (**UC-014** no implementado aún).  
  
 
@@ -110,10 +109,13 @@ A continuación, se detallan las funcionalidades de administrador que se han imp
 - **Credenciales de Usuario:**  
   - **Cliente:**  
     - **Username:** client1  
-    - **Email:** client1@gmail.com  
+    - **Constraseña:** client1 
   - **Artista:**  
     - **Username:** artist1  
-    - **Email:** artist1@gmail.com  
+    - **Constraseña:** artist1@gmail.com
+  - **Administrador:**  
+    - **Username:** admin1  
+    - **Constraseña:** admin1@gmail.com  
 - **Admin:** No procede. Las tareas del usuario administrador están planeadas para el S2, por lo que no se ha creado aún un usuario con las credenciales necesarias.  
 - **URL Landing Page:** [https://sites.google.com/view/holos](https://sites.google.com/view/holos)  
 - **Repositorio GitHub:** [https://github.com/Holos-INC](https://github.com/Holos-INC)  
@@ -140,7 +142,7 @@ A continuación, se detallan las funcionalidades de administrador que se han imp
     En la sección "Reports" se pueden consultar las configuraciones para ver en qué han invertido su tiempo los diferentes miembros del grupo.  
 
 - **Requisitos potenciales:** Ninguno  
-- **Link de la demo:** _(Pendiente de añadir)_  
+- **Link de la demo:** https://holos-doc.vercel.app/docs/Documentacion/S2/videodemo  
 - **Ejemplos de inputs complejos:**
     No hay formularios complejos por el momento. Aunque es interesante destacar que cuando el cliente quiere pedir al artista una comisión tiene la opción de adjuntar una imagen (no es obligatorio, se puede realizar la comisión sin adjuntar dicha imagen).
-- **URL de despliegue y credenciales:** _(Pendiente de añadir)_
+- **URL de despliegue:** https://holos-art.ew.r.appspot.com/
