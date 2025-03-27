@@ -58,8 +58,7 @@
 2. [Metodología seguida](#2-metodología-seguida)
 3. [Análisis de resultados](#3-análisis-de-resultados)
 4. [Incidencias](#4-incidencias)
-5. [Comentarios y observaciones clave](#5-comentarios-y-observaciones-clave)
-6. [Acciones y recomendaciones](#6-acciones-y-recomendaciones)
+5. [Lecciones aprendidas](#5-lecciones-aprendidas)
 
 
 ## 1. Resumen
@@ -877,28 +876,6 @@ https://drive.google.com/open?id=133vsKqL54RfvxRzzuUltWi3JUS6lz1Kp
 
 ### Incidencia #24
 
-**Rol:** Cliente
-
-**Parte donde ocurrió:** Inicio de sesión
-
-**Describe detalladamente la incidencia:** Al iniciar sesión, si hago click en la casita, no sucede nada. El botón de interacción está un poco más a la izquierda, en un espacio en blanco.
-
-**¿Se repite?** Sí, ocurre siempre
-
-**¿Cómo afecta esta incidencia tu experiencia con Holos?** No afecta mucho, es solo visual o menor
-
-**Pasos para reproducir el fallo:**
-1. Intento acceder a inicio. 
-2. No se puede porque realmente el botón está más a la izquierda.
-
-**Imágenes a adjuntar (si procede):**  
-
-https://drive.google.com/open?id=1INCks66RitJRBirvvUtpEYDMWhK3XRgd
-
-https://drive.google.com/open?id=15V2K4-kbA--Cc8ZaQOEFuMn4XVAIhnJh
-
-### Incidencia #25
-
 **Rol:** Artista
 
 **Parte donde ocurrió:** Inicio de sesión
@@ -920,7 +897,7 @@ He probado a alternar entre nombre y usuario y contraseña por probar otras opci
 
 https://drive.google.com/open?id=1k5Zo2WotxSp3K3qrdqQiFpHqSU6E9Si9
 
-### Incidencia #26
+### Incidencia #25
 
 **Rol:** Artista
 
