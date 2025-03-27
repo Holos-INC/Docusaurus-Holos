@@ -282,7 +282,7 @@ Respecto a los reportes:
 **¿Pudiste acceder a la sección para ver el estado de tus pedidos?**
 - Sí (13 de 13)
 
-**¿Te pareció clara la forma en que se muestran los estados de cada comisión?** 2.77 de 11 opiniones
+**¿Te pareció clara la forma en que se muestran los estados de cada comisión?** 2.77 de 13 opiniones
 
 **Comentarios:**
 - No me dejó ver mi pedido porque me dio un error al crearse
