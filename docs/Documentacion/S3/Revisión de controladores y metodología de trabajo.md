@@ -49,6 +49,7 @@
 | Versión | Fecha       | Descripción de cambios         | Autor                |
 |---------|-------------|--------------------------------|----------------------|
 | v1.0    | 29/03/2025  | Creación del documento.        | Nerea Jiménez Adorna |
+| v1.1    | 30/03/2025  | Análisis de más endpoints       | Nerea Jiménez Adorna |
 
 ## Índice
 
@@ -66,12 +67,16 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:** 
 - **Métodos implementados:** GET, POST, PUT, DELETE.
 - **Categoría de la llamada:**  
-  - **Bien hecha**  
-  - **A eliminar**  
-  - **A corregir**
-- **Datos que reciben:**  
-  - Si es necesario usar un DTO, se mostrará un JSON con los datos necesarios.
+  - **Bien hecha**  Dejar tal y como está (a priori) a no ser que las necesidades del equipo cambien.
+  - **A eliminar**  No sirve para nada.
+  - **A corregir**  Tiene errores o necesita un DTO.
+  - **No usado**  No se usa pero se intuye que se usará en el futuro.
+- **Datos que reciben:** 
+  - Si erróneamente reciben datos innecesarios como ids del usuario se indicará.
 - **Datos que devuelven:**
+  - Si es necesario usar un DTO, se mostrará un JSON con los datos necesarios.
+
+Este documento se irá editando conforme a las necesidades del equipo.
 
 ---
 
@@ -86,10 +91,10 @@ En este apartado se documentarán todos los controladores actuales organizados p
   No usado/Usar a futuro
 - **Datos que reciben:**  
   - **Payload JSON:** Objeto *WorksDone* con los campos necesarios para la creación.  
-  - **DTO a discutir con frontend.**
+    - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *WorksDone* creado, incluyendo el identificador generado y los datos enviados. 
-  - **DTO a discutir con frontend.**
+    - **DTO a discutir con frontend.**
 
 ---
 
@@ -97,7 +102,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la lista completa de registros de *WorksDone*.
 - **Categoría:**  
-  A modificar
+  A modificar. A esto hay que darle una vuelta.
 - **Datos que reciben:**  
   - No requiere parámetros en el query.
 - **Datos que devuelven:**  
@@ -108,16 +113,10 @@ En este apartado se documentarán todos los controladores actuales organizados p
     [
       {
         "id": 1,
-        "titulo": "Trabajo 1",
-        "descripcion": "Detalles del trabajo 1",
-        "fecha": "2025-03-29",
         "artistId": 123
       },
       {
         "id": 2,
-        "titulo": "Trabajo 2",
-        "descripcion": "Detalles del trabajo 2",
-        "fecha": "2025-03-28",
         "artistId": 124
       }
     ]
@@ -164,7 +163,8 @@ En este apartado se documentarán todos los controladores actuales organizados p
   - **Respuesta JSON:** Lista de objetos *WorksDone* vinculados al artista indicado.  
   - **DTO necesario:** Lista de DTOs del objeto *WorksDone*.
     _Ejemplo:_
-    ```json
+  ```json
+  [
     {
       "id": 1,
       "name": "Trabajo 1",
@@ -172,7 +172,8 @@ En este apartado se documentarán todos los controladores actuales organizados p
                 "string"
                 ],
     }
-    ```
+  ]
+  ```
 
 ---
 
@@ -183,81 +184,43 @@ En este apartado se documentarán todos los controladores actuales organizados p
   No usado/Usar a futuro/A modificar
 - **Datos que reciben:**  
   - **Path Variables:**  
-    - `artistId` (Long): Identificador del artista. A MODIFICAR: 
+    - `artistId` (Long): Identificador del artista. **A MODIFICAR: Usar *findCurrentUser*.**
     - `worksDoneId` (Long): Identificador del registro de *WorksDone* a actualizar.
-  - **Payload JSON:** Objeto *WorksDone* actualizado con los nuevos datos (validados con @Valid).  
-    _Ejemplo:_
-    ```json
-    {
-      "titulo": "Trabajo actualizado",
-      "descripcion": "Detalles actualizados",
-      "fecha": "2025-03-30"
-    }
-    ```
+  - **Payload JSON:** Objeto *WorksDone* actualizado.  
+    - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *WorksDone* actualizado con los datos modificados.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "titulo": "Trabajo actualizado",
-      "descripcion": "Detalles actualizados",
-      "fecha": "2025-03-30",
-      "artistId": 123
-    }
-    ```
+  - **Respuesta JSON:** Objeto *WorksDone* actualizado con los datos modificados. Quizá es mejor no devolver nada.
 
 ---
 
 ### MilestoneController
 
+Todo en esta categoría está aún sin usar, por lo que no se saben las necesidades de front aún.
+
 #### POST (/api/v1/milestones/milestone)
 - **Descripción:**  
-  Crea un nuevo hito (*Milestone*).
+  Crea un nuevo (*Milestone*).
 - **Categoría:**  
-  Bien hecha
+  No usado.
 - **Datos que reciben:**  
   - **Payload JSON:** Objeto *Milestone* con los campos necesarios para la creación.  
-    _Ejemplo (estructura genérica):_
-    ```json
-    {
-      "nombre": "Nombre del hito",
-      "descripcion": "Descripción del hito",
-      "fecha": "2025-03-29"
-    }
-    ```
+      - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Milestone* creado, que incluye el identificador generado y los datos enviados.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "nombre": "Nombre del hito",
-      "descripcion": "Descripción del hito",
-      "fecha": "2025-03-29"
-    }
-    ```
+    - **DTO a discutir con frontend.**
 
 ---
 
 #### GET (/api/v1/milestones/milestone/{id})
 - **Descripción:**  
-  Recupera un hito (*Milestone*) específico, identificado por su ID.
+  Recupera un (*Milestone*) específico, identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No usado.
 - **Datos que reciben:**  
-  - **Path Variable:** `id` (Long): Identificador del hito.
+  - **Path Variable:** `id` (Long): Identificador del milestone.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Milestone* si se encuentra, o un error 404 si no existe.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "nombre": "Nombre del hito",
-      "descripcion": "Descripción del hito",
-      "fecha": "2025-03-29"
-    }
-    ```
+    - **DTO a discutir con frontend.**
 
 ---
 
@@ -270,23 +233,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
   - **Path Variable:** `commision_id` (Long): Identificador de la comisión.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Lista de objetos *Milestone* asociados a la comisión.  
-    _Ejemplo:_
-    ```json
-    [
-      {
-        "id": 2,
-        "nombre": "Hito A",
-        "descripcion": "Descripción del hito A",
-        "fecha": "2025-03-28"
-      },
-      {
-        "id": 3,
-        "nombre": "Hito B",
-        "descripcion": "Descripción del hito B",
-        "fecha": "2025-03-27"
-      }
-    ]
-    ```
+    - **DTO a discutir con frontend.**
 
 ---
 
@@ -296,18 +243,10 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Categoría:**  
   Bien hecha
 - **Datos que reciben:**  
-  - **Path Variable:** `id` (Long): Identificador del hito a eliminar.
+  - **Path Variable:** `id` (Long): Identificador del milestone a eliminar.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Milestone* eliminado o confirmación de eliminación.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "nombre": "Nombre del hito",
-      "descripcion": "Descripción del hito",
-      "fecha": "2025-03-29"
-    }
-    ```
+    - **DTO/Respuesta a discutir con frontend.**
 
 ---
 
@@ -317,28 +256,16 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Añade un nuevo estado al Kanban.
 - **Categoría:**  
-  Bien hecha
+  A modificar/No usado
 - **Datos que reciben:**  
-  - **Request Parameters:**  
+  - **Request Parameters:**  Debería recibir un objeto StatusKanbanOrder y no los parámetros. 
     - `color` (String): Color del estado.
     - `description` (String): Descripción del estado.
     - `nombre` (String): Nombre del estado.
     - `artistId` (Integer): Identificador del artista.
-  _Ejemplo de parámetros en la URL:_  
-  `/api/v1/status-kanban-order?color=red&description=Estado+inicial&nombre=To+Do&artistId=101`
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* creado, incluyendo sus atributos (por ejemplo, id, color, description, name, artistId, order).  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "red",
-      "description": "Estado inicial",
-      "name": "To Do",
-      "artistId": 101,
-      "order": 1
-    }
-    ```
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* creado.  
+    - **DTO a discutir con frontend.**
 
 ---
 
@@ -346,33 +273,12 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Actualiza el estado Kanban con la información enviada en el cuerpo de la solicitud.
 - **Categoría:**  
-  Bien hecha
+  No usado
 - **Datos que reciben:**  
   - **Payload JSON:** Objeto *StatusKanbanOrder* con todos los campos necesarios para la actualización.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "blue",
-      "description": "Estado actualizado",
-      "name": "In Progress",
-      "artistId": 101,
-      "order": 2
-    }
-    ```
+    - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "blue",
-      "description": "Estado actualizado",
-      "name": "In Progress",
-      "artistId": 101,
-      "order": 2
-    }
-    ```
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado. Quizá es mejor no devolver nada.
 
 ---
 
@@ -380,32 +286,13 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Actualiza atributos específicos (color, descripción y nombre) del estado Kanban identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No usado. Parece que duplica el anterior. A eliminar si es el caso.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado.
   - **Payload JSON:** Objeto *StatusKanbanOrder* con los nuevos valores para color, descripción y nombre.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "green",
-      "description": "Actualizado a verde",
-      "name": "In Review"
-    }
-    ```
+    - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* con los atributos actualizados.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "green",
-      "description": "Actualizado a verde",
-      "name": "In Review",
-      "artistId": 101,
-      "order": 3
-    }
-    ```
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* con los atributos actualizados.  Quizá es mejor no devolver nada.
 
 ---
 
@@ -413,7 +300,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Actualiza el orden del estado Kanban identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No usado. Investigar si se va a usar para algo.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado.
   - **Payload JSON:** Un número entero que representa el nuevo orden.  
@@ -422,18 +309,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
     4
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado con el nuevo orden.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "green",
-      "description": "Actualizado a verde",
-      "name": "In Review",
-      "artistId": 101,
-      "order": 4
-    }
-    ```
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado con el nuevo orden. Quizá es mejor no devolver nada.
 
 ---
 
@@ -441,7 +317,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Elimina el estado Kanban identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No usada.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Integer): Identificador del estado a eliminar.
 - **Datos que devuelven:**  
@@ -453,33 +329,42 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera todos los estados Kanban asociados a un artista, junto con las comisiones.  
 - **Categoría:**  
-  Bien hecha
+  Bien hecha.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Un objeto que contiene dos listas: una de *StatusKanbanDTO* y otra de *StatusKanbanWithCommisionsDTO*.  
+  - **Respuesta JSON:** Un objeto (Pair) que contiene dos listas: una de *StatusKanbanDTO* y otra de *StatusKanbanWithCommisionsDTO*. Swagger no se lleva bien con Pair así que no sabe representarlo, ¿quizá con un DTO para englobar las dos listas? O colocar un @Operation.
     _Ejemplo (estructura sugerida):_
     ```json
-    {
-      "statusKanban": [
         {
-          "id": 1,
-          "color": "green",
-          "name": "In Review",
-          "order": 4
-        }
-      ],
-      "statusKanbanWithCommisions": [
-        {
-          "id": 2,
-          "color": "blue",
-          "name": "Completed",
-          "commissions": [
-            { "id": 10, "nombre": "Comisión 10", "estado": "Completed" }
-          ]
-        }
-      ]
-    }
+        "normalStatus": [
+          {
+            "id": 1,
+            "name": "Boceto",
+            "order": 1,
+            "description": "Etapa inicial del pedido",
+            "color": "#FF5733"
+          },
+          {
+            "id": 2,
+            "name": "Línea",
+            "order": 2,
+            "description": "Líneas finalizadas",
+            "color": "#33C1FF"
+          }
+        ],
+        "statusWithCommissions": [
+          {
+            "id": 10,
+            "name": "Nosequeponer",
+            "description": "Coloreado terminado",
+            "price": 75.5,
+            "paymentArrangement": "MEDIADOR",
+            "statusKanbanName": "Color",
+            "clientUsername": "emilio"
+          }
+        ]
+      }
     ```
 
 ---
@@ -488,19 +373,11 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Avanza el estado de una comisión al siguiente estado Kanban, utilizando el ID proporcionado.
 - **Categoría:**  
-  Bien hecha
+  A actualizar. Devuelve un objeto commission, pero para un put no es necesario, incluso si lo fuera, habría que devolver un DTO.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado actual o de la comisión.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Commision* actualizado tras avanzar de estado.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 10,
-      "nombre": "Comisión 10",
-      "estado": "In Progress"
-    }
-    ```
 
 ---
 
@@ -508,19 +385,11 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Retrocede el estado de una comisión al estado anterior en el Kanban, utilizando el ID proporcionado.
 - **Categoría:**  
-  Bien hecha
+  A actualizar. Devuelve un objeto commission, pero para un put no es necesario, incluso si lo fuera, habría que devolver un DTO.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado actual o de la comisión.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Commision* actualizado tras retroceder de estado.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 10,
-      "nombre": "Comisión 10",
-      "estado": "Pending"
-    }
-    ```
+  - **Respuesta JSON:** Objeto *Commision* actualizado tras retroceder de estado. 
 
 ---
 
@@ -528,22 +397,11 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera un estado Kanban específico, identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No usada. Creo que no tiene lógica, quizá sería mejor eliminarla. En caso de que no, al menos devolver un DTO y no el objeto.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Integer): Identificador del estado Kanban.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *StatusKanbanOrder* si se encuentra, o un error en caso de no hallarlo.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 1,
-      "color": "green",
-      "description": "Actualizado a verde",
-      "name": "In Review",
-      "artistId": 101,
-      "order": 4
-    }
-    ```
 
 ---
 
@@ -553,7 +411,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Crea una nueva comisión para un artista específico.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `artistId` (Long): Identificador del artista al que se asignará la comisión.
@@ -561,26 +419,28 @@ En este apartado se documentarán todos los controladores actuales organizados p
     _Ejemplo (estructura genérica):_
     ```json
     {
-      "titulo": "Encargo de retrato",
-      "descripcion": "Retrato al óleo de 50x70 cm",
-      "fechaEntrega": "2025-04-15",
-      "presupuesto": 250.0
-    }
+  "name": "Retrato estilo anime",
+  "description": "Un retrato de busto en estilo anime, con fondo sencillo.",
+  "image": "iVBORw0KGgoAAAANSUhEUgAAAAUA...", 
+  "milestoneDate": "2025-04-10T00:00:00.000Z",
+  "price": 45.99
+  }
+
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Commision* creado, que incluye el identificador generado y los datos enviados.  
-    _Ejemplo:_
+  - **Respuesta JSON:** Objeto *Commision* creado, que incluye el identificador generado y los datos enviados. 
+  - **DTO necesario:** 
+    _Modificar ofreciendo un DTO que tenga: (Confirmar con front por si acaso, creo que sería el mismo que para el GET por id)_
     ```json
     {
-      "id": 10,
-      "titulo": "Encargo de retrato",
-      "descripcion": "Retrato al óleo de 50x70 cm",
-      "fechaEntrega": "2025-04-15",
-      "presupuesto": 250.0,
-      "estado": "Creada",
-      "artistId": 101
+      "id": 1,
+      "price": 33,
+      "description": "uhuweujcnjkeh",
+      "name": "aaa",
+      "artistUsername": "yellow"
     }
-    ```
+    ``` 
+
 
 ---
 
@@ -588,31 +448,34 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Solicita cambios en una comisión existente.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `commisionId` (Long): Identificador de la comisión a modificar.
   - **Payload JSON:** Objeto *CommisionDTO* con los nuevos datos o cambios solicitados.  
     _Ejemplo:_
     ```json
-    {
-      "titulo": "Encargo de retrato (Modificado)",
-      "descripcion": "Se solicita mayor detalle en el fondo",
-      "fechaEntrega": "2025-04-20"
+        {
+      "name": "Retrato digital a color",
+      "description": "Ilustración de personaje completo en estilo semirrealista.",
+      "price": 60.0,
+      "paymentArrangement": "HALF_UPFRONT",
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAAUA...", 
+      "milestoneDate": "2025-04-15T00:00:00.000Z"
     }
+
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Commision* actualizado con los cambios solicitados.  
-    _Ejemplo:_
+  - **Respuesta JSON:** Objeto *Commision* actualizado con los cambios solicitados. No sé si es necesario que este put devuelva nada.
+    - **DTO necesario:** 
+    _Modificar ofreciendo un DTO que tenga: (Confirmar con front por si acaso, creo que sería el mismo que para el GET por id)_
     ```json
     {
-      "id": 10,
-      "titulo": "Encargo de retrato (Modificado)",
-      "descripcion": "Se solicita mayor detalle en el fondo",
-      "fechaEntrega": "2025-04-20",
-      "presupuesto": 250.0,
-      "estado": "Cambios solicitados",
-      "artistId": 101
+      "id": 1,
+      "price": 33,
+      "description": "uhuweujcnjkeh",
+      "name": "aaa",
+      "artistUsername": "yellow"
     }
     ```
 
@@ -622,34 +485,11 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la lista completa de comisiones.
 - **Categoría:**  
-  Bien hecha
+  No se usa, quizá es útil para admin. Pero a saber. Si no, eliminar.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Lista de objetos *Commision*.  
-    _Ejemplo:_
-    ```json
-    [
-      {
-        "id": 10,
-        "titulo": "Encargo de retrato",
-        "descripcion": "Retrato al óleo de 50x70 cm",
-        "fechaEntrega": "2025-04-15",
-        "presupuesto": 250.0,
-        "estado": "Creada",
-        "artistId": 101
-      },
-      {
-        "id": 11,
-        "titulo": "Ilustración digital",
-        "descripcion": "Ilustración para portada de libro",
-        "fechaEntrega": "2025-05-01",
-        "presupuesto": 300.0,
-        "estado": "En progreso",
-        "artistId": 102
-      }
-    ]
-    ```
+  - **Respuesta JSON:** Lista de objetos *Commision*. Quizá debería devolver DTOs. 
 
 ---
 
@@ -657,25 +497,11 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la lista de comisiones que han solicitado cambios.
 - **Categoría:**  
-  Bien hecha
+  No se usa, lo mismo que la anterior, quizá es útil para admin. Si no, eliminar.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Lista de objetos *Commision* con estado de "cambios solicitados" o similar.  
-    _Ejemplo:_
-    ```json
-    [
-      {
-        "id": 10,
-        "titulo": "Encargo de retrato (Modificado)",
-        "descripcion": "Se solicita mayor detalle en el fondo",
-        "fechaEntrega": "2025-04-20",
-        "presupuesto": 250.0,
-        "estado": "Cambios solicitados",
-        "artistId": 101
-      }
-    ]
-    ```
+  - **Respuesta JSON:** Lista de objetos *Commision* con estado "requested" o similar. Quizá debería devolver DTOs.
 
 ---
 
@@ -690,14 +516,17 @@ En este apartado se documentarán todos los controladores actuales organizados p
   - **Respuesta JSON:** Lista de objetos *ClientCommissionDTO* con la información relevante para clientes.  
     _Ejemplo:_
     ```json
-    [
-      {
-        "id": 10,
-        "titulo": "Encargo de retrato",
-        "cliente": "Juan Pérez",
-        "estado": "Creada"
-      }
-    ]
+      [
+    {
+      "image": [
+        "string"
+      ],
+      "name": "string",
+      "artistUsername": "string",
+      "currentStep": 0,
+      "totalSteps": 0
+    }
+  ]
     ```
 
 ---
@@ -706,22 +535,21 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera una comisión específica, identificada por su ID.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Commision* si se encuentra, o un error 404 si no existe.  
-    _Ejemplo:_
+  - **Respuesta JSON:** Objeto *Commision* si se encuentra, o un error 404 si no existe.
+  - **DTO necesario:** 
+    _Modificar ofreciendo un DTO que tenga:_
     ```json
     {
-      "id": 10,
-      "titulo": "Encargo de retrato",
-      "descripcion": "Retrato al óleo de 50x70 cm",
-      "fechaEntrega": "2025-04-15",
-      "presupuesto": 250.0,
-      "estado": "Creada",
-      "artistId": 101
+      "id": 1,
+      "price": 33,
+      "description": "uhuweujcnjkeh",
+      "name": "2025-04-15",
+      "artistUsername": "yellow"
     }
     ```
 
@@ -731,28 +559,15 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Actualiza el estado de una comisión según la aceptación (aprobación o rechazo) enviada como parámetro.
 - **Categoría:**  
-  Bien hecha
+  No se usa pero debería usarse. A modificar igualmente.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión a actualizar.
   - **Request Parameter:**  
     - `accept` (boolean): Indicador de aprobación (`true`) o rechazo (`false`).
-  _Ejemplo de URL:_  
-  `/api/v1/commisions/10/status?accept=true`
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 10,
-      "titulo": "Encargo de retrato",
-      "descripcion": "Retrato al óleo de 50x70 cm",
-      "fechaEntrega": "2025-04-15",
-      "presupuesto": 250.0,
-      "estado": "Aceptada",
-      "artistId": 101
-    }
-    ```
+  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
+    - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
 
 ---
 
@@ -760,14 +575,12 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Cancela una comisión, verificando el identificador del cliente.
 - **Categoría:**  
-  Bien hecha
+  No se usa, pero lo mismo que para el anterior. A editar igualmente.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión a cancelar.
   - **Request Parameter:**  
-    - `clientId` (Long): Identificador del cliente que solicita la cancelación.
-  _Ejemplo de URL:_  
-  `/api/v1/commisions/cancel/10?clientId=55`
+    - `clientId` (Long): Identificador del cliente que solicita la cancelación. **Debería usar findCurrentUser()**
 - **Datos que devuelven:**  
   - **Respuesta:**  
     Un mensaje confirmando la cancelación, por ejemplo:  
@@ -782,7 +595,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Realiza la búsqueda de obras (*Work*) en función de parámetros como consulta de texto y rango de precios.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Request Parameters:**  
     - `query` (String, opcional): Texto a buscar en las obras.
@@ -791,17 +604,18 @@ En este apartado se documentarán todos los controladores actuales organizados p
     - `page` (int, opcional, default: 0): Número de página.
     - `size` (int, opcional, default: 10): Tamaño de la página.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Página (*Page*) de objetos *Work*.  
+  - **Respuesta JSON:** Página (*Page*) de objetos *Work*. 
+  - **Debería devolver Page de DTOs tal que tengan los atributos:** id, image, name, artistUsername, description
     _Ejemplo:_
     ```json
     {
       "content": [
         {
           "id": 1,
-          "titulo": "Obra Ejemplo",
+          "name": "Obra Ejemplo",
           "descripcion": "Descripción de la obra",
-          "precio": 150.0,
-          "artistId": 101
+          "image": "ixdwjeicjewcjikejmjckejmjmcojmk", //No sé cómo se ve una imagen en un DTO
+          "artistUsername": "yellow"
         }
       ],
       "pageable": {
@@ -819,7 +633,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Realiza la búsqueda de artistas según criterios como consulta de texto y mínimo de obras realizadas.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Request Parameters:**  
     - `query` (String, opcional): Texto a buscar en los artistas.
@@ -828,23 +642,23 @@ En este apartado se documentarán todos los controladores actuales organizados p
     - `size` (int, opcional, default: 10): Tamaño de la página.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Página (*Page*) de objetos *Artist*.  
+  - **Debería devolver Page de DTOs tal que tengan los atributos:** id(de artista), username (de artista), profilePic (de artista)
     _Ejemplo:_
     ```json
     {
       "content": [
         {
-          "id": 101,
-          "nombre": "Artista Ejemplo",
-          "biografia": "Breve biografía...",
-          "numeroObras": 15
+          "id": 1,
+          "username": "yellow",
+          "profilePic": "lkxdwesdxcnlknklwejl" //imagen
         }
       ],
       "pageable": {
         "pageNumber": 0,
         "pageSize": 10
       },
-      "totalElements": 20,
-      "totalPages": 2
+      "totalElements": 50,
+      "totalPages": 5
     }
     ```
 
@@ -854,7 +668,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Busca las obras (*Work*) asociadas a un artista específico.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `artistId` (Integer): Identificador del artista.
@@ -863,26 +677,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
     - `size` (int, opcional, default: 10): Tamaño de la página.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Página (*Page*) de objetos *Work* filtrados por el artista indicado.  
-    _Ejemplo:_
-    ```json
-    {
-      "content": [
-        {
-          "id": 1,
-          "titulo": "Obra del Artista",
-          "descripcion": "Descripción de la obra",
-          "precio": 200.0,
-          "artistId": 101
-        }
-      ],
-      "pageable": {
-        "pageNumber": 0,
-        "pageSize": 10
-      },
-      "totalElements": 5,
-      "totalPages": 1
-    }
-    ```
+  - **No se usa así que devolver Page de DTO que necesite el frontend en caso de que se use.**
 
 ---
 
@@ -890,7 +685,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Realiza una búsqueda global combinada de obras (*Work*) y artistas (*Artist*) utilizando múltiples criterios.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Request Parameters:**  
     - `query` (String, opcional): Texto a buscar en obras y artistas.
@@ -901,41 +696,18 @@ En este apartado se documentarán todos los controladores actuales organizados p
     - `size` (int, opcional, default: 10): Tamaño de la página.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Página (*Page*) de objetos heterogéneos (pueden ser *Artist* o *Work*), según los criterios de búsqueda.  
-    _Ejemplo:_
-    ```json
-    {
-      "content": [
-        {
-          "id": 101,
-          "nombre": "Artista Ejemplo",
-          "biografia": "Breve biografía...",
-          "numeroObras": 15
-        },
-        {
-          "id": 1,
-          "titulo": "Obra Ejemplo",
-          "descripcion": "Descripción de la obra",
-          "precio": 150.0,
-          "artistId": 101
-        }
-      ],
-      "pageable": {
-        "pageNumber": 0,
-        "pageSize": 10
-      },
-      "totalElements": 30,
-      "totalPages": 3
-    }
-    ```
+  - **Devolver Pages de los DTOs pertinentes si es que se va a usar este método.**
 ---
 
 ### StripeConnectController
+
+En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mucho cuidado.
 
 #### GET (/api/v1/stripe-account/all)
 - **Descripción:**  
   Recupera la lista de todas las cuentas conectadas de Stripe.
 - **Categoría:**  
-  Bien hecha
+  No se usa, ¿quizá para admin?
 - **Datos que reciben:**  
   - No se requieren parámetros.
 - **Datos que devuelven:**  
@@ -962,7 +734,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera los detalles de una cuenta de Stripe específica, identificada por su ID.
 - **Categoría:**  
-  Bien hecha
+  No se usa. Hablar con Joaquín para ver cómo se usa.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `accountId` (String): Identificador de la cuenta de Stripe.
@@ -984,7 +756,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Crea una nueva cuenta conectada en Stripe.
 - **Categoría:**  
-  Bien hecha
+  Bien hecha. 
 - **Datos que reciben:**  
   - No se recibe payload en el cuerpo de la solicitud.
 - **Datos que devuelven:**  
@@ -1018,26 +790,19 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera un trabajo específico (*Work*) identificado por su ID.
 - **Categoría:**  
-  ```No usado```
+  No se usa
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del trabajo a recuperar.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Work* si se encuentra, o un error 404 si no existe.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 5,
-      "titulo": "Título de la obra",
-      "descripcion": "Descripción de la obra",
-      "precio": 200.0,
-      "artistId": 101
-    }
-    ```
+  - **Respuesta JSON:** Objeto *Work* si se encuentra, o un error 404 si no existe. 
+  - **DTO a discutir con frontend.**
 
 ---
 
 ### AuthController
+
+**Por favor, hay que tener mucho cuidado con esta parte.**
 
 #### POST (/api/v1/auth/signin)
 - **Descripción:**  
@@ -1053,14 +818,13 @@ En este apartado se documentarán todos los controladores actuales organizados p
     }
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *JwtResponse* con el token JWT, el ID del usuario, su nombre de usuario y roles.  
+  - **Respuesta JSON:** Objeto *JwtResponse* con el token JWT, el ID del usuario, su nombre de usuario y rol.  
     _Ejemplo:_
     ```json
     {
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
       "id": 123,
-      "username": "usuarioEjemplo",
-      "roles": ["ROLE_USER", "ROLE_ADMIN"]
+      "username": "usuarioEjemplo"
     }
     ```
   - En caso de credenciales incorrectas, se devuelve un mensaje de error ("Bad Credentials!") con estado 400.
@@ -1071,7 +835,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Valida la validez de un token JWT.
 - **Categoría:**  
-  Bien hecha
+  No se usa.
 - **Datos que reciben:**  
   - **Request Parameter:**  
     - `token` (String): El token JWT a validar.
@@ -1114,7 +878,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Actualiza la información de un usuario existente. Se espera un objeto *SignupRequest* en el cuerpo de la solicitud.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Payload JSON:** Objeto *SignupRequest* con la información actualizada del usuario.  
     _Ejemplo:_
@@ -1139,7 +903,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Elimina un usuario identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Path/Request Parameter:**  
     - `id` (Long): Identificador del usuario a eliminar.
@@ -1154,34 +918,18 @@ En este apartado se documentarán todos los controladores actuales organizados p
 
 ### ReportController
 
+**Este apartado requiere una investigación más a fondo. Es posible que haya llamadas que no existen/se hayan cambiado. Hablar con Daniel.**
+
 #### GET (/api/v1/reports/admin)
 - **Descripción:**  
   Recupera la lista completa de reportes, destinado para el administrador.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - No se requieren parámetros.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Lista de objetos *Report*.  
-    _Ejemplo:_
-    ```json
-    [
-      {
-        "id": 1,
-        "motivo": "Contenido inapropiado",
-        "descripcion": "El contenido viola las normas.",
-        "estado": "Pendiente"
-      },
-      {
-        "id": 2,
-        "motivo": "Spam",
-        "descripcion": "Publicación repetitiva de anuncios.",
-        "estado": "Pendiente"
-      }
-    ]
-    ```
-- **Notas:**  
-  En caso de error, se devuelven mensajes de error apropiados con códigos HTTP 400 o 500.
+  - **DTO a discutir con frontend.**
 
 ---
 
@@ -1189,7 +937,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Crea un nuevo reporte utilizando los datos proporcionados en un objeto *ReportDTO*.
 - **Categoría:**  
-  Bien hecha
+  A modificar. Posiblemente en front a este método se le está llamando por otra ruta ("reports/reportcreate" o algo similar)
 - **Datos que reciben:**  
   - **Payload JSON:** Objeto *ReportDTO* que contiene la información del reporte.  
     _Ejemplo:_
@@ -1202,16 +950,15 @@ En este apartado se documentarán todos los controladores actuales organizados p
     }
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *Report* creado, con todos los campos asignados (incluyendo el identificador generado).  
-    _Ejemplo:_
+  - **Respuesta JSON:** Objeto *Report* creado, con todos los campos asignados (incluyendo el identificador generado). 
+  - **DTO necesario:** Que se pase el name, la descripción y el status. Hablar con front de todos modos. 
+    _DTO que se necesita:_
     ```json
     {
       "id": 3,
-      "motivo": "Contenido inapropiado",
+      "name": "Contenido inapropiado",
       "descripcion": "La publicación contiene lenguaje ofensivo.",
-      "estado": "Pendiente",
-      "reportadoId": 45,
-      "tipo": "Usuario"
+      "status": "Pendiente"
     }
     ```
 
@@ -1221,23 +968,13 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Acepta un reporte específico, cambiando su estado a aceptado.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del reporte a aceptar.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Report* actualizado, reflejando el nuevo estado (aceptado).  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 3,
-      "motivo": "Contenido inapropiado",
-      "descripcion": "La publicación contiene lenguaje ofensivo.",
-      "estado": "Aceptado",
-      "reportadoId": 45,
-      "tipo": "Usuario"
-    }
-    ```
+  - **De necesitar respuesta, pasar un DTO, si no, no devolver nada.**
 
 ---
 
@@ -1245,23 +982,13 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Rechaza un reporte específico, cambiando su estado a rechazado.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del reporte a rechazar.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Report* actualizado, reflejando el nuevo estado (rechazado).  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 3,
-      "motivo": "Contenido inapropiado",
-      "descripcion": "La publicación contiene lenguaje ofensivo.",
-      "estado": "Rechazado",
-      "reportadoId": 45,
-      "tipo": "Usuario"
-    }
-    ```
+  - **De necesitar respuesta, pasar un DTO, si no, no devolver nada.**
 
 ---
 
@@ -1269,7 +996,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Elimina un reporte específico, destinado para el administrador.
 - **Categoría:**  
-  Bien hecha
+  No sé si se usa.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del reporte a eliminar.
@@ -1286,7 +1013,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la lista de tipos de reportes disponibles.
 - **Categoría:**  
-  Bien hecha
+  No sé si se usa.
 - **Datos que reciben:**  
   - No se requieren parámetros.
 - **Datos que devuelven:**  
@@ -1337,20 +1064,17 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la información de un artista específico, identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  A modificar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del artista.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Artist* con la información del artista.  
-    _Ejemplo:_
+  - **DTO necesario:** Un DTO que tenga el username y la foto de perfil del artista.
     ```json
     {
-      "id": 101,
       "username": "artistaEjemplo",
-      "nombre": "Nombre del Artista",
-      "biografia": "Breve descripción...",
-      "email": "artista@ejemplo.com"
+      "imageProfile": "kmxkldsxjmclkdwedxjwedkl" //imagen
     }
     ```
 
@@ -1360,7 +1084,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Elimina un artista identificado por su ID. Esta operación está destinada al uso del administrador.
 - **Categoría:**  
-  Bien hecha
+  Bien hecha aunque debería cambiarse la url.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del artista a eliminar.
@@ -1377,31 +1101,32 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera la información de un artista basado en su nombre de usuario.
 - **Categoría:**  
-  Bien hecha
+  A editar
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `username` (String): Nombre de usuario del artista.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Artist* con la información correspondiente.  
-    _Ejemplo:_
+  - **DTO necesario:** Un DTO que tenga el id, nombre, username y la foto de perfil del artista.
     ```json
     {
-      "id": 101,
+      "id": 1,
+      "name": "ejemploooo",
       "username": "artistaEjemplo",
-      "nombre": "Nombre del Artista",
-      "biografia": "Breve descripción...",
-      "email": "artista@ejemplo.com"
+      "imageProfile": "kmxkldsxjmclkdwedxjwedkl" //imagen
     }
     ```
 ---
 
 ### PaymentController
 
+Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react-stripe-js```. Hay que hablar con Joaquin de todos modos para pulir esta parte.
+
 #### GET (/api/v1/payment/{paymentIntentId})
 - **Descripción:**  
   Recupera la información de un PaymentIntent de Stripe identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `paymentIntentId` (String): Identificador del PaymentIntent.
@@ -1424,7 +1149,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera una colección de PaymentIntents.
 - **Categoría:**  
-  Bien hecha
+  No se usa, ¿quizá para admin?
 - **Datos que reciben:**  
   - No se requieren parámetros.
 - **Datos que devuelven:**  
@@ -1456,7 +1181,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Crea un nuevo PaymentIntent para una comisión específica.
 - **Categoría:**  
-  Bien hecha
+  Bien hecha (creo)
 - **Datos que reciben:**  
   - **Request Body:**  
     - Objeto *PaymentDTO* con los detalles necesarios para crear el PaymentIntent.  
@@ -1483,7 +1208,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Confirma un PaymentIntent utilizando su ID y un método de pago.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Request Parameters:**  
     - `paymentIntentId` (String): Identificador del PaymentIntent a confirmar.
@@ -1508,7 +1233,7 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Cancela un PaymentIntent utilizando su ID.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - **Request Parameter:**  
     - `paymentIntentId` (String): Identificador del PaymentIntent a cancelar.
@@ -1528,6 +1253,8 @@ En este apartado se documentarán todos los controladores actuales organizados p
 ---
 
 ### CategoryRestController
+
+La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
 
 #### GET (/api/v1/categories)
 - **Descripción:**  
@@ -1679,25 +1406,19 @@ En este apartado se documentarán todos los controladores actuales organizados p
 
 ### ClientRestController
 
+Un apunte es que es el controlador de Client pero las urls empiezan con users.
+
 #### GET (/api/v1/users/{id})
 - **Descripción:**  
   Recupera la información de un cliente específico, identificado por su ID.
 - **Categoría:**  
-  Bien hecha
+  No se usa.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador del cliente.
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Client* con la información del cliente.  
-    _Ejemplo:_
-    ```json
-    {
-      "id": 123,
-      "nombre": "Cliente Ejemplo",
-      "email": "cliente@ejemplo.com",
-      "rol": "CLIENT"
-    }
-    ```
+  - **En caso de usarse, hablar con front para DTO**
 
 ---
 
@@ -1705,24 +1426,12 @@ En este apartado se documentarán todos los controladores actuales organizados p
 - **Descripción:**  
   Recupera el perfil del usuario actual. Según los roles asignados, se devuelve la información correspondiente de un cliente o de un artista.
 - **Categoría:**  
-  Bien hecha
+  No se usa
 - **Datos que reciben:**  
   - No se requieren parámetros explícitos (se utiliza la autenticación para identificar al usuario actual).
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto con la información del perfil, que puede ser de tipo *Client* o *Artist*.  
-    _Ejemplo para un cliente:_
-    ```json
-    {
-      "id": 123,
-      "nombre": "Cliente Ejemplo",
-      "email": "cliente@ejemplo.com",
-      "rol": "CLIENT"
-    }
-    ```  
-    - En caso de error (por ejemplo, si el usuario no está autenticado), se devuelve un mensaje de error:
-    ```json
-    "No tienes perfil, tienes que loguearte"
-    ```
+  - **En caso de usarse, hablar con front para DTO**
 
 ---
 
@@ -1762,5 +1471,3 @@ En este apartado se documentarán todos los controladores actuales organizados p
 
 5. **Entrega y Ajustes:**  
    Se entrega la funcionalidad al **Frontend** para su integración y se recogen comentarios para realizar ajustes si fuese necesario.
-
-De WORKsdone: id de work, imagen del work, nombre del work, usarname del artista asociado y descripcion
