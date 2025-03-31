@@ -13,8 +13,8 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 29/03/2025  
-**Versión:** v1.0
+**Fecha:** 31/03/2025  
+**Versión:** v1.2
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos  
@@ -40,7 +40,7 @@
 | Miembro                      | Responsabilidad |
 |------------------------------|-----------------|
 | Nerea Jiménez Adorna         | Redactora       |
-| José María Portela Huerta    | Revisora        |
+| José María Portela Huerta    | Revisor y Corrector |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -50,11 +50,25 @@
 |---------|-------------|--------------------------------|----------------------|
 | v1.0    | 29/03/2025  | Creación del documento.        | Nerea Jiménez Adorna |
 | v1.1    | 30/03/2025  | Análisis de más endpoints       | Nerea Jiménez Adorna |
+| v1.2    | 31/03/2025  | Corrección de datos mal añadidos | José María Portela Huerta |
 
 ## Índice
 
 - [Introducción](#introducción)
 - [Análisis de endpoints](#análisis-de-endpoints)
+  - [WorksDoneController](#worksdonecontroller)
+  - [MilestoneController](#milestonecontroller)
+  - [StatusKanbanOrderController](#statuskanbanordercontroller)
+  - [CommisionController](#commisionController)
+  - [SearchController](#searchController)
+  - [StripeConnectController](#stripeconnectcontroller)
+  - [WorkController](#workcontroller)
+  - [AuthController](#authcontroller)
+  - [ReportController](#reportcontroller)
+  - [ArtistRestController](#artistrestcontroller)
+  - [PaymentController](#paymentcontroller)
+  - [CategoryRestController](#categoryrestcontroller)
+  - [ClientRestController](#clientrestcontroller)
 - [Metodología de trabajo](#metodología-de-trabajo)
 
 ---
@@ -78,6 +92,59 @@ En este apartado se documentarán todos los controladores actuales organizados p
 
 Este documento se irá editando conforme a las necesidades del equipo.
 
+### Formar DTOs:
+
+Por simplicidad al crear DTOs, y usarlos, es adecuado realizarlos con el siguiente formato:
+
+- SIEMPRE el uso de @Getter
+- OPCIONAL el uso de @AllArgsConstructor y @NoArgsConstructor, dependiendo de si se inserta directamente en las queries la DTO, con todos o ningún argumento los constructores.
+- Se crea la clase normal, con todos sus **atributos privados**
+- Se crea un método de la clase _sin static_, con el cuál, a partir de la DTO, se puede crear directamente lo que devuelve. Ej: De un statusKanbanDTO, que recibe el controlador, obtener el objeto de BBDD con `statusKanbanDTO.createStatusKanbanOrder()`.
+- Se crea un método de la clase _con static_ y _con parámetro de entrada el objeto del que hace DTO_ para que se pueda crear directamente el DTO. Ej: Dado un statusKanban, que se recibe de algún sitio, obtener el DTO con `StatusKanbanDTO.createDTO(statusKanban)`.
+
+```
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class StatusKanbanDTO {
+
+    private Long id;
+    
+    private String name;
+
+    private Integer order;
+
+    private String description;
+
+    private String color;
+
+    public StatusKanbanOrder createStatusKanbanOrder() {
+        StatusKanbanOrder statusKanban = new StatusKanbanOrder();
+        statusKanban.setName(this.getName());
+        statusKanban.setOrder(this.getOrder());
+        statusKanban.setDescription(this.getDescription());
+        statusKanban.setColor(this.getColor());
+        return statusKanban;
+    }
+
+    public static StatusKanbanDTO createDTO(StatusKanbanOrder statusKanban) {
+        StatusKanbanDTO dto = new StatusKanbanDTO();
+        dto.setId(statusKanban.getId());
+        dto.setName(statusKanban.getName());
+        dto.setOrder(statusKanban.getOrder());
+        dto.setDescription(statusKanban.getDescription());
+        dto.setColor(statusKanban.getColor());
+        return dto;
+    }
+}
+```
+
 ---
 
 ## Análisis de endpoints
@@ -90,7 +157,7 @@ Este documento se irá editando conforme a las necesidades del equipo.
 - **Categoría:**  
   No usado/Usar a futuro
 - **Datos que reciben:**  
-  - **Payload JSON:** Objeto *WorksDone* con los campos necesarios para la creación.  
+  - **Payload JSON (RequestBody):** Objeto *WorksDone* con los campos necesarios para la creación.  
     - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *WorksDone* creado, incluyendo el identificador generado y los datos enviados. 
@@ -113,12 +180,20 @@ Este documento se irá editando conforme a las necesidades del equipo.
     [
       {
         "id": 1,
-        "artistId": 123
+        "name": "Titulo de la obra",
+        "description": "Descripción de la obra",
+        "artist": {
+          "id": 123,
+          "imageProfile": [
+            "string"
+          ],
+          "username": "artist1"
+        },
+        "image": [
+          "string"
+        ]
       },
-      {
-        "id": 2,
-        "artistId": 124
-      }
+      ... (Igual que el de arriba, que es el DTO base de la lista de objetos)
     ]
     ```
 
@@ -184,9 +259,9 @@ Este documento se irá editando conforme a las necesidades del equipo.
   No usado/Usar a futuro/A modificar
 - **Datos que reciben:**  
   - **Path Variables:**  
-    - `artistId` (Long): Identificador del artista. **A MODIFICAR: Usar *findCurrentUser*.**
+    - `artistId` (Long): Identificador del artista. **A MODIFICAR: Usar *findCurrentUser*.** Y quitar esto de la ruta.
     - `worksDoneId` (Long): Identificador del registro de *WorksDone* a actualizar.
-  - **Payload JSON:** Objeto *WorksDone* actualizado.  
+  - **Payload JSON (RequestBody):** Objeto *WorksDone* actualizado.  
     - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *WorksDone* actualizado con los datos modificados. Quizá es mejor no devolver nada.
@@ -203,7 +278,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Categoría:**  
   No usado.
 - **Datos que reciben:**  
-  - **Payload JSON:** Objeto *Milestone* con los campos necesarios para la creación.  
+  - **Payload JSON (RequestBody):** Objeto *Milestone* con los campos necesarios para la creación.  
       - **DTO a discutir con frontend.**
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Milestone* creado, que incluye el identificador generado y los datos enviados.  
@@ -258,13 +333,15 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Categoría:**  
   A modificar/No usado
 - **Datos que reciben:**  
-  - **Request Parameters:**  Debería recibir un objeto StatusKanbanOrder y no los parámetros. 
+  - **Payload JSON (RequestBody):**  Debería recibir un objeto StatusKanbanOrder y no por parámetros. El objeto debe incluir:
     - `color` (String): Color del estado.
     - `description` (String): Descripción del estado.
     - `nombre` (String): Nombre del estado.
-    - `artistId` (Integer): Identificador del artista.
+    - `artistId` (Integer): ESTO NO, HACER CON `findCurrentUser`.
+    - `order` (Integer): TAMPOCO, CALCULAR AUTOMÁTICAMENTE LA ÚLTIMA POSICIÓN CONTANDO EL NÚMERO DE STATUSKANBAN +1.
+  - **Nota**: al copiar los datos, se puede hacer un DTO con lo de arriba, siempre y cuando luego se ignore tanto el artistId y order de lo que venga del frontend. Para reducir DTOs.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* creado.  
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO creado.  
     - **DTO a discutir con frontend.**
 
 ---
@@ -273,12 +350,12 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Actualiza el estado Kanban con la información enviada en el cuerpo de la solicitud.
 - **Categoría:**  
-  No usado
+  No usado, cambiar el método con validaciones.
 - **Datos que reciben:**  
-  - **Payload JSON:** Objeto *StatusKanbanOrder* con todos los campos necesarios para la actualización.  
+  - **Payload JSON (RequestBody):** Objeto *StatusKanbanOrder* con todos los campos necesarios para la actualización.  
     - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado. Quizá es mejor no devolver nada.
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO actualizado. Quizá es mejor no devolver nada.
 
 ---
 
@@ -286,13 +363,13 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Actualiza atributos específicos (color, descripción y nombre) del estado Kanban identificado por su ID.
 - **Categoría:**  
-  No usado. Parece que duplica el anterior. A eliminar si es el caso.
+  No usado. Parece que duplica el anterior. A eliminar.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado.
-  - **Payload JSON:** Objeto *StatusKanbanOrder* con los nuevos valores para color, descripción y nombre.  
+  - **Payload JSON (RequestBody):** Objeto *StatusKanbanOrder* con los nuevos valores para color, descripción y nombre.  
     - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* con los atributos actualizados.  Quizá es mejor no devolver nada.
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO con los atributos actualizados.  Quizá es mejor no devolver nada.
 
 ---
 
@@ -303,13 +380,13 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
   No usado. Investigar si se va a usar para algo.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Long): Identificador del estado.
-  - **Payload JSON:** Un número entero que representa el nuevo orden.  
+  - **Payload JSON (RequestBody):** Un número entero que representa el nuevo orden.  
     _Ejemplo:_
     ```json
     4
     ```
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* actualizado con el nuevo orden. Quizá es mejor no devolver nada.
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO actualizado con el nuevo orden. Quizá es mejor no devolver nada.
 
 ---
 
@@ -317,7 +394,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Elimina el estado Kanban identificado por su ID.
 - **Categoría:**  
-  No usada.
+  No usada. Se usará.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Integer): Identificador del estado a eliminar.
 - **Datos que devuelven:**  
@@ -337,7 +414,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
     _Ejemplo (estructura sugerida):_
     ```json
         {
-        "normalStatus": [
+        "first": [
           {
             "id": 1,
             "name": "Boceto",
@@ -353,7 +430,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
             "color": "#33C1FF"
           }
         ],
-        "statusWithCommissions": [
+        "second": [
           {
             "id": 10,
             "name": "Nosequeponer",
@@ -366,6 +443,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
         ]
       }
     ```
+  - Si se llega a implementar por DTO, cambiar nombre de first y second por algo más legible, y avisar a Frontend para que realice los cambios de nombre.
 
 ---
 
@@ -397,15 +475,19 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Recupera un estado Kanban específico, identificado por su ID.
 - **Categoría:**  
-  No usada. Creo que no tiene lógica, quizá sería mejor eliminarla. En caso de que no, al menos devolver un DTO y no el objeto.
+  No usada. Debe devolver un DTO y no el objeto. Sirve para cuando queramos actualizar los datos de un statusKanban.
 - **Datos que reciben:**  
   - **Path Variable:** `id` (Integer): Identificador del estado Kanban.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* si se encuentra, o un error en caso de no hallarlo.  
+  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO si se encuentra, o un error en caso de no hallarlo.  
 
 ---
 
 ### CommisionController
+
+Antes de entrar en esta parte, comentar cómo se gestionarán los distintos estados en los que se encontrará una comisión, con un diagrama de estados:
+
+![Estados de una comisión](/static/img/Estados_pedido_comision.png)
 
 #### POST (/api/v1/commisions/{artistId})
 - **Descripción:**  
@@ -415,23 +497,23 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `artistId` (Long): Identificador del artista al que se asignará la comisión.
-  - **Payload JSON:** Objeto *CommisionRequestDTO* con los campos necesarios para la creación de la comisión.  
+  - **Payload JSON (RequestBody):** Objeto *CommisionRequestDTO* con los campos necesarios para la creación de la comisión.  
     _Ejemplo (estructura genérica):_
-    ```json
+    ```
     {
-  "name": "Retrato estilo anime",
-  "description": "Un retrato de busto en estilo anime, con fondo sencillo.",
-  "image": "iVBORw0KGgoAAAANSUhEUgAAAAUA...", 
-  "milestoneDate": "2025-04-10T00:00:00.000Z",
-  "price": 45.99
-  }
+      "name": "Retrato estilo anime",
+      "description": "Un retrato de busto en estilo anime, con fondo sencillo.",
+      "image": "iVBORw0KGgoAAAANSUhEUgAAAAUA...", 
+      "milestoneDate": "2025-04-10T00:00:00.000Z",
+      "price": 45.99
+    }
 
     ```
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Commision* creado, que incluye el identificador generado y los datos enviados. 
   - **DTO necesario:** 
     _Modificar ofreciendo un DTO que tenga: (Confirmar con front por si acaso, creo que sería el mismo que para el GET por id)_
-    ```json
+    ```
     {
       "id": 1,
       "price": 33,
@@ -459,7 +541,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
       "name": "Retrato digital a color",
       "description": "Ilustración de personaje completo en estilo semirrealista.",
       "price": 60.0,
-      "paymentArrangement": "HALF_UPFRONT",
+      "paymentArrangement": "FIFTY_FIFTY",
       "image": "iVBORw0KGgoAAAANSUhEUgAAAAUA...", 
       "milestoneDate": "2025-04-15T00:00:00.000Z"
     }
@@ -485,7 +567,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Recupera la lista completa de comisiones.
 - **Categoría:**  
-  No se usa, quizá es útil para admin. Pero a saber. Si no, eliminar.
+  No se usa. Eliminar.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
@@ -497,7 +579,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Recupera la lista de comisiones que han solicitado cambios.
 - **Categoría:**  
-  No se usa, lo mismo que la anterior, quizá es útil para admin. Si no, eliminar.
+  No se usa por parte del Frontend. Sirve para la parte de solicitud de una comisión de un artista o cliente, según se esté logueado. Para la parte de encargos pedidos o con modificaciones de estos. Pero mejor usar los servicios de este en el siguiente endpoint, y quedarnos con el endpoint más descriptivo para la tarea, que servirá tanto para artistas como clientes.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
@@ -509,24 +591,58 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Recupera la lista de comisiones solicitadas por clientes, formateadas como *ClientCommissionDTO*.
 - **Categoría:**  
-  Bien hecha
+  Bien hecha, pero a mejorar.
 - **Datos que reciben:**  
   - No requiere parámetros.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Lista de objetos *ClientCommissionDTO* con la información relevante para clientes.  
+  - **Respuesta JSON:** Lista de objetos *ClientCommissionDTO* con la información relevante para clientes y artistas. requested tiene los estados REQUESTED, WAITING_ARTIST y WAITING_CLIENT. accepted es que está Aceptado, con su kanban y demás, `Ya implementado adecuadamente`. Y el resto de estados se encuentran en history.
     _Ejemplo:_
     ```json
-      [
     {
-      "image": [
-        "string"
+      "requested": [
+        {
+          "id": 1,
+          "name": "string",
+          "description": "string",
+          "price": 0,
+          "status": "REQUESTED",
+          "paymentArrangement": "FIFTY_FIFTY",
+          "milestoneDate": 2025-04-11,
+          "artistUsername": "artist1",
+          "clientUsername": "client1",
+          "image": [
+            "string"
+          ]
+        },...
       ],
-      "name": "string",
-      "artistUsername": "string",
-      "currentStep": 0,
-      "totalSteps": 0
+      "accepted": [
+        {
+          "name": "string",
+          "artistUsername": "string",
+          "currentStep": 0,
+          "totalSteps": 0,
+          "image": [
+            "string"
+          ]
+        },...
+      ],
+      "history": [
+        {
+          "id": 1,
+          "name": "string",
+          "description": "string",
+          "price": 0,
+          "status": "NOT_PAID_YET",
+          "paymentArrangement": "FIFTY_FIFTY",
+          "milestoneDate": 2025-04-11,
+          "artistUsername": "artist1",
+          "clientUsername": "client1",
+          "image": [
+            "string"
+          ]
+        },...
+      ]
     }
-  ]
     ```
 
 ---
@@ -546,11 +662,17 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
     ```json
     {
       "id": 1,
-      "price": 33,
+      "name": "string",
       "description": "uhuweujcnjkeh",
-      "name": "2025-04-15",
-      "artistUsername": "yellow"
-    }
+      "price": 33,
+      "artistUsername": "yellow",
+      "status": "REQUESTED",
+      "paymentArrangement": "FIFTY_FIFTY",
+      "milestoneDate": 2025-04-11,
+      "clientUsername": "client1",
+      "image": [
+        "string"
+      ]
     ```
 
 ---
@@ -559,7 +681,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 - **Descripción:**  
   Actualiza el estado de una comisión según la aceptación (aprobación o rechazo) enviada como parámetro.
 - **Categoría:**  
-  No se usa pero debería usarse. A modificar igualmente.
+  No se usa. A eliminar.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión a actualizar.
@@ -571,9 +693,106 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
+#### PUT (/api/v1/commisions/{commisionId}/reject)
+- **Descripción:**  
+  Actualiza el estado de una comisión rechazándola.
+- **Categoría:**  
+  No está hecho. Implementar
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `id` (Long): Identificador de la comisión a actualizar.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
+    - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
+
+---
+
+#### PUT (/api/v1/commisions/{commisionId}/waiting)
+- **Descripción:**  
+  Actualiza el estado de una comisión a espera de confirmación de la otra parte.
+- **Categoría:**  
+  No está hecho. Implementar
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `id` (Long): Identificador de la comisión a actualizar.
+  - **Payload JSON (Request body):**
+    ```
+    {
+      "id": 1,
+      "name": "string",
+      "description": "string",
+      "price": 0,
+      "status": "WAITING_CLIENT",
+      "paymentArrangement": "FIFTY_FIFTY",
+      "milestoneDate": 2025-04-11,
+      "artistUsername": "artist1",
+      "clientUsername": "client1",
+      "image": [
+        "string"
+      ]
+    }
+    ```
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
+    - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
+
+**NOTA**: No es necesario el status, pues este dato debemos cambiarlo nosotros automáticamente desde el propio backend, para evitar hackeos. Está añadido para usar un DTO común, más cómodo que varios distintos.
+
+---
+
+#### PUT (/api/v1/commisions/{commisionId}/toPay)
+- **Descripción:**  
+  Actualiza el estado de una comisión siendo la confirmación de la otra parte de estar en de acuerdo.
+- **Categoría:**  
+  No está hecho. Implementar
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `id` (Long): Identificador de la comisión a actualizar.
+  - **Payload JSON (Request body):**
+    ```
+    {
+      "id": 1,
+      "name": "string",
+      "description": "string",
+      "price": 0,
+      "status": "NOT_PAID_YET",
+      "paymentArrangement": "FIFTY_FIFTY",
+      "milestoneDate": 2025-04-11,
+      "artistUsername": "artist1",
+      "clientUsername": "client1",
+      "image": [
+        "string"
+      ]
+    }
+    ```
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
+    - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
+
+**NOTA**: No es necesario el status, pues este dato debemos cambiarlo nosotros automáticamente desde el propio backend, para evitar hackeos. Está añadido para usar un DTO común, más cómodo que varios distintos.
+
+---
+
+#### PUT (/api/v1/commisions/{commisionId}/accept)
+`PLANTEARNOS SI SE DEBERÍA HACER AUTOMÁTICO JUNTO AL PAGO`
+- **Descripción:**  
+  Actualiza el estado de una comisión a IN_WAIT_LIST o ACCEPTED, dependiendo de cómo de libre por los slots esté el artista. Existe un método fácil para calcular si hay huecos y demás.
+- **Categoría:**  
+  No está hecho. Implementar
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `id` (Long): Identificador de la comisión a actualizar.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
+    - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
+
+**NOTA**: No es necesario el status, pues este dato debemos cambiarlo nosotros automáticamente desde el propio backend, para evitar hackeos. Está añadido para usar un DTO común, más cómodo que varios distintos.
+
+---
+
 #### PUT (/api/v1/commisions/cancel/{id})
 - **Descripción:**  
-  Cancela una comisión, verificando el identificador del cliente.
+  Cancela una comisión, verificando el identificador del cliente. IMPORTANTE: Si la comisión está en IN_WAIT_LIST, se devuelve todo el dinero al cliente, pero si ya se ha pasado a ACCEPTED, se sigue el proceso habitual según el método de pago.
 - **Categoría:**  
   No se usa, pero lo mismo que para el anterior. A editar igualmente.
 - **Datos que reciben:**  
@@ -937,9 +1156,9 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
 - **Descripción:**  
   Crea un nuevo reporte utilizando los datos proporcionados en un objeto *ReportDTO*.
 - **Categoría:**  
-  A modificar. Posiblemente en front a este método se le está llamando por otra ruta ("reports/reportcreate" o algo similar)
+  A modificar. Cuidado en Frontend, que se está llamando desde localhost, y no se está usando las buenas prácticas de API_URL. Creo que hay varias api de Reports en el frontend, usar la adecuada o cambiar la más sencilla.
 - **Datos que reciben:**  
-  - **Payload JSON:** Objeto *ReportDTO* que contiene la información del reporte.  
+  - **Payload JSON (RequestBody):** Objeto *ReportDTO* que contiene la información del reporte.  
     _Ejemplo:_
     ```json
     {
@@ -1040,7 +1259,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
 - **Categoría:**  
   Bien hecha
 - **Datos que reciben:**  
-  - **Payload JSON:** Objeto *ReportType* con la información del tipo de reporte a agregar.  
+  - **Payload JSON (RequestBody):** Objeto *ReportType* con la información del tipo de reporte a agregar.  
     _Ejemplo:_
     ```json
     {
@@ -1101,7 +1320,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
 - **Descripción:**  
   Recupera la información de un artista basado en su nombre de usuario.
 - **Categoría:**  
-  A editar
+  A editar. La imagen no carga ahora mismo, e implementar las DTO.
 - **Datos que reciben:**  
   - **Path Variable:**  
     - `username` (String): Nombre de usuario del artista.
