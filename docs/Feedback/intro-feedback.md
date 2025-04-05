@@ -9,3 +9,4 @@ Aqui se recopila todo el feedback dirigido al grupo 1.
 - [Sesión 5](./sesion5.md)<br />
 - [Sesión 6](./sesion6.md)<br />
 - [Sesión 7](./sesion7.md)<br />
+- [Sesión 8](./sesion8.md)<br />
