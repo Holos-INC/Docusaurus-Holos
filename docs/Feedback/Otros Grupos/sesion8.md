@@ -1,6 +1,6 @@
 # Sesión 8
 
-**Fecha: 05/04/2025**
+**Fecha: 04/04/2025**
 
 **Hora inicio: 10:40**
 
@@ -40,7 +40,7 @@
 **Feedback positivo de estudiantes**
 - Continúan la historia de la semana pasada.
 - El anuncio hace referencia al retorno de inversión.
-- Buen PPL en la traspa 18.
+- Buen PPL en la transparencia 18.
 - Proporcionan opciones y recompensas ante fallos.
 - Chascarrillo de actualidad acertado.
 - Referencia a términos y condiciones en la demo.
@@ -78,7 +78,7 @@
 
 **Feedback negativo de estudiantes**
 - No han hecho caso al feedback del killer opener.
-- Video demo sin voz ni guión.
+- Video demo sin voz ni guion.
 - Repite la muletilla "Seguidamente".
 - Han actualizado la matriz DAFO.
 - Muchas diapositivas.
@@ -106,8 +106,8 @@
 - Buenas tomas falsas al final.
 
 **Feedback negativo de estudiantes**
-- Se escucha un poco mal el video demo.
-- Faltan zooms.
+- Se escucha un poco mal el vídeo demo.
+- Faltan _zooms_.
 
 **Feedback de profesores (Cristina)**
 - Buen inicio enlazado con el anuncio.

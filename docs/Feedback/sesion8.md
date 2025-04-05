@@ -1,6 +1,6 @@
 # Sesión 8
 
-**Fecha: 05/04/2025**
+**Fecha: 04/04/2025**
 
 **Hora inicio: 10:40**
 
@@ -13,11 +13,11 @@
 ## Feedback positivo de estudiantes
 - Se baja con la audiencia en el killer opener.
 - Carga con la culpabilidad del equipo en muchas ocasiones, esto puede llegar a ser negativo para el mismo.
-- Gran video, ha captado la atención.
-- El video pretende generar polémica y lo ha conseguido.
+- Gran vídeo, ha captado la atención.
+- El vídeo pretende generar polémica y lo ha conseguido.
 
 ## Feedback negativo de estudiantes
-- El contexto del video es adecuado para un grupo de colegas, no para el público objetivo…
+- El contexto del vídeo es adecuado para un grupo de colegas, no para el público objetivo…
 
 ## Feedback de profesores (Cristina)
 - Traspa 7, hay demasiada información, hablar de valores relativos no tiene mucho sentido.
