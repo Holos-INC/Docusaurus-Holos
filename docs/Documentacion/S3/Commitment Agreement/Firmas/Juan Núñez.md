@@ -62,4 +62,3 @@ Firma del Alumno:
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/firmas/juanunsan2.png" alt="Universidad de Sevilla" width="150"/>
 </p>
 
-[DESCARGAR EL PDF](../../../static/PDFs/Commitment/CommitmentAgreement-juanunsan2.pdf)

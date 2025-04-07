@@ -62,4 +62,3 @@ Firma del Alumno:
 </p>
 
 
-[DESCARGAR EL PDF](../../../static/PDFs/Commitment/CommitmentAgreement-gabvacgoy.pdf)
