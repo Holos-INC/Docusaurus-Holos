@@ -199,7 +199,7 @@ public class StatusKanbanDTO {
 
 ---
 
-#### GET (/api/v1/worksdone/{id})
+#### GET (/api/v1/worksdone/id)
 - **Descripción:**  
   Recupera un registro de *WorksDone* específico, identificado por su ID.
 - **Categoría:**  
@@ -221,38 +221,13 @@ public class StatusKanbanDTO {
       "artistUsername":"yellow",
       "image": [
                 "string"
-                ],
+                ]
     }
     ```
 
 ---
 
-#### GET (/api/v1/worksdone/artist/{artistId})
-- **Descripción:**  
-  Recupera la lista de registros de *WorksDone* asociados a un artista, identificado por su ID.
-- **Categoría:**  
-  A modificar
-- **Datos que reciben:**  
-  - **Path Variable:** `artistId` (Long): Identificador del artista.
-- **Datos que devuelven:**  
-  - **Respuesta JSON:** Lista de objetos *WorksDone* vinculados al artista indicado.  
-  - **DTO necesario:** Lista de DTOs del objeto *WorksDone*.
-    _Ejemplo:_
-  ```json
-  [
-    {
-      "id": 1,
-      "name": "Trabajo 1",
-      "image": [
-                "string"
-                ],
-    }
-  ]
-  ```
-
----
-
-#### PUT (/api/v1/worksdone/artist/{artistId}/{worksDoneId})
+#### PUT (/api/v1/worksdone/artist/artistId/worksDoneId)
 - **Descripción:**  
   Actualiza un registro de *WorksDone* específico, vinculado a un artista. Se verifica previamente que el registro existe.
 - **Categoría:**  
@@ -286,7 +261,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### GET (/api/v1/milestones/milestone/{id})
+#### GET (/api/v1/milestones/milestone/id)
 - **Descripción:**  
   Recupera un (*Milestone*) específico, identificado por su ID.
 - **Categoría:**  
@@ -299,7 +274,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### GET (/api/v1/milestones/milestones/commision/{commision_id})
+#### GET (/api/v1/milestones/milestones/commision/commision_id)
 - **Descripción:**  
   Recupera la lista de hitos (*Milestones*) asociados a una comisión, identificada por su ID.
 - **Categoría:**  
@@ -312,7 +287,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### DELETE (/api/v1/milestones/milestone/{id})
+#### DELETE (/api/v1/milestones/milestone/id)
 - **Descripción:**  
   Elimina un hito (*Milestone*) identificado por su ID.
 - **Categoría:**  
@@ -359,7 +334,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### PUT (/api/v1/status-kanban-order/{id}/updateKanban)
+#### PUT (/api/v1/status-kanban-order/id/updateKanban)
 - **Descripción:**  
   Actualiza atributos específicos (color, descripción y nombre) del estado Kanban identificado por su ID.
 - **Categoría:**  
@@ -373,7 +348,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### PUT (/api/v1/status-kanban-order/{id}/updateKanbanOrder)
+#### PUT (/api/v1/status-kanban-order/id/updateKanbanOrder)
 - **Descripción:**  
   Actualiza el orden del estado Kanban identificado por su ID.
 - **Categoría:**  
@@ -384,13 +359,13 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
     _Ejemplo:_
     ```json
     4
-    ```
+
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO actualizado con el nuevo orden. Quizá es mejor no devolver nada.
 
 ---
 
-#### DELETE (/api/v1/status-kanban-order/{id})
+#### DELETE (/api/v1/status-kanban-order/id)
 - **Descripción:**  
   Elimina el estado Kanban identificado por su ID.
 - **Categoría:**  
@@ -447,7 +422,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### PUT (/api/v1/status-kanban-order/{id}/next)
+#### PUT (/api/v1/status-kanban-order/id/next)
 - **Descripción:**  
   Avanza el estado de una comisión al siguiente estado Kanban, utilizando el ID proporcionado.
 - **Categoría:**  
@@ -459,7 +434,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### PUT (/api/v1/status-kanban-order/{id}/previous)
+#### PUT (/api/v1/status-kanban-order/id/previous)
 - **Descripción:**  
   Retrocede el estado de una comisión al estado anterior en el Kanban, utilizando el ID proporcionado.
 - **Categoría:**  
@@ -471,7 +446,7 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### GET (/api/v1/status-kanban-order/{id})
+#### GET (/api/v1/status-kanban-order/id)
 - **Descripción:**  
   Recupera un estado Kanban específico, identificado por su ID.
 - **Categoría:**  
@@ -487,9 +462,11 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 Antes de entrar en esta parte, comentar cómo se gestionarán los distintos estados en los que se encontrará una comisión, con un diagrama de estados:
 
-![Estados de una comisión](/static/img/Estados_pedido_comision.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Estados_pedido_comision.png" alt="Estados de una comisión" width="750"/>
+</p>
 
-#### POST (/api/v1/commisions/{artistId})
+#### POST (/api/v1/commisions/artistId)
 - **Descripción:**  
   Crea una nueva comisión para un artista específico.
 - **Categoría:**  
@@ -526,7 +503,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/{commisionId}/requestChanges)
+#### PUT (/api/v1/commisions/commisionId/requestChanges)
 - **Descripción:**  
   Solicita cambios en una comisión existente.
 - **Categoría:**  
@@ -546,7 +523,6 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
       "milestoneDate": "2025-04-15T00:00:00.000Z"
     }
 
-    ```
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Commision* actualizado con los cambios solicitados. No sé si es necesario que este put devuelva nada.
     - **DTO necesario:** 
@@ -559,7 +535,6 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
       "name": "aaa",
       "artistUsername": "yellow"
     }
-    ```
 
 ---
 
@@ -643,11 +618,10 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
         },...
       ]
     }
-    ```
 
 ---
 
-#### GET (/api/v1/commisions/{id})
+#### GET (/api/v1/commisions/id)
 - **Descripción:**  
   Recupera una comisión específica, identificada por su ID.
 - **Categoría:**  
@@ -673,11 +647,10 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
       "image": [
         "string"
       ]
-    ```
 
 ---
 
-#### PUT (/api/v1/commisions/{id}/status)
+#### PUT (/api/v1/commisions/id/status)
 - **Descripción:**  
   Actualiza el estado de una comisión según la aceptación (aprobación o rechazo) enviada como parámetro.
 - **Categoría:**  
@@ -693,7 +666,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/{commisionId}/reject)
+#### PUT (/api/v1/commisions/commisionId/reject)
 - **Descripción:**  
   Actualiza el estado de una comisión rechazándola.
 - **Categoría:**  
@@ -707,7 +680,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/{commisionId}/waiting)
+#### PUT (/api/v1/commisions/commisionId/waiting)
 - **Descripción:**  
   Actualiza el estado de una comisión a espera de confirmación de la otra parte.
 - **Categoría:**  
@@ -716,7 +689,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión a actualizar.
   - **Payload JSON (Request body):**
-    ```
+    ```json
     {
       "id": 1,
       "name": "string",
@@ -731,7 +704,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
         "string"
       ]
     }
-    ```
+
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
     - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
@@ -740,7 +713,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/{commisionId}/toPay)
+#### PUT (/api/v1/commisions/commisionId/toPay)
 - **Descripción:**  
   Actualiza el estado de una comisión siendo la confirmación de la otra parte de estar en de acuerdo.
 - **Categoría:**  
@@ -749,7 +722,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
   - **Path Variable:**  
     - `id` (Long): Identificador de la comisión a actualizar.
   - **Payload JSON (Request body):**
-    ```
+    ```json
     {
       "id": 1,
       "name": "string",
@@ -764,7 +737,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
         "string"
       ]
     }
-    ```
+
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado. 
     - Si tiene que devolver algo, que devuelva un DTO como el de los anteriores o consultar con frontend.
@@ -773,7 +746,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/{commisionId}/accept)
+#### PUT (/api/v1/commisions/commisionId/accept)
 `PLANTEARNOS SI SE DEBERÍA HACER AUTOMÁTICO JUNTO AL PAGO`
 - **Descripción:**  
   Actualiza el estado de una comisión a IN_WAIT_LIST o ACCEPTED, dependiendo de cómo de libre por los slots esté el artista. Existe un método fácil para calcular si hay huecos y demás.
@@ -790,7 +763,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 
 ---
 
-#### PUT (/api/v1/commisions/cancel/{id})
+#### PUT (/api/v1/commisions/cancel/id)
 - **Descripción:**  
   Cancela una comisión, verificando el identificador del cliente. IMPORTANTE: Si la comisión está en IN_WAIT_LIST, se devuelve todo el dinero al cliente, pero si ya se ha pasado a ACCEPTED, se sigue el proceso habitual según el método de pago.
 - **Categoría:**  
@@ -805,7 +778,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
     Un mensaje confirmando la cancelación, por ejemplo:  
     ```json
     "Comisión cancelada correctamente."
-    ```
+
 ---
 
 ### SearchController
@@ -844,7 +817,6 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
       "totalElements": 50,
       "totalPages": 5
     }
-    ```
 
 ---
 
@@ -879,11 +851,10 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
       "totalElements": 50,
       "totalPages": 5
     }
-    ```
 
 ---
 
-#### GET (/api/v1/search/artists/{artistId}/works)
+#### GET (/api/v1/search/artists/artistId/works)
 - **Descripción:**  
   Busca las obras (*Work*) asociadas a un artista específico.
 - **Categoría:**  
@@ -945,11 +916,10 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
         "business_profile": { ... }
       }
     ]
-    ```
 
 ---
 
-#### GET (/api/v1/stripe-account/{accountId})
+#### GET (/api/v1/stripe-account/accountId)
 - **Descripción:**  
   Recupera los detalles de una cuenta de Stripe específica, identificada por su ID.
 - **Categoría:**  
@@ -967,7 +937,6 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "business_profile": { ... },
       "email": "ejemplo@correo.com"
     }
-    ```
 
 ---
 
@@ -983,7 +952,6 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     _Ejemplo:_
     ```json
     "acct_3ABCDEF"
-    ```
 
 ---
 
@@ -1000,12 +968,12 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     _Ejemplo:_
     ```json
     "https://connect.stripe.com/setup/s/abc123..."
-    ```
+
 ---
 
 ### WorkController
 
-#### GET (/api/v1/works/{id})
+#### GET (/api/v1/works/id)
 - **Descripción:**  
   Recupera un trabajo específico (*Work*) identificado por su ID.
 - **Categoría:**  
@@ -1035,7 +1003,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "username": "usuarioEjemplo",
       "password": "contraseñaSegura"
     }
-    ```
+ 
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *JwtResponse* con el token JWT, el ID del usuario, su nombre de usuario y rol.  
     _Ejemplo:_
@@ -1045,7 +1013,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "id": 123,
       "username": "usuarioEjemplo"
     }
-    ```
+
   - En caso de credenciales incorrectas, se devuelve un mensaje de error ("Bad Credentials!") con estado 400.
 
 ---
@@ -1079,7 +1047,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
         "email": "usuario@ejemplo.com",
         "otrosCampos": "..."
       }
-      ```
+
     - `imageProfile` (MultipartFile, opcional): Archivo que contiene la imagen de perfil.
     - `tableCommissionsPrice` (MultipartFile, opcional): Archivo que contiene la imagen del precio del tablero de comisiones.
 - **Datos que devuelven:**  
@@ -1088,7 +1056,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     {
       "message": "User registered successfully!"
     }
-    ```
+
   - En caso de error, se devuelve un mensaje de error apropiado con el código HTTP correspondiente.
 
 ---
@@ -1107,18 +1075,18 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "email": "nuevoemail@ejemplo.com",
       "otrosCampos": "..."
     }
-    ```
+
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *MessageResponse* con un mensaje indicando que la actualización fue exitosa, por ejemplo:  
     ```json
     {
       "message": "User updated successfully!"
     }
-    ```
+
 
 ---
 
-#### DELETE (/api/v1/auth/delete/{id})
+#### DELETE (/api/v1/auth/delete/id)
 - **Descripción:**  
   Elimina un usuario identificado por su ID.
 - **Categoría:**  
@@ -1132,7 +1100,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     {
       "message": "User deleted successfully!"
     }
-    ```
+
 ---
 
 ### ReportController
@@ -1167,7 +1135,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "reportadoId": 45,
       "tipo": "Usuario"
     }
-    ```
+    
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Report* creado, con todos los campos asignados (incluyendo el identificador generado). 
   - **DTO necesario:** Que se pase el name, la descripción y el status. Hablar con front de todos modos. 
@@ -1179,11 +1147,11 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "descripcion": "La publicación contiene lenguaje ofensivo.",
       "status": "Pendiente"
     }
-    ```
+  
 
 ---
 
-#### PUT (/api/v1/reports/admin/accept/{id})
+#### PUT (/api/v1/reports/admin/accept/id)
 - **Descripción:**  
   Acepta un reporte específico, cambiando su estado a aceptado.
 - **Categoría:**  
@@ -1197,7 +1165,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
 
 ---
 
-#### PUT (/api/v1/reports/admin/reject/{id})
+#### PUT (/api/v1/reports/admin/reject/id)
 - **Descripción:**  
   Rechaza un reporte específico, cambiando su estado a rechazado.
 - **Categoría:**  
@@ -1211,7 +1179,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
 
 ---
 
-#### DELETE (/api/v1/reports/admin/delete/{id})
+#### DELETE (/api/v1/reports/admin/delete/id)
 - **Descripción:**  
   Elimina un reporte específico, destinado para el administrador.
 - **Categoría:**  
@@ -1224,7 +1192,6 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     _Ejemplo:_
     ```json
     "Reporte eliminado correctamente."
-    ```
 
 ---
 
@@ -1249,7 +1216,6 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
         "nombre": "Spam"
       }
     ]
-    ```
 
 ---
 
@@ -1265,7 +1231,7 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     {
       "nombre": "Fraude"
     }
-    ```
+
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *ReportType* creado, que incluye el identificador generado.  
     _Ejemplo:_
@@ -1274,12 +1240,12 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "id": 3,
       "nombre": "Fraude"
     }
-    ```
+    
 ---
 
 ### ArtistRestController
 
-#### GET (/api/v1/artists/{id})
+#### GET (/api/v1/artists/id)
 - **Descripción:**  
   Recupera la información de un artista específico, identificado por su ID.
 - **Categoría:**  
@@ -1295,11 +1261,11 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "username": "artistaEjemplo",
       "imageProfile": "kmxkldsxjmclkdwedxjwedkl" //imagen
     }
-    ```
+    
 
 ---
 
-#### DELETE (/api/v1/artists/administrator/artists/{id})
+#### DELETE (/api/v1/artists/administrator/artists/id)
 - **Descripción:**  
   Elimina un artista identificado por su ID. Esta operación está destinada al uso del administrador.
 - **Categoría:**  
@@ -1312,11 +1278,11 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
     _Ejemplo (éxito):_
     ```json
     "Cliente eliminado exitosamente"
-    ```
+    
 
 ---
 
-#### GET (/api/v1/artists/username/{username})
+#### GET (/api/v1/artists/username/username)
 - **Descripción:**  
   Recupera la información de un artista basado en su nombre de usuario.
 - **Categoría:**  
@@ -1334,14 +1300,14 @@ En sí la parte de Stripe no estoy segura de cómo se gestiona. Hay que tener mu
       "username": "artistaEjemplo",
       "imageProfile": "kmxkldsxjmclkdwedxjwedkl" //imagen
     }
-    ```
+    
 ---
 
 ### PaymentController
 
 Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react-stripe-js```. Hay que hablar con Joaquin de todos modos para pulir esta parte.
 
-#### GET (/api/v1/payment/{paymentIntentId})
+#### GET (/api/v1/payment/paymentIntentId)
 - **Descripción:**  
   Recupera la información de un PaymentIntent de Stripe identificado por su ID.
 - **Categoría:**  
@@ -1360,7 +1326,7 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
       "amount": 5000,
       "currency": "usd"
     }
-    ```
+  
 
 ---
 
@@ -1392,11 +1358,11 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
         }
       ]
     }
-    ```
+  
 
 ---
 
-#### POST (/api/v1/payment/create/{commissionId})
+#### POST (/api/v1/payment/create/commissionId)
 - **Descripción:**  
   Crea un nuevo PaymentIntent para una comisión específica.
 - **Categoría:**  
@@ -1411,7 +1377,7 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
         "currency": "usd",
         "description": "Pago para comisión 123"
       }
-      ```
+    
   - **Path Variable:**  
     - `commissionId` (long): Identificador de la comisión para la cual se crea el pago.
 - **Datos que devuelven:**  
@@ -1419,7 +1385,7 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
     _Ejemplo:_
     ```json
     "pi_1H8XYZ"
-    ```
+    
 
 ---
 
@@ -1444,7 +1410,7 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
       "amount": 5000,
       "currency": "usd"
     }
-    ```
+    
 
 ---
 
@@ -1468,7 +1434,7 @@ Hay cosas que a priori no hacen falta ya que en frontend se usa ```@stripe/react
       "amount": 5000,
       "currency": "usd"
     }
-    ```
+    
 ---
 
 ### CategoryRestController
@@ -1498,11 +1464,11 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
         "descripcion": "Categoría de obras escultóricas"
       }
     ]
-    ```
+    
 
 ---
 
-#### GET (/api/v1/categories/{id})
+#### GET (/api/v1/categories/id)
 - **Descripción:**  
   Recupera la información de una categoría específica, identificada por su ID.
 - **Categoría:**  
@@ -1519,7 +1485,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
       "nombre": "Pintura",
       "descripcion": "Categoría de obras de pintura"
     }
-    ```
+    
 
 ---
 
@@ -1546,7 +1512,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
         "descripcion": "Categoría de obras escultóricas"
       }
     ]
-    ```
+    
 
 ---
 
@@ -1563,7 +1529,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
       "nombre": "Fotografía",
       "descripcion": "Categoría de obras fotográficas"
     }
-    ```
+    
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Category* creado, incluyendo el identificador asignado.  
     _Ejemplo:_
@@ -1573,11 +1539,11 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
       "nombre": "Fotografía",
       "descripcion": "Categoría de obras fotográficas"
     }
-    ```
+    
 
 ---
 
-#### PUT (/api/v1/categories/administrator/categories/{id})
+#### PUT (/api/v1/categories/administrator/categories/id)
 - **Descripción:**  
   Actualiza la información de una categoría existente, identificada por su ID.
 - **Categoría:**  
@@ -1592,7 +1558,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
       "nombre": "Pintura Moderna",
       "descripcion": "Categoría de obras de pintura moderna"
     }
-    ```
+    
 - **Datos que devuelven:**  
   - **Respuesta JSON:** Objeto *Category* actualizado.  
     _Ejemplo:_
@@ -1602,11 +1568,11 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
       "nombre": "Pintura Moderna",
       "descripcion": "Categoría de obras de pintura moderna"
     }
-    ```
+    
 
 ---
 
-#### DELETE (/api/v1/categories/administrator/categories/{id})
+#### DELETE (/api/v1/categories/administrator/categories/id)
 - **Descripción:**  
   Elimina una categoría existente, identificada por su ID.
 - **Categoría:**  
@@ -1619,7 +1585,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
     _Ejemplo:_
     ```json
     "Categoría eliminada exitosamente"
-    ```
+    
 
 ---
 
@@ -1627,7 +1593,7 @@ La pantalla en frontend no se entiende muy bien. Hablar con Daniel.
 
 Un apunte es que es el controlador de Client pero las urls empiezan con users.
 
-#### GET (/api/v1/users/{id})
+#### GET (/api/v1/users/id)
 - **Descripción:**  
   Recupera la información de un cliente específico, identificado por su ID.
 - **Categoría:**  
@@ -1654,7 +1620,7 @@ Un apunte es que es el controlador de Client pero las urls empiezan con users.
 
 ---
 
-#### DELETE (/api/v1/users/administrator/clients/{id})
+#### DELETE (/api/v1/users/administrator/clients/id)
 - **Descripción:**  
   Elimina un cliente específico, identificado por su ID. Esta operación está destinada para uso del administrador.
 - **Categoría:**  
@@ -1667,11 +1633,11 @@ Un apunte es que es el controlador de Client pero las urls empiezan con users.
     _Ejemplo:_
     ```json
     "Cliente eliminado exitosamente"
-    ```  
+    
   - En caso de error, se devuelve un mensaje descriptivo, por ejemplo:
     ```json
     "No se puede eliminar el cliente porque tiene registros relacionados en otras partes del sistema."
-    ```
+    
 
 
 ## Metodología de trabajo
