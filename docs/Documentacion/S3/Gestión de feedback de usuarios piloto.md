@@ -53,6 +53,8 @@
 | v1.0    | 25/03/2025 | Creación del documento. | Ignacio Warleta  |
 | v1.1    | 26/03/2025 | Actualización con el feedback de algunos usuarios piloto | Nerea Jiménez Adorna   |
 | v1.2    | 27/03/2025 | Actualización con el feedback de otros usuarios piloto | Nerea Jiménez Adorna   |
+| v1.3    | 27/04/2025 | Actualización con el feedback del Sprint 3 | Nerea Jiménez Adorna   |
+
 
 
 ## Índice de Contenidos

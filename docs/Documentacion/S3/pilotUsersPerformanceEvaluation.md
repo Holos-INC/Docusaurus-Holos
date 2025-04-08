@@ -53,6 +53,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 27/03/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna      |
+| 08/03/2025 | v1.1    | Evaluación para el Sprint 3 | Nerea Jiménez Adorna      |
 
 
 ---
@@ -65,7 +66,8 @@
 2. [Evaluación de Usuarios Piloto](#2-evaluación-de-usuarios-piloto)
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
-     - [Daniel Galván Cancio](#daniel-galván-cancho)
+   - [Sprint 3](#23-sprint-3)
+     - [Daniel Galván Cancio](#daniel-galván-cancio)
      - [Rafael Duque Colete](#rafael-duque-colete)
      - [Rafael Castillo Cebolla](#rafael-castillo-cebolla)
      - [Mohamed Abouri](#mohamed-abouri)
@@ -93,21 +95,31 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ### 2.2 Sprint 2
 
-#### Daniel Galván Cancho
+| Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
+|---------|--------|--------|------|----|-------|--------|----|---------|----|
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
+|   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
+|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
+|   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+
+### 2.3 Sprint 3
+
+#### Daniel Galván Cancio
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 10. Ha elaborado respuestas extensas de opinión en los apartados que lo requerían.
-- **Identificación y reporte de errores:** 10. Ha reportado 6 incidencias, lo que lo hace el usuario piloto con más incidencias reportadas hasta la fecha.
-- **Calidad de las sugerencias de mejora:** 10. A pesar de no conocer en detalle el campo de nuestra aplicación, ha opinado con la mayor sinceridad y detalle.
+- **Claridad y detalle en la retroalimentación:** 10. De nuevo, ha elaborado respuestas extensas de opinión en los apartados que lo requerían, puntualizando la mejora respecto al envío anterior (aportando feedback positivo)
+- **Identificación y reporte de errores:** 10. Ha reportado 10 incidencias, lo que lo hace, de nuevo, el usuario piloto con más incidencias reportadas hasta la fecha.
+- **Calidad de las sugerencias de mejora:** 10. Siguiendo el nivel de su feedback anterior, dio sugerencias de mejora extensas.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 10. Ha sido el primero en contestar y ha mostrado mucho entusiasmo, preguntando por el pilotaje en varias ocasiones antes el envío.
+- **Actitud colaborativa y disposición:** 10. Como en entregas anteriores, ha sido el primero en contestar y ha mostrado mucho entusiasmo, preguntando por el pilotaje en varias ocasiones antes el envío.
 - **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la apliación más de 20 minutos.
-- **Impacto del feedback en la mejora del producto:** 10. Gracias a él detectamos errores de seguridad que nos pusimos a arreglar de inmediato.
+- **Impacto del feedback en la mejora del producto:** 10. Debido a las 6 incidencias que reportó pudimos mejorar mucho nuestro producto.
 
 **Calificación:** 10
 
 ---
 
-#### Rafael Duque Colete
+#### Rafael Duque Colete /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 6. Feedback un poco pobre, escueto.
 - **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
@@ -121,7 +133,7 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ---
 
-#### Rafael Castillo Cebolla
+#### Rafael Castillo Cebolla /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 10. Muy crítico, ha rellenado el formulario en detalle y ha sido extenso en sus respuestas.
 - **Identificación y reporte de errores:** 5. Puso una incidencia.
@@ -135,7 +147,7 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ---
 
-#### Mohamed Abouri
+#### Mohamed Abouri /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 8. Ha sido claro aunque no demasiado detallista, con mensajes simples pero concretos.
 - **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
@@ -151,15 +163,15 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 #### Enrique García Abadía
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 8. Se ha centrado demasiado en el aspecto visual, aunque también ha tocado temas funcionales.
-- **Identificación y reporte de errores:** 5. Puso una incidencia.
-- **Calidad de las sugerencias de mejora:** 8. Se ha centrado más en decir que hay que mejorar lo que ya tenemos, fijándose mucho en lo visual.
+- **Claridad y detalle en la retroalimentación:** 10. Ha sido muy crítico, aportando un feedback valioso, centrándose más en los aspectos a mejorar que en las mejoras del sprint anterior.
+- **Identificación y reporte de errores:** 10. Puso 3 incidencias.
+- **Calidad de las sugerencias de mejora:** 10. De nuevo, se ha centrado más en decir que hay que mejorar lo que ya tenemos, fijándose mucho en lo visual.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
-- **Frecuencia de interacción con la aplicación:** 8. Estuvo unos 15 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Actitud colaborativa y disposición:** 10. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
+- **Frecuencia de interacción con la aplicación:** 10. Estuvo unos 20 minutos probando la aplicación.
+- **Impacto del feedback en la mejora del producto:** 10. Se tomaron en cuenta sus sugerencias.
 
-**Calificación:** 8.14
+**Calificación:** 10
 
 ---
 
@@ -167,11 +179,11 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
 |   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
 |   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
-|   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+|   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
 
 ## 3. Conclusión
 
