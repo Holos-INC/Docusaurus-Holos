@@ -1,4 +1,4 @@
-# Aportaciones a la BCC - Sprint 2
+# Aportaciones a la BCC - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -62,7 +62,8 @@
 1. [Introducción](#1-introducción)
 2. [Aportaciones realizadas a la BCC](#2-aportaciones-realizadas-a-la-bcc)  
     2.1 [Sprint 1](#sprint-1)  
-    2.2 [Sprint 2](#sprint-2)
+    2.2 [Sprint 2](#sprint-2)   
+    2.3 [Sprint 3](#sprint-3)
 
 ---
 
@@ -1938,3 +1939,6 @@ Por otra parte se ha añadido al conocimiento común feedback concreto para cada
 - Es de vital importancia que la **demo sea atractiva** al público, para ello podemos utilizar un registro informal de carácter cómico que pretenda relatar una historia, mas hay que cuidar el registro y **ser conscientes de nuestro público objetivo**.
 
 **FIN DE LA APORTACION**
+
+### Sprint 3
+// TODO
