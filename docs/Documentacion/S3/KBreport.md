@@ -1941,4 +1941,572 @@ Por otra parte se ha añadido al conocimiento común feedback concreto para cada
 **FIN DE LA APORTACION**
 
 ### Sprint 3
-// TODO
+
+En este tercer sprint, al igual que en los anteriores, se han compartido con el resto de grupos de la asignatura todo el feedback recogido tanto por los propios miembros del grupo durante las presentaciones, como las aportaciones de los compañeros ajenos a este y de los profesores durante el tiempo de feedback. Esta aportación es completa, pues se recogen de forma separada tanto los aspectos positivos como los negativos desde el punto de vista de los estudiantes que conforman el Grupo 1. Esta aportación puede verse: [aqui](https://github.com/ISPP-2425/BCC/pull/72/commits/53e5ce5cc44624aedf42bd6f322fe21004e9d447)
+
+#### Aportacion exacta:
+
+##### Semana 7
+
+**Holos**
+
+App para venta de obras de artistas.
+
+**Feedback positivo de estudiante**
+
+- **Dramatismo como inicio, SHOCK**: El inicio ha sido muy impactante, captando la atención de inmediato.
+
+- **El killer opener ha estado bien**: Un gran comienzo que establece el tono adecuado para el resto de la demo.
+
+- **Muy buen storyboard, siguiendo las indicaciones de las theory pills**: La planificación visual ha quedado genial, siguiendo las indicaciones de forma clara y efectiva.
+
+- **Muy bien diciendo de quién es la voz de la demo, esto hace que la gente lo pille más rápido**: Al mencionar de quién es la voz, hace que la audiencia conecte más rápido con el contenido.
+
+- **Muy buena demo, se ve todo debido a los zooms y la velocidad de su ejecución es correcta, da tiempo a verlo todo**: La demo ha sido muy clara, con los zooms bien aplicados y el ritmo perfecto para que no se pierda ningún detalle.
+
+- **Uso de Claudette como se piden en las theory pills**: El uso de Claudette ha quedado perfecto, cumpliendo con lo que pedían las theory pills.
+
+- **Se ha recompensado el esfuerzo de los trabajadores de la semana con una mención honorífica**: Es genial que se haya dado un reconocimiento a los trabajadores de la semana, motivando aún más al equipo.
+
+- **Menciona el cumplimiento del Commitment Agreement**: Se ha resaltado muy bien el cumplimiento del compromiso por parte de todos, lo que refuerza la responsabilidad dentro del equipo.
+
+- **Muy buena gráfica de esfuerzo-rendimiento**: La gráfica es clara y demuestra perfectamente cómo el esfuerzo se traduce en rendimiento.
+
+- **Se ha incluido el podio para felicitar a los más trabajadores**: Es estupendo que se haya incluido un podio para reconocer el esfuerzo de los más trabajadores, es una forma muy positiva de motivar al equipo.
+
+- **Muy buenas transparencias de los problemas**: La presentación de los problemas se ha hecho de manera muy clara, facilitando la comprensión de todos.
+
+**Feedback negativo de estudiante**
+
+- **Decir que Holos pretende salvar vidas es muy pretencioso**: Esta afirmación puede resultar demasiado ambiciosa y tal vez no sea bien recibida por todos, ya que podría generar expectativas muy altas.
+
+- **Usar diferentes tonos de verde no es mala idea, pero no se distinguen muy bien**: Aunque la idea de usar diferentes tonos de verde no es mala, la ejecución no permite distinguirlos claramente, lo que puede generar confusión visual.
+
+- **Muchas diapositivas. Casi no da tiempo**: Hay demasiadas diapositivas en el contenido, lo que hace que sea difícil seguir el ritmo y apenas da tiempo a procesar la información correctamente.
+
+**Feedback de profesores (Carlos)**
+
+- **Muchas cosas positivas pero pone el problema de la velocidad. Ha faltado ensayar más**: El profesor mencionó que hay muchos aspectos positivos, pero la velocidad fue un problema. Recomienda ensayar más para mejorar.
+
+- **Sugiere el mismo número de diapositivas pero dar menos tiempo**: Propone mantener el número de diapositivas, pero darles menos tiempo por diapositiva para asegurarse de que la información no se queda atrás.
+
+- **La Demo es un poco larga**, cuando se añaden más funcionalidades habrá que recortarla
+
+- **Tono muy dramático el del killer opener. Hay que rebajar un poco el tono, pero aun así le ha gustado**: El killer opener fue un demasiado dramático,  el profesor sugiere que se rebaje el tono, aunque le gustó en general.
+
+- **Los pagos anónimos no queda claro, hay que explicarlo mejor**: Los pagos anónimos no se entendieron bien, por lo que recomienda explicarlo con más claridad.
+
+- **Storyboard muy bien hecho. Al de inversores le faltan datos, especificar con un número “si invierto x, en tanto tiempo, ganaré y”**: El storyboard está muy bien hecho, pero el de inversores necesita más detalles, como números claros sobre la inversión y el retorno esperado.
+
+- **Le encanta el trabajador de la semana**. Sugiere también la existencia de un hall of shame. Puede estar vacío
+
+- **La demo es espectacular. Sugiere contar al principio que se va a ver**: La demo está espectacular, pero recomienda empezar diciendo qué es lo que se va a mostrar para que el público sepa que esperarse.
+
+- **Si hace falta se recorta el alcance. No se debe superar las 10 horas**: Si es necesario, se debe recortar el alcance del proyecto, pero no debe superar las 10 horas en total de trabajo individual, no es algo negociable.
+
+- **Se podría mostrar una gráfica de la trazabilidad para los problemas para ver cómo avanza. (Por ejemplo el P6). Falta ver la evolución de la trazabilidad**
+
+**Feedback de profesores (Cristina)**
+
+- **Comunicación entre Nerea y Jose María**: Es necesario mejorar la comunicación entre ellos para asegurar que el storyboard tenga un buen efecto.
+
+- **Las traspas 9 y 10 se pueden unificar**: Se sugiere que las traspas 9 y 10 se unifiquen para hacer el proceso más claro y conciso.
+
+- **Identificar al administrador en la demo, algo que haga ver quién es**.
+
+- **Muy buena gráfica de rendimiento-esfuerzo y de rendimiento individual**: Las gráficas de rendimiento-esfuerzo y rendimiento individual están muy bien hechas y son efectivas.
+
+##### Semana 8
+
+**Holos**
+
+App para venta de obras de artistas.
+
+
+**Feedback positivo de estudiantes**
+- Se baja con la audiencia en el killer opener.
+- Carga con la culpabilidad del equipo en muchas ocasiones, esto puede llegar a ser negativo para el mismo.
+- Gran vídeo, ha captado la atención.
+- El vídeo pretende generar polémica y lo ha conseguido.
+
+**Feedback negativo de estudiantes**
+- El contexto del vídeo es adecuado para un grupo de colegas, no para el público objetivo.
+
+**Feedback de profesores (Cristina)**
+- Traspa 7, hay demasiada información, hablar de valores relativos no tiene mucho sentido.
+- No usar números sueltos de posibles clientes, ¿los que tenemos son muchos, pocos?
+- Demasiadas transparencias.
+- La demo, hacer más zoom. No se escuchaba muy bien.
+- No le ha convencido la temática del anuncio.
+- Debemos empezar ya con el testing.
+
+**Feedback de profesores (Pablo)**
+- A nivel de presentación, la imagen gráfica se ve en positivo.
+- Hay que medir el humor, sobre todo cuando se tratan temas que rozan aspectos controvertidos.
+- Centrar el lanzamiento del producto y transmitir el valor de la aplicación.
+- No se oía bien la demo. No fluía.
+- Mejorar las diapos de problemas resueltos.
+- Usar medidas de contingencia concretas.
+- Presentaciones entendibles para externos.
+- Evitar términos como Capex y Opex, usar un lenguaje claro.
+- No ha quedado claro el feedback específico de los UP que han generado acciones.
+
+##### Semana 7
+
+**GastroStock**
+
+Ayuda a la gestión de inventarios de bares y mejora de logística mediante IA.
+
+
+**Feedback positivo de estudiante**
+
+
+- Buen inicio para llamar la atención.
+- Muy visual. Mantienen la estética de presentaciones anteriores.
+- Gráfico optimista pesimista se ve muy claro.
+- Deja muy claro los gráficos, han hecho caso al feedback dado sobre los colores de las curvas.
+- Siempre deja en claro la definición de TPV al principio de la presentación, asegurándose de que a ningún oyente le falte el contexto.
+- Hila bien las diapositivas, se nota que ha preparado la presentación.
+- Ha habido una mejora en la demo mostrada con respecto a la semana pasada.
+- Gastos también muy claros, con solo un vistazo ya se entiende.
+- Bien pensado el nuevo rol, adaptándose a lo que los profesores han pedido y ampliándolo un poco más.
+- Felicitando el trabajo de los que más commits han aportado al proyecto, buena recompensa.
+- Han hecho caso al feedback y han buscado cláusulas abusivas con Claudette.
+- Han tomado medidas y han soportado una carga de trabajo mayor asumiendo y superando los errores en el S1. Son solventes.
+- Utiliza un error en el proyecto como chascarrillo para poder retomar la atención del público.
+- Sinceros con los problemas que han tenido.
+- Han hecho mención al cumplimiento del Commitment Agreement.
+- Han dado un ejemplo real que avala que les va bien.
+- Buen detalle el contar que han conseguido un cliente original.
+
+**Feedback negativo de estudiante**
+- Hace referencia a la semana pasada.
+- Killer opener muy largo.
+- Varias traspas número 5.
+- La Demo se ve muy pequeña, se comento varias veces que era buena idea el uso de zooms.
+- Storyboard no tan impresionante como el resto de los grupos.
+
+**Feedback de profesores (Carlos)**
+
+- Storyboard de inversores muy flojos. Tiene que explicar si invierten cuánto van a conseguir.
+- La demo no se ve del todo bien, deben meter zoom.
+- Le ha gustado la caja de soluciones.
+- Sigue faltando una forma de medir si las soluciones están funcionando y le gustaría saber para la semana que viene el estado de esas soluciones.
+
+##### Semana 8
+
+**GastroStock**
+
+Ayuda a la gestión de inventarios de bares y mejora de logística mediante IA.
+
+**Feedback positivo de estudiantes**
+- Muy buen killer opener.
+- Buen anuncio.
+- Muy sincero con respecto a los warnings y problemas del sprint.
+- Intercambian correos con el profesorado siendo conscientes de su situación.
+
+**Feedback negativo de estudiantes**
+- Puede dar mala imagen decirle al cliente que el equipo no está trabajando.
+
+**Feedback de profesores (Cristina)**
+- No han agrupado las gráficas como se sugirió.
+- Anuncio gracioso, pero el ejemplo de uso no es adecuado.
+- Han puesto S2 en lugar de S3.
+- Tienen un cliente piloto interesado.
+
+**Feedback de profesores (Pablo)**
+- Cuidado con imágenes con copyright.
+- Dudas respecto al volumen de mercado.
+- No se transmite la funcionalidad principal.
+- Demostrar que la funcionalidad es sencilla.
+
+##### Semana 7
+
+**EVENTBRIDE** 
+
+Aplicación para gestionar eventos cristianos; bodas, bautizos y comuniones
+
+
+**Feedback positivo de estudiante**
+
+- Intro efectiva que ha provocado incluso un incidente.
+- Ha ido más despacio presentando, ha hecho caso al feedback.
+- Muy buena idea ir alternando entre presentadores. Da dinamismo a la presentación.
+- Demo muy amena, para los formularios tediosos se ha ingeniado una solución formidable (añadiendo musiquita).
+- El presentador tiene soltura y buen tono que hace que sea complicado perder la atención.
+- Muy buenos storyboard. Han mejorado mucho respecto a la semana pasada.
+- Han realizado menciones especiales para las personas que con poco realizan muchas tareas (alto rendimiento).
+- Muy claro el seguimiento de problemas. De un solo vistazo se ve perfectamente.
+- Destacar las actividades de team building, buena iniciativa para unir al equipo y mejorar el ambiente.
+- Presentación muy amena en general, 10/10.
+- Aprovechan muy bien la diapositiva final para meter métodos de contacto.
+
+**Feedback negativo de estudiante**
+
+- Quizá demasiadas líneas en la gráfica de análisis de costes.
+
+**Feedback de profesores (Pablo)**
+
+- No veía ciertas cosas en la demo.
+- Un error frecuente es que se intenta mostrar todo acelerado para de tiempo a la completitud del conteindo. Se pueden hacer cortes.
+- Darle una vuelta a la demo para que sea más formal. No hace falta que se muestren todos los pasos.
+- Cambiar el narrador para diferenciar personajes.
+- Hilo argumental positivo.
+- Justificar las estimaciones con el impacto en el mercado. Justificar las gráficas. Dar datos de los usuarios activos, de la penetración en el mercado…
+
+**Feedback de profesores (Cristina)**
+
+- Le ha gustado el inicio efectivo, le gusta la historia que se está formando.
+- Mantiene la expectativa de que va a pasar la semana que viene.
+- En cuanto al rendimiento comenta que es habitual. Que no hace falta considerarlo un problema.
+- Ha pasado rápido el storyboard.
+- En la demo han hablado de cancelación, ¿tienen política de cancelación? Responden que sí, lo mostrarán la semana que viene.
+- No son horas mínimas, son horas exigidas. Intentar ceñirnos a las 10 horas lo máximo posible.
+- Traspa 36.
+
+##### Semana 8
+
+**EVENTBRIDE** 
+
+Aplicación para gestionar eventos cristianos; bodas, bautizos y comuniones
+
+**Feedback positivo de estudiantes**
+- Continúan la historia de la semana pasada.
+- El anuncio hace referencia al retorno de inversión.
+- Buen PPL en la transparencia 18.
+- Proporcionan opciones y recompensas ante fallos.
+- Chascarrillo de actualidad acertado.
+- Referencia a términos y condiciones en la demo.
+- Incluyen un ranking de rendimiento.
+
+**Feedback negativo de estudiantes**
+- Música muy alta, apenas se escucha la voz.
+- El anuncio dura demasiado.
+- Notificaciones de Discord durante la presentación.
+- La demo no se escucha bien y la letra no se ve clara.
+- Explicación demasiado rápida de las pantallas.
+- No se justifica por qué el rendimiento fue positivo.
+
+**Feedback de profesores (Cristina)**
+- El anuncio no se escuchaba bien.
+- Evitar términos como capex y opex.
+- Mezclan números con la explicación de la aplicación.
+- Importancia de explicitar beneficios.
+- Customer agreement bien enfocado, pero le ha llevado mucho tiempo.
+- Formularios rápidos y narrador que explique mejor.
+
+**Feedback de profesores (Carlos)**
+- Le gustan aspectos visuales de la demo.
+- Plantea recortar cosas internas del anuncio.
+- Ponen número de clientes, pero sugiere poner porcentajes.
+- Comprobar que las medidas de los problemas funcionan.
+
+##### Semana 7
+
+**BORROO**
+
+Aplicación para generalizar el alquiler de objetos, es de matchmaking-improved market
+
+
+**Feedback positivo de estudiante**
+
+- Un inicio efectivo muy llamativo.
+- De los mejores killer opener sin lugar a dudas.
+- Felicitan a los que mejor han trabajado.
+- La demo está muy bien. Mantiene el uso de personajes de dibujos animados. Han hecho buenos zooms y se ve perfectamente.
+- Han sido inclusivos ♿️.
+- La voz de Don Ramón ha estado graciosa.
+- Demo digna de un premio, maravillosa.
+- Conoce a quién va dirigida la demo, y se ajusta al contexto perfectamente, el humor es acertado para el público de una clase de jóvenes de 20-30 años.
+- Modelo de métricas detallada.
+- Presentador con mucha soltura, se nota que ya tiene machacadas las presentaciones.
+- Han copiado el calendario niko-niko (lo bueno se copia).
+- No solo dicen lo bueno, si algún miembro ha tenido un bajo rendimiento se deja ver.
+- Uso de Codacy con porcentajes muy positivos en cuanto al código.
+- Buenas resolución de problemas, invertir en planes de formación es asegurar un estándar de calidad en el futuro cercano y favorece una implementación uniforme.
+- Muy bien explicado el burndown del S2, felicitar la mejora respecto al S1.
+- Han añadido objetivos en el siguiente sprint, replanificando las tareas para casos como la mejora de seguridad de la aplicación.
+
+**Feedback negativo de estudiante**
+
+- Dice mucho “seguidamente”, expresiones como: “seguidamente en el siguiente sprint” suenan redundantes.
+
+**Feedback de profesores (Pablo)**
+
+- Hay que tener en cuenta que, el nivel de informalidad es una línea muy fina y hay que conocer el contexto. Si fuera un contexto de estudiantes universitarios sería genial, pero una persona con unos hiperparámetros distintos prefijados quizás no aprecie tanto este humor "absurdo".
+- Pregunta por los productos reales que tienen disponibles.
+- No ve demasiado elevado 10 peticiones por feature, si la idea es que sea muy escalable, hay que empezar a pensar en ello.
+- Hay que hacerlo crecer. Si no crece es porque el público específico no es el adecuado o bien porque la funcionalidad no es tan específica.
+- La fianza piensa que es algo core y debía estar implementada antes.
+
+**Feedback de profesores (Cristina)**
+
+- Intencionalmente en blanco.
+##### Semana 8
+
+**BORROO**
+
+Aplicación para generalizar el alquiler de objetos, es de matchmaking-improved market
+
+**Feedback positivo de estudiantes**
+- Canción personalizada en el anuncio.
+- Se habla de la normativa sobre datos privados.
+- Curvas optimista, pesimista y promedio con animaciones claras.
+
+**Feedback negativo de estudiantes**
+- No han hecho caso al feedback del killer opener.
+- Video demo sin voz ni guion.
+- Repite la muletilla "Seguidamente".
+- Han actualizado la matriz DAFO.
+- Muchas diapositivas.
+
+**Feedback de profesores (Carlos)**
+- Repite mucho "seguidamente".
+- Killer opener debe explicitar el problema.
+- Además de la gráfica de clientes, poner estimaciones pesimista, optimista y esperada.
+- Estimaciones convincentes.
+- Ha faltado mejora de la interfaz en la demo.
+- En la diapo 45, falta análisis profundo de amenazas.
+
+**Feedback de profesores (Cristina)**
+- Sobre los UP, se han mezclado categorías.
+- Estético como categoría es ambiguo.
+
+##### Semana 7
+
+**Camyo**
+
+App para juntar camioneros con empresas
+
+**Feedback positivo de estudiantes**
+
+
+- Killer opener corto pero efectivo.
+- Muy buenos storyboard.
+- La vestimenta con la que se expone es un aliciente para mantener la atención debido a lo llamativo.
+- Las gráficas se ven muy bien. Ha hecho caso al feedback de cambiar los colores de las curvas (verde para optimista, etc.).
+- Ha explicado muy bien el tema legal (leyes por las que se rigen, etc.).
+- Proporciona contexto a los inversores, no solo dice qué porcentaje de mercado van a ganar, sino que explican qué volumen tiene el mercado y otros aspectos importantes.
+- Muy buena demo haciendo uso de chascarrillos. Hilando con el killer opener.
+- Bien explicada la parte de los riesgos mostrándose como a través de las mitigaciones puestas se ha llegado a frenar completamente el caso de las revisiones de PR por parte de los coordinadores.
+- Incluye una traspa de lecciones aprendidas.
+- Hacen caso a las píldoras teóricas en la gestión de Feedback.
+- Han explicado un caso real de gestión de riesgos y cómo lo han solventado (reparto de tareas).
+- Muy bien preparada la presentación.
+- Muy buena finalización con la broma a Rubén.
+
+**Feedback negativo de estudiante**
+
+- La demo no se veía muy bien. Hacen falta zooms.
+- El uso de bocadillos en el storyBoard no es recomendado en las píldoras teóricas.
+
+
+**Feedback de profesores (Carlos)**
+
+- Maravilla de presentación.
+- Son el grupo que más coge feedback y lo hace suyo.
+- Ha hilado muy bien la presentación. Con todo. El killer opener con la demo, el final y los problemas que han tenido con el rendimiento.
+- A la demo le falta el zoom.
+- Sugiere el uso de copilot como bot para gestionar las pull request.
+- Pregunta si hay beneficio para los más trabajadores.
+
+**Feedback de profesores (Cristina)**
+
+- Elevator pitch muy bueno.
+- Exponen muy bien. Se nota que han ensayado mucho, esto mezclado con una capacidad innata para la exposición es una gran combinación.
+- El storyboard le ha gustado.
+- Le ha gustado cómo se han tratado los problemas.
+- Las métricas de rendimiento le han resultado extrañas.
+- La nota de los usuarios piloto (6.9) es mejorable.
+- Felicita al grupo.
+
+##### Semana 8
+
+**Camyo**
+
+App para juntar camioneros con empresas
+
+**Feedback positivo de estudiantes**
+- Muy buen anuncio que sirve como inicio efectivo.
+- Muy visual.
+- Uso de personajes del anuncio en la demo.
+- Buen uso del feedback de los UP, subiendo valoración media.
+- Buenas tomas falsas al final.
+
+**Feedback negativo de estudiantes**
+- Se escucha un poco mal el vídeo demo.
+- Faltan _zooms_.
+
+**Feedback de profesores (Cristina)**
+- Buen inicio enlazado con el anuncio.
+- Presentan muy bien.
+- Verificar supuestos en la diapo 7.
+- Demo corta de funcionalidad.
+- No queda claro qué problemas se han resuelto.
+
+**Feedback de profesores (Pablo)**
+- Gran cambio positivo.
+- Revisar indicadores de rendimiento.
+- Hablan de trazabilidad pero falta periodo.
+- Reducir texto y usar metáforas visuales.
+
+##### Semana 7
+
+**FisioFind**
+
+App para consultas de fisioterapia
+
+**Feedback positivo de estudiante**
+
+- Inicio muy bueno. Lo hila muy bien con el problema.
+- El hecho de que haya una persona grabando da un aire de profesionalidad, lo cual hace que aumente la atención del público.
+- Hila muy bien las diapositivas, se nota que está muy preparado.
+- Es muy buena idea ir alternando el presentador. Da dinamismo.
+- Las gráficas se ven muy bien.
+- Se ha hecho caso al feedback sobre los colores de las curvas de las gráficas.
+- ¿El uso de Zap? Es la primera vez que se menciona una herramienta de seguridad.
+- En la demo se discurre de forma elegante por los formularios, usando un nivel de detalle muy adecuado.
+- Buen video demo que hila con el inicio efectivo. Hay zooms.
+- Buen detalle mencionar el correo para que los fisios denuncien algún problema legislativo.
+- Buen detalle mostrar los documentos legales.
+- Muy buena diapositiva para mostrar los roles del equipo y cómo se han organizado.
+- Buen meme.
+- Anuncio de la semana además de video de la demo, es incuestionable el trabajo de este grupo.
+- Muy chulo el anuncio.
+
+**Feedback negativo de estudiante**
+
+- Referencia a semanas anteriores.
+- Descuadrado el audio de la demo.
+- Quizás fuera buena idea que ambos presentadores tuviera un pasante.
+
+**Feedback de profesores (Pablo)**
+
+- Son un buen ejemplo de imagen gráfica.
+- El anuncio está muy muy bien.
+- Sobra la parte de la demostración, que toda la demo sea dentro de la aplicación mostrando las funcionalidades core, no perder tiempo.
+- En cuanto a las historias de usuarios, le descoloca un poco la gráfica del estado del proyecto. Le parece compleja de hacer ya que depende mucho del feedback de los usuarios.
+- Estaría abierto a dos tipos de final, uno más orientado a aportar funcionalidades avanzadas gracias al feedback o un tipo de final más orientado a ganar mayor número de usuarios piloto.
+- Cualquier cosa que se haga debe ser diseñada para un contexto y una audiencia en específico.
+
+**Feedback de profesores (Cristina)**
+
+- Se han adelantado con el anuncio. Estaba muy bien.
+- Buen inicio efectivo y elevator pitch.
+- No hace falta cambiar mucho para que siga siendo efectivo el inicio efectivo.
+- Demo genial. Es un ejemplo de confrontación de ideas (uno lo quería de una forma y otro de otra, al final han cogido lo mejor de los dos mundos).
+- No le termina de encajar que usen un personaje real y luego otro ficticio.
+- Tienen que quedarse para la demo con lo que más destaca.
+- Bajo ratio de respuestas de fisio. Han de dejar un margen más amplio.
+- Muy bien abordado los términos y licencias.
+
+##### Semana 8
+
+**FisioFind**
+
+App para consultas de fisioterapia
+
+
+**Feedback positivo de estudiantes**
+- Un miembro grabando aporta profesionalidad.
+- Reutilización del contenido.
+- Muy visual, fácil de entender.
+- Demo bien preparada junto con la presentadora.
+- Sinceros con sus problemas.
+- Buen anuncio.
+
+**Feedback negativo de estudiantes**
+- Graban donde se ven alumnos que no quieren salir.
+
+**Feedback de profesores (Carlos)**
+- Son grandes oradores.
+- Killer opener plantea qué viene después de la carrera.
+- Presentación del equipo perfecta.
+- Cuidado con poner muchas tareas de implementación en el PPL, falta marketing.
+- En la demo se destacan mejoras de la interfaz.
+- Demo rápida con saltos de guion.
+
+**Feedback de profesores (Cristina)**
+- Inicio efectivo que enlaza bien con la app.
+- Demo muy profesional.
+- No es realista que todos los usuarios tengan la misma foto.
+- Gráfica de beneficio solo con la estimación optimista.
+
+#### Feedback de final de clase
+
+##### Semana 7
+
+- Sprint 1 muy decepcionante.
+
+**Se requiere para el proximo dia**:
+
+- Killer opener, elevator pitch, análisis de competidores.
+- Transformar los storyboards en anuncios. Al menos uno.
+- ANUNCIO EN VIDEO → nuevo.
+- No cambiar nada del equipo, mantener la estructura con roles.
+- Customer Agreement, SLA, Pricing.
+- Parte de los costes: estimaciones capex/opex. Situación actual con respecto al final del proyecto.
+- Commitment Agreement en caso de que no se haya cumplido al 100%.
+- Ver cómo se está implementando el tema de las regulaciones. No a nivel teórico, sino a nivel de implementación también.
+- Prototipos mejorados en la UX y usabilidad con respecto a versiones anteriores.
+- Cómo se implementan las regulaciones. Mostrar en la demo.
+- Matriz rendimiento/esfuerzo. Rendimiento individual.
+- Retrospectiva de mitad de sprint.
+- Problemas encontrados.
+- Plan de pruebas.
+- En cuanto a los problemas:
+  - Hay que definir cómo saber si está funcionando.
+  - Establecer acciones concretas que se están tomando.
+  - No se ha visto que estas acciones estén claras, hay que explicitar para cada problema las acciones concretas. No se trata de “hay que mejorar las cosas”, sino de acciones específicas como “vamos a plantear una reunión semanal para esto”.
+  - Definir una acción concreta para cada problema.
+  - Y ver si esa acción está funcionando.
+  - Para saber que algo funciona necesitamos métricas medibles, CUANTITATIVAS.
+  - Establecer un objetivo para saber si las métricas están funcionando o no.
+- Mantra: Problemas -> Acciones concretas -> Métricas -> Objetivos.
+- Reloj de avance del proyecto.
+- Plan de UP: feedback recibido, gestión del feedback, priorización, categorización de qué tipo de usuario.
+- Acciones derivadas de ese feedback.
+- Acciones en un ranking que se van a tomar. Priorizar el feedback.
+- Planificación para la siguiente semana:
+  - Seguridad.
+  - Planificación preliminar del PPL (campaña de lanzamiento y refinamiento del MVP).
+  - Uso de la IA.
+  - Diapositiva final con QR, landing page y contactos.
+- Planificación preliminar del PPL. Orientada a hacer publicidad y trabajar de cara al lanzamiento final.
+- LO NUEVO:
+  - Anuncio en video, haciendo hincapié en la seguridad y términos de uso en la demo.
+  - Plan de pruebas.
+  - Seguimiento cuantitativo de problemas.
+  - Ranking con las acciones derivadas del feedback de UP.
+  - Planificación del PPL.
+
+##### Semana 8
+
+- Se plantea la posibilidad de realizar una actividad individual para subir un 0.5
+- Se puede hacer un documento de lecciones aprendidas sobre los sprints no aptos. Hacer un documento concienzudo sobre esto para recuperar el porcentaje de la nota que se ha perdido.
+- Retrospectiva de mitad de asignatura.
+
+**Para el próximo día**:
+- Mínimo un anuncio en video diferente.
+- No es necesario customer agreement.
+- Tareas de marketing preliminares.
+- Pensar en roles que tengan que ver con la gestión de marketing. (Community manager o similares)
+- Costes y añadir roles nuevos y gastos de marketing.
+- Equipo refinado metiendo los roles nuevos dentro del equipo.
+- Demo del S3
+  - Describir inicialmente lo que hace la demo
+  - Basado en una historia lo más realista posible.
+  - Datos lo más realistas posibles.
+- Retrospectiva S3
+- Rendimiento análisis y matriz
+- Gráfico de productividad
+- Análisis de código
+- Plan de pruebas
+- Problemas encontrados
+- Gestión de feedback de los UP
+- Planificación de los siguientes entregables y en cuanto al PPL
+- Reporte de uso de IA
+- Diapositiva final con contacto y landing page
+Lo nuevo:
+- Anuncio y tareas de marketing.
+- Roles nuevos, costes, planes para atraer clientes.
