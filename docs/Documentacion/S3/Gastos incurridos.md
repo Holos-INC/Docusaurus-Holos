@@ -53,29 +53,32 @@
 
 
 ## Índice de Contenidos
-1. [Gastos incurridos ](#1-Gastos-Incurridos)
-2. [Gráfica](#2-grafica-resumen)
+
+1. [Gastos incurridos](#1-gastos-incurridos)
+   - [Costes por Sprint](#costes-por-sprint-estimados-e-incurridos)
+   - [Costes acumulados](#costes-acumulados-incurridos-y-esperados)
+2. [Gráfica](#2-grafica)
 
 
 
-## 1. Gastos-Incurridos
+## 1. Gastos incurridos 
 
-## Costes por Sprint (Estimados e incurridos)
-
+### Costes por Sprint (Estimados e incurridos)
 
 | Sprint | Gastos estimados (Personal) | Gastos incurridos (Personal) | Gastos estimados (Material) | Gastos incurridos (Material) | Esperados     | Gastos Incurridos totales |
-|----------|--------------|----|----------------|-----------|---------------|----------------------------|
-| Devising project  | 20.437,04 €     | 26.568,15 €       | 3.778,34 €       | 15.113,37 €   | 24.215,38 €   | 24.215,38 €                |
-| Sprint 1          | 15.327,78 €    | 16.349,63 €      | 2.833,76 €       | 2.833,76 €        | 18.161,54 €   | 19.183,39 €                |
-| Sprint 2          | 10.218,52 €     | 11.880,26 €     | 1.889,17 €       | 1.889,17 €      | 12.107,69 €   | 13.769,43 €                |
-|  Sprint 3    | 10.218,52 €         | 9.217,95 €       | 1.889,17 €         | 1.889,17 €     |               |                            |
-|    PPL   | 10.218,52 €      |  -      | 1.889,17 €                   | 1.889,17 €                    |               |                            |     |               |          |
+|----------|--------------|--------|----------------|--------------|-----------------|----------------------------|
+| Devising project  | 20.437,04 €     | 26.568,15 €       | 3.778,34 €       | 15.113,37 €   | 24.215,3 €       | 24.215,38 €                |
+| Sprint 1          | 15.327,78 €    | 16.349,63 €      | 2.833,76 €       | 2.833,76 €        | 18.161,54€      | 19.183,39 €                |
+| Sprint 2          | 10.218,52 €    | 11.880,26 €     | 1.889,17 €       | 1.889,17€      | 12.107,69€      | 13.769,43 €                |
+|  Sprint 3          | 10.218,52 €   | 9.217,95 €       | 1.889,17 €         | 1.889,17€     |       12.107,69€    |    11.107,11€           |
+|    PPL            | 10.218,52 €    |                    | 1.889,17 €      |                 |           12.107,69€     |                |
+|    WPL            | 10.218,52 €      |                 | 1.889,17 €      |                 |          12.107,69€      |                 |
 
 
 
 Los costes de personal contemplan el coste salarial bruto de los trabjadaores y los costes sociles (Impuesto del 30% sobre el salario bruto)
 
-## Costes acumulados (Incurridos y esperados)
+### Costes acumulados (Incurridos y esperados)
 
 | Proyecto | Gastos Incurridos | Esperados      |
 |----------|-------------------|----------------|
@@ -86,12 +89,12 @@ Los costes de personal contemplan el coste salarial bruto de los trabjadaores y 
 | PPL      |                   | 92.321,14 €    |
 | WPL      |                   | 104.428,83 €   |
 
-La reserva de contingencia, con un valor total de 13.621,15 €, ha sido distribuida equitativamente a lo largo de los tres sprints de desarrollo, asignando 4.540 € por sprint.
+La reserva de contingencia, con un valor total de 13.621,15 €, ha sido distribuida equitativamente a lo largo de los tres sprints de desarrollo, asignandose 4.540 € por sprint.
 
 Hasta el momento, se han utilizado 1.682,02 € de dicha reserva.
 
-
+## 2. Gráfica
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s3/grafica_costes_incurridos.jpg" alt="Universidad de Sevilla" width="150"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/costes_s3/grafica_costes_incurridos.jpg" alt="Universidad de Sevilla" width="700"/>
 </p>
