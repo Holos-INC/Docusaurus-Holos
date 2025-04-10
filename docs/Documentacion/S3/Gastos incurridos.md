@@ -76,7 +76,7 @@
 
 
 
-Los costes de personal contemplan el coste salarial bruto de los trabjadaores y los costes sociles (Impuesto del 30% sobre el salario bruto)
+Los costes de personal contemplan el coste salarial bruto de los trabjadaores y los costes sociales (Impuesto del 30% sobre el salario bruto)
 
 ### Costes acumulados (Incurridos y esperados)
 
@@ -89,7 +89,7 @@ Los costes de personal contemplan el coste salarial bruto de los trabjadaores y 
 | PPL      |                   | 92.321,14 €    |
 | WPL      |                   | 104.428,83 €   |
 
-La reserva de contingencia, con un valor total de 13.621,15 €, ha sido distribuida equitativamente a lo largo de los tres sprints de desarrollo, asignandose 4.540 € por sprint.
+La reserva de contingencia, con un valor total de 13.621,15 €, ha sido distribuida equitativamente a lo largo de los tres Sprints de desarrollo, asignandose 4.540 € por Sprint.
 
 Hasta el momento, se han utilizado 1.682,02 € de dicha reserva.
 
