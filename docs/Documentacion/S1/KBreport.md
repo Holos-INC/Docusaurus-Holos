@@ -62,6 +62,7 @@
 1. [Introducción](#1-introducción)
 2. [Aportaciones realizadas a la BCC](#2-aportaciones-realizadas-a-la-bcc)  
     2.1 [Sprint 1](#sprint-1)  
+        2.1.1 [Aportacioens de consolidación](#aportaciones-de-consolidación)
 
 ---
 
@@ -1025,9 +1026,10 @@ App para consultas de fisioterapia
 
 **FIN DE LA APORTACION**
 
+#### Aportaciones de consolidación
+
 Por otra parte se ha añadido una función de búsqueda de documentos en el repositorio de la base de conocimiento común para facilitar a los compañeros de la asignatura la búsqueda de artefactos específicos, pues esta será una funcionalidad que pensamos necesaria en una base de conocimiento que sin lugar a dudas va a expandirse mucho. Esta aportación puede verse: [aqui](https://github.com/ISPP-2425/BCC/commit/0f451ab3f0e9180724aeeadc613268fb41aab298)
 
-#### Aportacion exacta:
 
 Fichero ajustado: **docusaurus.config.js**
 ```js
@@ -1049,5 +1051,3 @@ Fichero ajustado: **docusaurus.config.js**
      ],
    ],  
 ```
-
-**FIN DE LA APORTACION**
