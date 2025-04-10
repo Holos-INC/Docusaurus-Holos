@@ -1,4 +1,4 @@
-# Evaluación del Desempeño de los Usuarios Piloto - Sprint 2
+# Evaluación del Desempeño de los Usuarios Piloto - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -53,6 +53,7 @@
 | Fecha      | Versión | Descripción           | Autor                    |
 |------------|---------|-----------------------|--------------------------|
 | 27/03/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna      |
+| 08/03/2025 | v1.1    | Evaluación para el Sprint 3 | Nerea Jiménez Adorna      |
 
 
 ---
@@ -65,11 +66,7 @@
 2. [Evaluación de Usuarios Piloto](#2-evaluación-de-usuarios-piloto)
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
-     - [Daniel Galván Cancio](#daniel-galván-cancho)
-     - [Rafael Duque Colete](#rafael-duque-colete)
-     - [Rafael Castillo Cebolla](#rafael-castillo-cebolla)
-     - [Mohamed Abouri](#mohamed-abouri)
-     - [Enrique García Abadía](#enrique-garcía-abadía)
+   - [Sprint 3](#23-sprint-3)
    - [Resumen](#resumen)
 3. [Conclusión](#3-conclusión)
 
@@ -93,49 +90,59 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ### 2.2 Sprint 2
 
-#### Daniel Galván Cancho
+| Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
+|---------|--------|--------|------|----|-------|--------|----|---------|----|
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
+|   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
+|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
+|   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+
+### 2.3 Sprint 3
+
+#### Daniel Galván Cancio
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 10. Ha elaborado respuestas extensas de opinión en los apartados que lo requerían.
-- **Identificación y reporte de errores:** 10. Ha reportado 6 incidencias, lo que lo hace el usuario piloto con más incidencias reportadas hasta la fecha.
-- **Calidad de las sugerencias de mejora:** 10. A pesar de no conocer en detalle el campo de nuestra aplicación, ha opinado con la mayor sinceridad y detalle.
+- **Claridad y detalle en la retroalimentación:** 10. De nuevo, ha elaborado respuestas extensas de opinión en los apartados que lo requerían, puntualizando la mejora respecto al envío anterior (aportando feedback positivo)
+- **Identificación y reporte de errores:** 10. Ha reportado 10 incidencias, lo que lo hace, de nuevo, el usuario piloto con más incidencias reportadas hasta la fecha.
+- **Calidad de las sugerencias de mejora:** 10. Siguiendo el nivel de su feedback anterior, dio sugerencias de mejora extensas.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 10. Ha sido el primero en contestar y ha mostrado mucho entusiasmo, preguntando por el pilotaje en varias ocasiones antes el envío.
+- **Actitud colaborativa y disposición:** 10. Como en entregas anteriores, ha sido el primero en contestar y ha mostrado mucho entusiasmo, preguntando por el pilotaje en varias ocasiones antes el envío.
 - **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la apliación más de 20 minutos.
-- **Impacto del feedback en la mejora del producto:** 10. Gracias a él detectamos errores de seguridad que nos pusimos a arreglar de inmediato.
+- **Impacto del feedback en la mejora del producto:** 10. Debido a las 6 incidencias que reportó pudimos mejorar mucho nuestro producto.
 
 **Calificación:** 10
 
 ---
 
-#### Rafael Duque Colete
+#### Rafael Duque Colete /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 6. Feedback un poco pobre, escueto.
-- **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
-- **Calidad de las sugerencias de mejora:** 6. Las sugerencias han sido escuetas y obvias.
+- **Claridad y detalle en la retroalimentación:** 8. Ha comentado casi todo aportando su más sincera opinión.
+- **Identificación y reporte de errores:** 8. Puso una incidencia.
+- **Calidad de las sugerencias de mejora:** 8. Ha aportado sugerencias, aunque no ha sido muy extenso en ellas.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
-- **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la aplicación más de 20 minutos.
-- **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
+- **Actitud colaborativa y disposición:** 10. Ha respondido los mensajes y ha realizado el pilotaje rápido.
+- **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la aplicación unos 20 minutos.
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 7.14 
+**Calificación:** 9.25
 
 ---
 
-#### Rafael Castillo Cebolla
+#### Rafael Castillo Cebolla /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 10. Muy crítico, ha rellenado el formulario en detalle y ha sido extenso en sus respuestas.
-- **Identificación y reporte de errores:** 5. Puso una incidencia.
+- **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
 - **Calidad de las sugerencias de mejora:** 10. Detallista, ha sugerido bastantes cosas acerca de mejorar la aplicación.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
 - **Actitud colaborativa y disposición:** 10. Se ha estado interesando y contestando a los mensajes que iba proporcionando anunciando el estado del proyecto.
 - **Frecuencia de interacción con la aplicación:** 6. Estuvo unos 10 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 8.71 
+**Calificación:** 8.25 
 
 ---
 
-#### Mohamed Abouri
+#### Mohamed Abouri /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 8. Ha sido claro aunque no demasiado detallista, con mensajes simples pero concretos.
 - **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
@@ -143,23 +150,23 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback.
 - **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
 - **Frecuencia de interacción con la aplicación:** 8. Estuvo unos 15 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 7.71
+**Calificación:** 8
 
 ---
 
 #### Enrique García Abadía
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 8. Se ha centrado demasiado en el aspecto visual, aunque también ha tocado temas funcionales.
-- **Identificación y reporte de errores:** 5. Puso una incidencia.
-- **Calidad de las sugerencias de mejora:** 8. Se ha centrado más en decir que hay que mejorar lo que ya tenemos, fijándose mucho en lo visual.
+- **Claridad y detalle en la retroalimentación:** 10. Ha sido muy crítico, aportando un feedback valioso, centrándose más en los aspectos a mejorar que en las mejoras del sprint anterior.
+- **Identificación y reporte de errores:** 10. Puso 3 incidencias.
+- **Calidad de las sugerencias de mejora:** 10. De nuevo, se ha centrado más en decir que hay que mejorar lo que ya tenemos, fijándose mucho en lo visual.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
-- **Frecuencia de interacción con la aplicación:** 8. Estuvo unos 15 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Actitud colaborativa y disposición:** 10. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
+- **Frecuencia de interacción con la aplicación:** 10. Estuvo unos 20 minutos probando la aplicación.
+- **Impacto del feedback en la mejora del producto:** 10. Se tomaron en cuenta sus sugerencias.
 
-**Calificación:** 8.14
+**Calificación:** 10
 
 ---
 
@@ -167,15 +174,25 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
-|   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
-|   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
-|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
-|   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Rafael Duque Colete   |  10 |  8 |  8 |  8 |  10 |  10 |  10 |  10 |   **9.25** |
+|   Rafael Castillo Cebolla | 10 |  10 |  0 |  10 |  10 |  10 |  6 |  10 |   **8.25** |
+|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  10 |   **8** |
+|   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
+
+### Final
+
+| Nombre  | S1| S2 | S3| PPL | WPL | Total |
+|---------|--------|--------|------|----|-------|--------|
+|   Daniel Galván Cancio   |  N/A |  10  |  10 |  - |  -  |   **10** |
+|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  - |  -  |   **8.195** |
+|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  - |  -  |   **8.48** |
+|   Mohamed Abouri  |  N/A |  7.71  |  8 |  - |  -  |   **7.855** |
+|   Enrique García Abadía |  N/A |  8.84  |  10 |  - |  -  |   **9.42** |
 
 ## 3. Conclusión
 
-Como para esta entrega hemos recibido el feedback de todos los usuarios piloto involucrados, estamos muy contentos. Consideramos que aunque unos han pasado más tiempo dedicado a investigar la aplicación (de ahí la diferencia de calificaciones), todos han hecho un muy buen trabajo. El feedback recopilado está siendo analizado para corregir la aplicación de cara al siguiente envío, en el cual se les preguntará si se han sentido escuchados por el equipo al ver cómo hemos acabado tratando el feedback.
+Para esta entrega hemos vuelto a recibir el feedback de todos los usuarios piloto involucrados. Parece que han notado mejoría en la aplicación, aunque otros siguen escépticos y ponen demasiadas pegas al frontend. A estas alturas es natural y comprensible, por lo que hemos trabajado para paliar eso de cara a la entrega, aprovechando la gran cantidad de incidencias que han puesto. Han hecho un gran trabajo.
 
 Para cada entrega este documento se actualizará, de modo que por Sprint aparecerá la evaluación detallada de esa misma entrega, mientras que respecto a las anteriores (excepto en el Sprint 1) aparecerá el solo el resumen.
 

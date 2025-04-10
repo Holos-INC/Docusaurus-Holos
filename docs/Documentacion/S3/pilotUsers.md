@@ -1,4 +1,4 @@
-# Gestión de Usuarios Piloto - Sprint 2
+# Gestión de Usuarios Piloto - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -57,6 +57,7 @@
 | 09/03/2025 | v1.3    | Corrección Usuarios Piloto y añadido "Evaluación de Usuarios piloto de otros grupos" | Nerea Jiménez Adorna  |
 | 13/03/2025 | v1.4    | Añadida evaluación de Usuarios Piloto y actualización del calendario | Nerea Jiménez Adorna  |
 | 27/03/2025 | v1.5    | Añadida evaluación de Usuarios Piloto y actualización Sprint 2 | Nerea Jiménez Adorna  |
+| 10/04/2025 | v1.6   | Añadida evaluación de Usuarios Piloto y actualización Sprint 3 | Nerea Jiménez Adorna  |
 ---
 
 ## Índice de Contenidos
@@ -397,44 +398,39 @@ Se han definido los siguientes criterios para la evaluación:
 - **(4)** Feedback valioso que llevó a mejoras claras.  
 - **(5)** Aportaciones críticas que impactaron positivamente. 
 
-### Evaluación por Fase
-
-#### Envío 1
-
-# Evaluación de Usuarios Piloto
+### Evaluación de Usuarios Piloto**
 
 | Nombre          | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |-----------------|---------------|----------|---------|-------------|----------------|--------------|-------------|---------|----------|
-| Braulio         | 2 | 2 | 4 | 3 | 4 | 3 | N/A | N/A | 3.0 |
-| Claudia         | 5 | 5 | 5 | 5 | 5 | 5 | N/A | N/A | 5.0 |
-| Miriam          | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Paola           | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Víctor          | 5 | 5 | 5 | 4 | 5 | 4 | N/A | N/A | 4.8 |
-| Yellow          | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Alex S          | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Patricia        | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Artofiz         | 1 | 1 | 1 | 1 | 2 | 1 | N/A | N/A | 1.2 |
-| Gabriela        | 3 | 4 | 5 | 5 | 3 | 4 | N/A | N/A | 3.8 |
-| Alex            | 3 | 5 | 4 | 3 | 3 | 3 | N/A | N/A | 3.6 |
-| Gurutze         | 4 | 5 | 5 | 5 | 5 | 5 | N/A | N/A | 4.8 |
-| Damaris         | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
-| Sofía           | 2 | 1 | 4 | 4 | 3 | 3 | N/A | N/A | 2.8 |
-| Jeenii          | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Emilio          | 5 | 4 | 5 | 5 | 5 | N/A | N/A | N/A | 4.8 |
-| Rafael          | 3 | 3 | 4 | 3 | 3 | N/A | N/A | N/A | 3.2 |
-| Félix           | 3 | 2 | 1 | 1 | 1 | N/A | N/A | N/A | 1.6 |
-| Raúl            | 1 | 3 | 5 | 3 | 3 | N/A | N/A | N/A | 3.0 |
-| Patricia        | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Joker           | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Henrique        | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Javier Pacheco  | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Horacio         | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Keegan          | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Milagros        | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-| Simón           | 4 | 4 | 5 | 3 | 4 | N/A | N/A | N/A | 4.0 |
-| Lucas           | 2 | 4 | 3 | 3 | 2 | N/A | N/A | N/A | 2.8 |
-| Carlos          | 0 | 0 | 0 | 0 | 0 | N/A | N/A | N/A | 0.0 |
-
+| Braulio | 2 | 2 | 4 | 3 | 4 | 3 | N/A | N/A | 3.0 |
+| Claudia | 5 | 5 | 5 | 5 | 5 | 5 | N/A | N/A | 5.0 |
+| Miriam | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0.0 |
+| Paola | 4 | 3 | 2 | 4 | 2 | 3 | 4 | 3 | 3.1 |
+| Víctor | 5 | 5 | 5 | 4 | 5 | 4 | N/A | N/A | 4.8 |
+| Yellow | 1 | 4 | 3 | 2 | 4 | 2 | 1 | 3 | 2.5 |
+| AlexS | 5 | 3 | 2 | 3 | 4 | 1 | 4 | 3 | 3.1 |
+| Patricia | 2 | 2 | 4 | 3 | 1 | 2 | 3 | 2 | 2.4 |
+| Artofiz | 1 | 1 | 1 | 1 | 2 | 1 | N/A | N/A | 1.2 |
+| Gabriela | 3 | 4 | 5 | 5 | 3 | 4 | N/A | N/A | 3.8 |
+| Alex | 3 | 5 | 4 | 3 | 3 | 3 | N/A | N/A | 3.6 |
+| Gurutze | 4 | 5 | 5 | 5 | 5 | 5 | N/A | N/A | 4.8 |
+| Damaris | 3 | 1 | 2 | 1 | 3 | 2 | 2 | 2 | 2.0 |
+| Sofía | 2 | 1 | 4 | 4 | 3 | 3 | N/A | N/A | 2.8 |
+| Jeenii | 2 | 3 | 1 | 2 | 2 | 3 | 1 | 2 | 2.0 |
+| Emilio | 5 | 4 | 5 | 5 | 5 | N/A | N/A | N/A | 4.8 |
+| Rafael | 3 | 3 | 4 | 3 | 3 | N/A | N/A | N/A | 3.2 |
+| Félix | 3 | 2 | 1 | 1 | 1 | N/A | N/A | N/A | 1.6 |
+| Raúl | 1 | 3 | 5 | 3 | 3 | N/A | N/A | N/A | 3.0 |
+| Patricia | 2 | 3 | 3 | 2 | 3 | N/A | N/A | N/A | 2.6 |
+| Joker | 1 | 4 | 2 | 1 | 2 | N/A | N/A | N/A | 2.0 |
+| Henrique | 2 | 2 | 4 | 3 | 1 | N/A | N/A | N/A | 2.4 |
+| Javier Pacheco | 4 | 3 | 3 | 3 | 4 | N/A | N/A | N/A | 3.4 |
+| Horacio | 1 | 3 | 2 | 2 | 3 | N/A | N/A | N/A | 2.2 |
+| Keegan | 3 | 1 | 3 | 2 | 2 | N/A | N/A | N/A | 2.2 |
+| Milagros | 2 | 2 | 4 | 3 | 4 | N/A | N/A | N/A | 3.0 |
+| Simón | 4 | 4 | 5 | 3 | 4 | N/A | N/A | N/A | 4.0 |
+| Lucas | 2 | 4 | 3 | 3 | 2 | N/A | N/A | N/A | 2.8 |
+| Carlos | 1 | 4 | 2 | 1 | 3 | N/A | N/A | N/A | 2.2 |
 
 ### **6.1. Criterios de Evaluación**
 
@@ -489,6 +485,27 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 |   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
 |   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+
+#### Sprint 3 (Envío 3)
+
+| Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
+|---------|--------|--------|------|----|-------|--------|----|---------|----|
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Rafael Duque Colete   |  10 |  8 |  8 |  8 |  10 |  10 |  10 |  10 |   **9.25** |
+|   Rafael Castillo Cebolla | 10 |  10 |  0 |  10 |  10 |  10 |  6 |  10 |   **8.25** |
+|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  10 |   **8** |
+|   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
+
+#### Final
+
+| Nombre  | S1| S2 | S3| PPL | WPL | Total |
+|---------|--------|--------|------|----|-------|--------|
+|   Daniel Galván Cancio   |  N/A |  10  |  10 |  - |  -  |   **10** |
+|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  - |  -  |   **8.195** |
+|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  - |  -  |   **8.48** |
+|   Mohamed Abouri  |  N/A |  7.71  |  8 |  - |  -  |   **7.855** |
+|   Enrique García Abadía |  N/A |  8.84  |  10 |  - |  -  |   **9.42** |
+
 
 ## 7. Beneficios para los Usuarios Piloto
 

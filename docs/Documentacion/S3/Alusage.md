@@ -234,6 +234,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 013          | 1                               | Sí                          | No                   | 90 min           |
 | 014          | 1                               | Sí                          | No                   | 10 min           |
 | 015          | 3                               | Sí                          | No                   | 90 min           |
+| 016          | 1                               | Sí                          | No                   | 35 min           |
 ---
 
 
@@ -265,10 +266,10 @@ El porcentaje de alucinación se calcula mediante la siguiente fórmula:
 ```
 ### Cálculo de la Alucinación de la IA
 
-- **Total de registros evaluados**: 15
+- **Total de registros evaluados**: 16
 - **Respuestas editadas**: 1 (ID 003)
 - **Nivel de Alucinación asignado**:
-  - **Nivel 0**: Respuestas completamente correctas (14 respuestas).
+  - **Nivel 0**: Respuestas completamente correctas (15 respuestas).
   - **Nivel 1**: Respuestas editadas (1 respuestas).
   
 - **Porcentaje de Alucinación**: **3.125%**

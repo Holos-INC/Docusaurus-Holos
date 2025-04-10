@@ -65,7 +65,7 @@
 2. [Evaluación de Usuarios Piloto](#2-evaluación-de-usuarios-piloto)
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
-     - [Daniel Galván Cancio](#daniel-galván-cancho)
+     - [Daniel Galván Cancio](#daniel-galván-cancio)
      - [Rafael Duque Colete](#rafael-duque-colete)
      - [Rafael Castillo Cebolla](#rafael-castillo-cebolla)
      - [Mohamed Abouri](#mohamed-abouri)
@@ -93,7 +93,7 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ### 2.2 Sprint 2
 
-#### Daniel Galván Cancho
+#### Daniel Galván Cancio
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 10. Ha elaborado respuestas extensas de opinión en los apartados que lo requerían.
 - **Identificación y reporte de errores:** 10. Ha reportado 6 incidencias, lo que lo hace el usuario piloto con más incidencias reportadas hasta la fecha.
@@ -167,7 +167,7 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
-|   Daniel Galván Cancho   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+|   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
 |   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
 |   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |

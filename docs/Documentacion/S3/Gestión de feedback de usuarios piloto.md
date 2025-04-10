@@ -1,4 +1,4 @@
-# Gestión de feedback de usuarios piloto
+# Gestión de feedback de usuarios piloto - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -53,6 +53,8 @@
 | v1.0    | 25/03/2025 | Creación del documento. | Ignacio Warleta  |
 | v1.1    | 26/03/2025 | Actualización con el feedback de algunos usuarios piloto | Nerea Jiménez Adorna   |
 | v1.2    | 27/03/2025 | Actualización con el feedback de otros usuarios piloto | Nerea Jiménez Adorna   |
+| v1.3    | 27/04/2025 | Actualización con el feedback del Sprint 3 | Nerea Jiménez Adorna   |
+
 
 
 ## Índice de Contenidos
