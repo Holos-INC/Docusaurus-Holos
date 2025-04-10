@@ -244,6 +244,7 @@ Esta tabla almacenará los registros de todas las consultas realizadas a herrami
 | 013          | Consulta sobre creación de workflow para eliminación de ramas inactivas | Juan del Junco Obregón | 24/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e1b31c-df14-8005-bf61-9cde3c984fff) |
 | 014          | Consulta sobre visualización de fórmulas matemáticas en un archivo markdown | Ignacio Warleta | 26/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67e46a70-4384-800c-b3b3-58edcf2f976e) |
 | 015          | Paso de métodos del controlador a un formato para iniciar el análisis | Nerea Jiménez Adorna | 29/03/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67f80545-dbd4-8003-8d95-99c1208fd5a4) |
+| 016          | Conversión de string a formato base64 | María del Carmen Barrera  | 10/04/2025 | [Enlace a ChatGPT](https://chatgpt.com/share/67f80ab8-b364-800e-a21d-18573de955e1) |
 
 
 ### 4.5. Tabla 2: Evaluación de la Utilidad de la IA  
@@ -267,6 +268,7 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 013          | 1                               | Sí                          | No                   | 90 min           |
 | 014          | 1                               | Sí                          | No                   | 10 min           |
 | 015          | 3                               | Sí                          | No                   | 90 min           |
+| 015          | 1                               | Sí                          | No                   | 35 min           |
 ---
 
 
