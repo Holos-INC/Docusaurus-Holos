@@ -1,4 +1,4 @@
-# Guía para la Revisión - Sprint 2
+# Guía para la Revisión - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -41,7 +41,7 @@
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
 | Juan Núñez           |  Redactor                       |
-| María del Carmen Barrera  |  Revisora  |                    
+| María del Mar Ávila  |  Revisora  |                    
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
