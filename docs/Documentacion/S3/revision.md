@@ -66,11 +66,11 @@
 ### **Emparejamiento (Matchmaking)**
 - Un usuario explora obras de arte disponibles. (**UC-003** implementado en `explore/index.tsx`).  
 - Un usuario solicita un trabajo personalizado a un artista. (**UC-004** implementado en `commissions/request/[artistUsername].tsx`).  
-- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** implementado en `commissions/index.tsx`).  
+- Un artista responde a una solicitud de trabajo personalizado. (**UC-005** implementado en `commissions/index.tsx`, no se notifica al artista).  
 - Un artista gestiona encargos en un tablero Kanban. (**UC-009** implementado en `kanban.tsx`).  
 - Un usuario realiza el pago de una obra de arte. (**UC-010** implementado en `payment.tsx`).   
 - Un usuario envía un mensaje a un artista. (**UC-008** implementado en `chats/[commissionId].tsx`).  
-- Un usuario abre una incidencia sobre un problema. (**UC-013**  implementado en `work/[workId].tsx`).  
+- Un usuario abre una incidencia sobre un problema. (**UC-013**  no implementado).  
 - Un artista acepta o deniega una solicitud. (**UC-005** implementado en `commissions/index.tsx`).
 - Un usuario visualiza los detalles de una obra de arte. (**UC-015** implementado en `work/[workId].tsx`).
 - Un usuario deja una reseña sobre un artista. (**UC-012** no implementado).  
@@ -82,10 +82,10 @@
  
 - Un usuario visualiza su perfil. (**UC-007** implementado  en `UserProfileScreen.tsx`).  
 - Un usuario inicia sesión en el sistema. (**UC-001** implementado en `login.tsx`).  
-- Un usuario se registra en el sistema. (**UC-002** parcialmente implementado en `signup.tsx`).  
-- Un usuario modifica su perfil. (**UC-007** no implementado). 
+- Un usuario se registra en el sistema. (**UC-002** parcialmente implementado en `signup.tsx`, la pantalla está completamente implementada, pero el botón no funciona).  
+- Un usuario modifica su perfil. (**UC-007** implementado). 
 - Un usuario consulta el historial de pedidos. (**UC-011** implementado en `commissions/index.tsx`).  
-- Un artista visualiza las obras que ha subido. (**UC-016** parcialemente implementado).  
+- Un artista visualiza las obras que ha subido. (**UC-016** implementado).  
 - Un usuario elimina su cuenta. (**UC-014** no implementado).  
  
 
