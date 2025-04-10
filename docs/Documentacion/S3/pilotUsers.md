@@ -424,7 +424,7 @@ Se han definido los siguientes criterios para la evaluación:
 | Patricia | 2 | 3 | 3 | 2 | 3 | N/A | N/A | N/A | 2.6 |
 | Joker | 1 | 4 | 2 | 1 | 2 | N/A | N/A | N/A | 2.0 |
 | Henrique | 2 | 2 | 4 | 3 | 1 | N/A | N/A | N/A | 2.4 |
-| JavierPacheco | 4 | 3 | 3 | 3 | 4 | N/A | N/A | N/A | 3.4 |
+| Javier Pacheco | 4 | 3 | 3 | 3 | 4 | N/A | N/A | N/A | 3.4 |
 | Horacio | 1 | 3 | 2 | 2 | 3 | N/A | N/A | N/A | 2.2 |
 | Keegan | 3 | 1 | 3 | 2 | 2 | N/A | N/A | N/A | 2.2 |
 | Milagros | 2 | 2 | 4 | 3 | 4 | N/A | N/A | N/A | 3.0 |
