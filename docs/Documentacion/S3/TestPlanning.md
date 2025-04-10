@@ -60,7 +60,7 @@
 4. [Lecciones aprendidas](#4-lecciones-aprendidas)  
 5. [Objetivos del Testing](#5-objetivos-del-testing)  
 6. [Alcance del Testing](#6-alcance-del-testing)  
-7. [Planificación y Ejecución](#7-planificacion-y-ejecucion)  
+7. [Planificación y Ejecución](#7-planificación-y-ejecución)  
 
 
 ## 1. Resumen  
@@ -87,37 +87,37 @@ Documento que define la estrategia de pruebas para garantizar la calidad del pro
 
 ## 4. Lecciones aprendidas  
 
-### ✅ Éxitos:  
+###  Éxitos:  
 - Mocking de APIs redujo tiempo de pruebas en un 40%.  
-- JaCoCo en CI bloqueó 3 PRs con cobertura <70%.  
+- JaCoCo en CI bloqueó 3 PRs con cobertura < 70%.  
 
-### 📌 Mejoras para próximos sprints:  
+###  Mejoras para próximos sprints:  
 - Añadir pruebas de estrés con K6 para endpoints críticos.  
 - Incluir 2 dispositivos más en testing manual (iPhone 15, Pixel 8).  
 
 ## 5. Objetivos del Testing  
 
-### ✔ Cumplidos:  
+###  Cumplidos:  
 - 72% cobertura (objetivo: 70%).  
 - 0 bugs críticos en producción.  
 
-### 🔜 Nuevos objetivos:  
+###  Nuevos objetivos:  
 - 75% cobertura para próximo release.  
-- Reducir latencia APIs a <2s.  
+- Reducir latencia APIs a < 2s.  
 
 ## 6. Alcance del Testing  
 
 ### Backend (Spring Boot)  
-- ✅ Pruebas unitarias: 74% cobertura (JUnit).  
-- ✅ Pruebas de integración: Validación de interacciones entre servicios RESTful utilizando Postman y Spring Test.  
-- ✅ Cobertura de casos: 85% de endpoints críticos probados.
-- ⚠️ Identificado: Latencia alta en 2 endpoints, requiere optimización.
+-  Pruebas unitarias: 74% cobertura (JUnit).  
+-  Pruebas de integración: Validación de interacciones entre servicios RESTful utilizando Postman y Spring Test.  
+-  Cobertura de casos: 85% de endpoints críticos probados.
+-  Identificado: Latencia alta en 2 endpoints, requiere optimización.
 
 ### Frontend (React Native)  
-- ✅ Pruebas E2E: 100% flujos críticos (Detox).  
-- ⚠️ Mejora pendiente: Aumentar cobertura de componentes al 75%.  
+-  Pruebas E2E: 100% flujos críticos (Detox).  
+-  Mejora pendiente: Aumentar cobertura de componentes al 75%.  
 
-## 7. Planificacion-y-Ejecucion
+## 7. Planificación-y-Ejecución
 |Fase	|Duración|	Resultado|
 |-|-|-|
 |Pruebas CI/CD	|6 días	|100% builds exitosos|

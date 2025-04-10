@@ -1,6 +1,6 @@
 # Grupo 9 Rafael Duque
 
-# Acuerdo de Compromiso para Usuarios Piloto de la Aplicación Holos
+# Acuerdo de Compromiso para Usuarios Piloto de la Aplicación Holos - Spront 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -18,7 +18,14 @@
 **Fecha:** 27/02/2025   
 **Versión:** v1.0  
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Nerea Jiménez        |  Redactora                       |
+
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
 ---

@@ -19,6 +19,13 @@
 **Versión:** v1.0  
 
 **Grupo de prácticas:** G1  
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| Nerea Jiménez        |  Redactora                       |
+
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
 ---

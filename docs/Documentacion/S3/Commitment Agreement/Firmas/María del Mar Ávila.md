@@ -1,4 +1,4 @@
-# María del Mar Ávila
+# María del Mar Ávila - Sprint 3
 
 # Commitment Agreement
 
@@ -16,9 +16,18 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 18/02/2025   
-**Versión:** v2.0  
+**Versión:** v3.0  
 
-**Grupo de prácticas:** G1  
+**Grupo de prácticas:** G1 
+
+**Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
+
+**Responsables:**
+| Miembro              | Responsabilidad                 |
+|----------------------|---------------------------------|
+| María del Mar Ávila  |  Redactora                      |
+
+
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
 ---

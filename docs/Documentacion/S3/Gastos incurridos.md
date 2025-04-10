@@ -1,4 +1,4 @@
-# Gastos incurridos
+# Gastos incurridos - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -57,7 +57,7 @@
 1. [Gastos incurridos](#1-gastos-incurridos)
    - [Costes por Sprint](#costes-por-sprint-estimados-e-incurridos)
    - [Costes acumulados](#costes-acumulados-incurridos-y-esperados)
-2. [Gráfica](#2-grafica)
+2. [Gráfica](#2-gráfica)
 
 
 
