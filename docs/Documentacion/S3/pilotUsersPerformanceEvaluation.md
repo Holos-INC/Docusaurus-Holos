@@ -121,29 +121,29 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 #### Rafael Duque Colete /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
-- **Claridad y detalle en la retroalimentación:** 6. Feedback un poco pobre, escueto.
-- **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
-- **Calidad de las sugerencias de mejora:** 6. Las sugerencias han sido escuetas y obvias.
+- **Claridad y detalle en la retroalimentación:** 8. Ha comentado casi todo aportando su más sincera opinión.
+- **Identificación y reporte de errores:** 8. Puso una incidencia.
+- **Calidad de las sugerencias de mejora:** 8. Ha aportado sugerencias, aunque no ha sido muy extenso en ellas.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
-- **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
-- **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la aplicación más de 20 minutos.
-- **Impacto del feedback en la mejora del producto:** N/A (No se ha recibido feedback aún).
+- **Actitud colaborativa y disposición:** 10. Ha respondido los mensajes y ha realizado el pilotaje rápido.
+- **Frecuencia de interacción con la aplicación:** 10. Estuvo probando la aplicación unos 20 minutos.
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 7.14 
+**Calificación:** 9.25
 
 ---
 
 #### Rafael Castillo Cebolla /S2
 - **Participación activa en la fase de prueba:** 10. Ha participado activamente.
 - **Claridad y detalle en la retroalimentación:** 10. Muy crítico, ha rellenado el formulario en detalle y ha sido extenso en sus respuestas.
-- **Identificación y reporte de errores:** 5. Puso una incidencia.
+- **Identificación y reporte de errores:** 0. No puso ninguna incidencia.
 - **Calidad de las sugerencias de mejora:** 10. Detallista, ha sugerido bastantes cosas acerca de mejorar la aplicación.
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias.
 - **Actitud colaborativa y disposición:** 10. Se ha estado interesando y contestando a los mensajes que iba proporcionando anunciando el estado del proyecto.
 - **Frecuencia de interacción con la aplicación:** 6. Estuvo unos 10 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 8.71 
+**Calificación:** 8.25 
 
 ---
 
@@ -155,9 +155,9 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 - **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback.
 - **Actitud colaborativa y disposición:** 8. Hizo correctamente su tarea aunque no ha preguntado ni se ha visto interesado más allá de eso.
 - **Frecuencia de interacción con la aplicación:** 8. Estuvo unos 15 minutos probando la aplicación.
-- **Impacto del feedback en la mejora del producto:** N/A (No hemos podido aplicar aún sus sugerencias).
+- **Impacto del feedback en la mejora del producto:** 10.
 
-**Calificación:** 7.71
+**Calificación:** 8
 
 ---
 
@@ -180,14 +180,24 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
 |---------|--------|--------|------|----|-------|--------|----|---------|----|
 |   Daniel Galván Cancio   |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
-|   Rafael Duque Colete   |  10 |  6 |  0 |  6 |  10 |  8 |  10 |  N/A |   **7.14** |
-|   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
-|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
+|   Rafael Duque Colete   |  10 |  8 |  8 |  8 |  10 |  10 |  10 |  10 |   **9.25** |
+|   Rafael Castillo Cebolla | 10 |  10 |  0 |  10 |  10 |  10 |  6 |  10 |   **8.25** |
+|   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  10 |   **8** |
 |   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
+
+### Final
+
+| Nombre  | S1| S2 | S3| PPL | WPL | Total |
+|---------|--------|--------|------|----|-------|--------|
+|   Daniel Galván Cancio   |  N/A |  10  |  10 |  - |  -  |   **10** |
+|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  - |  -  |   **8.195** |
+|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  - |  -  |   **8.48** |
+|   Mohamed Abouri  |  N/A |  7.71  |  8 |  - |  -  |   **7.855** |
+|   Enrique García Abadía |  N/A |  8.84  |  10 |  - |  -  |   **9.42** |
 
 ## 3. Conclusión
 
-Como para esta entrega hemos recibido el feedback de todos los usuarios piloto involucrados, estamos muy contentos. Consideramos que aunque unos han pasado más tiempo dedicado a investigar la aplicación (de ahí la diferencia de calificaciones), todos han hecho un muy buen trabajo. El feedback recopilado está siendo analizado para corregir la aplicación de cara al siguiente envío, en el cual se les preguntará si se han sentido escuchados por el equipo al ver cómo hemos acabado tratando el feedback.
+Para esta entrega hemos vuelto a recibir el feedback de todos los usuarios piloto involucrados. Parece que han notado mejoría en la aplicación, aunque otros siguen escépticos y ponen demasiadas pegas al frontend. A estas alturas es natural y comprensible, por lo que hemos trabajado para paliar eso de cara a la entrega, aprovechando la gran cantidad de incidencias que han puesto. Han hecho un gran trabajo.
 
 Para cada entrega este documento se actualizará, de modo que por Sprint aparecerá la evaluación detallada de esa misma entrega, mientras que respecto a las anteriores (excepto en el Sprint 1) aparecerá el solo el resumen.
 
