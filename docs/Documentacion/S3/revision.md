@@ -41,7 +41,7 @@
 | Miembro              | Responsabilidad                 |
 |----------------------|---------------------------------|
 | Juan Núñez           |  Redactor                       |
-| María del Carmen Barrera  |  Revisora  |                    
+| María del Mar Ávila  |  Revisora  |                    
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC)
 
