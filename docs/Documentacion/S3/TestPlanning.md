@@ -60,7 +60,7 @@
 4. [Lecciones aprendidas](#4-lecciones-aprendidas)  
 5. [Objetivos del Testing](#5-objetivos-del-testing)  
 6. [Alcance del Testing](#6-alcance-del-testing)  
-7. [Planificación y Ejecución](#7-planificacion-y-ejecucion)  
+7. [Planificación y Ejecución](#7-planificación-y-ejecución)  
 
 
 ## 1. Resumen  
@@ -117,7 +117,7 @@ Documento que define la estrategia de pruebas para garantizar la calidad del pro
 -  Pruebas E2E: 100% flujos críticos (Detox).  
 -  Mejora pendiente: Aumentar cobertura de componentes al 75%.  
 
-## 7. Planificacion-y-Ejecucion
+## 7. Planificación-y-Ejecución
 |Fase	|Duración|	Resultado|
 |-|-|-|
 |Pruebas CI/CD	|6 días	|100% builds exitosos|
