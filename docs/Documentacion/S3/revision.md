@@ -1,4 +1,4 @@
-# Guía para la Revisión - Sprint 2
+# Guía para la Revisión - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -144,7 +144,7 @@ A continuación, se detallan las funcionalidades de administrador que se han imp
     En la sección "Reports" se pueden consultar las configuraciones para ver en qué han invertido su tiempo los diferentes miembros del grupo.  
 
 - **Requisitos potenciales:** Ninguno  
-- **Link de la demo:** https://holos-doc.vercel.app/docs/Documentacion/S3/videodemo  
+- **Link de la demo:** [Demo](../../../static/videos/Holos_demo_1104.mp4)
 - **Ejemplos de inputs complejos:**
     No hay formularios complejos por el momento. Aunque es interesante destacar que cuando el cliente quiere pedir al artista una comisión tiene la opción de adjuntar una imagen (no es obligatorio, se puede realizar la comisión sin adjuntar dicha imagen).
 - **URL de despliegue:** https://holos-art.ew.r.appspot.com/
