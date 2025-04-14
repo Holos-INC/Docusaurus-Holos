@@ -61,7 +61,7 @@
 
 ## Introducción
 
-El Sprint 1 no acabó como esperábamos. El equipo no logró entregar una versión funcional ni cumplir con los objetivos mínimos planteados. Las causas son diversas, pero todas apuntan a fallos de base en la organización, la planificación, la comunicación y la ejecución técnica.
+El Sprint 1 no acabó como esperábamos. El equipo no logró entregar una versión funcional desplegada. Las causas son diversas, pero todas apuntan a fallos de base en la organización, la planificación, la comunicación y la ejecución técnica.
 
 Desde el inicio, hubo señales claras de descoordinación: requisitos que cambiaban constantemente sin una gestión formal, tareas mal definidas o mal distribuidas, y equipos que trabajaban en silos. A pesar de los esfuerzos por avanzar, los errores se acumularon y el proyecto perdió el rumbo, hasta llegar a un punto donde continuar bajo las condiciones actuales habría sido contraproducente.
 
@@ -114,3 +114,13 @@ El objetivo del próximo sprint no será simplemente entregar funcionalidad, sin
 ### R18. Burnout en el equipo  
 **Autocrítica:** No se gestionó adecuadamente la carga de trabajo. Ignoramos señales tempranas de agotamiento.  
 **Acciones:** Fomento de pausas, balance de cargas, rotación de tareas y atención continua al bienestar del equipo mediante el calendario Niko Niko.
+
+## Lecciones Aprendidas
+
+La experiencia de este sprint ha dejado claro que los errores no surgen de una sola decisión aislada, sino de la acumulación de pequeñas malas decisiones que se consolidan con el tiempo.
+Después de analizar los problemas por los que pasamos, coincidimos en que debemos darle suma importancia a:
+- Asegurar la definición y validación temprana de los requisitos: Antes de iniciar cualquier desarrollo, es imprescindible contar con requisitos claros, reduciendo así la ambigüedad y el riesgo de retrabajo.
+- Gestionar de manera controlada y consciente tanto el alcance como los cambios durante el proyecto: Los cambios deben ser gestionados mediante una evaluación formal de impacto que permita tomar decisiones informadas y mantener la estabilidad del desarrollo.
+- Mantener canales de comunicación abiertos y frecuentes: Fomentar la colaboración directa, especialmente mediante trabajo en parejas entre backend y frontend, para asegurar una integración fluida y evitar malentendidos.
+- Fomentar la integración temprana de funcionalidades: La ausencia de criterios claros afectó negativamente la calidad del código y del producto final. La implementación de revisiones obligatorias y convenciones comunes es clave para asegurar consistencia. Para ello se elaboraron documentos de buenas prácticas tanto para Backend como para Frontend.
+- Priorizar el bienestar del equipo tanto como los failure conditions: El agotamiento y la desmotivación afectan directamente al rendimiento y a la calidad del trabajo. Se debe detectar señales tempranas mediante el Niko Niko y gestionar de manera equilibrada la carga de trabajo.
