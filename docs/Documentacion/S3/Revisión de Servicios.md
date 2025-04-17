@@ -1,4 +1,4 @@
-# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - Sprint 3
+# Revisión de Servicios y Metodología de Trabajo  - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -55,19 +55,19 @@
 
 - [Introducción](#introducción)
 - [Análisis de endpoints](#análisis-de-endpoints)
-  - [WorksDoneController](#worksdonecontroller)
-  - [MilestoneController](#milestonecontroller)
-  - [StatusKanbanOrderController](#statuskanbanordercontroller)
-  - [CommisionController](#commisioncontroller)
-  - [SearchController](#searchcontroller)
-  - [StripeConnectController](#stripeconnectcontroller)
-  - [WorkController](#workcontroller)
-  - [AuthController](#authcontroller)
-  - [ReportController](#reportcontroller)
-  - [ArtistRestController](#artistrestcontroller)
-  - [PaymentController](#paymentcontroller)
-  - [CategoryRestController](#categoryrestcontroller)
-  - [ClientRestController](#clientrestcontroller)
+  - [WorksDoneService](#worksdonecontroller)
+  - [MilestoneService](#milestonecontroller)
+  - [StatusKanbanOrderService](#statuskanbanordercontroller)
+  - [CommisionService](#commisioncontroller)
+  - [SearchServicios](#searchcontroller)
+  - [StripeConnectService](#stripeconnectcontroller)
+  - [WorkService](#workcontroller)
+  - [AuthService](#authcontroller)
+  - [ReportService](#reportcontroller)
+  - [ArtistRestService](#artistrestcontroller)
+  - [PaymentService](#paymentcontroller)
+  - [CategoryRestService](#categoryrestcontroller)
+  - [ClientRestService](#clientrestcontroller)
 - [Metodología de trabajo](#metodología-de-trabajo)
 
 ---
@@ -464,4 +464,3 @@ Se genera la documentación final del servicio, describiendo cómo se utiliza ca
 
 ---
 
-Esta metodología asegura que los servicios sean diseñados, implementados y mantenidos de manera coherente y eficiente, con la colaboración constante entre los equipos de **Frontend** y **Backend** para cumplir con los objetivos del negocio.
