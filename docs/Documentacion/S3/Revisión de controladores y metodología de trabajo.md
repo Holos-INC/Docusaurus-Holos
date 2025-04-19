@@ -796,7 +796,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
     - `page` (int, opcional, default: 0): Número de página.
     - `size` (int, opcional, default: 10): Tamaño de la página.
 - **Datos que devuelven:**  
-  - **Respuesta JSON:** Página (*Page*) de objetos *Work*. 
+  - **Respuesta JSON:** Página (*Page*) de objetos *SearchWorkDTO*. 
   - **Debería devolver Page de DTOs tal que tengan los atributos:** id, image, name, artistUsername, description
     _Ejemplo:_
     ```json
@@ -805,7 +805,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
         {
           "id": 1,
           "name": "Obra Ejemplo",
-          "descripcion": "Descripción de la obra",
+          "description": "Descripción de la obra",
           "image": "ixdwjeicjewcjikejmjckejmjmcojmk", //No sé cómo se ve una imagen en un DTO
           "artistUsername": "yellow"
         }
@@ -841,7 +841,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
         {
           "id": 1,
           "username": "yellow",
-          "profilePic": "lkxdwesdxcnlknklwejl" //imagen
+          "profilePic": "lkxdwesdxcnlknklwejl" 
         }
       ],
       "pageable": {
@@ -865,10 +865,33 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
   - **Request Parameters:**  
     - `page` (int, opcional, default: 0): Número de página.
     - `size` (int, opcional, default: 10): Tamaño de la página.
-- **Datos que devuelven:**  
+- **Datos que devuelven:** Devolverá un Pagina (*Page*) de objetos *SearchWorkDTO* con los mismos atributos que search/works.
   - **Respuesta JSON:** Página (*Page*) de objetos *Work* filtrados por el artista indicado.  
   - **No se usa así que devolver Page de DTO que necesite el frontend en caso de que se use.**
-
+```json
+{
+  "content": [
+    {
+      "id": 1,
+      "username": "yellow",
+      "profilePic": "base64string"
+    },
+    {
+      "id": 2,
+      "name": "Obra Ejemplo",
+      "description": "Texto",
+      "image": "base64string",
+      "artistUsername": "yellow"
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 10
+  },
+  "totalElements": 2,
+  "totalPages": 1
+}
+```
 ---
 
 #### GET (/api/v1/search/all)
