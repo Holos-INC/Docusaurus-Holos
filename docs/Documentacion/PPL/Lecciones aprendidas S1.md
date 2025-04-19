@@ -1,4 +1,4 @@
-# Lecciones aprendidas del S1 - Sprint 3
+# Lecciones aprendidas del S1
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -79,39 +79,39 @@ El objetivo del próximo sprint no será simplemente entregar funcionalidad, sin
 
 ## Problemas Detectados y Autocrítica
 
-### R1. Cambios frecuentes en el alcance y nuevos requisitos  
+### Cambios frecuentes en el alcance y nuevos requisitos  
 **Autocrítica:** No supimos blindar el alcance desde el inicio. Aceptamos cambios sin evaluar impactos, lo que generó retrabajo.  
 **Acciones:** Se ha implementado un proceso de gestión de cambios con revisiones periódicas.
 
-### R2. Requisitos incompletos o erróneos  
+### Requisitos incompletos o erróneos  
 **Autocrítica:** No se hizo una validación suficiente antes de comenzar el desarrollo. Algunos requerimientos eran ambiguos o contradictorios.  
 **Acciones:** Se ha esteblecido un proceso formal de validación y revisión continua con los stakeholders.
 
-### R3. Problemas de cohesión y motivación del grupo  
+### Problemas de cohesión y motivación del grupo  
 **Autocrítica:** Hubo falta de espacios de comunicación informal, retroalimentación escasa y poca celebración de logros.  
 **Acciones:** Se han establecido reuniones de equipo más regulares y mecanismos de reconocimiento interno como el hall of fame.
 
-### R4. Dificultades con la integración tecnológica  
+### Dificultades con la integración tecnológica  
 **Autocrítica:** Fallamos en planificar la integración desde el inicio, lo que provocó cuellos de botella.  
 **Acciones:** Ahora se aplican mecanismos para asegurar la integración lo más temprano posible.
 
-### R5. Retrasos en actividades claves  
+### Retrasos en actividades claves  
 **Autocrítica:** No se hizo un seguimiento adecuado de los bloqueos ni se reasignaron recursos a tiempo.  
 **Acciones:** Uso más riguroso de herramientas de gestión (GitHub Projects) y definición de responsables por tarea.
 
-### R6. Errores en la planificación del presupuesto  
+### Errores en la planificación del presupuesto  
 **Autocrítica:** Se subestimaron los recursos necesarios y no se previó un margen de contingencia.  
 **Acciones:** Presupuestos revisados con margen de error y revisiones financieras periódicas.
 
-### R9. Mala calidad del código  
+### Mala calidad del código  
 **Autocrítica:** No se establecieron estándares claros ni se revisó el código antes de hacer merge.  
 **Acciones:** Se aplican revisiones de código obligatorias con nota.
 
-### R15. Falta de comunicación entre Frontend y Backend  
+### Falta de comunicación entre Frontend y Backend  
 **Autocrítica:** Cada equipo trabajó aislado, generando fricciones al momento de integrar funcionalidades.  
 **Acciones:** Reuniones de sincronización y tareas asignadas en parejas interdisciplinares.
 
-### R18. Burnout en el equipo  
+### Burnout en el equipo  
 **Autocrítica:** No se gestionó adecuadamente la carga de trabajo. Ignoramos señales tempranas de agotamiento.  
 **Acciones:** Fomento de pausas, balance de cargas, rotación de tareas y atención continua al bienestar del equipo mediante el calendario Niko Niko.
 
