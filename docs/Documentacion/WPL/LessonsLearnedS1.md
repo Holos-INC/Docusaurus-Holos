@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 20/03/2025  
-**Versión:** v1.2  
+**Versión:** v1.0 
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -43,6 +43,7 @@
 | Miembro              | Responsabilidad         |
 |-----------------------|--------------------------|
 | Ignacio Warleta       | Redactor                 |
+| Gabriel Vacaro       | Revisor                |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -53,6 +54,8 @@
 | Versión | Fecha       | Descripción de cambios       | Autor                |
 |---------|-------------|------------------------------|-----------------------|
 | v1.0    | 20/04/2025   | Creación del documento       | Ignacio Warleta       |
+| v1.1    | 20/04/2025   | Añadido problemas encontrados despues de la entrega       | Gabriel Vacaro       |
+
 
 ---
 
@@ -135,7 +138,7 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 
 - **Descripción:** Hubo una mala organización a la hora de priorizar la importancia de ciertas tareas y se acabaron dejando para el final tareas que incluían funcionalidades core.
 
-- **Origen técnico:** La falta de una estimación adecuada de tiempo para completar las tareas críticas hizo que las tareas relacionadas con las funcionalidades principales se retrasaran. La integración de estas funcionalidades al final del sprint generó conflictos y errores difíciles de resolver rápidamente.
+- **Origen técnico:** La falta de una estimación adecuada de tiempo para completar las tareas críticas hizo que las tareas relacionadas con las funcionalidades principales se retrasaran. La integración de estas funcionalidades al final del sprint generó conflictos y errores difíciles de resolver en un márgen de tiempo mínimo.
 
 - **Origen del proceso:** Durante el Sprint Planning, no se asignó suficiente tiempo para las tareas clave, y el equipo no realizó un análisis adecuado de la complejidad de cada tarea. En las Daily meetings no se detectó ningún retraso a pesar de que se mencionó.
 
