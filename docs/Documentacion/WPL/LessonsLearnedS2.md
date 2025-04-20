@@ -62,7 +62,6 @@
 3. [Listado de problemas relacionados](#listado-de-problemas-relacionados)
 4. [Metodología y roles](#metodología-y-roles)
 5. [Análisis individual de cada problema](#análisis-individual-de-cada-problema)
-6. [Lecciones aprendidas](#lecciones-aprendidas)
 
 ---
 
@@ -142,90 +141,4 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 
 - **Estado**: 
 
-
-
-## Problemas Detectados y Autocrítica
-
-### Problemas de cohesión y motivación del grupo  
-
-**Autocrítica:**  
-Persisten signos de desmotivación, generados por carga de trabajo desigual y escasa retroalimentación.
-
-**Acciones:**  
-Rotación de tareas para mantener la equidad y creación de espacios de reconocimiento de logros en las presentaciones como el Hall of Fame. Además se revisan las horas de clockify de cada uno antes de asignar tareas.
-
-### Falta de pruebas y validaciones  
-
-**Autocrítica:**  
-Las validaciones han sido insuficientes antes de las entregas, provocando errores que podrían haberse evitado.
-
-**Acciones:**  
-Implementación de pruebas exhaustivas, incluyendo tests de carga, escalabilidad y validación de integraciones.
-
-### Escasa implicación de algún miembro  
-
-**Autocrítica:**  
-Se detectaron signos de baja participación en algunos integrantes, afectando al ritmo colectivo.
-
-**Acciones:**  
-Advertencia a aquel/aquellos miembros que han mostrado un bajo rendimiento. Y la oportunidad de redimirse trabajando más horas durante el sprint.
-
-### Mala organización del sprint y distribución de tareas  
-
-**Autocrítica:**  
-La planificación fue imprecisa, lo que derivó en replanificación constante y retrasos.
-
-**Acciones:**  
-Se han definido con mayor claridad las tareas en GitHub Projects y se ha establecido una encargada especifica para revisar todas las failure conditions.
-
-### Gestión inadecuada de ramas  
-
-**Autocrítica:**  
-La gestión deficiente de ramas provocó conflictos y pérdida de tiempo en integraciones.
-
-**Acciones:**  
-Cierre sistemático de ramas tras hacer merge y aplicación de un workflow para identificar ramas inactivas.
-
-### Asignación de tareas repetidas  
-
-**Autocrítica:**  
-La falta de coordinación en la asignación de tareas llevó a duplicación de esfuerzos.
-
-**Acciones:**  
-Mejora en la comunicación entre coordinadores y PM.
-
-### Falta de revisión exhaustiva y aseguramiento de calidad  
-
-**Autocrítica:**  
-Las revisiones fueron superficiales y permitieron que errores llegaran a producción.
-
-**Acciones:**  
-Revisión obligatoria en todas las pull requests, utilización de SonarQube y valoración con nota del trabajo realizado por el compañero.
-
-### Problemas de liderazgo
-
-**Autocrítica:**
-La falta de un liderazgo claro durante este sprint afectó al rendimiento del equipo. Síntomas como la desmotivación, sobrecarga de trabajo y la falta de coordinación entre miembros del equipo pueden atribuirse a la ausencia de una gestión efectiva. Además, la falta de claridad en la asignación de tareas ha resultado en la duplicación de trabajo, lo que ha generado confusión y retrabajo innecesario. 
-
-**Acciones:**
-Se decidió realizar un cambio de PM en el siguiente Sprint, es decir, el S3. Para facilitar la transición, compartirán puesto durante una semana, hasta que pueda asumir el nuevo PM toda la responsabilidad.
-
-## Lecciones Aprendidas
-
-El Sprint 2 ha arrastrado varios problemas del Sprint 1 y ha añadido otros nuevos, sin embargo, estamos contentos pues la mayoría de estos problemas han sido solucionados en el Sprint 3. Los principales aprendizajes de esta iteración, que han permitido mejorar como grupo hacia el Sprint 3, han sido:
-
-- **Organización y planificación:**  
-La correcta distribución de tareas, la definición de criterios claros y la revisión de las failure conditions antes de la entrega.
-
-- **Comunicación constante:**  
-La falta de comunicación ha demostrado ser una de las principales fuentes de duplicidad. Se han creado grupos especificos para informar de incidencias y de trabajo realizado.
-
-- **Aseguramiento de la calidad:**  
-La ausencia de pruebas rigurosas y revisiones minuciosas impacta directamente en la estabilidad del producto. Se han realizado tests tanto para Backend como para Frontend (aunque en el momento de la entrega del S3, solo estaba cubierto el 33%).
-
-- **Bienestar y motivación:**  
-El rendimiento de un equipo no es sostenible si no se atiende su bienestar. Es necesario equilibrar la carga de trabajo, detectar señales tempranas de agotamiento y reconocer los logros individuales y colectivos.
-
-- **Uso eficiente de herramientas:**  
-Clockify, Niko Niko y SonarQube deben formar parte integral de la rutina del equipo, no solo como requisito formal, sino como instrumentos efectivos de control y mejora continua.
 

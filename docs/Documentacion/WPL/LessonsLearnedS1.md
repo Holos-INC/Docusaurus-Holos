@@ -62,7 +62,6 @@
 3. [Listado de problemas relacionados](#listado-de-problemas-relacionados)
 4. [Metodología y roles](#metodología-y-roles)
 5. [Análisis individual de cada problema](#análisis-individual-de-cada-problema)
-6. [Lecciones aprendidas](#lecciones-aprendidas)
 
 ---
 
