@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 20/03/2025  
-**Versión:** v1.0 
+**Versión:** v1.1
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
