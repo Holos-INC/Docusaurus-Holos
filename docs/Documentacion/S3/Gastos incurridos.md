@@ -57,7 +57,7 @@
 1. [Gastos incurridos](#1-gastos-incurridos)
    - [Costes por Sprint](#costes-por-sprint-estimados-e-incurridos)
    - [Costes acumulados](#costes-acumulados-incurridos-y-esperados)
-2. [Gráfica](#2-grafica)
+2. [Gráfica](#2-gráfica)
 
 
 

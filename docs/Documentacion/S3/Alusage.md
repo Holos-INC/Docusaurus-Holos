@@ -1,4 +1,4 @@
-# Uso de la IA - Sprint 3
+# Registro y Evaluación del uso de la IA - Sprint 3
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
@@ -45,6 +45,14 @@
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
+**Tabla de versiones**
+
+| Versión | Fecha       | Descripción de cambios | Autor                 |
+|---------|------------|------------------------|------------------------|
+| v1.0    | 15/02/2025 | Creación del documento. | Miguel Gómez Vela  |
+| v1.1    | 05/03/2025 | Actualización con el feedback de algunos usuarios piloto | Miguel Gómez Vela  |
+| v1.2    | 07/04/2025 | Actualización usos de la IA , sonarQube | Miguel Gómez Vela   |
+
 
 ## Índice de Contenidos
 1. [Introducción](#1-introducción)
@@ -52,18 +60,14 @@
    - [Recopilación de Información](#21-recopilación-de-información)
    - [Revisión de Documentos](#22-revisión-de-documentos)
    - [Explicación de Errores](#23-explicación-de-errores)
-   - [Refactorización](#24-refactorización)
-   - [Creación de Pull Requests](#25-creación-de-pull-requests)
-   - [Automatización de Tareas Repetitivas](#26-automatización-de-tareas-repetitivas)
-   - [Generación de Casos de Prueba](#27-generación-de-casos-de-prueba)
-   - [Control de Calidad](#28-control-de-calidad)
+   - [Control de Calidad](#24-control-de-calidad)
 3. [Herramientas](#3-herramientas)
    - [Microsoft Copilot](#31-microsoft-copilot)
    - [ChatGPT](#32-chatgpt)
    - [GitHub Copilot](#33-github-copilot)
-   - [Qodo Merge](#34-qodo-merge)
-   - [Codacy](#35-codacy)
-   - [Claude](#36-claude)
+   - [sonarQube](#34-sonarQube)
+   - [Claude](#35-claude)
+   - [Claudete](#36-claudete)
 4. [Registro y Evaluación del Uso de IA](#4-registro-y-evaluación-del-uso-de-ia)
    - [Proceso de Registro del Uso de IA](#41-proceso-de-registro-del-uso-de-ia)
    - [Políticas de Uso y Registro](#42-políticas-de-uso-y-registro)
@@ -106,38 +110,6 @@ La **IA** también será utilizada para **mejorar la calidad del código**, prop
 
 El uso de herramientas como **GitHub Copilot** permitirá identificar **fragmentos de código mejorables** y sugerir cambios para hacer el código **más eficiente y claro**.  
 
-### 2.5. Creación de Pull Requests
-Las herramientas de **IA** ayudarán en la **generación y mejora de Pull Requests (PRs)**. Esto incluirá:  
-- **Automatización de la descripción de PRs**.  
-- **Clasificación y priorización de cambios**.  
-- **Generación de sugerencias sobre revisiones necesarias antes de la fusión del código**.  
-
-Esto mejorará la eficiencia del proceso de **gestión de código**, asegurando una mejor colaboración entre los miembros del equipo.  
-
-### 2.6. Automatización de Tareas Repetitivas  
-Muchas tareas dentro del desarrollo de software son **repetitivas** y pueden ser **automatizadas** mediante **IA**. Esto incluye:  
-- **Generación automática de documentación**.  
-- **Creación de resúmenes de reuniones**.  
-- **Autocompletado de estructuras de código comunes**.  
-
-Automatizar estas tareas permitirá que los desarrolladores **se concentren en aspectos más estratégicos** y **creativos del proyecto**.  
-
-### 2.7. Generación de Casos de Prueba
-El uso de **IA** para la **generación automática de pruebas unitarias** permitirá:  
-- **Crear test basados en las funciones del código**.  
-- **Detectar posibles escenarios no contemplados por el desarrollador**.  
-- **Reducir el esfuerzo manual en la creación de pruebas**.  
-
-Esto contribuirá a mejorar la **cobertura de pruebas** y garantizar que el código sea **más robusto y libre de errores**.  
-
-### 2.8. Control de Calidad  
-Se utilizarán herramientas de **IA** como **Codacy** para **analizar la calidad del código**, detectando:  
-- **Errores y vulnerabilidades**.  
-- **Problemas de seguridad**.  
-- **Buenas prácticas de programación**.  
-
-Esto asegurará que el código cumpla con **estándares de calidad** y que los problemas sean detectados antes de su implementación.  
-
 ## 3. Herramientas
 
 Para llevar a cabo el desarrollo del proyecto de manera eficiente, utilizaremos diversas **herramientas basadas en inteligencia artificial (IA)**. Estas herramientas ayudarán en tareas como la generación de código, la revisión de documentos, el control de calidad y la automatización de procesos. A continuación, se describen las herramientas que se emplearán, junto con enlaces a sus respectivas plataformas.  
@@ -157,22 +129,17 @@ ChatGPT es un modelo de IA desarrollado por OpenAI especializado en **generació
 
 GitHub Copilot es un asistente de IA para la **generación de código automático**, desarrollado por GitHub y OpenAI. Se integra con editores como VS Code para sugerir líneas y funciones de código en tiempo real. En este proyecto, se utilizará para **optimizar la refactorización, mejorar la legibilidad del código y generar pruebas automatizadas**.  
 
-### 3.4. Qodo Merge  
-🔗 [Enlace: Qodo Merge](https://www.qodo.ai/products/qodo-merge/)  
+### 3.4. SonarQube  
+🔗 [Enlace: SonarQube](https://www.sonarqube.org/)  
 
-Qodo Merge, anteriormente conocido como **PR-Agent**, es una herramienta de IA especializada en la **gestión y optimización de Pull Requests (PRs)**. Ayuda a **describir, priorizar y categorizar PRs automáticamente**, facilitando la colaboración en equipos de desarrollo y asegurando una mejor organización del código en repositorios.  
+SonarQube es una plataforma de **control de calidad del código**, que permite **identificar errores, vulnerabilidades y problemas de seguridad** de manera automática. Su uso en este proyecto se centrará en la **detección de malas prácticas y la mejora continua del código fuente**.
 
-### 3.5. Codacy  
-🔗 [Enlace: Codacy](https://www.codacy.com/)  
-
-Codacy es una plataforma de **control de calidad del código**, que permite **identificar errores, vulnerabilidades y problemas de seguridad** de manera automática. Su uso en este proyecto se centrará en la **detección de malas prácticas y la mejora continua del código fuente**.  
-
-### 3.6. Claude 
+### 3.5. Claude 
 🔗 [Enlace: Claude AI](https://www.anthropic.com/)  
 
 Claude es un modelo de **inteligencia artificial especializado en generación y análisis de código**, desarrollado por Anthropic. Se utilizará en este proyecto para **refactorización, optimización de código y generación de explicaciones detalladas sobre problemas técnicos**. 
 
-### 3.7. Claudette
+### 3.6. Claudette
 🔗 [Enlace: Claudette](http://claudette.eui.eu/)
 
 Claudette es una herramienta de **inteligencia artificial** especializada en el análisis de cláusulas contractuales. Se utiliza para **la estimación de cláusulas abusivas** en contratos y acuerdos legales. En este proyecto, se utilizará para **evaluar y verificar cláusulas contractuales** con el fin de identificar posibles **prácticas abusivas o desleales** en los contratos generados.
@@ -268,7 +235,8 @@ Además del registro, es importante evaluar **cómo de útil fue la respuesta pr
 | 013          | 1                               | Sí                          | No                   | 90 min           |
 | 014          | 1                               | Sí                          | No                   | 10 min           |
 | 015          | 3                               | Sí                          | No                   | 90 min           |
-| 015          | 1                               | Sí                          | No                   | 35 min           |
+| 016          | 1                               | Sí                          | No                   | 35 min           |
+
 ---
 
 
@@ -300,10 +268,10 @@ El porcentaje de alucinación se calcula mediante la siguiente fórmula:
 ```
 ### Cálculo de la Alucinación de la IA
 
-- **Total de registros evaluados**: 15
+- **Total de registros evaluados**: 16
 - **Respuestas editadas**: 1 (ID 003)
 - **Nivel de Alucinación asignado**:
-  - **Nivel 0**: Respuestas completamente correctas (14 respuestas).
+  - **Nivel 0**: Respuestas completamente correctas (15 respuestas).
   - **Nivel 1**: Respuestas editadas (1 respuestas).
   
 - **Porcentaje de Alucinación**: **3.125%**

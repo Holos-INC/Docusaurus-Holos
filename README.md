@@ -102,7 +102,7 @@ Este proyecto está configurado para desplegarse automáticamente en [Vercel](ht
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo la licencia MIT de Docusaurus.
 
 ## Contacto
 

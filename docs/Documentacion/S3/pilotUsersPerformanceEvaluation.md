@@ -67,11 +67,6 @@
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
    - [Sprint 3](#23-sprint-3)
-     - [Daniel Galván Cancio](#daniel-galván-cancio)
-     - [Rafael Duque Colete](#rafael-duque-colete)
-     - [Rafael Castillo Cebolla](#rafael-castillo-cebolla)
-     - [Mohamed Abouri](#mohamed-abouri)
-     - [Enrique García Abadía](#enrique-garcía-abadía)
    - [Resumen](#resumen)
 3. [Conclusión](#3-conclusión)
 
