@@ -1026,9 +1026,10 @@ App para consultas de fisioterapia
 
 **FIN DE LA APORTACION**
 
+#### Aportaciones de consolidación
+
 Por otra parte se ha añadido una función de búsqueda de documentos en el repositorio de la base de conocimiento común para facilitar a los compañeros de la asignatura la búsqueda de artefactos específicos, pues esta será una funcionalidad que pensamos necesaria en una base de conocimiento que sin lugar a dudas va a expandirse mucho. Esta aportación puede verse: [aqui](https://github.com/ISPP-2425/BCC/commit/0f451ab3f0e9180724aeeadc613268fb41aab298)
 
-#### Aportacion exacta:
 
 Fichero ajustado: **docusaurus.config.js**
 ```js
@@ -1050,8 +1051,6 @@ Fichero ajustado: **docusaurus.config.js**
      ],
    ],  
 ```
-
-**FIN DE LA APORTACION**
 
 ### Sprint 2
 
@@ -1852,9 +1851,11 @@ Empezar a pensar en un análisis de riesgos inicial<br />
 
 **FIN DE LA APORTACION**
 
+#### Aportaciones de consolidación
+
 Por otra parte se ha añadido al conocimiento común feedback concreto para cada apartado (presentaciones, Killer opener, usuarios piloto, desarrollo del producto, análisis y garantía de la calidad, idea de negocio, análisis de costes y TCO, organización del equipo, Commitment Agreement, uso de la IA, Sprint retrospective y demo del producto). Estas aportaciones pueden verse   [aqui](https://github.com/ISPP-2425/BCC/pull/49/commits/87cb8dade5d39d5236cd7eb59c4e5950c57cffba).
 
-#### Aportacion exacta:
+
 
 #### Presentaciones.md:
 ##### Semana 17/03
@@ -1937,4 +1938,4 @@ Por otra parte se ha añadido al conocimiento común feedback concreto para cada
 - Es inaceptable que haya **elementos clave no visibles**, una opción es la **inclusión de zooms** para que se pueda observar con total claridad que se pretende realizar en cada momento.
 - Es de vital importancia que la **demo sea atractiva** al público, para ello podemos utilizar un registro informal de carácter cómico que pretenda relatar una historia, mas hay que cuidar el registro y **ser conscientes de nuestro público objetivo**.
 
-**FIN DE LA APORTACION**
+**FIN DE LA APORTACION DE CONSOLIDACION**
