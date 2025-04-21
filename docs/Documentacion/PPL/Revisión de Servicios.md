@@ -943,7 +943,197 @@ Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
 ---
 Un apunte es que es el controlador de Client pero las urls empiezan con users.
 
----    
+---
+### ClientService
+
+#### Descripción General del Servicio:
+
+El `ClientService` gestiona las operaciones relacionadas con los clientes, incluyendo la creación, búsqueda, actualización y eliminación de clientes en el sistema. Además, maneja validaciones relacionadas con las comisiones activas y los informes relacionados con los clientes.
+
+#### Métodos Implementados:
+
+### **Método 1: `saveClient`**
+
+#### **Descripción:**  
+Este método se encarga de guardar un cliente en la base de datos.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/clients`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `client` (Objeto *Client*): Información del cliente a guardar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente guardado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 2: `findClient`**
+
+#### **Descripción:**  
+Recupera un cliente específico identificado por su ID.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `id` (Long): Identificador del cliente a recuperar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 3: `findClientByUserId`**
+
+#### **Descripción:**  
+Recupera un cliente basado en el ID de usuario.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/byUser/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): ID del usuario asociado al cliente.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 4: `isClient`**
+
+#### **Descripción:**  
+Verifica si un usuario es un cliente en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/isClient/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): ID del usuario a verificar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Booleano indicando si el usuario es un cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "isClient": true
+    }
+    ```
+
+---
+
+### **Método 5: `findAll`**
+
+#### **Descripción:**  
+Recupera todos los clientes del sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- No se requieren parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de objetos *Client* con la información de todos los clientes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Juan Pérez",
+        "email": "juan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Ana García",
+        "email": "ana@example.com"
+      }
+    ]
+    ```
+
+---
+
+### **Método 6: `deleteClient`**
+
+#### **Descripción:**  
+Elimina un cliente del sistema, verificando que no tenga comisiones activas y que no tenga registros relacionados.
+
+#### **Tipo:** DELETE  
+#### **Ruta:** `/api/v1/clients/administrator/clients/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): ID del cliente a eliminar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje de confirmación si la eliminación es exitosa.
+    _Ejemplo:_  
+    ```json
+    "Cliente eliminado exitosamente"
+    ```
+  - En caso de error, se devuelve un mensaje de error descriptivo.
+    _Ejemplo:_  
+    ```json
+    "No se puede eliminar el cliente porque tiene registros relacionados en otras partes del sistema."
+    ```
+
+---
+
+## Resumen de uso de métodos del `ClientService` en `ClientRestController`
+
+| Método del Servicio                | Endpoint en el Controlador                           | Descripción breve                                              |
+|------------------------------------|------------------------------------------------------|-----------------------------------------------------------------|
+| `saveClient(client)`               | `POST /api/v1/clients`                               | Guarda un cliente en la base de datos.                          |
+| `findClient(id)`                   | `GET /api/v1/clients/{id}`                           | Recupera un cliente por su ID.                                 |
+| `findClientByUserId(userId)`       | `GET /api/v1/clients/byUser/{userId}`                | Recupera un cliente por el ID del usuario.                     |
+| `isClient(userId)`                 | `GET /api/v1/clients/isClient/{userId}`              | Verifica si un usuario es un cliente.                          |
+| `findAll()`                        | `GET /api/v1/clients`                                | Recupera todos los clientes del sistema.                       |
+| `deleteClient(userId)`             | `DELETE /api/v1/clients/administrator/clients/{userId}`| Elimina un cliente del sistema.                                |
+
+---
+
 ### ChatMessageService
 
 #### Descripción General del Servicio:
