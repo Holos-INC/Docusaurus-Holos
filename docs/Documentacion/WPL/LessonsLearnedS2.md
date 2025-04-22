@@ -43,6 +43,7 @@
 | Miembro              | Responsabilidad         |
 |-----------------------|--------------------------|
 | Ignacio Warleta       | Redactor                 |
+| Gabriel Vacaro        | Revisor                  |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -67,17 +68,18 @@
 
 ## Introducción
 
+Tras la entrega del Sprint 2, el equipo confiaba en que los resultados serían notablemente mejores que en el primer entregable, ya que se habían aplicado medidas de mejora en aquellos aspectos que anteriormente provocaron fallos. Sin embargo, la evaluación final evidenció un error crítico relacionado con la pasarela de pago, que afectaba directamente a una funcionalidad esencial de la aplicación.
 
-
+Este documento analiza en detalle el fallo detectado y presenta las acciones correctivas que se han implementado para prevenir su repetición en futuras entregas.
 ---
 
 ## Análisis de la condición de fallo
 
 **Condición de fallo:**  
-- 
+- Imposibilidad de completar transacciones a través de la pasarela de pago.
 
 **Causas principales:**
-- 
+- Desconocimiento del funcionamiento específico de Render, la plataforma encargada del despliegue del backend, concretamente en lo referente a sus políticas de despliegue automático.
 
 ---
 
@@ -93,7 +95,7 @@
 
 ### 3. **Problemas identificados por el revisor del entregable (profesor):**
 
-- **Error detectado en la pasarela de pago**
+- **Fallo funcional en la pasarela de pago que impedía completar correctamente una transacción.**
 
 ---
 
@@ -111,10 +113,10 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 - MARIA DEL CARMEN BARRERA GARRANCHO: Jefe de costes de la aplicación.
 - JUAN DEL JUNCO OBREGON: Secretario, es decir, responsable de tomar acta y recoger el feedback.
 - MIGUEL ANGEL GOMEZ VELA: Responsable del uso de IA, y de la inclusión de esta en los documentos.
-- JOAQUIN GONZALEZ GANFORNINA: Responsable de revisar costes.
+- JOAQUIN GONZALEZ GANFORNINA: Responsable de revisar costes. Responsable de la pasarela de pago.
 - DANIEL GUEDES PRECIADOS: Responsable de subir información en la base de conocimiento común.
 - NEREA JIMENEZ ADORNA: Responsable de usuarios pilotos.
-- JUAN ANTONIO MORENO MOGUEL: Coordinador de Backend. Responsable de que se recojan las métricas del equipo.
+- JUAN ANTONIO MORENO MOGUEL: Coordinador de Backend. Responsable de que se recojan las métricas del equipo. Responsable del despliegue de backend.
 - JAVIER MUÑOZ ROMERO: Responsable de calidad software.
 - JUAN NUÑEZ SANCHEZ: Responsable de calidad de documentación.
 - NICOLAS PEREZ GOMEZ: Responsable de revisar los competidores.
@@ -127,18 +129,19 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 
 ## Análisis individual de cada problema
 
-### 1. Problema con la pasarela de pago.
+### 1. Fallo detectado en la pasarela de pago.
 
-- **Descripción:** 
+- **Descripción:** La funcionalidad de la pasarela de pago fue implementada correctamente y verificada en local, sin detectarse errores durante las pruebas. Sin embargo, en el entorno de producción la funcionalidad no estaba disponible, ya que tras realizar el merge de la rama que contenía dicha funcionalidad, la plataforma de despliegue Render no realizó el despliegue automático, tal y como se había asumido erróneamente. Esto provocó que la pasarela no estuviera activa en el momento de la entrega.
 
-- **Origen técnico:** 
+- **Origen técnico:** El fallo se originó en el funcionamiento de Render, que no ejecuta despliegues automáticos tras un merge a la rama principal si no se realiza un commit adicional. Esto hizo que la versión desplegada en producción no incluyera la funcionalidad, aunque esta sí estuviera integrada en el repositorio.
 
-- **Origen del proceso:** 
+- **Origen del proceso:** El equipo no verificó manualmente el estado del despliegue tras el merge, asumiendo que Render había actualizado el entorno de producción de forma automática. Esta falta de comprobación supuso que el error no se detectara hasta que fue señalado tras la entrega.
 
-- **Personas responsables:**  
+- **Personas responsables:**  Juan Antonio Moreno Moguel, como encargado del despliegue de backend, era el responsable de verificar que la funcionalidad de la pasarela de pago estuviera correctamente desplegada en producción. Sin embargo, debido a una suposición errónea sobre el funcionamiento de Render —concretamente, que el despliegue se realizaba de forma automática tras cada merge—, este paso de verificación no se llevó a cabo. Se trató de un error humano comprensible, derivado de una falsa confianza en la automatización, que podría haberle ocurrido a cualquier miembro del equipo en una situación similar.
    
-- **Acciones mitigadoras:**  
+- **Acciones mitigadoras:**  Para evitar que este problema vuelva a repetirse, se establecerá como paso obligatorio la verificación manual de cada despliegue tras cualquier merge a la rama principal. Además, se validará que todas las funcionalidades afectadas por dichos cambios funcionen correctamente en el entorno de producción, independientemente de que en local hayan sido previamente validadas.
 
-- **Estado**: 
+- **Estado**: Resuelta.
+
 
 
