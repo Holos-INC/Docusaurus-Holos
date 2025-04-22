@@ -13,7 +13,7 @@
 ## Grado en Ingeniería Informática – Ingeniería del Software
 
 **Curso:** 2024 – 2025  
-**Fecha:** 20/03/2025  
+**Fecha:** 20/04/2025  
 **Versión:** v1.1
 
 **Grupo de prácticas:** G1  
@@ -54,7 +54,7 @@
 | Versión | Fecha       | Descripción de cambios       | Autor                |
 |---------|-------------|------------------------------|-----------------------|
 | v1.0    | 20/04/2025   | Creación del documento       | Ignacio Warleta       |
-| v1.1    | 20/04/2025   | Añadido problemas encontrados despues de la entrega       | Gabriel Vacaro       |
+| v1.1    | 20/04/2025   | Revisión del documento       | Gabriel Vacaro       |
 
 
 ---

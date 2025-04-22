@@ -1,4 +1,4 @@
-# Lecciones Aprendidas del S1
+# Lecciones Aprendidas del S2
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -13,8 +13,8 @@
 ## Grado en Ingeniería Informática – Ingeniería del Software
 
 **Curso:** 2024 – 2025  
-**Fecha:** 20/03/2025  
-**Versión:** v1.2  
+**Fecha:** 22/04/2025  
+**Versión:** v1.1
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -54,6 +54,7 @@
 | Versión | Fecha       | Descripción de cambios       | Autor                |
 |---------|-------------|------------------------------|-----------------------|
 | v1.0    | 20/04/2025   | Creación del documento       | Ignacio Warleta       |
+| v1.1    | 22/04/2025   | Revisión del documento       | Gabriel Vacaro       |
 
 ---
 
@@ -139,7 +140,9 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 
 - **Personas responsables:**  Juan Antonio Moreno Moguel, como encargado del despliegue de backend, era el responsable de verificar que la funcionalidad de la pasarela de pago estuviera correctamente desplegada en producción. Sin embargo, debido a una suposición errónea sobre el funcionamiento de Render —concretamente, que el despliegue se realizaba de forma automática tras cada merge—, este paso de verificación no se llevó a cabo. Se trató de un error humano comprensible, derivado de una falsa confianza en la automatización, que podría haberle ocurrido a cualquier miembro del equipo en una situación similar.
    
-- **Acciones mitigadoras:**  Para evitar que este problema vuelva a repetirse, se establecerá como paso obligatorio la verificación manual de cada despliegue tras cualquier merge a la rama principal. Además, se validará que todas las funcionalidades afectadas por dichos cambios funcionen correctamente en el entorno de producción, independientemente de que en local hayan sido previamente validadas.
+- **Acciones mitigadoras:**  Para evitar que este problema vuelva a repetirse, se establecerá como paso obligatorio la verificación manual de cada despliegue tras cualquier merge a la rama principal. Además, se validará que todas las funcionalidades afectadas por dichos cambios funcionen correctamente en el entorno de producción, independientemente de que en local hayan sido previamente validadas. 
+
+Tras la entrega suspensa del S2, hemos verificado cuidadosamente que las acciones correctivas definidas en este documento —como la comprobación manual del estado del despliegue tras cada merge y la validación de funcionalidades en el entorno de producción— se han aplicado de forma efectiva en el entregable S3, asegurando que no se repitieran errores similares.
 
 - **Estado**: Resuelta.
 
