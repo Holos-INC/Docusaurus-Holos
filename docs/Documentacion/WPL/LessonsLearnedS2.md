@@ -141,7 +141,6 @@ El equipo siguió la metodología SCRUM recomendada a lo largo de la carrera. Pa
 - **Personas responsables:**  Juan Antonio Moreno Moguel, como encargado del despliegue de backend, era el responsable de verificar que la funcionalidad de la pasarela de pago estuviera correctamente desplegada en producción. Sin embargo, debido a una suposición errónea sobre el funcionamiento de Render —concretamente, que el despliegue se realizaba de forma automática tras cada merge—, este paso de verificación no se llevó a cabo. Se trató de un error humano comprensible, derivado de una falsa confianza en la automatización, que podría haberle ocurrido a cualquier miembro del equipo en una situación similar.
    
 - **Acciones mitigadoras:**  Para evitar que este problema vuelva a repetirse, se establecerá como paso obligatorio la verificación manual de cada despliegue tras cualquier merge a la rama principal. Además, se validará que todas las funcionalidades afectadas por dichos cambios funcionen correctamente en el entorno de producción, independientemente de que en local hayan sido previamente validadas. 
-
 Tras la entrega suspensa del S2, hemos verificado cuidadosamente que las acciones correctivas definidas en este documento —como la comprobación manual del estado del despliegue tras cada merge y la validación de funcionalidades en el entorno de producción— se han aplicado de forma efectiva en el entregable S3, asegurando que no se repitieran errores similares.
 
 - **Estado**: Resuelta.
