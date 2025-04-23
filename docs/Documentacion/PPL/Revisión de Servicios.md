@@ -131,6 +131,301 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Estados_pedido_comision.png" alt="Estados de una comisión" width="750"/>
 </p>
+### CommisionService
+
+#### Descripción General del Servicio:
+
+El `CommisionService` gestiona las operaciones relacionadas con las comisiones, incluyendo la creación, modificación, cancelación, aceptación y rechazo de comisiones, así como la gestión de su estado a lo largo del proceso. También gestiona el historial de comisiones de clientes y artistas, y la lógica asociada al cambio de estado de las comisiones, como su aceptación, rechazo o cancelación.
+
+#### Métodos Implementados:
+
+### **Método 1: `getAllCommisions`**
+
+#### **Descripción:**  
+Este método recupera todas las comisiones almacenadas en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/commisions`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todas las comisiones.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Comisión de retrato",
+        "description": "Descripción del retrato encargado",
+        "price": 100.0,
+        "status": "REQUESTED"
+      }
+    ]
+    ```
+
+---
+
+### **Método 2: `createCommision`**
+
+#### **Descripción:**  
+Este método crea una nueva comisión para un artista específico.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/commisions/{artistId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `artistId` (Long): Identificador del artista al que se asignará la comisión.
+- **Request Body:**  
+  - `commisionDTO` (Objeto *CommisionRequestDTO*): Información necesaria para crear la comisión.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *CommissionDTO* con los datos de la comisión creada.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Retrato de familia",
+      "description": "Retrato en óleo de la familia",
+      "price": 150.0,
+      "status": "REQUESTED",
+      "artistUsername": "artist1"
+    }
+    ```
+
+---
+
+### **Método 3: `requestChangesCommision`**
+
+#### **Descripción:**  
+Solicita cambios en una comisión existente.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/requestChanges`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a modificar.
+- **Request Body:**  
+  - `commisionDTO` (Objeto *CommissionDTO*): Datos actualizados de la comisión.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Commision* actualizado con los cambios solicitados.
+
+---
+
+### **Método 4: `getCommisionById`**
+
+#### **Descripción:**  
+Recupera una comisión específica identificada por su ID.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/commisions/{commisionId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a recuperar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *CommisionDTO* con la información de la comisión.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Retrato a lápiz",
+      "description": "Retrato detallado en lápiz de un paisaje",
+      "price": 80.0,
+      "status": "REQUESTED",
+      "artistUsername": "artist2",
+      "clientUsername": "client1"
+    }
+    ```
+
+---
+
+### **Método 5: `updateCommisionStatus`**
+
+#### **Descripción:**  
+Actualiza el estado de una comisión, dependiendo de si ha sido aceptada o rechazada.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/accept`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a actualizar.
+- **Request Parameter:**  
+  - `accept` (boolean): Indicador de si la comisión ha sido aceptada (`true`) o rechazada (`false`).
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "status": "ACCEPTED"
+    }
+    ```
+
+---
+
+### **Método 6: `waitingCommission`**
+
+#### **Descripción:**  
+Pone una comisión en espera para confirmación del precio.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/waiting`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a poner en espera.
+- **Request Body:**  
+  - `priceChanged` (Objeto *CommissionDTO*): Datos de la comisión con el precio actualizado.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión está en espera de confirmación del precio.
+    _Ejemplo:_  
+    ```json
+    "Waiting for price confirmation."
+    ```
+
+---
+
+### **Método 7: `toPayCommission`**
+
+#### **Descripción:**  
+Actualiza el estado de la comisión a "para pagar" después de la confirmación del precio.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/toPay`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a actualizar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue aceptada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Price confirmed successfully."
+    ```
+
+---
+
+### **Método 8: `rejectCommission`**
+
+#### **Descripción:**  
+Rechaza una comisión, actualizando su estado.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/reject`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a rechazar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue rechazada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission rejected successfully."
+    ```
+
+---
+
+### **Método 9: `acceptCommission`**
+
+#### **Descripción:**  
+Acepta una comisión, actualizando su estado.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/accept`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a aceptar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue aceptada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission accepted successfully."
+    ```
+
+---
+
+### **Método 10: `cancelCommission`**
+
+#### **Descripción:**  
+Cancela una comisión, verificando que el estado lo permita.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/cancel`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a cancelar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue cancelada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission canceled successfully."
+    ```
+
+---
+
+#### Resumen de uso de métodos del `CommisionService` en `CommisionController`
+
+| Método del Servicio                       | Endpoint en el Controlador                                    | Descripción breve                                             |
+|-------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| `getAllCommisions()`                      | `GET /api/v1/commisions`                                      | Recupera todas las comisiones.                                |
+| `createCommision(commisionDTO, artistId)` | `POST /api/v1/commisions/{artistId}`                           | Crea una nueva comisión para un artista específico.           |
+| `requestChangesCommision(commisionDTO, commisionId)` | `PUT /api/v1/commisions/{commisionId}/requestChanges`   | Solicita cambios en una comisión existente.                   |
+| `getCommisionById(commisionId)`           | `GET /api/v1/commisions/{commisionId}`                        | Recupera una comisión específica por su ID.                   |
+| `updateCommisionStatus(commisionId, accept)` | `PUT /api/v1/commisions/{commisionId}/accept`              | Actualiza el estado de una comisión según aceptación o rechazo. |
+| `waitingCommission(priceChanged, commisionId)` | `PUT /api/v1/commisions/{commisionId}/waiting`          | Pone una comisión en espera para confirmación del precio.     |
+| `toPayCommission(commisionId)`            | `PUT /api/v1/commisions/{commisionId}/toPay`                  | Cambia el estado de la comisión a "para pagar".               |
+| `rejectCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/reject`                 | Rechaza una comisión.                                         |
+| `acceptCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/accept`                 | Acepta una comisión.                                          |
+| `cancelCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/cancel`                 | Cancela una comisión.                                         |
+
+---
+
+Esta es la documentación para el servicio `CommisionService`.
 
 ---
 
@@ -944,7 +1239,8 @@ Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
 Un apunte es que es el controlador de Client pero las urls empiezan con users.
 
 ---
-### ClientService
+#### ClientService 
+
 
 #### Descripción General del Servicio:
 
