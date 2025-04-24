@@ -359,7 +359,7 @@ Rechaza una comisión, actualizando su estado.
     ```
 
 ---
-
+ check 
 ### **Método 9: `acceptCommission`**
 
 #### **Descripción:**  

@@ -323,33 +323,6 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 
 ---
 
-#### PUT (/api/v1/status-kanban-order/update)
-- **Descripción:**  
-  Actualiza el estado Kanban con la información enviada en el cuerpo de la solicitud.
-- **Categoría:**  
-  No usado, cambiar el método con validaciones.
-- **Datos que reciben:**  
-  - **Payload JSON (RequestBody):** Objeto *StatusKanbanOrder* con todos los campos necesarios para la actualización.  
-    - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
-- **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO actualizado. Quizá es mejor no devolver nada.
-
----
-
-#### PUT (/api/v1/status-kanban-order/id/updateKanban)
-- **Descripción:**  
-  Actualiza atributos específicos (color, descripción y nombre) del estado Kanban identificado por su ID.
-- **Categoría:**  
-  No usado. Parece que duplica el anterior. A eliminar.
-- **Datos que reciben:**  
-  - **Path Variable:** `id` (Long): Identificador del estado.
-  - **Payload JSON (RequestBody):** Objeto *StatusKanbanOrder* con los nuevos valores para color, descripción y nombre.  
-    - **DTO a discutir con frontend. Aunque existe un StatusKanbanOrderDTO, comprobar si es adecuado para este método.**
-- **Datos que devuelven:**  
-  - **Respuesta JSON:** Objeto *StatusKanbanOrder* en formato DTO con los atributos actualizados.  Quizá es mejor no devolver nada.
-
----
-
 #### PUT (/api/v1/status-kanban-order/id/updateKanbanOrder)
 - **Descripción:**  
   Actualiza el orden del estado Kanban identificado por su ID.
