@@ -131,7 +131,6 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Estados_pedido_comision.png" alt="Estados de una comisión" width="750"/>
 </p>
-### CommisionService
 
 #### Descripción General del Servicio:
 
@@ -930,12 +929,227 @@ Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
 
 #### **Dependencias:**
 - `ArtistService`
+---
+#### **ReportService**
 
-```
+## Descripción General del Servicio:
+
+El `ReportService` gestiona las operaciones relacionadas con los reportes, incluyendo la creación, aceptación, rechazo, eliminación y consulta de reportes, así como la gestión de su tipo. También maneja la lógica asociada al proceso de reporte de obras de arte, gestionando las solicitudes y los tipos de reportes.
+
+## Métodos Implementados:
+
+### **Método 1: `getReportTypes`**
+
+#### **Descripción:**  
+Este método recupera todos los tipos de reportes disponibles.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/reports/types`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todos los tipos de reportes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "type": "Inappropriate Content"
+      }
+    ]
+    ```
+
+---
+
+### **Método 2: `getReports`**
+
+#### **Descripción:**  
+Este método recupera todos los reportes almacenados en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/reports/admin`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todos los reportes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 12345,
+        "name": "Inappropriate Content",
+        "description": "This artwork violates our policy",
+        "status": "PENDING"
+      }
+    ]
+    ```
+
+---
+
+### **Método 3: `createReport`**
+
+#### **Descripción:**  
+Este método crea un nuevo reporte para una obra de arte específica.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/reports`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `reportDTO` (Objeto *ReportDTO*): Información necesaria para crear el reporte.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* con los datos del reporte creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "name": "Inappropriate Content",
+      "description": "This artwork violates our policy",
+      "status": "PENDING"
+    }
+    ```
+
+---
+
+### **Método 4: `acceptReport`**
+
+#### **Descripción:**  
+Este método acepta un reporte, cambiando su estado a "ACCEPTED".
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/reports/admin/accept/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `id` (Long): Identificador del reporte a aceptar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* actualizado con el estado "ACCEPTED".
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "status": "ACCEPTED"
+    }
+    ```
+
+---
+
+### **Método 5: `rejectReport`**
+
+#### **Descripción:**  
+Este método rechaza un reporte, cambiando su estado a "REJECTED".
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/reports/admin/reject/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `id` (Long): Identificador del reporte a rechazar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* actualizado con el estado "REJECTED".
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "status": "REJECTED"
+    }
+    ```
+
+---
+
+### **Método 6: `deleteReport`**
+
+#### **Descripción:**  
+Este método elimina un reporte, pero solo si su estado es "REJECTED".
+
+#### **Tipo:** DELETE  
+#### **Ruta:** `/api/v1/reports/admin/delete/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `id` (Long): Identificador del reporte a eliminar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje de confirmación de la eliminación.
+    _Ejemplo:_  
+    ```json
+    "Reporte eliminado correctamente."
+    ```
+
+---
+
+### **Método 7: `addReportType`**
+
+#### **Descripción:**  
+Este método agrega un nuevo tipo de reporte al sistema.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/reports/admin/types`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `reportType` (Objeto *ReportType*): Información del nuevo tipo de reporte.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *ReportType* con el tipo de reporte creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "type": "Spam Content"
+    }
+    ```
+
+---
+
+### Resumen de uso de métodos del `ReportService` en `ReportController`
+
+| Método del Servicio                | Endpoint en el Controlador                           | Descripción breve                                              |
+|------------------------------------|------------------------------------------------------|-----------------------------------------------------------------|
+| `getReportTypes()`                 | `GET /api/v1/reports/types`                          | Recupera todos los tipos de reportes disponibles.               |
+| `getReports()`                     | `GET /api/v1/reports/admin`                          | Recupera todos los reportes del sistema.                        |
+| `createReport(reportDTO)`          | `POST /api/v1/reports`                               | Crea un nuevo reporte.                                          |
+| `acceptReport(id)`                 | `PUT /api/v1/reports/admin/accept/{id}`              | Acepta un reporte, actualizando su estado a "ACCEPTED".         |
+| `rejectReport(id)`                 | `PUT /api/v1/reports/admin/reject/{id}`              | Rechaza un reporte, actualizando su estado a "REJECTED".        |
+| `deleteReport(id)`                 | `DELETE /api/v1/reports/admin/delete/{id}`           | Elimina un reporte rechazado.                                   |
+| `addReportType(reportType)`        | `POST /api/v1/reports/admin/types`                   | Agrega un nuevo tipo de reporte al sistema.                     |
+
+---
+
+Esta es la documentación para el servicio `ReportService`.
+
+---
 
 
 
-### ReportService
 
 ---
 ### ArtistService
