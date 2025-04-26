@@ -1585,7 +1585,7 @@ Reddit es una plataforma de comunidades en línea donde artistas y clientes pued
 ### Estadísticas y Análisis de la Palabra Clave "Art Commissions"
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Analisis_SERP.png" alt="Universidad de Sevilla" width="500"/>
+  <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/competidores/Analisis_SERP.png" alt="Universidad de Sevilla" width="500"/>
 </p>
 
 <p align="center">
