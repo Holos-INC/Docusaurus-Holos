@@ -2775,5 +2775,22 @@ En este sprint del PPL, al igual que en los anteriores, se han compartido con el
 
 #### Aportaciones de consolidacion
 
-No se han realizado aportaciones de consolidación en este tercer sprint.
- 
+Se han aportado feedback general sobre las presentacioens, los killer opener y la organización de equipo, esta aportación puede verse [aqui](https://github.com/ISPP-2425/BCC/pull/95/commits/296a7d4cc3792a4d06cd884a4558c1b44a043fa4) 
+
+**En el archivo 0-Presentaciones.md:**
+
+- Es importante que la presentación cuente una historia, que siga un hilo conductor, a ser posible, se valora positivamente una conexión directa entre el killer opener, la demo y el final de la presentación. Esto consigue de forma consistente que el público no pierda el hilo de la exposición.
+- Coordinar al equipo durante la exposición: Asegurarse de que cada miembro del equipo tenga un rol claro en la presentación, evitando interrupciones o solapamientos. Esto no solo mejora la fluidez y claridad del mensaje, sino que transmite una imagen de cohesión, preparación y trabajo en equipo.
+Por ejemplo, en algunas presentaciones el ponente tuvo que pedir explícitamente a un compañero que cambiara de diapositiva diciendo “pasa la diapositiva”, lo cual resta profesionalidad. En estos casos, se recomienda el uso de un pasador o establecer señales previamente acordadas.
+
+**En el archivo 1-Killer opener.md:**
+
+- Aprovechar el killer opener para introducir sutilmente la propuesta de valor: Aunque sea indirecta, la audiencia debería acabar el opener con una idea preliminar de cuál es el problema a resolver y por qué es relevante.
+- se vuelve a recalcar de nuevo la importancia de que el killer opener sea corto, pues en algunos grupos ha sido demasiado largo y eso obliga a recortar tiempo de otras partes importantes.
+- Cuidado con contenido potencialmente polémico en el killer opener, aunque capta la atención, puede tener connotaciones éticamente delicadas.
+-  Algunos grupos optan por repetir el killer opener, esto introduce una idea nueva: la repetición está bien si sigue siendo efectiva, lo que abre la puerta a una reflexión sobre iteración versus innovación.
+
+**En el archivo 5.Organización del equipo.md:**
+
+- Respecto a la matriz de rendimiento esfuerzo, se quiere ver un rendimiento individual y quiere ver un seguimiento. Se espera una evaluación individualizada del rendimiento, no solo grupal.
+- Se ha valorado positivamente la introducción de un bot en Discord para que avise cuando una tarea ha sido olvidada. Se considera relevante en organización técnica el apoyo en herramientas automatizadas para asegurar cumplimiento de responsabilidades.
