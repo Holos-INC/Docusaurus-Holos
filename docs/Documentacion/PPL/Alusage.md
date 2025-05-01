@@ -1,4 +1,4 @@
-# Registro y Evaluación del uso de la IA - Sprint 3
+# Registro y Evaluación del uso de la IA - PPL
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
 </p>
@@ -12,7 +12,7 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 07/04/2025  
+**Fecha:** 01/05/2025  
 **Versión:** v3
 
 **Grupo de prácticas:** G1  
