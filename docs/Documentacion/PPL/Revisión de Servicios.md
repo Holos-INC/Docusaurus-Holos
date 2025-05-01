@@ -1,4 +1,4 @@
-# Revisión de Servicios y Metodología de Trabajo  - Sprint 3
+# Revisión de Servicios y Metodología de Trabajo  - PPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -13,8 +13,8 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 31/03/2025  
-**Versión:** v1.1
+**Fecha:** 16/04/2025  
+**Versión:** v1.0
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos  
@@ -39,9 +39,8 @@
 **Responsables:**
 | Miembro                      | Responsabilidad |
 |------------------------------|-----------------|
-| Nerea Jiménez Adorna         | Redactora       |
+| Miguel Gómez Vela        | Redactor       |
 | José María Portela Huerta    | Revisor y Corrector |
-| María del Mar Ávila    | Revisora y Correctora |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -49,28 +48,26 @@
 
 | Versión | Fecha       | Descripción de cambios         | Autor                |
 |---------|-------------|--------------------------------|----------------------|
-| v1.0    | 16/04/2025  | Creación del documento.        | Miguel Gómez Vela |
-| v1.1    | 01/05/2025  | Revisión del documento y corrección del índice        | María del Mar Ávila |
-
+| v1.0    | 16/04/2025  | Creación y redaccion del documento.        | Miguel Gómez Vela |
 
 
 ## Índice
 
 - [Introducción](#introducción)
-- [Análisis de servicios](#análisis-de-servicios)
-  - [WorksDoneService](#worksdoneservice)
-  - [MilestoneService](#milestoneservice)
-  - [StatusKanbanOrderService](#statuskanbanorderservice)
-  - [CommisionService](#commisionservice)
-  - [SearchService](#searchservice)
-  - [StripeConnectService](#stripeconnectservice)
-  - [WorkService](#workservice)
-  - [AuthService](#authservice)
-  - [ReportService](#reportservice)
-  - [ArtistRestService](#artistrestservice)
-  - [PaymentService](#paymentservice)
-  - [CategoryRestService](#categoryrestservice)
-  - [ClientRestService](#clientrestservice)
+- [Análisis de endpoints](#análisis-de-endpoints)
+  - [WorksDoneService](#worksdonecontroller)
+  - [MilestoneService](#milestonecontroller)
+  - [StatusKanbanOrderService](#statuskanbanordercontroller)
+  - [CommisionService](#commisioncontroller)
+  - [SearchServicios](#searchcontroller)
+  - [StripeConnectService](#stripeconnectcontroller)
+  - [WorkService](#workcontroller)
+  - [AuthService](#authcontroller)
+  - [ReportService](#reportcontroller)
+  - [ArtistRestService](#artistrestcontroller)
+  - [PaymentService](#paymentcontroller)
+  - [CategoryRestService](#categoryrestcontroller)
+  - [ClientRestService](#clientrestcontroller)
 - [Metodología de trabajo](#metodología-de-trabajo)
 
 ---
@@ -411,16 +408,241 @@ Página combinada de resultados, que puede incluir tanto artistas como obras. El
 ### WorkService
 ---
 
-### AuthService
+
+### AuthoritiesService
+
+## Descripción General del Servicio
+El `AuthoritiesService` es responsable de gestionar la creación, actualización y eliminación de usuarios, así como la asignación de roles (`ARTIST`, `CLIENT`, etc.). El servicio también maneja la autenticación de roles y la gestión de la información relacionada con los artistas y clientes, incluyendo sus datos personales y perfiles asociados.
 
 ---
+
+## Método 1: `findByAuthority`
+### Descripción:
+Devuelve una autoridad (rol) por su nombre.
+
+### Tipo: Interno  
+### Categoría: Bien hecha
+
+### Datos que recibe:
+```json
+{
+  "authority": "ARTIST"
+}
+```
+
+#### **Datos que devuelve:**
+```json
+{
+  "id": 1,
+  "description": "Nuevo artista",
+  "baseUser": {
+    "id": 10,
+    "username": "nuevoArtista",
+    "email": "nuevo@correo.com"
+  }
+}
+```
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si no se encuentra la autoridad con el nombre proporcionado.
+
+#### **Dependencias:**
+- `AuthoritiesRepository`
+
+---
+## Método 2: `createUser`
+### Descripción:
+Crea un nuevo usuario, asignando su rol y guardando su información en la base de datos. Si el rol es `ARTIST`, también se crea un registro asociado de artista.
+
+### Tipo: Interno  
+### Categoría: Bien hecha
+
+### Datos que recibe:
+```json
+{
+  "username": "clientUser",
+  "password": "password",
+  "email": "client@example.com",
+  "authority": "CLIENT",
+  "firstName": "Client",
+  "phoneNumber": "987654321"
+}
+```
+#### **Datos que devuelve:**
+```json
+{
+  "id": 10,
+  "username": "clientUser",
+  "email": "client@example.com"
+}
+```
+
+#### **Errores y Excepciones:**
+- `IllegalArgumentException` si el nombre de usuario o el email ya existen en la base de datos..
+- `DataAccessException` si ocurre un error al guardar los datos.
+
+#### **Dependencias:**
+- `BaseUserService`
+- `ArtistService`
+- `ArtistService`
+- `AuthoritiesRepository`
+---
+
+## Método 3: `updateUser`
+### Descripción:
+Actualiza los datos de un usuario existente, incluyendo su nombre, correo electrónico, número de teléfono y otros detalles. Si el usuario es un `ARTIST`, también actualiza la información relacionada con el artista.
+
+### Tipo: Interno  
+### Categoría: Bien hecha
+
+### Datos que recibe:
+```json
+{
+  "username": "updatedClientUser",
+  "firstName": "Updated Client",
+  "email": "updated@example.com",
+  "phoneNumber": "123456789"
+}
+```
+### Datos que devuelve:
+```json
+{
+  "id": 10,
+  "username": "updatedClientUser",
+  "email": "updated@example.com"
+}
+```
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si el usuario no se encuentra en la base de datos.
+- `DataAccessException` si ocurre un error al guardar los datos.
+
+#### **Dependencias:**
+- `BaseUserService`
+- `ArtistService`
+---
+## Método 4: `deleteUser`
+### Descripción:
+Elimina un usuario, verificando que no sea un administrador y que sea el propio usuario quien lo elimine. Si el usuario es un `ARTIST`, también se elimina su registro asociado.
+
+### Tipo: Interno  
+### Categoría: A corregir
+
+### Datos que recibe:
+```json
+{
+  "id": 10
+}
+```
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si el usuario no se encuentra en la base de datos.
+- `AccessDeniedException` si el usuario no existe o ocurre cualquier otro error.
+
+#### **Dependencias:**
+- `BaseUserService`
+- `ArtistService`
+- `ClientService`
+---
+
+## Método 5: `findByBaseUserId`
+### Descripción:
+Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+
+### Tipo: Interno  
+### Categoría: Bien hecha
+
+### Datos que recibe:
+```json
+{
+  "baseUserId": 10
+}
+```
+
+### Datos que devuelve:
+``` json
+{
+  "present": true,
+  "value": {
+    "id": 1,
+    "description": "Artista opcional",
+    "baseUser": {
+      "id": 10,
+      "username": "opcional",
+      "email": "opcional@correo.com"
+    }
+  }
+}
+```
+
+#### **Dependencias:**
+- `ArtistService`
+
+---
+
+## Método 6: `deleteArtist`
+### Descripción:
+Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. También borra su usuario base, estados Kanban y categorías asociadas.
+
+### Tipo: Interno  
+### Categoría: A corregir
+
+### Datos que recibe:
+```json
+{
+  "userId": 10
+}
+```
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si el usuario no se encuentra en la base de datos.
+- `AccessDeniedException` si el usuario no existe o ocurre cualquier otro error.
+
+#### **Dependencias:**
+- `BaseUserService`
+- `CommisionRepository`
+- `StatusKanbanOrderService`
+- `ArtistCategoryRepository`
+- `BaseUserRepository`
+---
+## Método 7: `findByBaseUserId`
+### Descripción:
+Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+
+### Tipo: Interno  
+### Categoría: Bien hecha
+
+### Datos que recibe:
+```json
+{
+  "baseUserId": 10
+}
+```
+### Datos que devuelve: 
+``` json
+{
+  "present": true,
+  "value": {
+    "id": 1,
+    "description": "Artista opcional",
+    "baseUser": {
+      "id": 10,
+      "username": "opcional",
+      "email": "opcional@correo.com"
+    }
+  }
+}
+```
+
+#### **Dependencias:**
+- `ArtistService`
+
+```
+
+
 
 ### ReportService
 
 ---
-### ArtistRestService
-### ArtistService
-
 ### ArtistService
 
 #### Descripción General del Servicio:
