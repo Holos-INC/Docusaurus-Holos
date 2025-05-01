@@ -51,7 +51,8 @@
 |---------|------------|------------------------|------------------------|
 | v1.0    | 15/02/2025 | Creación del documento. | Miguel Gómez Vela  |
 | v1.1    | 05/03/2025 | Actualización con el feedback de algunos usuarios piloto | Miguel Gómez Vela  |
-| v1.2    | 07/04/2025 | Actualización usos de la IA , sonarQube | Miguel Gómez Vela   |
+| v2.0    | 07/04/2025 | Actualización usos de la IA , sonarQube | Miguel Gómez Vela   |
+| v3.0    | 01/05/2025 | Actualización usos de la IA , sonarQube | Miguel Gómez Vela   |
 
 
 ## Índice de Contenidos

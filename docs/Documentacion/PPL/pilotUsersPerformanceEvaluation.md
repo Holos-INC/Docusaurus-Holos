@@ -68,7 +68,7 @@
    - [Sprint 1](#21-sprint-1)
    - [Sprint 2](#22-sprint-2)
    - [Sprint 3](#23-sprint-3)
-   - [PPL](#23-ppl)
+   - [PPL](#24-ppl)
    - [Resumen](#resumen)
    - [Final](#final)
 3. [Conclusión](#3-conclusión)

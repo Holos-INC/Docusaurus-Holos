@@ -60,7 +60,7 @@
 | 26/03/2025  | v3.1    |Inclusión de aclaraciones  |<p> - María del Carmen Barrera  </p> |
 | 27/03/2025  | v3.2    |Inclusión de aclaraciones  |<p> - María del Carmen Barrera  </p> |
 | 29/04/2025  | v3.3    |Inclusión de una nueva licencia |<p> - María del Carmen Barrera  </p> |
-| 01/05/2025  | v3.4    |Inclusión de las expectativas de crecimiento e información para los inversores|<p> - María del Carmen Barrera  </p> |
+| 01/05/2025  | v3.4    |Inclusión de la información relacionada con los inversores|<p> - María del Carmen Barrera  </p> |
 ---
 
 ## Índice de contenido
@@ -76,9 +76,8 @@
    4.3 [Caso optimista](#43-caso-optimista)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.3.1 [Cálculos del TCO optimista](#431-cálculos-del-tco-optimista)
 5. [Rentabilidad (Resumen)](#5-rentabilidad-resumen)  
-6. [Expectativas de crecimiento](#6-expectativas-de-crecimiento) 
-7. [Inversores](#7-inversores) 
-8. [Bibliografía](#6-bibliografía)   
+6. [Inversores](#6-inversores) 
+7. [Bibliografía](#7-bibliografía)   
 
 
 
@@ -966,20 +965,7 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 </p>
 
 
-## 6. Expectativas de crecimiento
-
-La plataforma espera mantener un crecimiento constante del 5 % mensual con respecto al mes anterior, tanto en el número de artistas como en el de comisiones, durante los primeros cuatro años tras el lanzamiento. Posteriormente, en el escenario neutro, se espera una estabilidad mensual de:
-
-* Nº artistas: 19346
-
-* Nº de comisiones:  52622
-
-* Nº de usuarios premium: 5804
-
-Generando un benefício mensual de: 122.178,01 €
-
-
-## 7. Inversores
+## 6. Inversores
 
 La compañía ha sido valorada, a los dos años de su lanzamiento, en 324.439 €, con un crecimiento anual del 1,42 % durante los primeros cuatro años.
 
@@ -990,7 +976,7 @@ A partir del segundo año, los inversores comenzarán a recibir una rentabilidad
 Los beneficios derivados de la revalorización de la empresa no se distribuirán como dividendos, sino que serán retenidos en tesorería con el objetivo de ser reinvertidos estratégicamente. Estas reinversiones estarán orientadas a potenciar la escalabilidad y seguridad del negocio, ampliar funcionalidades, fortalecer acciones de marketing y facilitar la expansión internacional, siendo nuestra meta posicionarnos más allá del mercado español.
 
 
-## 8. Bibliografía
+## 7. Bibliografía
 
 Sueldos en Indeed: [https://es.indeed.com/career/salaries?from=gnav-homepage]
 
