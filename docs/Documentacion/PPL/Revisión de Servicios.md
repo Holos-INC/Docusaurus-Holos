@@ -1,3 +1,8 @@
+---
+title: "Revisión de Servicios y Metodología de Trabajo - PPL"
+description: "Documentación detallada sobre los servicios implementados en el proyecto"
+---
+
 # Revisión de Servicios y Metodología de Trabajo  - PPL
 
 <p align="center">
@@ -92,7 +97,7 @@ En este apartado se documentarán todos los servicios actuales organizados por c
   - **No usado:** El servicio no se usa actualmente, pero se espera que sea utilizado en el futuro.
 
 - **Datos que reciben:**  
-  Descripción de los datos que el servicio espera recibir. Si hay algún parámetro innecesario o datos no requeridos (como el ID de usuario si se puede obtener mediante autenticación), debe ser indicado. Esto incluiría detalles sobre los DTOs que se pasan al servicio.
+  Descripción de los datos que el servicio espera recibir. Si hay algún parámetro innecesario o datos no requeridos (como el "ID" de usuario si se puede obtener mediante autenticación), debe ser indicado. Esto incluiría detalles sobre los DTOs que se pasan al servicio.
 
 - **Datos que devuelven:**  
   Especificar qué tipo de datos el servicio devuelve, como JSON, objetos o listas de objetos. También se deben proporcionar ejemplos de las respuestas y detalles sobre los DTOs involucrados.
@@ -227,7 +232,7 @@ Solicita cambios en una comisión existente.
 ### **Método 4: `getCommisionById`**
 
 #### **Descripción:**  
-Recupera una comisión específica identificada por su ID.
+Recupera una comisión específica identificada por su "ID".
 
 #### **Tipo:** GET  
 #### **Ruta:** `/api/v1/commisions/{commisionId}`
@@ -414,7 +419,7 @@ Cancela una comisión, verificando que el estado lo permita.
 | `getAllCommisions()`                      | `GET /api/v1/commisions`                                      | Recupera todas las comisiones.                                |
 | `createCommision(commisionDTO, artistId)` | `POST /api/v1/commisions/{artistId}`                           | Crea una nueva comisión para un artista específico.           |
 | `requestChangesCommision(commisionDTO, commisionId)` | `PUT /api/v1/commisions/{commisionId}/requestChanges`   | Solicita cambios en una comisión existente.                   |
-| `getCommisionById(commisionId)`           | `GET /api/v1/commisions/{commisionId}`                        | Recupera una comisión específica por su ID.                   |
+| `getCommisionById(commisionId)`           | `GET /api/v1/commisions/{commisionId}`                        | Recupera una comisión específica por su "ID".                   |
 | `updateCommisionStatus(commisionId, accept)` | `PUT /api/v1/commisions/{commisionId}/accept`              | Actualiza el estado de una comisión según aceptación o rechazo. |
 | `waitingCommission(priceChanged, commisionId)` | `PUT /api/v1/commisions/{commisionId}/waiting`          | Pone una comisión en espera para confirmación del precio.     |
 | `toPayCommission(commisionId)`            | `PUT /api/v1/commisions/{commisionId}/toPay`                  | Cambia el estado de la comisión a "para pagar".               |
@@ -455,7 +460,7 @@ Este método se encarga de buscar obras de arte utilizando parámetros de texto 
 - `size` (Integer, opcional, default: 10): Tamaño de la página.
 
 #### **Datos que devuelven:**
-Devuelve una página de objetos `SearchWorkDTO`. Cada obra contiene detalles como el `id`, `name`, `description`, `image`, y `artistUsername`.
+Devuelve una página de objetos `SearchWorkDTO`. Cada obra contiene detalles como el "id", `name`, `description`, `image`, y `artistUsername`.
 
 **Ejemplo de respuesta para `searchWorks`:**
 ```json
@@ -558,12 +563,12 @@ Devuelve las obras asociadas a un artista específico a partir de su `artistId`.
 - **Bien hecha**
 
 **Datos que reciben:**
-- `artistId` (Integer): ID del artista.
+- `artistId` (Integer): "ID" del artista.
 - `page` (Integer, opcional, default: 0): Número de página.
 - `size` (Integer, opcional, default: 10): Tamaño de la página.
 
 **Datos que devuelven:**  
-Una página de objetos `SearchWorkDTO` con información básica de cada obra: id, nombre, descripción, imagen y nombre de usuario del artista.
+Una página de objetos `SearchWorkDTO` con información básica de cada obra: "id", nombre, descripción, imagen y nombre de usuario del artista.
 
 **Errores comunes:**
 - Si el `artistId` no existe, se devolverá un error controlado desde el repositorio o se lanzará una excepción relacionada.
@@ -840,7 +845,7 @@ Elimina un usuario, verificando que no sea un administrador y que sea el propio 
 
 ## Método 5: `findByBaseUserId`
 ### Descripción:
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 ### Tipo: Interno  
 ### Categoría: Bien hecha
@@ -900,7 +905,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ---
 ## Método 7: `findByBaseUserId`
 ### Descripción:
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 ### Tipo: Interno  
 ### Categoría: Bien hecha
@@ -1038,7 +1043,7 @@ Este método acepta un reporte, cambiando su estado a "ACCEPTED".
 
 #### **Datos que reciben:**
 - **Path Variable:**  
-  - `id` (Long): Identificador del reporte a aceptar.
+  - "id" (Long): Identificador del reporte a aceptar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Objeto *Report* actualizado con el estado "ACCEPTED".
@@ -1065,7 +1070,7 @@ Este método rechaza un reporte, cambiando su estado a "REJECTED".
 
 #### **Datos que reciben:**
 - **Path Variable:**  
-  - `id` (Long): Identificador del reporte a rechazar.
+  - "id" (Long): Identificador del reporte a rechazar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Objeto *Report* actualizado con el estado "REJECTED".
@@ -1092,7 +1097,7 @@ Este método elimina un reporte, pero solo si su estado es "REJECTED".
 
 #### **Datos que reciben:**
 - **Path Variable:**  
-  - `id` (Long): Identificador del reporte a eliminar.
+  - "id" (Long): Identificador del reporte a eliminar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Mensaje de confirmación de la eliminación.
@@ -1137,9 +1142,9 @@ Este método agrega un nuevo tipo de reporte al sistema.
 | `getReportTypes()`                 | `GET /api/v1/reports/types`                          | Recupera todos los tipos de reportes disponibles.               |
 | `getReports()`                     | `GET /api/v1/reports/admin`                          | Recupera todos los reportes del sistema.                        |
 | `createReport(reportDTO)`          | `POST /api/v1/reports`                               | Crea un nuevo reporte.                                          |
-| `acceptReport(id)`                 | `PUT /api/v1/reports/admin/accept/{id}`              | Acepta un reporte, actualizando su estado a "ACCEPTED".         |
-| `rejectReport(id)`                 | `PUT /api/v1/reports/admin/reject/{id}`              | Rechaza un reporte, actualizando su estado a "REJECTED".        |
-| `deleteReport(id)`                 | `DELETE /api/v1/reports/admin/delete/{id}`           | Elimina un reporte rechazado.                                   |
+| `acceptReport("id")`                 | `PUT /api/v1/reports/admin/accept/{"id"}`              | Acepta un reporte, actualizando su estado a "ACCEPTED".         |
+| `rejectReport("id")`                 | `PUT /api/v1/reports/admin/reject/{"id"}`              | Rechaza un reporte, actualizando su estado a "REJECTED".        |
+| `deleteReport("id")`                 | `DELETE /api/v1/reports/admin/delete/{"id"}`           | Elimina un reporte rechazado.                                   |
 | `addReportType(reportType)`        | `POST /api/v1/reports/admin/types`                   | Agrega un nuevo tipo de reporte al sistema.                     |
 
 ---
@@ -1211,7 +1216,7 @@ Guarda un nuevo artista en la base de datos.
 ### **Método 2: `findArtist`**
 
 #### **Descripción:**
-Devuelve un artista por su ID.
+Devuelve un artista por su "ID".
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -1247,7 +1252,7 @@ Devuelve un artista por su ID.
 ### **Método 3: `findArtistByUserId`**
 
 #### **Descripción:**
-Busca un artista mediante el ID del usuario base asociado.
+Busca un artista mediante el "ID" del usuario base asociado.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -1358,7 +1363,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ### **Método 7: `findByBaseUserId`**
 
 #### **Descripción:**
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -1423,7 +1428,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ### **Método 7: `findByBaseUserId`**
 
 #### **Descripción:**
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -1493,16 +1498,16 @@ Este método se encarga de guardar un cliente en la base de datos.
 ### **Método 2: `findClient`**
 
 #### **Descripción:**  
-Recupera un cliente específico identificado por su ID.
+Recupera un cliente específico identificado por su "ID".
 
 #### **Tipo:** GET  
-#### **Ruta:** `/api/v1/clients/{id}`
+#### **Ruta:** `/api/v1/clients/{"id"}`
 
 #### **Categoría de la llamada:**  
 - **Bien hecha**
 
 #### **Datos que reciben:**
-- `id` (Long): Identificador del cliente a recuperar.
+- "id" (Long): Identificador del cliente a recuperar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Objeto *Client* con la información del cliente.
@@ -1520,7 +1525,7 @@ Recupera un cliente específico identificado por su ID.
 ### **Método 3: `findClientByUserId`**
 
 #### **Descripción:**  
-Recupera un cliente basado en el ID de usuario.
+Recupera un cliente basado en el "ID" de usuario.
 
 #### **Tipo:** GET  
 #### **Ruta:** `/api/v1/clients/byUser/{userId}`
@@ -1529,7 +1534,7 @@ Recupera un cliente basado en el ID de usuario.
 - **Bien hecha**
 
 #### **Datos que reciben:**
-- `userId` (Long): ID del usuario asociado al cliente.
+- `userId` (Long): "ID" del usuario asociado al cliente.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Objeto *Client* con la información del cliente.
@@ -1556,7 +1561,7 @@ Verifica si un usuario es un cliente en el sistema.
 - **Bien hecha**
 
 #### **Datos que reciben:**
-- `userId` (Long): ID del usuario a verificar.
+- `userId` (Long): "ID" del usuario a verificar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Booleano indicando si el usuario es un cliente.
@@ -1615,7 +1620,7 @@ Elimina un cliente del sistema, verificando que no tenga comisiones activas y qu
 - **Bien hecha**
 
 #### **Datos que reciben:**
-- `userId` (Long): ID del cliente a eliminar.
+- `userId` (Long): "ID" del cliente a eliminar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Mensaje de confirmación si la eliminación es exitosa.
@@ -1636,8 +1641,8 @@ Elimina un cliente del sistema, verificando que no tenga comisiones activas y qu
 | Método del Servicio                | Endpoint en el Controlador                           | Descripción breve                                              |
 |------------------------------------|------------------------------------------------------|-----------------------------------------------------------------|
 | `saveClient(client)`               | `POST /api/v1/clients`                               | Guarda un cliente en la base de datos.                          |
-| `findClient(id)`                   | `GET /api/v1/clients/{id}`                           | Recupera un cliente por su ID.                                 |
-| `findClientByUserId(userId)`       | `GET /api/v1/clients/byUser/{userId}`                | Recupera un cliente por el ID del usuario.                     |
+| `findClient("id")`                   | `GET /api/v1/clients/{"id"}`                           | Recupera un cliente por su "ID".                                 |
+| `findClientByUserId(userId)`       | `GET /api/v1/clients/byUser/{userId}`                | Recupera un cliente por el "ID" del usuario.                     |
 | `isClient(userId)`                 | `GET /api/v1/clients/isClient/{userId}`              | Verifica si un usuario es un cliente.                          |
 | `findAll()`                        | `GET /api/v1/clients`                                | Recupera todos los clientes del sistema.                       |
 | `deleteClient(userId)`             | `DELETE /api/v1/clients/administrator/clients/{userId}`| Elimina un cliente del sistema.                                |
@@ -1689,7 +1694,7 @@ Este método se encarga de crear un nuevo mensaje de chat asociado a una comisi�
 ### **Método 2: `findConversationByCommisionId`**
 
 #### **Descripción:**  
-Recupera todos los mensajes de chat asociados a una comisión específica identificada por su ID.
+Recupera todos los mensajes de chat asociados a una comisión específica identificada por su "ID".
 
 #### **Tipo:** GET  
 #### **Ruta:** `/api/v1/messages/chat/{commisionId}`
@@ -1725,17 +1730,17 @@ Recupera todos los mensajes de chat asociados a una comisión específica identi
 ### **Método 3: `deleteMessage`**
 
 #### **Descripción:**  
-Elimina un mensaje de chat identificando por su ID.
+Elimina un mensaje de chat identificando por su "ID".
 
 #### **Tipo:** DELETE  
-#### **Ruta:** `/api/v1/messages/{id}`
+#### **Ruta:** `/api/v1/messages/{"id"}`
 
 #### **Categoría de la llamada:**  
 - **No se usa**
 
 #### **Datos que reciben:**
 - **Path Variable:**  
-  - `id` (Long): Identificador del mensaje a eliminar.
+  - "id" (Long): Identificador del mensaje a eliminar.
 
 #### **Datos que devuelven:**  
 - **Respuesta JSON:** Objeto *MessageResponse* confirmando la eliminación del mensaje.
@@ -1795,7 +1800,7 @@ Recupera todas las conversaciones de chat en el sistema.
 |---------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
 | `createChatMessage(chatMessage)`            | `POST /api/v1/messages`                              | Crea un nuevo mensaje de chat con opción de incluir imagen. |
 | `findConversationByCommisionId(commisionId)` | `GET /api/v1/messages/chat/{commisionId}`            | Recupera todos los mensajes de chat asociados a una comisión. |
-| `deleteMessage(id)`                         | `DELETE /api/v1/messages/{id}`                       | Elimina un mensaje de chat por su ID.                   |
+| `deleteMessage("id")`                         | `DELETE /api/v1/messages/{"id"}`                       | Elimina un mensaje de chat por su "ID".                   |
 | `findAllConversations()`                    | `GET /api/v1/messages/admin/chats`                   | Recupera todas las conversaciones de chat.              |
 
 ---
