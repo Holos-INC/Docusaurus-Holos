@@ -86,8 +86,7 @@
 
 ---
 ## 3. Tareas de Administración Realizadas
-1. Creación de métodos para administrador:
-  - Eliminar obras de arte: El administrador tiene la posibilidad de eliminar una obra de arte.
+En blanco intencionadamente.
 
 --- 
 
@@ -100,6 +99,9 @@
   - **Artista:**  
     - **Username:** artist1  
     - **Constraseña:** artist1@gmail.com
+  - **Artista Premium:**  
+    - **Username:** premium_artist  
+    - **Constraseña:** premium_artist
   - **Administrador:**  
     - **Username:** admin1  
     - **Constraseña:** admin1@gmail.com  
