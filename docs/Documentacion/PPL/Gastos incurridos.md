@@ -50,6 +50,7 @@
 | Versión | Fecha       | Descripción de cambios | Autor                 |
 |---------|------------|------------------------|------------------------|
 | v1.0    | 10/04/2025 | Creación del documento. | María del Carmen Barrera  |
+| v1.1    | 01/05/2025 | Actualización del documento. | María del Carmen Barrera  |
 
 
 ## Índice de Contenidos
