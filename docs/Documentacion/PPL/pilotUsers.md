@@ -427,7 +427,7 @@ Se han definido los siguientes criterios para la evaluación:
 | Keegan | 3 | 
 | Milagros | 2 | 
 | Simón | 4 | 
-| Lucas | 2 |
+| Lucas | 5 |
 | Carlos | 1 |
 
 ### **6.1. Criterios de Evaluación**
