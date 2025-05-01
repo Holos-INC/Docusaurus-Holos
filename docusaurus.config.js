@@ -25,6 +25,8 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-mathjax')],
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -94,7 +96,7 @@ const config = {
         {
           label: 'Documentación',
           position: 'left',
-          to: 'docs/Documentacion/S2/0intro',
+          to: 'docs/Documentacion/S3/0intro',
         },
         
         {

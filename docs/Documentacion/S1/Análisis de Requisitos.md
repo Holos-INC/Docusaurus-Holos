@@ -640,28 +640,28 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 <table>
     <tr>
         <th>UC-006</th>
-        <td>Añadir Artista a Favoritos</td>
+        <td>Poder reportar</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>Un usuario (Cliente o Artista) podrá añadir un Artista a su lista de favoritos para encontrarlo fácilmente más tarde.</td>
+        <td>Un usuario (Cliente o Artista) podrá reportar una obra si piensa que su contenido es inapropiado, usa IA u otras razones que considerará el administrador.</td>
     </tr>
     <tr>
         <th>Precondición</th>
-        <td>El usuario debe haber accedido al perfil del Artista.</td>
+        <td>El usuario debe haber accedido a la pantalla de explorar.</td>
     </tr>
     <tr>
         <th>Secuencia normal</th>
         <td>
-            <p>1. El usuario entra al perfil del Artista.</p>
-            <p>2. Presiona el botón "Añadir a Favoritos".</p>
-            <p>3. El sistema guarda el Artista en la lista de favoritos del usuario.</p>
+            <p>1. El usuario entra a explorar y ve una obra.</p>
+            <p>2. Presiona el botón "Reportar".</p>
+            <p>3. Se rellena el formulario de reporte.</p>
             <p>4. Se muestra confirmación en pantalla.</p>
         </td>
     </tr>
     <tr>
         <th>Postcondición</th>
-        <td>El Artista ha sido añadido a la lista de favoritos del usuario.</td>
+        <td>El reporte ha sido añadido a la lista del administrador.</td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -843,27 +843,28 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 <table>
     <tr>
         <th>UC-012</th>
-        <td>Gestión Reseña del Artista</td>
+        <td>Visualización de obras</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>Un Cliente podrá calificar y dejar una reseña sobre un Artista después de haber comprado una obra o solicitado un trabajo personalizado.</td>
+        <td>Un Artista puede subir sus obras y verlas en su perfil.</td>
     </tr>
     <tr>
         <th>Precondición</th>
-        <td>El Cliente debe haber realizado una compra o pedido personalizado con el Artista.</td>
+        <td>Haber iniciado sesión como artista</td>
     </tr>
     <tr>
         <th>Secuencia normal</th>
         <td>
-            <p>1. El Cliente accede a la pantalla de "Pedidos" y selecciona un pedido completado.</p>
-            <p>2. Se muestra la opción de "Dejar una reseña".</p>
-            <p>3. El Cliente selecciona una calificación (ej. de 1 a 5 estrellas).</p>
+            <p>1. El artista accede al apartado de subir obras.</p>
+            <p>2. Rellena el formulario</p>
+            <p>3. Aparece un mensaje de confirmación.</p>
+            <p>4. Se ven las obras subidas del artista en su perfil.</p>
         </td>
     </tr>
     <tr>
         <th>Postcondición</th>
-        <td>El usuario ha visualizado correctamente su historial de pedidos.</td>
+        <td>El artista puede ver sus obras en su perfil.</td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -874,30 +875,27 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
 <table>
     <tr>
         <th>UC-013</th>
-        <td>Apertura de Incidencias</td>
+        <td>Visualizar detalles de una obra</td>
     </tr>
     <tr>
         <th>Descripción</th>
-        <td>Un usuario podrá abrir una incidencia cuando tenga un problema con un pedido o transacción, y el sistema gestionará la resolución.</td>
+        <td>Un usuario puede visualizar una obra de arte.</td>
     </tr>
     <tr>
         <th>Precondición</th>
-        <td>El Cliente debe haber realizado una compra o pedido personalizado con el Artista.</td>
+        <td>El Cliente debe hacer accedido a la pantalla de explorar.</td>
     </tr>
     <tr>
         <th>Secuencia normal</th>
         <td>
-            <p>1. El usuario accede a la sección "Pedidos".</p>
-            <p>2. Presiona el botón "Abrir Incidencia".</p>
-            <p>3. Completa un formulario describiendo el problema.</p>
-            <p>4. Envía la incidencia.</p>
-            <p>5. El sistema registra la incidencia y notifica al equipo de soporte.</p>
-            <p>6. Soporte analiza el caso y toma una acción.</p>
+            <p>1. El usuario accede a la sección "Explorar".</p>
+            <p>2. Presiona una obra.</p>
+            <p>3. Ahora puede ver los detalles de la obra.</p>
         </td>
     </tr>
     <tr>
         <th>Postcondición</th>
-        <td>La incidencia ha sido procesada y el usuario recibe una resolución.</td>
+        <td>Ninguna.</td>
     </tr>
     <tr>
         <th>Comentarios</th>
@@ -905,37 +903,6 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     </tr>
 </table>
 
-<table>
-    <tr>
-        <th>UC-014</th>
-        <td>Eliminación de Cuenta y Borrado de Datos</td>
-    </tr>
-    <tr>
-        <th>Descripción</th>
-        <td>Un Cliente o Artista podrá solicitar la eliminación de su cuenta y la eliminación de sus datos personales de la aplicación.</td>
-    </tr>
-    <tr>
-        <th>Precondición</th>
-        <td>El usuario debe haber iniciado sesión y no debe tener pedidos activos o pendientes de resolución.</td>
-    </tr>
-    <tr>
-        <th>Secuencia normal</th>
-        <td>
-            <p>1. El usuario accede a la sección "Perfil".</p>
-            <p>2. Selecciona la opción "Eliminar cuenta".</p>
-            <p>3. El sistema muestra un aviso con las consecuencias de la eliminación.</p>
-            <p>4. Si el usuario tiene pedidos activos o incidencias en proceso, el sistema bloquea la eliminación hasta que se resuelvan.</p>
-        </td>
-    </tr>
-    <tr>
-        <th>Postcondición</th>
-        <td>La cuenta ha sido eliminada y los datos personales han sido borrados.</td>
-    </tr>
-    <tr>
-        <th>Comentarios</th>
-        <td>-</td>
-    </tr>
-</table>
 ---
 
 ## 5. Requisitos funcionales

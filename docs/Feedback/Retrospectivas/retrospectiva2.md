@@ -35,6 +35,7 @@
 - La **comunicación no fue fluida** entre el grupo y el **equipo de costes**, esto es importante ya que ante cualquier modificación se deben reflejar los cambios en el coste.
 - Existen casos donde no se contestan WhatsApps y comunicaciones.
 - **Cuello de botella en PM**, preguntando mucho por privado.
+
 ## Buenos hábitos a realizar:
 
 - **Repartir todas las tareas con la máxima antelación posible** despues de la clase por ejemplo, y no dejar al mánager solo en esta tarea.

@@ -70,7 +70,7 @@
 
     [Pagos y Transacciones](#pagos-y-transacciones)
 
-    [Modificaciones a los Términos](#modificaciones-a-los-términos)
+    [En relación a los términos](#en-relación-a-los-términos)
 
     [Limitación de Responsabilidad](#limitación-de-responsabilidad)
 
@@ -115,15 +115,13 @@ Estos términos y condiciones regulan el acceso y uso de la aplicación, estable
 
 - Cualquier problema con los pagos debe ser reportado a PayPal o al proveedor correspondiente.
 
-### Modificaciones a los Términos
-
-- Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios entrarán en vigor desde su publicación en la aplicación.
+### En relación a los términos
 
 - Se recomienda a los usuarios revisar periódicamente los términos para mantenerse informados sobre posibles modificaciones.
 
 ### Limitación de Responsabilidad
 
-- No nos hacemos responsables de daños directos, indirectos o incidentales derivados del uso de la aplicación.
+- En caso de problemas, evaluaremos cada situación conforme a la legislación vigente y tomaremos las medidas necesarias para minimizar cualquier impacto negativo en los usuarios.
 
 - La aplicación puede estar sujeta a interrupciones por mantenimiento o mejoras, sin previo aviso.
 

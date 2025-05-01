@@ -17,7 +17,7 @@
 El éxito de este proyecto es gracias a nuestros increíbles contribuidores.
 
 <a href="https://github.com/Holos-INC/Docusaurus-Holos/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos" width="300" height="50" alt="Contribuidores" />
+  <img src="https://contrib.rocks/image?repo=Holos-INC/Docusaurus-Holos" width="500" height="90" alt="Contribuidores" />
 </a>
 
 
@@ -102,7 +102,7 @@ Este proyecto está configurado para desplegarse automáticamente en [Vercel](ht
 
 ## Licencia
 
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](./LICENSE) para más detalles.
+Este proyecto está bajo la licencia MIT de Docusaurus.
 
 ## Contacto
 
