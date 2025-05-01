@@ -1,4 +1,4 @@
-# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - Sprint 3
+# Revisión de Servicios y Metodología de Trabajo  - Sprint 3
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -41,6 +41,7 @@
 |------------------------------|-----------------|
 | Nerea Jiménez Adorna         | Redactora       |
 | José María Portela Huerta    | Revisor y Corrector |
+| María del Mar Ávila    | Revisora y Correctora |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -418,8 +419,296 @@ Página combinada de resultados, que puede incluir tanto artistas como obras. El
 
 ---
 ### ArtistRestService
+### ArtistService
+
+### ArtistService
+
+#### Descripción General del Servicio:
+El `ArtistService` es el componente encargado de gestionar la lógica de negocio asociada a los artistas en la plataforma Holos. Incluye operaciones de persistencia, búsquedas personalizadas y eliminación controlada de artistas, asegurando que no existan conflictos con comisiones activas o elementos relacionados.
+
+```
+En este documento encuentro metodos que son ciertamente redundates los cuales habria que revisar , son funcionales pero no hay necesidad de hacerlos , por ejemplo saveArtist.
+
+Tambien deberiamos revisar el repositorio , si extiende JPA , habria utilizarlo , sino no extenderlo
+```
+#### Métodos Implementados:
 
 ---
+
+### **Método 1: `saveArtist`**
+
+#### **Descripción:**
+Guarda un nuevo artista en la base de datos.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+```json
+{
+  "id": 1,
+  "description": "Nuevo artista",
+  "baseUser": {
+    "id": 10,
+    "username": "nuevoArtista",
+    "email": "nuevo@correo.com"
+  }
+}
+```
+
+#### **Datos que devuelve:**
+```json
+{
+  "id": 1,
+  "description": "Nuevo artista",
+  "baseUser": {
+    "id": 10,
+    "username": "nuevoArtista",
+    "email": "nuevo@correo.com"
+  }
+}
+```
+
+#### **Errores y Excepciones:**
+- `DataAccessException` si ocurre un fallo al persistir.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+---
+
+### **Método 2: `findArtist`**
+
+#### **Descripción:**
+Devuelve un artista por su ID.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+```json
+{
+  "artistId": 1
+}
+```
+
+#### **Datos que devuelve:**
+```json
+{
+  "id": 1,
+  "description": "Artista existente",
+  "baseUser": {
+    "id": 10,
+    "username": "existente",
+    "email": "existente@correo.com"
+  }
+}
+```
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si no existe el artista.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+---
+
+### **Método 3: `findArtistByUserId`**
+
+#### **Descripción:**
+Busca un artista mediante el ID del usuario base asociado.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+```json
+{
+  "userId": 10
+}
+```
+
+#### **Datos que devuelve:**
+Igual al de `findArtist`
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si no se encuentra el artista.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+---
+
+### **Método 4: `findArtistByUsername`**
+
+#### **Descripción:**
+Devuelve un artista usando su nombre de usuario.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+```json
+{
+  "username": "existente"
+}
+```
+
+#### **Datos que devuelve:**
+Igual al de `findArtist`
+
+#### **Errores y Excepciones:**
+- `ResourceNotFoundException` si no se encuentra el artista.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+---
+
+### **Método 5: `isArtist`**
+
+#### **Descripción:**
+Comprueba si el usuario dado está registrado como artista.
+
+#### **Tipo:** Interno
+#### **Categoría:** A corregir
+
+#### **Datos que recibe:**
+```json
+{
+  "userId": 10
+}
+```
+
+#### **Datos que devuelve:**
+```json
+true
+```
+
+#### **Errores y Excepciones:**
+- Declara `throws Exception` innecesariamente.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+---
+
+### **Método 6: `deleteArtist`**
+
+#### **Descripción:**
+Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. También borra su usuario base, estados Kanban y categorías asociadas.
+
+#### **Tipo:** Interno
+#### **Categoría:** A corregir
+
+#### **Datos que recibe:**
+```json
+{
+  "userId": 10
+}
+```
+
+#### **Datos que devuelve:**
+(Sin contenido)
+
+#### **Errores y Excepciones:**
+- `AccessDeniedException` si tiene comisiones aceptadas.
+- `ResourceNotFoundException` si no existe o si ocurre cualquier error.
+
+#### **Dependencias:**
+- `ArtistRepository`
+- `CommisionRepository`
+- `StatusKanbanOrderService`
+- `ArtistCategoryRepository`
+- `BaseUserRepository`
+
+---
+
+### **Método 7: `findByBaseUserId`**
+
+#### **Descripción:**
+Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+```json
+{
+  "baseUserId": 10
+}
+```
+
+#### **Datos que devuelve:**
+```json
+{
+  "present": true,
+  "value": {
+    "id": 1,
+    "description": "Artista opcional",
+    "baseUser": {
+      "id": 10,
+      "username": "opcional",
+      "email": "opcional@correo.com"
+    }
+  }
+}
+```
+
+#### **Errores y Excepciones:**
+- Declara `throws Exception` innecesariamente.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
+
+### **Método 6: `deleteArtist`**
+
+#### **Descripción:**
+Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. También borra su usuario base, estados Kanban y categorías asociadas.
+
+#### **Tipo:** Interno
+#### **Categoría:** A corregir (el bloque `try/catch` captura cualquier excepción y siempre lanza `ResourceNotFoundException` aunque sea un error lógico)
+
+#### **Datos que recibe:**
+- `userId` (Long)
+
+#### **Datos que devuelve:**
+- Ninguno (void)
+
+#### **Errores y Excepciones:**
+- `AccessDeniedException` si tiene comisiones en estado `ACCEPTED`
+- `ResourceNotFoundException` si no existe o si ocurre cualquier error
+
+#### **Dependencias:**
+- `ArtistRepository`
+- `CommisionRepository`
+- `StatusKanbanOrderService`
+- `ArtistCategoryRepository`
+- `BaseUserRepository`
+
+---
+
+### **Método 7: `findByBaseUserId`**
+
+#### **Descripción:**
+Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+
+#### **Tipo:** Interno
+#### **Categoría:** Bien hecha
+
+#### **Datos que recibe:**
+- `baseUserId` (Long)
+
+#### **Datos que devuelve:**
+- `Optional<Artist>`
+
+#### **Errores y Excepciones:**
+- Declara `throws Exception` innecesariamente.
+
+#### **Dependencias:**
+- `ArtistRepository`
+
 
 ### PaymentService
 
@@ -466,4 +755,3 @@ Se genera la documentación final del servicio, describiendo cómo se utiliza ca
 
 ---
 
-Esta metodología asegura que los servicios sean diseñados, implementados y mantenidos de manera coherente y eficiente, con la colaboración constante entre los equipos de **Frontend** y **Backend** para cumplir con los objetivos del negocio.
