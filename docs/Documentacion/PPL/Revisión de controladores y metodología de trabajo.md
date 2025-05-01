@@ -1,4 +1,4 @@
-# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - Sprint 3
+# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - PPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 31/03/2025  
-**Versión:** v1.2
+**Versión:** v1.3
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos  
@@ -51,6 +51,7 @@
 | v1.0    | 29/03/2025  | Creación del documento.        | Nerea Jiménez Adorna |
 | v1.1    | 30/03/2025  | Análisis de más endpoints       | Nerea Jiménez Adorna |
 | v1.2    | 31/03/2025  | Corrección de datos mal añadidos | José María Portela Huerta |
+| v1.3    | 21/04/2025  | Corrección de datos y actualizacion de metodos | Miguel Gómez Vela |
 
 ## Índice
 
@@ -69,6 +70,7 @@
   - [PaymentController](#paymentcontroller)
   - [CategoryRestController](#categoryrestcontroller)
   - [ClientRestController](#clientrestcontroller)
+  - [ChatMessageController](#chatMessageController)
 - [Metodología de trabajo](#metodología-de-trabajo)
 
 ---
@@ -806,7 +808,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
           "id": 1,
           "name": "Obra Ejemplo",
           "description": "Descripción de la obra",
-          "image": "ixdwjeicjewcjikejmjckejmjmcojmk", //No sé cómo se ve una imagen en un DTO
+          "image": "ixdwjeicjewcjikejmjckejmjmcojmk", 
           "artistUsername": "yellow"
         }
       ],
@@ -1661,8 +1663,118 @@ Un apunte es que es el controlador de Client pero las urls empiezan con users.
     ```json
     "No se puede eliminar el cliente porque tiene registros relacionados en otras partes del sistema."
     
+---
+### ChatMessageController
 
+#### POST (/api/v1/messages)
+- **Descripción:**  
+  Crea un nuevo mensaje de chat. La solicitud puede incluir un archivo de imagen opcional para el mensaje.
+- **Categoría:**  
+  Bien hecha
+- **Datos que reciben:**  
+  - **Request Part:**  
+    - `chatMessage` (String): Cadena JSON que representa el objeto *ChatMessage* con los siguientes campos:
+      ```json
+      {
+        "text": "Hello, how are you?"
+      }
+      ```
+    - `image` (MultipartFile, opcional): Archivo que contiene la imagen asociada al mensaje.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *ChatMessage* representando el mensaje creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "text": "Hello, how are you?",
+      "creationDate": "2023-04-20T12:34:56",
+      "image": null
+    }
+    ```
 
+---
+
+#### DELETE (/api/v1/messages/{id})
+- **Descripción:**  
+  Elimina un mensaje de chat identificado por su ID.
+- **Categoría:**  
+  No se usa
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `id` (Long): Identificador del mensaje a eliminar.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto *MessageResponse* confirmando la eliminación del mensaje.
+    _Ejemplo:_  
+    ```json
+    {
+      "message": "Message deleted successfully!"
+    }
+    ```
+
+---
+
+#### GET (/api/v1/messages/chat/{commisionId})
+- **Descripción:**  
+  Recupera todos los mensajes de chat asociados a una comisión específica identificada por su ID.
+- **Categoría:**  
+  No se usa
+- **Datos que reciben:**  
+  - **Path Variable:**  
+    - `commisionId` (Long): Identificador de la comisión a la que pertenecen los mensajes.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Lista de objetos *ChatMessage* asociados a la comisión.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "text": "Hello, how are you?",
+        "creationDate": "2023-04-20T12:34:56",
+        "image": null
+      },
+      {
+        "id": 2,
+        "text": "I'm good, thanks!",
+        "creationDate": "2023-04-20T12:35:00",
+        "image": null
+      }
+    ]
+    ```
+
+---
+
+#### GET (/api/v1/messages/admin/chats)
+- **Descripción:**  
+  Recupera todas las conversaciones de chat en el sistema.
+- **Categoría:**  
+  No se usa
+- **Datos que reciben:**  
+  - No se requieren parámetros.
+- **Datos que devuelven:**  
+  - **Respuesta JSON:** Objeto que representa todas las conversaciones de chat.
+    _Ejemplo:_  
+    ```json
+    {
+      "1": [
+        {
+          "id": 1,
+          "text": "Hello, how are you?",
+          "creationDate": "2023-04-20T12:34:56",
+          "image": null
+        }
+      ],
+      "2": [
+        {
+          "id": 2,
+          "text": "I'm good, thanks!",
+          "creationDate": "2023-04-20T12:35:00",
+          "image": null
+        }
+      ]
+    }
+    ```
+
+---
 ## Metodología de trabajo
 
 1. **Comunicación Inicial:**  
