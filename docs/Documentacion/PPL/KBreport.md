@@ -64,7 +64,7 @@
 2. [Aportaciones realizadas a la BCC](#2-aportaciones-realizadas-a-la-bcc)  
     2.1 [Sprint 1](#sprint-1)  
     2.2 [Sprint 2](#sprint-2)   
-    2.3 [Sprint 3](#sprint-3)
+    2.3 [Sprint 3](#sprint-3)   
     2.4 [PPL](#ppl)
 
 ---
