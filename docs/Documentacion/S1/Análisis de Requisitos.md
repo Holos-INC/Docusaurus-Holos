@@ -619,12 +619,12 @@ Para la recolección de requisitos, se han utilizado diversas técnicas de licit
     <tr>
         <th>Secuencia normal</th>
         <td>
-            <p>1. El Artista accede a su perfil.</p>
-            <p>2. Ingresa a la sección de "Mensajes"</p>
+            <p>1. El Artista accede a la sección de "Pedidos".</p>
+            <p>2. Ingresa a la sección de "Nuevas Solicitudes"</p>
             <p>3. Visualiza la lista de solicitudes recibidas.</p>
-            <p>4. Selecciona una solicitud para ver los detalles.</p>
-            <p>5. Responde al Cliente con una aceptación o rechazo.</p>
-            <p>6. Si acepta, el Cliente es notificado y el trabajo pasa automaticamente al tablero Kanban</p>  
+            <p>4. Oulsa "Ver Detalle" de una solicitud para ver sus detalles.</p>
+            <p>5. En la pantalla de detalles: solicita un nuevo precio, rechaza o acepta la solicitud.</p>
+            <p>6. Si acepta, la solicitud pasa a aceptada o a lista de espera en caso de que no tenga huecos disponibles</p>  
         </td>
     </tr>
     <tr>
