@@ -970,9 +970,11 @@ Según los datos obtenidos, se estima que la aplicación comenzará a ser rentab
 
 La plataforma espera mantener un crecimiento constante del 5 % mensual con respecto al mes anterior, tanto en el número de artistas como en el de comisiones, durante los primeros cuatro años tras el lanzamiento. Posteriormente, en el escenario neutro, se espera una estabilidad mensual de:
 
-Nº artistas: 19346
-Nº de comisiones:  52622 
-Nº de usuarios premium: 5804
+* Nº artistas: 19346
+
+* Nº de comisiones:  52622
+
+* Nº de usuarios premium: 5804
 
 Generando un benefício mensual de: 122.178,01 €
 
