@@ -1,3 +1,8 @@
+---
+title: "Revisión de Servicios y Metodología de Trabajo - PPL"
+description: "Documentación detallada sobre los servicios implementados en el proyecto"
+---
+
 # Revisión de Servicios y Metodología de Trabajo  - PPL
 
 <p align="center">
@@ -92,7 +97,7 @@ En este apartado se documentarán todos los servicios actuales organizados por c
   - **No usado:** El servicio no se usa actualmente, pero se espera que sea utilizado en el futuro.
 
 - **Datos que reciben:**  
-  Descripción de los datos que el servicio espera recibir. Si hay algún parámetro innecesario o datos no requeridos (como el ID de usuario si se puede obtener mediante autenticación), debe ser indicado. Esto incluiría detalles sobre los DTOs que se pasan al servicio.
+  Descripción de los datos que el servicio espera recibir. Si hay algún parámetro innecesario o datos no requeridos (como el "ID" de usuario si se puede obtener mediante autenticación), debe ser indicado. Esto incluiría detalles sobre los DTOs que se pasan al servicio.
 
 - **Datos que devuelven:**  
   Especificar qué tipo de datos el servicio devuelve, como JSON, objetos o listas de objetos. También se deben proporcionar ejemplos de las respuestas y detalles sobre los DTOs involucrados.
@@ -132,6 +137,300 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/Estados_pedido_comision.png" alt="Estados de una comisión" width="750"/>
 </p>
 
+#### Descripción General del Servicio:
+
+El `CommisionService` gestiona las operaciones relacionadas con las comisiones, incluyendo la creación, modificación, cancelación, aceptación y rechazo de comisiones, así como la gestión de su estado a lo largo del proceso. También gestiona el historial de comisiones de clientes y artistas, y la lógica asociada al cambio de estado de las comisiones, como su aceptación, rechazo o cancelación.
+
+#### Métodos Implementados:
+
+### **Método 1: `getAllCommisions`**
+
+#### **Descripción:**  
+Este método recupera todas las comisiones almacenadas en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/commisions`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todas las comisiones.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Comisión de retrato",
+        "description": "Descripción del retrato encargado",
+        "price": 100.0,
+        "status": "REQUESTED"
+      }
+    ]
+    ```
+
+---
+
+### **Método 2: `createCommision`**
+
+#### **Descripción:**  
+Este método crea una nueva comisión para un artista específico.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/commisions/{artistId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `artistId` (Long): Identificador del artista al que se asignará la comisión.
+- **Request Body:**  
+  - `commisionDTO` (Objeto *CommisionRequestDTO*): Información necesaria para crear la comisión.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *CommissionDTO* con los datos de la comisión creada.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Retrato de familia",
+      "description": "Retrato en óleo de la familia",
+      "price": 150.0,
+      "status": "REQUESTED",
+      "artistUsername": "artist1"
+    }
+    ```
+
+---
+
+### **Método 3: `requestChangesCommision`**
+
+#### **Descripción:**  
+Solicita cambios en una comisión existente.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/requestChanges`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a modificar.
+- **Request Body:**  
+  - `commisionDTO` (Objeto *CommissionDTO*): Datos actualizados de la comisión.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Commision* actualizado con los cambios solicitados.
+
+---
+
+### **Método 4: `getCommisionById`**
+
+#### **Descripción:**  
+Recupera una comisión específica identificada por su "ID".
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/commisions/{commisionId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a recuperar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *CommisionDTO* con la información de la comisión.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Retrato a lápiz",
+      "description": "Retrato detallado en lápiz de un paisaje",
+      "price": 80.0,
+      "status": "REQUESTED",
+      "artistUsername": "artist2",
+      "clientUsername": "client1"
+    }
+    ```
+
+---
+
+### **Método 5: `updateCommisionStatus`**
+
+#### **Descripción:**  
+Actualiza el estado de una comisión, dependiendo de si ha sido aceptada o rechazada.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/accept`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a actualizar.
+- **Request Parameter:**  
+  - `accept` (boolean): Indicador de si la comisión ha sido aceptada (`true`) o rechazada (`false`).
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Commision* actualizado con el nuevo estado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "status": "ACCEPTED"
+    }
+    ```
+
+---
+
+### **Método 6: `waitingCommission`**
+
+#### **Descripción:**  
+Pone una comisión en espera para confirmación del precio.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/waiting`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a poner en espera.
+- **Request Body:**  
+  - `priceChanged` (Objeto *CommissionDTO*): Datos de la comisión con el precio actualizado.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión está en espera de confirmación del precio.
+    _Ejemplo:_  
+    ```json
+    "Waiting for price confirmation."
+    ```
+
+---
+
+### **Método 7: `toPayCommission`**
+
+#### **Descripción:**  
+Actualiza el estado de la comisión a "para pagar" después de la confirmación del precio.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/toPay`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a actualizar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue aceptada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Price confirmed successfully."
+    ```
+
+---
+
+### **Método 8: `rejectCommission`**
+
+#### **Descripción:**  
+Rechaza una comisión, actualizando su estado.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/reject`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a rechazar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue rechazada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission rejected successfully."
+    ```
+
+---
+ check 
+### **Método 9: `acceptCommission`**
+
+#### **Descripción:**  
+Acepta una comisión, actualizando su estado.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/accept`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a aceptar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue aceptada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission accepted successfully."
+    ```
+
+---
+
+### **Método 10: `cancelCommission`**
+
+#### **Descripción:**  
+Cancela una comisión, verificando que el estado lo permita.
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/commisions/{commisionId}/cancel`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - `commisionId` (Long): Identificador de la comisión a cancelar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje indicando que la comisión fue cancelada correctamente.
+    _Ejemplo:_  
+    ```json
+    "Commission canceled successfully."
+    ```
+
+---
+
+#### Resumen de uso de métodos del `CommisionService` en `CommisionController`
+
+| Método del Servicio                       | Endpoint en el Controlador                                    | Descripción breve                                             |
+|-------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| `getAllCommisions()`                      | `GET /api/v1/commisions`                                      | Recupera todas las comisiones.                                |
+| `createCommision(commisionDTO, artistId)` | `POST /api/v1/commisions/{artistId}`                           | Crea una nueva comisión para un artista específico.           |
+| `requestChangesCommision(commisionDTO, commisionId)` | `PUT /api/v1/commisions/{commisionId}/requestChanges`   | Solicita cambios en una comisión existente.                   |
+| `getCommisionById(commisionId)`           | `GET /api/v1/commisions/{commisionId}`                        | Recupera una comisión específica por su "ID".                   |
+| `updateCommisionStatus(commisionId, accept)` | `PUT /api/v1/commisions/{commisionId}/accept`              | Actualiza el estado de una comisión según aceptación o rechazo. |
+| `waitingCommission(priceChanged, commisionId)` | `PUT /api/v1/commisions/{commisionId}/waiting`          | Pone una comisión en espera para confirmación del precio.     |
+| `toPayCommission(commisionId)`            | `PUT /api/v1/commisions/{commisionId}/toPay`                  | Cambia el estado de la comisión a "para pagar".               |
+| `rejectCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/reject`                 | Rechaza una comisión.                                         |
+| `acceptCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/accept`                 | Acepta una comisión.                                          |
+| `cancelCommission(commisionId)`           | `PUT /api/v1/commisions/{commisionId}/cancel`                 | Cancela una comisión.                                         |
+
+---
+
+Esta es la documentación para el servicio `CommisionService`.
+
 ---
 
 ### SearchService
@@ -161,7 +460,7 @@ Este método se encarga de buscar obras de arte utilizando parámetros de texto 
 - `size` (Integer, opcional, default: 10): Tamaño de la página.
 
 #### **Datos que devuelven:**
-Devuelve una página de objetos `SearchWorkDTO`. Cada obra contiene detalles como el `id`, `name`, `description`, `image`, y `artistUsername`.
+Devuelve una página de objetos `SearchWorkDTO`. Cada obra contiene detalles como el "id", `name`, `description`, `image`, y `artistUsername`.
 
 **Ejemplo de respuesta para `searchWorks`:**
 ```json
@@ -264,12 +563,12 @@ Devuelve las obras asociadas a un artista específico a partir de su `artistId`.
 - **Bien hecha**
 
 **Datos que reciben:**
-- `artistId` (Integer): ID del artista.
+- `artistId` (Integer): "ID" del artista.
 - `page` (Integer, opcional, default: 0): Número de página.
 - `size` (Integer, opcional, default: 10): Tamaño de la página.
 
 **Datos que devuelven:**  
-Una página de objetos `SearchWorkDTO` con información básica de cada obra: id, nombre, descripción, imagen y nombre de usuario del artista.
+Una página de objetos `SearchWorkDTO` con información básica de cada obra: "id", nombre, descripción, imagen y nombre de usuario del artista.
 
 **Errores comunes:**
 - Si el `artistId` no existe, se devolverá un error controlado desde el repositorio o se lanzará una excepción relacionada.
@@ -546,7 +845,7 @@ Elimina un usuario, verificando que no sea un administrador y que sea el propio 
 
 ## Método 5: `findByBaseUserId`
 ### Descripción:
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 ### Tipo: Interno  
 ### Categoría: Bien hecha
@@ -606,7 +905,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ---
 ## Método 7: `findByBaseUserId`
 ### Descripción:
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 ### Tipo: Interno  
 ### Categoría: Bien hecha
@@ -635,12 +934,227 @@ Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
 
 #### **Dependencias:**
 - `ArtistService`
+---
+#### **ReportService**
 
-```
+## Descripción General del Servicio:
+
+El `ReportService` gestiona las operaciones relacionadas con los reportes, incluyendo la creación, aceptación, rechazo, eliminación y consulta de reportes, así como la gestión de su tipo. También maneja la lógica asociada al proceso de reporte de obras de arte, gestionando las solicitudes y los tipos de reportes.
+
+## Métodos Implementados:
+
+### **Método 1: `getReportTypes`**
+
+#### **Descripción:**  
+Este método recupera todos los tipos de reportes disponibles.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/reports/types`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todos los tipos de reportes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "type": "Inappropriate Content"
+      }
+    ]
+    ```
+
+---
+
+### **Método 2: `getReports`**
+
+#### **Descripción:**  
+Este método recupera todos los reportes almacenados en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/reports/admin`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- No requiere parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de todos los reportes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 12345,
+        "name": "Inappropriate Content",
+        "description": "This artwork violates our policy",
+        "status": "PENDING"
+      }
+    ]
+    ```
+
+---
+
+### **Método 3: `createReport`**
+
+#### **Descripción:**  
+Este método crea un nuevo reporte para una obra de arte específica.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/reports`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `reportDTO` (Objeto *ReportDTO*): Información necesaria para crear el reporte.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* con los datos del reporte creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "name": "Inappropriate Content",
+      "description": "This artwork violates our policy",
+      "status": "PENDING"
+    }
+    ```
+
+---
+
+### **Método 4: `acceptReport`**
+
+#### **Descripción:**  
+Este método acepta un reporte, cambiando su estado a "ACCEPTED".
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/reports/admin/accept/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - "id" (Long): Identificador del reporte a aceptar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* actualizado con el estado "ACCEPTED".
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "status": "ACCEPTED"
+    }
+    ```
+
+---
+
+### **Método 5: `rejectReport`**
+
+#### **Descripción:**  
+Este método rechaza un reporte, cambiando su estado a "REJECTED".
+
+#### **Tipo:** PUT  
+#### **Ruta:** `/api/v1/reports/admin/reject/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - "id" (Long): Identificador del reporte a rechazar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Report* actualizado con el estado "REJECTED".
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 12345,
+      "status": "REJECTED"
+    }
+    ```
+
+---
+
+### **Método 6: `deleteReport`**
+
+#### **Descripción:**  
+Este método elimina un reporte, pero solo si su estado es "REJECTED".
+
+#### **Tipo:** DELETE  
+#### **Ruta:** `/api/v1/reports/admin/delete/{id}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - "id" (Long): Identificador del reporte a eliminar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje de confirmación de la eliminación.
+    _Ejemplo:_  
+    ```json
+    "Reporte eliminado correctamente."
+    ```
+
+---
+
+### **Método 7: `addReportType`**
+
+#### **Descripción:**  
+Este método agrega un nuevo tipo de reporte al sistema.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/reports/admin/types`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `reportType` (Objeto *ReportType*): Información del nuevo tipo de reporte.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *ReportType* con el tipo de reporte creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "type": "Spam Content"
+    }
+    ```
+
+---
+
+### Resumen de uso de métodos del `ReportService` en `ReportController`
+
+| Método del Servicio                | Endpoint en el Controlador                           | Descripción breve                                              |
+|------------------------------------|------------------------------------------------------|-----------------------------------------------------------------|
+| `getReportTypes()`                 | `GET /api/v1/reports/types`                          | Recupera todos los tipos de reportes disponibles.               |
+| `getReports()`                     | `GET /api/v1/reports/admin`                          | Recupera todos los reportes del sistema.                        |
+| `createReport(reportDTO)`          | `POST /api/v1/reports`                               | Crea un nuevo reporte.                                          |
+| `acceptReport("id")`                 | `PUT /api/v1/reports/admin/accept/{"id"}`              | Acepta un reporte, actualizando su estado a "ACCEPTED".         |
+| `rejectReport("id")`                 | `PUT /api/v1/reports/admin/reject/{"id"}`              | Rechaza un reporte, actualizando su estado a "REJECTED".        |
+| `deleteReport("id")`                 | `DELETE /api/v1/reports/admin/delete/{"id"}`           | Elimina un reporte rechazado.                                   |
+| `addReportType(reportType)`        | `POST /api/v1/reports/admin/types`                   | Agrega un nuevo tipo de reporte al sistema.                     |
+
+---
+
+Esta es la documentación para el servicio `ReportService`.
+
+---
 
 
 
-### ReportService
 
 ---
 ### ArtistService
@@ -702,7 +1216,7 @@ Guarda un nuevo artista en la base de datos.
 ### **Método 2: `findArtist`**
 
 #### **Descripción:**
-Devuelve un artista por su ID.
+Devuelve un artista por su "ID".
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -738,7 +1252,7 @@ Devuelve un artista por su ID.
 ### **Método 3: `findArtistByUserId`**
 
 #### **Descripción:**
-Busca un artista mediante el ID del usuario base asociado.
+Busca un artista mediante el "ID" del usuario base asociado.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -849,7 +1363,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ### **Método 7: `findByBaseUserId`**
 
 #### **Descripción:**
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -914,7 +1428,7 @@ Elimina un artista, siempre que no tenga comisiones en estado `ACCEPTED`. Tambi�
 ### **Método 7: `findByBaseUserId`**
 
 #### **Descripción:**
-Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
+Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 #### **Tipo:** Interno
 #### **Categoría:** Bien hecha
@@ -943,7 +1457,353 @@ Devuelve el artista como `Optional` a partir del ID del `BaseUser`.
 ---
 Un apunte es que es el controlador de Client pero las urls empiezan con users.
 
----    
+---
+#### ClientService 
+
+
+#### Descripción General del Servicio:
+
+El `ClientService` gestiona las operaciones relacionadas con los clientes, incluyendo la creación, búsqueda, actualización y eliminación de clientes en el sistema. Además, maneja validaciones relacionadas con las comisiones activas y los informes relacionados con los clientes.
+
+#### Métodos Implementados:
+
+### **Método 1: `saveClient`**
+
+#### **Descripción:**  
+Este método se encarga de guardar un cliente en la base de datos.
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/clients`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: El servicio está completamente implementado y funciona como se espera.
+
+#### **Datos que reciben:**
+- **Request Body:**  
+  - `client` (Objeto *Client*): Información del cliente a guardar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente guardado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 2: `findClient`**
+
+#### **Descripción:**  
+Recupera un cliente específico identificado por su "ID".
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/{"id"}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- "id" (Long): Identificador del cliente a recuperar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 3: `findClientByUserId`**
+
+#### **Descripción:**  
+Recupera un cliente basado en el "ID" de usuario.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/byUser/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): "ID" del usuario asociado al cliente.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *Client* con la información del cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com"
+    }
+    ```
+
+---
+
+### **Método 4: `isClient`**
+
+#### **Descripción:**  
+Verifica si un usuario es un cliente en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients/isClient/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): "ID" del usuario a verificar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Booleano indicando si el usuario es un cliente.
+    _Ejemplo:_  
+    ```json
+    {
+      "isClient": true
+    }
+    ```
+
+---
+
+### **Método 5: `findAll`**
+
+#### **Descripción:**  
+Recupera todos los clientes del sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/clients`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- No se requieren parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de objetos *Client* con la información de todos los clientes.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "name": "Juan Pérez",
+        "email": "juan@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Ana García",
+        "email": "ana@example.com"
+      }
+    ]
+    ```
+
+---
+
+### **Método 6: `deleteClient`**
+
+#### **Descripción:**  
+Elimina un cliente del sistema, verificando que no tenga comisiones activas y que no tenga registros relacionados.
+
+#### **Tipo:** DELETE  
+#### **Ruta:** `/api/v1/clients/administrator/clients/{userId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `userId` (Long): "ID" del cliente a eliminar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Mensaje de confirmación si la eliminación es exitosa.
+    _Ejemplo:_  
+    ```json
+    "Cliente eliminado exitosamente"
+    ```
+  - En caso de error, se devuelve un mensaje de error descriptivo.
+    _Ejemplo:_  
+    ```json
+    "No se puede eliminar el cliente porque tiene registros relacionados en otras partes del sistema."
+    ```
+
+---
+
+## Resumen de uso de métodos del `ClientService` en `ClientRestController`
+
+| Método del Servicio                | Endpoint en el Controlador                           | Descripción breve                                              |
+|------------------------------------|------------------------------------------------------|-----------------------------------------------------------------|
+| `saveClient(client)`               | `POST /api/v1/clients`                               | Guarda un cliente en la base de datos.                          |
+| `findClient("id")`                   | `GET /api/v1/clients/{"id"}`                           | Recupera un cliente por su "ID".                                 |
+| `findClientByUserId(userId)`       | `GET /api/v1/clients/byUser/{userId}`                | Recupera un cliente por el "ID" del usuario.                     |
+| `isClient(userId)`                 | `GET /api/v1/clients/isClient/{userId}`              | Verifica si un usuario es un cliente.                          |
+| `findAll()`                        | `GET /api/v1/clients`                                | Recupera todos los clientes del sistema.                       |
+| `deleteClient(userId)`             | `DELETE /api/v1/clients/administrator/clients/{userId}`| Elimina un cliente del sistema.                                |
+
+---
+
+### ChatMessageService
+
+#### Descripción General del Servicio:
+
+El `ChatMessageService` gestiona la lógica de negocio para la creación, eliminación y recuperación de mensajes de chat dentro de la plataforma. Asegura que los mensajes se asocien a las comisiones correspondientes y que se validen las condiciones de acceso antes de permitir la creación o eliminación de los mensajes.
+
+#### Métodos Implementados:
+
+### **Método 1: `createChatMessage`**
+
+#### **Descripción:**  
+Este método se encarga de crear un nuevo mensaje de chat asociado a una comisión. Permite añadir texto y, opcionalmente, una imagen (con un límite de tamaño de 5MB).
+
+#### **Tipo:** POST  
+#### **Ruta:** `/api/v1/messages`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**: Este servicio está completamente implementado y funcionando como se esperaba.
+
+#### **Datos que reciben:**
+- **Request Parts:**
+  - `chatMessage` (String): Cadena JSON que representa el objeto *ChatMessage* con los siguientes campos:
+    ```json
+    {
+      "text": "Hello, how are you?"
+    }
+  - `image` (MultipartFile, opcional): Archivo que contiene la imagen asociada al mensaje.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *ChatMessage* representando el mensaje creado.
+    _Ejemplo:_  
+    ```json
+    {
+      "id": 1,
+      "text": "Hello, how are you?",
+      "creationDate": "2023-04-20T12:34:56",
+      "image": null
+    }
+    ```
+
+---
+
+### **Método 2: `findConversationByCommisionId`**
+
+#### **Descripción:**  
+Recupera todos los mensajes de chat asociados a una comisión específica identificada por su "ID".
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/messages/chat/{commisionId}`
+
+#### **Categoría de la llamada:**  
+- **Bien hecha**
+
+#### **Datos que reciben:**
+- `commisionId` (Long): Identificador de la comisión a la que pertenecen los mensajes.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Lista de objetos *ChatMessage* asociados a la comisión.
+    _Ejemplo:_  
+    ```json
+    [
+      {
+        "id": 1,
+        "text": "Hello, how are you?",
+        "creationDate": "2023-04-20T12:34:56",
+        "image": null
+      },
+      {
+        "id": 2,
+        "text": "I'm good, thanks!",
+        "creationDate": "2023-04-20T12:35:00",
+        "image": null
+      }
+    ]
+    ```
+
+---
+
+### **Método 3: `deleteMessage`**
+
+#### **Descripción:**  
+Elimina un mensaje de chat identificando por su "ID".
+
+#### **Tipo:** DELETE  
+#### **Ruta:** `/api/v1/messages/{"id"}`
+
+#### **Categoría de la llamada:**  
+- **No se usa**
+
+#### **Datos que reciben:**
+- **Path Variable:**  
+  - "id" (Long): Identificador del mensaje a eliminar.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto *MessageResponse* confirmando la eliminación del mensaje.
+    _Ejemplo:_  
+    ```json
+    {
+      "message": "Message deleted successfully!"
+    }
+    ```
+
+---
+
+### **Método 4: `findAllConversations`**
+
+#### **Descripción:**  
+Recupera todas las conversaciones de chat en el sistema.
+
+#### **Tipo:** GET  
+#### **Ruta:** `/api/v1/messages/admin/chats`
+
+#### **Categoría de la llamada:**  
+- **No se usa**
+
+#### **Datos que reciben:**
+- No se requieren parámetros.
+
+#### **Datos que devuelven:**  
+- **Respuesta JSON:** Objeto que representa todas las conversaciones de chat.
+    _Ejemplo:_  
+    ```json
+    {
+      "1": [
+        {
+          "id": 1,
+          "text": "Hello, how are you?",
+          "creationDate": "2023-04-20T12:34:56",
+          "image": null
+        }
+      ],
+      "2": [
+        {
+          "id": 2,
+          "text": "I'm good, thanks!",
+          "creationDate": "2023-04-20T12:35:00",
+          "image": null
+        }
+      ]
+    }
+    ```
+
+---
+
+
+## Resumen de uso de métodos del `ChatMessageService` en `ChatMessageController`
+
+| Método del Servicio                         | Endpoint en el Controlador                           | Descripción breve                                       |
+|---------------------------------------------|------------------------------------------------------|----------------------------------------------------------|
+| `createChatMessage(chatMessage)`            | `POST /api/v1/messages`                              | Crea un nuevo mensaje de chat con opción de incluir imagen. |
+| `findConversationByCommisionId(commisionId)` | `GET /api/v1/messages/chat/{commisionId}`            | Recupera todos los mensajes de chat asociados a una comisión. |
+| `deleteMessage("id")`                         | `DELETE /api/v1/messages/{"id"}`                       | Elimina un mensaje de chat por su "ID".                   |
+| `findAllConversations()`                    | `GET /api/v1/messages/admin/chats`                   | Recupera todas las conversaciones de chat.              |
+
+---
 
 
 ### Metodología de Trabajo para los Servicios:
