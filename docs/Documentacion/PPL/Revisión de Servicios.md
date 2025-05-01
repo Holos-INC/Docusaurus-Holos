@@ -67,9 +67,9 @@ description: "Documentación detallada sobre los servicios implementados en el p
   - [SearchServicios](#searchservice)
   - [StripeConnectService](#stripeconnectservice)
   - [WorkService](#workservice)
-  - [AuthService](#authservice)
+  - [AuthoritiesService](#authoritiesservice)
   - [ReportService](#reportservice)
-  - [ArtistRestService](#artistrestservice)
+  - [ArtistService](#artistservice)
   - [PaymentService](#paymentservice)
   - [CategoryRestService](#categoryrestservice)
   - [ClientRestService](#clientrestservice)
@@ -116,6 +116,8 @@ Este documento se actualizará conforme a las necesidades y cambios del equipo.
 ## Análisis de servicios
 
 ### WorksDoneService
+---
+Intencionadamente en blanco.
 
 ---
 ### MilestoneService
@@ -125,6 +127,8 @@ Todo en esta categoría está aún sin usar, por lo que no se saben las necesida
 ---
 
 ### StatusKanbanOrderService
+---
+Intencionadamente en blanco.
 
 ---
 
@@ -701,12 +705,16 @@ Página combinada de resultados, que puede incluir tanto artistas como obras. El
 
 ---
 ### StripeConnectService
+---
+Intencionadamente en blanco.
 
 ---
 
 ### WorkService
 ---
+Intencionadamente en blanco.
 
+---
 
 ### AuthoritiesService
 
@@ -1447,12 +1455,16 @@ Devuelve el artista como `Optional` a partir del "ID" del `BaseUser`.
 
 
 ### PaymentService
+---
+Intencionadamente en blanco.
 
 ---
 
 ### CategoryRestService
 ---
+Intencionadamente en blanco.
 
+---
 ### ClientRestService
 ---
 Un apunte es que es el controlador de Client pero las urls empiezan con users.
