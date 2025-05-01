@@ -128,7 +128,7 @@
     En la sección "Reports" se pueden consultar las configuraciones para ver en qué han invertido su tiempo los diferentes miembros del grupo.  
 
 - **Requisitos potenciales:** Ninguno  
-- **Link de la demo:** [Demo](../../../static/videos/Holos_demo_1104.mp4)
+- **Link de la demo:** [Demo](../../../static/videos/DEMOPPL.mp4)
 - **Ejemplos de inputs complejos:**
     No hay formularios complejos por el momento. Aunque es interesante destacar que cuando el cliente quiere pedir al artista una comisión tiene la opción de adjuntar una imagen (no es obligatorio, se puede realizar la comisión sin adjuntar dicha imagen).
 - **URL de despliegue:** https://holos-ppl.ew.r.appspot.com/
