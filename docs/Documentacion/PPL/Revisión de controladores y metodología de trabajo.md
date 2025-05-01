@@ -1,4 +1,4 @@
-# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - Sprint 3
+# Revisión de Controladores y Metodología de Trabajo Backend-Frontend - PPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 31/03/2025  
-**Versión:** v1.2
+**Versión:** v1.3
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos  
@@ -51,6 +51,7 @@
 | v1.0    | 29/03/2025  | Creación del documento.        | Nerea Jiménez Adorna |
 | v1.1    | 30/03/2025  | Análisis de más endpoints       | Nerea Jiménez Adorna |
 | v1.2    | 31/03/2025  | Corrección de datos mal añadidos | José María Portela Huerta |
+| v1.3    | 21/04/2025  | Corrección de datos y actualizacion de metodos | Miguel Gómez Vela |
 
 ## Índice
 
@@ -806,7 +807,7 @@ Antes de entrar en esta parte, comentar cómo se gestionarán los distintos esta
           "id": 1,
           "name": "Obra Ejemplo",
           "description": "Descripción de la obra",
-          "image": "ixdwjeicjewcjikejmjckejmjmcojmk", //No sé cómo se ve una imagen en un DTO
+          "image": "ixdwjeicjewcjikejmjckejmjmcojmk", 
           "artistUsername": "yellow"
         }
       ],

@@ -86,7 +86,8 @@
 
 ---
 ## 3. Tareas de Administración Realizadas
-En blanco intencionadamente.
+1. Creación de métodos para administrador:
+  - Eliminar obras de arte: El administrador tiene la posibilidad de eliminar una obra de arte.
 
 --- 
 
