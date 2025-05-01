@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 31/03/2025  
-**Versión:** v1.2
+**Versión:** v1.1
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos  
@@ -41,6 +41,7 @@
 |------------------------------|-----------------|
 | Nerea Jiménez Adorna         | Redactora       |
 | José María Portela Huerta    | Revisor y Corrector |
+| María del Mar Ávila    | Revisora y Correctora |
 
 **Repositorio:** [GitHub - Holos-INC](https://github.com/Holos-INC/Docusaurus-Holos)
 
@@ -49,25 +50,27 @@
 | Versión | Fecha       | Descripción de cambios         | Autor                |
 |---------|-------------|--------------------------------|----------------------|
 | v1.0    | 16/04/2025  | Creación del documento.        | Miguel Gómez Vela |
+| v1.1    | 01/05/2025  | Revisión del documento y corrección del índice        | María del Mar Ávila |
+
 
 
 ## Índice
 
 - [Introducción](#introducción)
-- [Análisis de endpoints](#análisis-de-endpoints)
-  - [WorksDoneService](#worksdonecontroller)
-  - [MilestoneService](#milestonecontroller)
-  - [StatusKanbanOrderService](#statuskanbanordercontroller)
-  - [CommisionService](#commisioncontroller)
-  - [SearchServicios](#searchcontroller)
-  - [StripeConnectService](#stripeconnectcontroller)
-  - [WorkService](#workcontroller)
-  - [AuthService](#authcontroller)
-  - [ReportService](#reportcontroller)
-  - [ArtistRestService](#artistrestcontroller)
-  - [PaymentService](#paymentcontroller)
-  - [CategoryRestService](#categoryrestcontroller)
-  - [ClientRestService](#clientrestcontroller)
+- [Análisis de servicios](#análisis-de-servicios)
+  - [WorksDoneService](#worksdoneservice)
+  - [MilestoneService](#milestoneservice)
+  - [StatusKanbanOrderService](#statuskanbanorderservice)
+  - [CommisionService](#commisionservice)
+  - [SearchService](#searchservice)
+  - [StripeConnectService](#stripeconnectservice)
+  - [WorkService](#workservice)
+  - [AuthService](#authservice)
+  - [ReportService](#reportservice)
+  - [ArtistRestService](#artistrestservice)
+  - [PaymentService](#paymentservice)
+  - [CategoryRestService](#categoryrestservice)
+  - [ClientRestService](#clientrestservice)
 - [Metodología de trabajo](#metodología-de-trabajo)
 
 ---
