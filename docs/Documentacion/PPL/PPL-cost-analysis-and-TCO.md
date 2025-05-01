@@ -76,8 +76,8 @@
    4.3 [Caso optimista](#43-caso-optimista)  
    &nbsp;&nbsp;&nbsp;&nbsp;4.3.1 [Cálculos del TCO optimista](#431-cálculos-del-tco-optimista)
 5. [Rentabilidad (Resumen)](#5-rentabilidad-resumen)  
-6. [Inversores](#7-inversores) 
-7. [Bibliografía](#6-bibliografía)   
+6. [Inversores](#6-inversores) 
+7. [Bibliografía](#7-bibliografía)   
 
 
 
