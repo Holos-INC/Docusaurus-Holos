@@ -129,7 +129,6 @@ Para la elección de los participantes, hemos aplicado un criterio para los usua
 |   Keegan  | Cliente | Kcullen3289@gmail.com       |
 |   Milagros  | Cliente | milagros.huerta@gm.uca.es       |
 |   Simón  | Cliente | simoncgs03@gmail.com   |
-|   Lucas  | Cliente | lmherencia2003@gmail.com   |
 |   Carlos  | Cliente | carlosperezsanchez199@gmail.com   |
 
 #### 2.2.1 Usuarios piloto de otros grupos
@@ -143,6 +142,9 @@ Además de los usuarios pilotos seleccionados anteriormente, a continuación, mo
 |   Rafael Castillo Cebolla   | Artista/Cliente | rafaelcastillocebolla@gmail.com        |
 |   Mohamed Abouri   | Artista/Cliente | mohmmedabourihhh@gmail.com        |
 |   Enrique García Abadía   | Artista/Cliente | kiquegaraba@gmail.com        |
+|   Lucas Manuel Herencia Solís  | Cliente* | lmherencia2003@gmail.com   |
+
+*Nótese que para el PPL se ha añadido a Lucas como usuario piloto de ISPP puesto que nos ha hecho de usuario piloto para todas las entregas, pasando a ser "usuario piloto oficial" con el visto bueno de los profesores.
 
 ## 3. Escenarios de prueba
 
@@ -272,7 +274,6 @@ El plan inicial consiste en enviar un prototipo por Sprint con lo implementado h
 - **Fase 2/Envío 2:** Evaluación de uso del tablero y requests.
 - **Fase 3/Envío 3:** Validación de slots, waitlist y funcionalidades premium.
 - **Fase 4/Envío 4:** Mejora visual y arreglo de bugs.
-- **Fase 5/Envío 5:** Encuesta final con todas las funcionalidades para recopilar impresiones generales y posibles mejoras.  
 
 #### **Evaluación del Éxito**  
 
@@ -291,7 +292,6 @@ Se deben identificar, además, tendencias claras en las respuestas sobre el prec
 | 3  | Sprint 2 | 22/03/2025    | 27/03/2025   | Completado | Primera entrega de prototipo con features adicionales. Fusión con el envío 2 |
 | 4 | Sprint 3 | 5/04/2025   | 10/04/2025   | Completado | Implementación de feedback recibido y funcionalidades adicionales |
 | 5   | PPL | 19/04/2025    | 24/04/2025   | Completado | Implementación de feedback y evaluación de características visuales (UI) |
-| 6  | WPL | 10/05/2025    | 15/05/2025   | Pendiente | Última iteración antes del cierre de pruebas, evaluación definitiva |
 
 **Estado de los envíos:**
 - **Pendiente:** Aún no enviado.
@@ -427,7 +427,6 @@ Se han definido los siguientes criterios para la evaluación:
 | Keegan | 3 | 
 | Milagros | 2 | 
 | Simón | 4 | 
-| Lucas | 5 |
 | Carlos | 1 |
 
 ### **6.1. Criterios de Evaluación**
@@ -473,6 +472,8 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 |   Rafael Castillo Cebolla   |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
 |   Mohamed Abouri  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
 |   Enrique García Abadía  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
+|   Lucas Manuel Herencia Solís  |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |  N/A |   **N/A**  |
+
 
 #### Sprint 2 (Envío 1/2)
 
@@ -483,6 +484,8 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 |   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
 |   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 #### Sprint 3 (Envío 3)
 
@@ -493,6 +496,8 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 |   Rafael Castillo Cebolla | 10 |  10 |  0 |  10 |  10 |  10 |  6 |  10 |   **8.25** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  10 |   **8** |
 |   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 #### PPL
 
@@ -503,16 +508,20 @@ En el documento pilotUsersPerformanceEvaluation.md o Evaluación del Desempeño 
 |   Rafael Castillo Cebolla | 10 |  10 |  8 |  10 |  10 |  10 |  10 |  10 |   **9.75** |
 |   Mohamed Abouri  | 0  |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   **0** |
 |   Enrique García Abadía |  10  | 6 |  8 | 6 |  10 |  10 |  10 |  10 |  **8.75** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 ### Final
 
-| Nombre  | S1| S2 | S3| PPL | WPL | Total |
-|---------|--------|--------|------|----|-------|--------|
-|   Daniel Galván Cancio   |  N/A |  10  |  10 |  10 |  -  |   **10** |
-|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  10 |  -  |   **8.8** |
-|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  9.75 |  -  |   **8.9** |
-|   Mohamed Abouri  |  N/A |  7.71  |  8 |  0 |  -  |   **5.23** |
-|   Enrique García Abadía |  N/A |  8.84  |  10 |  8.75 |  -  |   **9.2** |
+| Nombre  | S1| S2 | S3| PPL | Total |
+|---------|--------|--------|------|----|--------|
+|   Daniel Galván Cancio   |  N/A |  10  |  10 |  10  |   **10** |
+|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  10  |   **8.8** |
+|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  9.75  |   **8.9** |
+|   Mohamed Abouri  |  N/A |  7.71  |  8 |  0  |   **5.23** |
+|   Enrique García Abadía |  N/A |  8.84  |  10 |  8.75 |   **9.2** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10  |   **10** |
+
 
 
 ## 7. Beneficios para los Usuarios Piloto

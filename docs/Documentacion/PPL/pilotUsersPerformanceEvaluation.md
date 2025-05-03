@@ -98,6 +98,8 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 |   Rafael Castillo Cebolla | 10 |  10 |  5 |  10 |  10 |  10 |  6 |  N/A |   **8.71** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  N/A |   **7.71** |
 |   Enrique García Abadía |  10  | 8 |  5 | 8|  10 |  8|  8 |  N/A |  **8.84** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 ### 2.3 Sprint 3
 
@@ -108,6 +110,8 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 |   Rafael Castillo Cebolla | 10 |  10 |  0 |  10 |  10 |  10 |  6 |  10 |   **8.25** |
 |   Mohamed Abouri  | 10  |  8 |  0 |  10 |  10 |  8 |  8 |  10 |   **8** |
 |   Enrique García Abadía |  10  | 10 |  10 | 10 |  10 |  10 |  10 |  10 |  **10** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 ### 2.4 PPL
 
@@ -181,6 +185,23 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 
 ---
 
+#### Lucas Manuel Herencia Solís
+
+Este es un resumen de su colaboración a lo largo de los sprints debido a que se ha añadido como usuario piloto oficial para el PPL y no se ha podido dar detalle de su evaluación de otro modo.
+
+- **Participación activa en la fase de prueba:** 10. Ha participado activamente, siendo el primero en probar la aplicación cada vez que subíamos las entregas. 
+- **Claridad y detalle en la retroalimentación:** 10. Ha dado buen feedback, en persona y rellenando los formularios, probando todo tipo de casos de buen y mal uso en la aplicación.
+- **Identificación y reporte de errores:** 10. Siempre ha puesto incidencias, con alto nivel de detalle y capturas. De hecho, para el PPL redactó un documento muy extenso lleno de sugerencias de mejora y errores para que lo corrigiéramos.
+- **Calidad de las sugerencias de mejora:** 10. Lo mismo que arriba, siempre ha dado sugerencias de mejora detalladas.
+- **Cumplimiento de las instrucciones dadas:** 10. Usó la guía proporcionada y rellenó ambos cuestionarios de feedback, así como el de incidencias. Cuando se familiarizó con la app dejó de usarlo, indicándolo siempre.
+- **Actitud colaborativa y disposición:** 10. Era el primero en responder, además de tener una disposición increíble. 
+- **Frecuencia de interacción con la aplicación:** 10.Siempr eha probado la aplicación en profundidad, dedicándole muchas horas.
+- **Impacto del feedback en la mejora del producto:** 10. Su feedback siempre ha sido de los más importantes.
+
+**Calificación:** 10.
+
+---
+
 #### Resumen
 
 | Nombre  | Participación activa | Claridad del feedback | Reporte de errores | Sugerencias de mejora | Cumplimiento de instrucciones | Actitud colaborativa | Interacción con la app | Impacto del feedback | Promedio |
@@ -190,16 +211,20 @@ A continuación, se presentan las evaluaciones individuales de cada usuario pilo
 |   Rafael Castillo Cebolla | 10 |  10 |  8 |  10 |  10 |  10 |  10 |  10 |   **9.75** |
 |   Mohamed Abouri  | 0  |  0 |  0 |  0 |  0 |  0 |  0 |  0 |   **0** |
 |   Enrique García Abadía |  10  | 6 |  8 | 6 |  10 |  10 |  10 |  10 |  **8.75** |
+|   Lucas Manuel Herencia Solís  |  10 |  10  |  10 |  10 |  10 |  10  |  10 |  10  |   **10** |
+
 
 ### Final
 
-| Nombre  | S1| S2 | S3| PPL | WPL | Total |
-|---------|--------|--------|------|----|-------|--------|
-|   Daniel Galván Cancio   |  N/A |  10  |  10 |  10 |  -  |   **10** |
-|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  10 |  -  |   **8.8** |
-|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  9.75 |  -  |   **8.9** |
-|   Mohamed Abouri  |  N/A |  7.71  |  8 |  0 |  -  |   **5.23** |
-|   Enrique García Abadía |  N/A |  8.84  |  10 |  8.75 |  -  |   **9.2** |
+| Nombre  | S1| S2 | S3| PPL  | Total |
+|---------|--------|--------|------|----|----------|
+|   Daniel Galván Cancio   |  N/A |  10  |  10 |  10 |   **10** |
+|   Rafael Duque Colete   |  N/A |  7.14  |  9.25 |  10 |   **8.8** |
+|   Rafael Castillo Cebolla | N/A |  8.71  |  8.25 |  9.75   |   **8.9** |
+|   Mohamed Abouri  |  N/A |  7.71  |  8 |  0   |   **5.23** |
+|   Enrique García Abadía |  N/A |  8.84  |  10 |  8.75  |   **9.2** |
+|   Lucas Manuel Herencia Solís  |  N/A |  10  |  10 |  10 |   **10** |
+
 
 ## 3. Conclusión
 
