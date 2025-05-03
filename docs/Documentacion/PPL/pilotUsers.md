@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 01/05/2025  
-**Versión:** v1.6
+**Versión:** v1.8
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -58,7 +58,9 @@
 | 13/03/2025 | v1.4    | Añadida evaluación de Usuarios Piloto y actualización del calendario | Nerea Jiménez Adorna  |
 | 27/03/2025 | v1.5    | Añadida evaluación de Usuarios Piloto y actualización Sprint 2 | Nerea Jiménez Adorna  |
 | 10/04/2025 | v1.6   | Añadida evaluación de Usuarios Piloto y actualización Sprint 3 | Nerea Jiménez Adorna  |
-| 01/05/2025 | v1.6   | Añadida evaluación de Usuarios Piloto y actualización PPL | Nerea Jiménez Adorna  |
+| 01/05/2025 | v1.7   | Añadida evaluación de Usuarios Piloto y actualización PPL | Nerea Jiménez Adorna  |
+| 03/05/2025 | v1.8   | Añadido Lucas como Usuario Piloto de la asignatura | Nerea Jiménez Adorna  |
+
 
 ---
 

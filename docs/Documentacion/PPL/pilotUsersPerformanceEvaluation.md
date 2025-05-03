@@ -14,7 +14,7 @@
 
 **Curso:** 2024 – 2025  
 **Fecha:** 01/05/2025  
-**Versión:** v2.0
+**Versión:** v2.1
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -55,6 +55,8 @@
 | 27/03/2025 | v1.0    | Creación de documento | Nerea Jiménez Adorna      |
 | 08/04/2025 | v1.1    | Evaluación para el Sprint 3 | Nerea Jiménez Adorna      |
 | 01/05/2025 | v2.0    | Evaluación para el PPL | Nerea Jiménez Adorna      |
+| 03/05/2025 | v2.1   | Añadido Lucas como Usuario Piloto de la asignatura | Nerea Jiménez Adorna  |
+
 
 
 ---
