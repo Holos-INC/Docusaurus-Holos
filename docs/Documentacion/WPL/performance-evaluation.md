@@ -730,4 +730,155 @@ Para el clockify:
 ![image](https://github.com/user-attachments/assets/b84723f7-7fde-467f-8fef-dedf576d23bf)
 
 ## World Project Launch (#WPL)  
-- **Surname, Name X:** Student contribution  
+- **Jiménez Adorna, Nerea:**  
+  - Reuniones
+  - Desarrollo de documentos
+  - Revisión de documentos
+  - Creación de entrega para los UP
+  - Gestión y evaluación de UP y sus feedbacks
+
+- **Moreno Moguel, Juan Antonio:**  
+  - Reuniones
+  - Desarrollo backend
+  - Despliegue
+
+- **Ávila Maqueda, María del Mar:**
+  - Reuniones
+  - Revisión de las Failure Conditions
+  - Desarrollo Backend
+  - Cambio visual del Frontend
+
+- **Nuñez Sánchez, Juan:**  
+  - Desarrollo frontend
+  - Desarrollo Backend
+  - Implementar el chat
+  - Reuniones
+  - Documentación del revision.md
+
+- **Portela Huerta, José María:**  
+  - Presentaciones
+  - Reuniones
+  - Realización de testing y revisión general de éste
+  - Cálculo de métricas del equipo
+  - Realización de time-effort-report y de este documento
+  - Grabación de anuncio
+  - Generación de canciones
+  - Practicar presentación
+  - Automatizar métricas
+  - Correcciones menores en tableOfCommisions repetido
+
+- **Ángeles Burgos, Julia Virgínia:**  
+  - Reuniones
+  - Desarrollo frontend
+  - Despliegue
+
+- **del Junco Obregón, Juan:**  
+  - Actualización de documento de riesgos
+  - Revisión de código
+  - Desarrollo backend
+  - Ayuda en los pagos
+
+- **González Ganfornina, Joaquín:**
+  - Desarrollo backend de pagos
+
+- **Guedes Preciados, Daniel:**  
+  - Desarrollo de frontend
+  - Testing frontend
+  - Reuniones
+
+- **Muñoz Romero, Javier:**  
+  - Desarrollo de frontend
+  - Estilizar el frontend
+  - Cambiar fotos
+  - Reuniones
+  - Corrección de errores
+
+- **Gómez Vela, Miguel Ángel:**  
+  - Testing de backend
+  - Gestión landing page
+  - Documentación de la IA
+  - Guión marketing
+
+- **Pérez Gómez, Nicolás:**  
+  - Desarrollo frontend
+
+- **Aguilera Camino, Celia:**  
+  - Gestión de la planificación PPL del marketing
+  - Presentaciones
+  - Reuniones
+  - Creación del Draw my life
+  - Contenido para redes
+  - Grabación de anuncio
+  - Crear el treelink de marketing y carteles
+
+- **Pérez Lázaro, Francisco:**
+  - Plantilla de presentación
+  - Reuniones
+  - Presentaciones
+  - Grabación de anuncio y creación de folletos
+  - Actualizar landing page
+  - Generar publicaciones y Draw my life
+
+- **Warleta Murcia, Ignacio:**  
+  - Revisión de documentos
+  - Aportaciones a la BCC
+  - Reuniones
+  - Demo
+  - Revisión de feedback
+  - Grabación de anuncio
+
+- **Vacaro Goytía, Gabriel María:**  
+  - Revisión de documentos
+  - Reuniones
+  - Desarrollo frontend
+  - Aportaciones BCC
+  - Demo
+  - Grabación de anuncio
+
+- **Barrera Garrancho, María del Carmen:**  
+  - Desarrollo frontend
+  - Costes de Inversores
+
+### Notas de las métricas:
+
+Las notas se han calculado en función de los siguientes datos recopilados, por las métricas establecidas. Y se le ha ido avisando y justificando a los usuarios pertinentes, los motivos de estos. En concreto:
+
+Para las Daylies, yendo del 1 al 4 y multiplicando la media por 3 para llegar hasta 12:
+| Indicador                  | Celia | Daniel | Francisco | Gabriel | Ignacio Warleta | Javier Muñoz | Joaquín | José María | Juan Antonio | Juan del Junco | Juan Núñez | Julia | MariCarmen | Mar | Miguel | Nerea | Nicolás |
+|----------------------------|-------|--------|-----------|---------|-----------------|--------------|---------|------------|--------------|----------------|------------|-------|------------|-----|--------|-------|---------|
+| Número de revisiones       | 7     | 7      | 7         | 7       | 7               | 6            | 7       | 7          | 7            | 6              | 6          | 7     | 6          | 7   | 7      | 7     | 6       |
+| Media de los valores       | 3,714 | 3,857  | 4,000     | 3,714   | 3,857           | 3,833        | 3,857   | 3,143      | 3,714        | 3,833          | 3,833      | 3,714 | 3,500      | 4,000 | 3,286  | 3,714 | 3,833   |
+| Valoración final           | 12,38 | 12,86  | 13,33     | 12,38   | 12,86           | 12,78        | 12,86   | 10,48      | 12,38        | 12,78          | 12,78      | 12,38 | 11,67      | 13,33 | 10,95  | 12,38 | 12,78   |
+
+![image](https://github.com/user-attachments/assets/b003e178-4bbb-4353-a931-5f3e031a6fc3)
+
+Para el porcentaje de tareas entregadas a tiempo:
+
+| Tareas                                          | Celia | Daniel | Francisco | Gabriel | Ignacio Warleta | Javier Muñoz | Joaquín | José María | Juan Antonio | Juan del Junco | Juan Núñez | Julia | MariCarmen | Mar | Miguel | Nerea | Nicolás |
+|-------------------------------------------------|-------|--------|-----------|---------|-----------------|--------------|---------|------------|--------------|----------------|------------|-------|------------|-----|--------|-------|---------|
+| Tareas planificadas                             | 7     | 6      | 6         | 5       | 5               | 8            | 6       | 12         | 11           | 4              | 5          | 14    | 3          | 5   | 16     | 6     | 4       |
+| Tareas finalizadas                              | 7     | 6      | 6         | 5       | 5               | 8            | 6       | 12         | 11           | 4              | 5          | 14    | 3          | 5   | 16     | 6     | 4       |
+| Porcentaje de tareas entregadas en el plazo     | 100,00% | 100,00% | 100,00%  | 100,00% | 100,00%         | 100,00%      | 100,00% | 100,00%    | 100,00%      | 100,00%        | 100,00%   | 100,00% | 100,00%    | 100,00% | 100,00% | 100,00% | 100,00% |
+| Vaoración final                                 | 10,00 | 10,00  | 10,00     | 10,00   | 10,00            | 10,00        | 10,00   | 10,00      | 10,00        | 10,00          | 10,00      | 10,00 | 10,00      | 10,00 | 10,00 | 10,00  | 10,00   |
+
+![image](https://github.com/user-attachments/assets/acfb12a1-da08-4e43-8a67-cd9bd05c2d4f)
+
+Para la revisión de las tareas:
+
+| Indicador                | CELIA AGUILERA CAMINO | DANIEL GUEDES PRECIADOS | FRANCISCO PEREZ LAZARO | GABRIEL MARÍA VACARO GOYTIA | IGNACIO WARLETA MURCIA | JAVIER MUÑOZ ROMERO | JOAQUIN GONZALEZ GANFORNINA | JOSE MARIA PORTELA HUERTA | JUAN ANTONIO MORENO MOGUEL | JUAN DEL JUNCO OBREGON | JUAN NUÑEZ SANCHEZ | JULIA VIRGINIA ANGELES BURGOS | MARIA DEL CARMEN BARRERA GARRANCHO | MARIA DEL MAR AVILA MAQUEDA | MIGUEL ANGEL GOMEZ VELA | NEREA JIMENEZ ADORNA | NICOLAS PEREZ GOMEZ |
+|--------------------------|-----------------------|-------------------------|------------------------|------------------------------|------------------------|---------------------|-----------------------------|---------------------------|-----------------------------|------------------------|--------------------|-----------------------------|--------------------------------------|------------------------------|--------------------------|-----------------------|----------------------|
+| Número de revisiones     | 2                     | 1                       | 1                      | 2                            | 1                      | 2                   | 1                           | 1                         | 1                           | 1                      | 2                  | 1                           | 1                                    | 5                            | 1                        | 1                     | 1                    |
+| Media de los valores     | 3,5                   | 4                       | 4                      | 4                            | 4                      | 4                   | 4                           | 4                         | 2                           | 4                      | 3,5                | 4                           | 4                                    | 4                            | 4                        | 4                     | 3                    |
+| Valoración final         | 11,67                 | 13,33                   | 13,33                  | 13,33                        | 13,33                  | 13,33               | 13,33                       | 13,33                     | 6,67                        | 13,33                  | 11,67              | 13,33                       | 13,33                                | 13,33                        | 13,33                    | 13,33                 | 10,00                |
+
+![image](https://github.com/user-attachments/assets/0a8e4a7d-17ca-45e0-8863-1e2b30bb23a5)
+
+Para el clockify:
+
+| Indicador                | Celia | Daniel | Francisco | Gabriel | Ignacio Warleta | Javier Muñoz | Joaquín | José María | Juan Antonio | Juan del Junco | Juan Núñez | Julia | MariCarmen | Mar | Miguel | Nerea | Nicolás |
+|--------------------------|-------|--------|-----------|---------|-----------------|--------------|---------|------------|--------------|----------------|------------|-------|------------|-----|--------|-------|---------|
+| Número de revisiones     | 3     | 4      | 3         | 4       | 4               | 3            | 4       | 4          | 3            | 3              | 3          | 4     | 4          | 4   | 4      | 4     | 3       |
+| Media de los valores     | 4     | 4      | 4         | 4       | 4               | 4            | 3,75    | 4          | 4            | 4              | 4          | 4     | 4          | 3,75| 3,75   | 4     | 4       |
+| Valoración final         | 13,33 | 13,33  | 13,33     | 13,33   | 13,33           | 13,33        | 12,50   | 13,33      | 13,33        | 13,33          | 13,33      | 13,33 | 13,33      | 12,50 | 12,50 | 13,33 | 13,33 |
+
+![image](https://github.com/user-attachments/assets/b84723f7-7fde-467f-8fef-dedf576d23bf)
