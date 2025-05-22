@@ -1,6 +1,6 @@
 # Keegan
 
-# Acuerdo de Compromiso para Usuarios Piloto externos de la Aplicación Holos - PPL
+# Acuerdo de Compromiso para Usuarios Piloto externos de la Aplicación Holos - WPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>

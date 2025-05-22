@@ -1,6 +1,6 @@
 # Francisco Pérez
 
-# Commitment Agreement - PPL
+# Commitment Agreement - WPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
