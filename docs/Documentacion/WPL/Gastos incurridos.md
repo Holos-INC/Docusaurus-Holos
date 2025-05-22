@@ -74,7 +74,7 @@
 | Sprint 2          | 10.218,52 €    | 11.697,82 €     | 1.889,17 €       | 1.889,17 €      | 12.107,69 €      | 13.586,99 €                |
 |  Sprint 3          | 10.218,52 €   | 10.585,73 €       | 1.889,17 €         | 1.889,17 €     |       12.107,69 €    |    12.474,90 €           |
 |    PPL            | 10.218,52 €    |        13.523,37 €            | 1.889,17 €      |    1.889,17 €               |   12.107,69 €     |    15.412,54 €            |
-|    WPL            | 10.218,52 €      |     2.699,15 €            | 1.889,17 €      |        1.889,17 €      |          12.107,69 €      |         4.588,32 €           |
+|    WPL            | 10.218,52 €      |     3.322,51 €            | 1.889,17 €      |        1.889,17 €      |          12.107,69 €      |         5.211,68 €           |
 
 
 
@@ -89,11 +89,11 @@ Los costes de personal contemplan el coste salarial bruto de los trabjadaores y 
 | S2       | 54.404,63 €       | 63.565,37 €    |
 | S3       | 66.879,53 €       | 80.213,45 €    |
 | PPL      | 82.292,07 €       | 92.321,14 €    |
-| WPL      | 86.880,39 €       | 104.428,83 €   |
+| WPL      | 87.503,75 €       | 104.428,83 €   |
 
 La reserva de contingencia, con un valor total de 13.621,15 €, ha sido distribuida equitativamente a lo largo de los tres Sprints de desarrollo, asignandose 4.540,38 € por Sprint.
 
-Al momento de finalización del proyecto, se ha conseguido reajustar los gastos para que la reserva de contingencia quede íntegra. Es más, se ha conseguido realizar la aplicación 3.927,29 € más barata de lo previsto.
+En esta última etapa del proyecto, se ha conseguido recuperar el desfase de los gastos incurridos, lo que ha permitido finalizarlo con la reserva de contingencia intacta. Es más, se ha conseguido realizar la aplicación 3.303,93 € más barata de lo previsto.
 
 
 
