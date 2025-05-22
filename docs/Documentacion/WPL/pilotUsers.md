@@ -1,4 +1,4 @@
-# Gestión de Usuarios Piloto - WPL
+# Gestión de Usuarios Piloto - PPL
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Holos-INC/Docusaurus-Holos/main/static/img/universidad-de-sevilla-logo.png" alt="Universidad de Sevilla" width="150"/>
@@ -13,8 +13,8 @@
 ## **Grado en Ingeniería Informática – Ingeniería del Software**
 
 **Curso:** 2024 – 2025  
-**Fecha:** 22/05/2025  
-**Versión:** v2.0
+**Fecha:** 01/05/2025  
+**Versión:** v1.8
 
 **Grupo de prácticas:** G1  
 **Nombre del grupo de prácticas:** ISPP - Grupo 1 - Holos
@@ -60,8 +60,6 @@
 | 10/04/2025 | v1.6   | Añadida evaluación de Usuarios Piloto y actualización Sprint 3 | Nerea Jiménez Adorna  |
 | 01/05/2025 | v1.7   | Añadida evaluación de Usuarios Piloto y actualización PPL | Nerea Jiménez Adorna  |
 | 03/05/2025 | v1.8   | Añadido Lucas como Usuario Piloto de la asignatura | Nerea Jiménez Adorna  |
-| 03/05/2025 | v2.0   | Actualización para el WPL | Nerea Jiménez Adorna  |
-
 
 
 ---
